@@ -18,7 +18,7 @@ Lets get set up with the sample project provided and get it ready to start impor
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Make sure you have a GitHub account and that you are logged into it. Click on the GitHub Classroom [Materials-FA21 Link](https://classroom.github.com/a/mfvlXjdW). Accept the prompt if it asks you go join the class and you should get to a **Accept the Assignment – Materials-FA-21**. Press the <kbd>Accept this assignment</kbd> button.
+Make sure you have a GitHub account and that you are logged into it. Click on the GitHub Classroom [UE4-Animations-FA21 Link](https://classroom.github.com/a/mfvlXjdW). Accept the prompt if it asks you go join the class and you should get to a **Accept the Assignment – Materials-FA-21**. Press the <kbd>Accept this assignment</kbd> button.
 
 ![accept github classroom invite](images/GithubClassroomInvite.jpg)
 
