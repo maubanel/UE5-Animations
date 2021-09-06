@@ -23,7 +23,7 @@ There are some common issues with the materials. Sometimes the material uses a *
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-If I open the Texture that is used on the face I can see that if I turn the Alpha off I see the same steaking.
+If I open the **Texture** that is used on the face I can see that if I turn the **Alpha** off I see the same steaking.
 
 ![texture without alpha is streaking](images/TextWithoutAlpha.jpg)
 
@@ -31,19 +31,25 @@ If I open the Texture that is used on the face I can see that if I turn the Alph
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+If we turn the **Alpha** back on then the texture is rendered correctly.
+
+![turn alpha on to get rid of streaking](images/TextWithAlpha.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Go back to the material and look at the texture plugged into the opacity mask. It is the full 4 channels. This is wrong.
+
+![channel for opacity is wrong](images/ChannelForOpacityIsWrong.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+Now change the pin going to **Opacity** from the top **RGB** pin to the bottom **Alpha** pin. This uses the alpha channel to cut out the texture from the background. Press the Apply button.  
+
+![plug alpha into opacity](images/ChannelForOpacityCorrected.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
