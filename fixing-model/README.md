@@ -23,7 +23,9 @@ There are some common issues with the materials. Sometimes the material uses a *
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+If I open the Texture that is used on the face I can see that if I turn the Alpha off I see the same steaking.
+
+![texture without alpha is streaking](images/TextWithoutAlpha.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
