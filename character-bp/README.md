@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+There is a special kind of blueprint used for a bipedal character that we can control. It has the majority of the hard work to get this running done for us.
 
 <br>
 
@@ -15,11 +15,15 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+Go to the **AJ** folder and press the <kbd>Add New</kbd> button and select **Blueprint Class**.
+
+![add new blueprint class to aj folder](images/BlueprintClassAJAdd.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+*Select* a **Character** class to inherit from (not Actor). *Call it* `BP_AJCharacter`.
 
 ![alt_text](images/.jpg)
 
