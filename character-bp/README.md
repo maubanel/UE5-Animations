@@ -31,31 +31,41 @@ Go to the **AJ** folder and press the <kbd>Add New</kbd> button and select **Blu
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Open the blueprint and select the **Mesh** component. *Select* the `AJ Skeletal Mesh` from the menu on the right.
+
+![add aj skeleta mesh to mesh component](images/SkeletalMeshToCharacterAJ.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Make sure the character's feet are at the bottom of the collision volume. Now we need to attach a camera to the player that will follow them around the level. It needs to be attached to a spring arm. This allows the camera to deal with colliding with walls, ceilings or other surfaces. Press **Add Component** and look for a `Spring Arm`. Add it to the character:
+
+![add spring arm component](images/SpringArm.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+Add a another component and this time it will be a `Camera`.
+
+![add camera component](images/AddCameraNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure that **Spring Arm** is not a child of any other component except for the root **Capsule Component**.
+
+![make camera child of spring arm](images/MakeCameraChildOfSpringArm.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Target Offset | Z** to `260.0` and make the arm a bit longer to `400.0` units.
+
+![adjust rotation and target](images/SpringArm90Deg.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
