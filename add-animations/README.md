@@ -65,7 +65,7 @@ Double click each animation then watch them. Rename the animation appropriately.
 
 I have named mine `Creep_Walk`, `Fast_Run`, `Idle`, `Idle_Fidget` and `Run and Walk`. This gives me two run cycles, an idle and walk animations to use in our animation graph.
 
-![animation name](images/.NameEachAnimjpg)
+![animation name](images/NameEachAnim.jpg)
 
 ___
 
