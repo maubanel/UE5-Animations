@@ -23,17 +23,23 @@ Lets go to the **Edit | Project Settings** to add some controller input into our
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Fill in the appropriate Description information.
+
+![filled in description fields](images/FillInDescriptionInfo.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Go to **Engine | Input** and press the <kbd>+</kbd> button next to **Axis Mappings**.
+
+![add axis mapping](images/AddAxisMappings1.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Call it MoveForward and press the + button next to it four times. Assign the following buttons by pressing + next to MoveForward: Keyboard | W, Keyboard | Up, Keyboard | S, Keyboard | Down. Set the Scale for W and Up at 1.0 and the Scale for S and Down to -1.0.
 
 ![alt_text](images/.jpg)
 
