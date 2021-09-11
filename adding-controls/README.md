@@ -200,7 +200,9 @@ https://user-images.githubusercontent.com/5504953/132963054-4d3cac78-d095-4adb-9
 
 ##### `Step 24.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![connect](images/.jpg)
+Now go back and forth between the player blueprint and the game and adjust the spring arm so you can see the entire player and that the camera is above the player looking down. I *adjusted* the **Target Arm Length** to `550.0` and the **Y Rotation** to `335.0`.
+
+![adjust target arm length to 550 and y roation to 335](images/TrialAndError.jpg)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
