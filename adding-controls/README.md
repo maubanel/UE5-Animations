@@ -127,7 +127,9 @@ Now go into the game and press the up and down or W and S key. We are moving lef
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+*Click* on the **Mesh** component and change the **Rotation** on **Z** to `-90.0`:
+
+![rotate mesh -90 degrees](images/RotateAJMeshNeg90-1.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
