@@ -218,6 +218,8 @@ https://user-images.githubusercontent.com/5504953/132963088-80c197e7-9901-4d1f-8
 
 ##### `Step 26.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
+Save all to github.
+
 ![connect](images/.jpg)
 
 
