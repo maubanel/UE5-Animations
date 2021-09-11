@@ -136,7 +136,9 @@ https://user-images.githubusercontent.com/5504953/132613486-bfbbbf6c-084a-4cb0-a
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now the camera is in the wrong position. Go to the **Spring Arm** *component* and *change* the **Rotation** on the **Z** axis back to `0.0`.
+
+![change spring arm to 0](images/PutSpringArmBackToZero.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
