@@ -89,6 +89,7 @@ Finally *place* the **Fast_Run** animation at the end of the *timeline*.
 
 Scrub along the timeline and watch animation states blend. In this case I am happy with the results and can leave the blend defaults as they stand. The animation will be selected based on the speed of the character.
 
+https://user-images.githubusercontent.com/5504953/132963289-7ecbd5a7-5735-4144-a4da-0a0320bd893f.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
