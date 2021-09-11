@@ -209,9 +209,11 @@ Now go back and forth between the player blueprint and the game and adjust the s
 
 ##### `Step 25.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
-![connect](images/.jpg)
+Now your game should look like this. Next up we will create a blend space to have the character move from idle to running.
 
 https://user-images.githubusercontent.com/5504953/132963088-80c197e7-9901-4d1f-8737-ca08454be213.mp4
+
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 26.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
