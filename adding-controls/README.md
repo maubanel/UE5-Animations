@@ -146,7 +146,7 @@ Now the camera is in the wrong position. Go to the **Spring Arm** *component* an
 
 Now play the game and the player should move backwards and forwards. Lets add left and right turning motion on the next page.
 
-![alt_text](images/.jpg)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
