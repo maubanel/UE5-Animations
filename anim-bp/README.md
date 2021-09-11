@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+There is a special kind of blueprint used as a state machine for animations. It is an animation blueprint. Lets create one for our character.
 
 <br>
 
@@ -15,7 +15,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+We are now going to start to set up a state machine for our character. Go to the **AJ** folder and *press* the <kbd>Add New</kbd> button and *select* **Animation | Animation Blueprint**.
+
+![add animation blueprint to aj folder](images/AddNewAnimationBlueprint.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
