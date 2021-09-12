@@ -6,7 +6,8 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Continue implementing jump animation...
+
 
 <br>
 
@@ -14,8 +15,9 @@ Chapter introduction here.
 
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
+Make some room on the left hand side of the comment. Right click and add a Event Tick node.
 
-![alt_text](images/.jpg)
+![add event tick](images/AddEventTick.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
