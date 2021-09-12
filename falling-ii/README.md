@@ -138,6 +138,7 @@ Add a cube under the **Player Start** so that the player will land on the cube. 
 
 *Run* the game and the player should fall on the cube. Walk off the cube and the player should fall on the floor. We should have our states working correctly for falling. Press **Save All** and update **Github** by **committing** and **pushing** all the changes made. Next up we will be adding jumping to the game.
 
+https://user-images.githubusercontent.com/5504953/132987892-ec21b82f-c6eb-4190-a7e7-e52882d3baa4.mp4
 ___
 
 
