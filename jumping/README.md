@@ -79,80 +79,106 @@ https://user-images.githubusercontent.com/5504953/132995968-f2f3999a-bd91-400e-9
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Remember to set **Skin** to `Without Skin` when *downloading*:
+
+![set without skin when downloading](images/DownloadJumpStartWithoutSkin.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+*Import* the **Jump Start** animation into the jump start folder.
+
+![import jump start to animation](images/ImportJumpStartAnimFolder.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+In the **FBX Import Options** select the *skeleton* for the character. *Press* the <kbd>Import</kbd> button.
+
+![select skeleton and import](images/JumpStartFBXSettings.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Rename* the animation `Jump_Start` and *run* it to confirm you are happy with the animation.
+
+![rename jump start animation](images/RenameJumpStart.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Open* the **aj_AnimBlueprint** and go to the **Anim Graph | Core Locomotion** page. Right click and select **Add State**.
+
+![add state to animation blueprint core locomotion](images/AddStateToTree.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Call this state `Jump` and *connect* a transition from **IdleWalkRun** to **Jump to Falling**. There will be a different path to just running off a platform and jumping.
+
+![call state jump and connect from idlewalkrun](images/StateJumpConnect.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+Now the animation blueprint needs to know when the jump button is pressed. Go to **BP_AJ_Character** blueprint and add a **Boolean** variable called `bIsJumping`. Keep it **Public** (**Private** set to `false`) because we need to access it in the animation blueprint.
+
+![add boolean bIsJumping](images/IsJumpingPlayerBPVar.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Enlarge* the comment section for jumping. *Drag and drop* a **Set IsJumping** variable next to the **Jump** node.
+
+![add set is jumping node](images/SetIsJumpingForJump.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Set* the execution pin from the **Jump** node to the **Set Is Jumping** node. *Set* **Is Jumping** to `true`.
+
+![set is jumping to true](images/image_02.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+We need to reset this **boolean** when you are touching the ground. Under the **Jump** nodes *right click* on the graph and add a **Get Movement Component** node. Pull of its pin and look for a **Is Falling** node.
+
+![add get movement component and is falling nodes](images/SetToIsJumpingFalse.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Pull off* of the **Is Falling** node's pin and select a **Branch** node.
+
+![add branch node](images/BranchFromIsFalling.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+*Pull off* of the **False** execution pin from this **Branch** node and select a **Set IsJumping** node and leave it as `false`:
+
+![add set is jumping and connect to false of branch node and leave false](images/BranchFalseIsJumpingFalse.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Surround* these nodes with a **comment** saying `Reset IsJumping When On Ground`. Now notice there are no execution pins that run every frame (Tick Event).
+
+![add cnode comments](images/ResentIsJumpingCommnet.jpg)
 
 ___
 
