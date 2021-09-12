@@ -130,6 +130,8 @@ Now go back to the **aj_AnimBlueprint** to its **Event Graph** tab. Look to see 
 
 *Play* the game and transition from the alternate idle. It now snaps back to the regular IdleWalkRun blend sequence. This works great. I don't like the snap back to the idle though and it is rough and jerky. We need to add a bit of a blend here.
 
+https://user-images.githubusercontent.com/5504953/132986290-d633e829-b132-4fec-8d5a-01e9423504ea.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
