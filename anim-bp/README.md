@@ -215,6 +215,7 @@ Now *select* the **Spring Arm** component and in **Camera Settings** *set* **Use
 
 Now press the <kbd>Compile</kbd> button and go into the game and press *play*. You will notice that the player does animate but doesn't change directions.
 
+https://user-images.githubusercontent.com/5504953/132985178-71262496-6c39-4202-a0d0-55974a03eb39.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -229,6 +230,8 @@ Now go back to the **BP_AJ_Character** blueprint and *select* the **CharacterMov
 ##### `Step 27.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now press the <kbd>Compile</kbd> button and go back into the game. Now the player should animate and turn correctly. *Press* **Save All** and update **Github** by committing and pushing all the changes made. 
+
+https://user-images.githubusercontent.com/5504953/132985183-13aeb172-0a84-40e7-8033-d30f3ec22ca1.mp4
 
 ___
 
