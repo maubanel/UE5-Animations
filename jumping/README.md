@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Lets add the ability for the player to jump around the level and tune this to our liking.
 
 <br>
 
@@ -15,7 +15,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+Before we start lets set this level as the default boot up level. Go to **Edit | Project Settings** and navigate to the **Maps & Modes** section. Change the **Editor Startup Map** to `TestLevel`.
+
+![add TestLevel to startup map in project settings](images/ProjectSettingTestLevel.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
