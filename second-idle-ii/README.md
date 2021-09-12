@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Second idle continued...
 
 <br>
 
@@ -14,6 +14,8 @@ Chapter introduction here.
 
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
+
+Connect the output of the NOT node to the Can Enter Transition pin in the Result node.
 
 ![alt_text](images/.jpg)
 
