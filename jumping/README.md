@@ -57,8 +57,6 @@ Pull off of the **Jump** node's **Pressed** execution pin and select the **Jump*
 
 Add a **comment** around these two nodes called `Jump`.
 
-https://user-images.githubusercontent.com/5504953/132988110-e708986d-8dd4-46f1-9d40-b92ad8b8015f.mp4
-
 ![add code comments](images/AddJumpComment.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
@@ -67,6 +65,7 @@ https://user-images.githubusercontent.com/5504953/132988110-e708986d-8dd4-46f1-9
 
 *Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button (<kbd>space bar</kbd>). Now you should be jumping around the level.
 
+https://user-images.githubusercontent.com/5504953/132988110-e708986d-8dd4-46f1-9d40-b92ad8b8015f.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
