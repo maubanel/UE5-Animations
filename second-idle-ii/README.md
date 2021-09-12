@@ -15,9 +15,9 @@ Second idle continued...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Connect the output of the NOT node to the Can Enter Transition pin in the Result node.
+*Connect* the output of the **NOT** node to the **Can Enter Transition** pin in the **Result** node.
 
-![alt_text](images/.jpg)
+![conect not to can enter transition node](images/OutputOfNotToTransition.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
