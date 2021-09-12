@@ -23,13 +23,17 @@ Make some room on the left hand side of the comment. Right click and add a Event
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Connect* the execution pin from **Event Tick** to **Branch**.
+
+![connect tick to branch node](images/ConnectTickToBranchPins.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now your graph should look like the below image.
+
+![confirm nodes](images/FinishedIsJumpingOff.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
