@@ -194,6 +194,8 @@ https://user-images.githubusercontent.com/5504953/133074747-bd52cdd6-11b7-4d8d-8
 
 *Scrub* the controller to see what happens this time. You will notice that it now animates much better.
 
+https://user-images.githubusercontent.com/5504953/133075235-8f84db62-e5cf-4c62-bed5-de2b5edb442a.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 24.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
