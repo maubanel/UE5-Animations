@@ -167,7 +167,9 @@ Now *run* the game and press the <kbd>Alt</dbd> key. You will notice that the ch
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Go back to the **IdleWalkRun_BlendSpace**. Now *expand* the **Blend Samples | Creep Walk** and *remove* **Snap to Grid**. Then change the Speed to `10.0.`
+
+![change blend space speed to 10 by turning off snap to grid](images/ChangeBlendTo10.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
