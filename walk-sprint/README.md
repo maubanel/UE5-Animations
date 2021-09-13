@@ -65,6 +65,8 @@ Now go back to the **BP_AJ_Character** blueprint and select the **Character Move
 
 *Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays:
 
+https://user-images.githubusercontent.com/5504953/133072932-ce6d095c-c983-404a-a5ae-528e9a3c2618.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
