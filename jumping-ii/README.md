@@ -39,7 +39,9 @@ Now your graph should look like the below image.
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Open* the **aj_AnimBlueprint | Event Graph**. We need to access the character's **IsJumping** variable. We are not in the right class with the Pawn Owner. We need to pull off of it's execution pin and select a **Cast** To BP **AJ_Character** node.
+
+![cast pawn owner to aj_character](images/CastToCharacterBP.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
