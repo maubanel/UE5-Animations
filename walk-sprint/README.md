@@ -122,6 +122,8 @@ Add a comment with `Sprint` around these nodes.
 
 *Play* the game. You will noticed that in the player runs at 450 until the sprint button is pressed. Then the player runs at a full 600 with the faster animation.
 
+https://user-images.githubusercontent.com/5504953/133073885-1df2da68-7cf7-4c61-9f42-83865ed76aaf.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
