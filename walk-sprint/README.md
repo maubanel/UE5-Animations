@@ -33,6 +33,8 @@ Remember we placed this velocity magnitude in the animation blueprint. Open the 
 
 *Play* the game. You will noticed that in the turns it ducks below 450 but is at 449 when running straight. So our assumption is correct, this matches the max walking value in the blueprint.
 
+https://user-images.githubusercontent.com/5504953/133072398-b0dc0778-ce74-47d7-902d-b329a9bbcbea.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
