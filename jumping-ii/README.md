@@ -63,19 +63,25 @@ We need a variable in the animation blueprint to run our transitions with. Add a
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Drag and drop* the Set **bPressedJump** node and connect its execution pin to the **Cast** node. Connect the **IsJumping** pin to the **PressedJump?** pin. *Connect* the execution pins from **Cast** to **BP_AJCharacter** to Set **bPressedJump**.
+
+![connect pins](images/SetIsJumpingNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+To keep things need add a **Sequence** node between the **Is Valid** node and the **Set Are We in Air?** node. *Reconnect* **Is Valid** to the **Sequence** input node then the **Then 0** to S**et Are We in Air** node. *Send* the **Then 1** pin to the **Cast** to **BP_AI_Character** node.
+
+![add sequence node connet pins](images/AddSequenceNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Go back to the **Anim Graph | Core Locomotion** section of the animatin blueprint and *click on* the transition button from **IdleWalkRun** to **Jump** transition.
+
+![go to idlewalkrun to jump transition in core locomotion](images/TransitionWalkToJump.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
