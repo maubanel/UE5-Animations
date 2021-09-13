@@ -57,98 +57,130 @@ https://user-images.githubusercontent.com/5504953/133076270-248aec90-4c4a-48f9-b
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Open **BP_AJ_Character** blueprint and go to the **Jump** section. Make some room in this comment box to add some more nodes for double jumps.
+
+![open up ajcharacter blueprint and go to jump section](images/MakeSpaceInJumpPlayerBP.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Right click and add a **DoN** node. This node will repeat n number of times. We will set it to two for double jump.
+
+![add a DoN nuode](images/AddDoNNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+We are going to now switch on the integer coming from the **DoN** node. Add a **Switch on Int** node. Set the **N** number to start at `2` as the player will be starting by falling and can't jump at the very begining of pressing play (like they are coming down from a double jump).
+
+![add switch on int node and set n to 2](images/AddSwitchOnIntNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Connect* the **Counter** pin from the **DoN** node to the **Switch on Int** node's **Selection** pin:
+
+![connect Counter to Selection pin](images/CounterToSelectionPin.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+*Connect* the **DoN** execution pin to the **Switch on Int** node:
+
+![connect DoN to Switch on Int](images/ConnectDoNExecutionPins.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Disconnect* the execution pin coming out of the **Jump** node
+
+![disconnect pin from jump node](images/DisconnectExecutionPin.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Connect* the **Jump** node's secution pin to the **DoN** node.
+
+![connet jump to DoN node](images/ConnectJumpToDoNNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now we need a variable to know that we have pressed this button. *Right click* on the **bIsJumping** variable and select **Duplicate** to make another copy.
+
+![duplicate bIsJumping](images/DuplicateIsJumpingVariable.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Call* this new Variable `bIsDoubleJumping`.
+
+![name variable bIsDoubleJumping](images/CallItDoubleJumping.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+*Press* the **+** button three times on the **Switch On Int** node. Even though we only need two pins the **DoN** node starts counting at `1` and the **Switch On Int** node starts on `0`. Connect the output pin **1** from the **Switch on Int** node to the **Jump** node:
+
+![connect switch on int to jump node](images/SwitchOnIntToJump.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Pull* from the **Switch on Int** node's execution pin and select a **Launch Character** node.
+
+![add a launch character node](images/Pin2ToLaunchCharacter.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+We want to launch the characer upwards, or positive along the **Z** axis. *Change* the **Launch Velocity | Z** to `700.0`. *Pull off* the execution pin and select **Set Is Double Jumping** variable.
+
+![set up set is double jumping](images/SetDoubleJumping.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Set the **Is Double Jumping** setting to `true`.
+
+![set is double jumping to true](images/SetIsDoubleJumpingToTrue.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Right click* under the **Action Event Jump** node and select an **Event On Landed**. This will run when the player lands.
+
+![add event on landed node](images/ResetWhenPlayerLands.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+*Connect* the output execution pin from the **Event On Landed** node and put it on the **Reset** pin on the **DoN** node. This means that each time the player lands he will be able to jump then double jump again!
+
+![connect on landed to reset](images/ConnectOnLandedToReset.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+To test our work lets print on screen. *Add* two **Print String** nodes. *Add* to the **InString** in the top one `Single Jump` then in the bottom one `Double Jump`. *Connect* the **Is Jumping** output to the top **Print String** node and the **Is Double Jumping** to the bottom **Print String** node.
+
+![print single and double jump to test logic](images/AddTwoPrintNodesDoubleJump.jpg)
 
 ___
 
