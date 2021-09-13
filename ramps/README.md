@@ -15,7 +15,9 @@ Lets make the player run slower when moving up a ramp and faster when moving dow
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now lets add a ramp to run up and down and see how it feels. We will make adjustments to the physics to get what we would like. Start by *dragging* another **Box** onto the level.
+
+![drag box onto level](images/DragFirstRampIntoRoom.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
