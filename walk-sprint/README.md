@@ -185,7 +185,7 @@ https://user-images.githubusercontent.com/5504953/133074473-c2f8b743-696b-4d81-9
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
+https://user-images.githubusercontent.com/5504953/133074747-bd52cdd6-11b7-4d8d-81a8-0f60692ea2dc.mp4
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
