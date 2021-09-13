@@ -87,68 +87,88 @@ Go back to the **Anim Graph | Core Locomotion** section of the animatin blueprin
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Add a **Get bPressedJump** node and *connect* the pin to the **Result | Can Enter Transition** pin.
+
+![add a bPressedJump node and connect it to can enter transition](images/PressedJumpToResult.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jump** state to assign the **Jump_Start** animation.
+
+![open jump state](images/DoubleClickJump.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Drag and drop the **Jump_Start** animation to the graph. *Connect* the animation nodes with the **Final Animation Pose**.
+
+![add jump_start animation to jump state](images/HookUpJumpStartAnim.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the transition in the **Anim Graph | Core Locomotion** page from **IdleWalkRun** to **Falling**.
+
+![go idelwalkrun to falling transition](images/WalkToFallTransition.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+This is for falling off the edge of an object without jumping. We need to find out if we are in the air but not pressing the jump button. *Drag* a **Get Are We in Air?** and **Get Pressed Jump?** nodes onto the graph.
+
+![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+*Drag* off of the **Are We in Air?** pin and *add* a **Boolean AND** node.
+
+![add boolean AND node](images/BooleanAnd.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Drag off* of the **Pressed Jump** pin and select **NOT Boolean**. *Connect* it to the input of the **AND** pin. *Connect* the output of the **AND** node to **Result** node.
+
+![connect pressed jump to NOT Boolean to AND to Result](images/ConnectOuputOfAndToResult.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Double click* on the **Jump** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen.
+
+![enter the jump to falling transition](images/DoubleClickJumpFallingTransition.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Right click* on the graph and select a **Time Remaining (ratio) (Jump_Start)** node.
+
+![add a Time Remaining (ratio) node](images/TimeRemainingJumpToFall.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+*
+Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.2`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints.
 
-![alt_text](images/.jpg)
+![add a float <= with bottom value set to .2](images/LessThanPointSevenFive2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Press *play* and run around and fall off edge and jump. Make sure both transitions of running off edge and jumping are working correctly? I run up to the cube and the character penetrates it too much for my liking. The head when jumping up the wall gets buried inside the wall geometry. Lets fix this.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
