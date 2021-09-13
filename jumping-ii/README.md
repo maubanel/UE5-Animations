@@ -194,6 +194,7 @@ I then go to the **Capsule** component and increate the **Capsule Radius**. For 
 
 Now I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better. *Press* **Save All** and update Github by **committing** and **pushing** all the changes made. 
 
+https://user-images.githubusercontent.com/5504953/133071433-7e83b339-bef4-4235-a43b-ef7e69b31149.mp4
 ___
 
 
