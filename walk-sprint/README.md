@@ -184,13 +184,15 @@ https://user-images.githubusercontent.com/5504953/133074747-bd52cdd6-11b7-4d8d-8
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Change* the number of **Grid Divisions** to `30` and change the **Speed** to `20`.
+
+![set grid divisions to 30 and change speed to 20](images/GridDivisionsTo30.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+*Scrub* the controller to see what happens this time. You will notice that it now animates much better.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
