@@ -49,6 +49,8 @@ In the **FBX Import Options** assign the **Skeleton** that you are using. *Press
 
 Confim that the animation is correct.
 
+https://user-images.githubusercontent.com/5504953/133076270-248aec90-4c4a-48f9-bb38-4e35994bc19d.mp4
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
