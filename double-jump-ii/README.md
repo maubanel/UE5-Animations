@@ -170,6 +170,8 @@ Set the **Duration** of the **Delay** node to `0.1`. *Pull off* of the **Executi
 
 *Run* the game and a double jump animation should now run during the second jump. Press Save All and update Github by committing and pushing all the changes made.
 
+https://user-images.githubusercontent.com/5504953/133079769-07e7d1f1-2ae2-4cb1-bb11-9be5d719a054.mp4
+
 ___
 
 
