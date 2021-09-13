@@ -23,23 +23,31 @@ https://user-images.githubusercontent.com/5504953/133075815-ad64f111-a297-4ef0-a
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Go to the **Animations** folder and press the <kbd>Import</kbd> button. *Select* the latest animation you just downloaded.
+
+![import double jump animation](images/ImportDoubleJumpAnim.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+In the **FBX Import Options** assign the **Skeleton** that you are using. *Press* the <kbd>Import</kbd> button.
+
+![assign skeleton and import](images/AssignSkeletonToDoubleJumpImport.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Call* this animation `Double_Jump`. *Double click* it to open it in the editor.
+
+![call animmation Double_Jump and open](images/CallItDoubleJump.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
+
+Confim that the animation is correct.
 
 ![alt_text](images/.jpg)
 
