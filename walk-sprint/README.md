@@ -128,31 +128,40 @@ https://user-images.githubusercontent.com/5504953/133073885-1df2da68-7cf7-4c61-9
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+OK, lets work on the slow walk. Open the **IdleWalkRun_BlendSpace** editor. It is the second option on the left. We can see that it is at `75`.
+
+![go to idle walk run blend space](images/SlowWalkSpeedBlendSpace.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it `SlowWalk`. Press the **+** next to the **Slow Walk** action. *Assign* the `Left Alt` and `Right` Alt keys.
+
+![add slowwalk action mapping to engin input with left and right alt keys](images/SlowWalkControllerSettings.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Go back to the **BP_AJ_Character** blueprint and at the bottom *right click* and add a **Action Event | Slow Walk** node.
+
+![add slow walk action to ajcharacter bp](images/AddSlowWalkActionNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Copy and paste* the **Character Movement** and two **Set** nodes from sprinting and paste them next to the **Slow Walk** node. *Connect* the execution pins. *Change* the** Max Walk Speed** for the **Pressed** node path to `75.0`. *Leave* the **Released** back to `450.0`. Add a comment `Slow Walk` around these new nodes.
+
+![hook up slow walk](images/HookUpSlowWalk.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now *run* the game and press the <kbd>Alt</dbd> key. You will notice that the character skates across the screen. This is no good we need to slow the player speed down for when this animation is triggered.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
