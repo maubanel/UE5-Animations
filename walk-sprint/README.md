@@ -200,13 +200,15 @@ https://user-images.githubusercontent.com/5504953/133075235-8f84db62-e5cf-4c62-b
 
 ##### `Step 24.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Go back to the **BP_AJ_Character** blueprint and change the **Max Walk Speed** from the **Pressed** execution link from **Slow Walk** to `20.0`.
+
+![change slow walk to 20 in ajcharacter bp](images/SlowWalkTo20.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 25.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
-![alt_text](images/.jpg)
+*Play* the game and press **Shift** and **Control** and you should now have the player moving at three speeds! Press **Save All** and update Github by **committing** and **pushing** all the changes made.
 
 ___
 
