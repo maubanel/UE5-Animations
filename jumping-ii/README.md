@@ -159,8 +159,8 @@ This is for falling off the edge of an object without jumping. We need to find o
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-*
-Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.2`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints.
+
+*Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.2`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints.
 
 ![add a float <= with bottom value set to .2](images/LessThanPointSevenFive2.jpg)
 
