@@ -39,25 +39,31 @@ https://user-images.githubusercontent.com/5504953/133072398-b0dc0778-ce74-47d7-9
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now lets make some adjustments in our blend space. We want our top sprinting speed to be 600 and our normal run at 450 . Open the **IdleWalkRun_BlendSpace** blend in our **Animations** folder. *Click on* **Axis Settings** and change the **Horizontal Axis | Maximum Axis** Value to `600` to match the top speed in game.
+
+![in blend space change maximum axis value to 600](images/MaxAxisValue.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+That rescales our graph. So I want to know the speed of our normal run animation. *Click* on the second to last animation and it should have scaled this value to `450.0`.
+
+![run speed should be at 450](images/RunSpeedFourFifty.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now go back to the **BP_AJ_Character** blueprint and select the **Character Movement** Component. Then go to **Character Movement Walking | Max Walk Speed** and set it to `450.0` and adjust **Max Walk Speed Crouched** to `200.0`.
+
+![set max walk speed to 450](images/WalkSpeed450.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays:
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
