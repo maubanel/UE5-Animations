@@ -210,6 +210,8 @@ Go back to the **BP_AJ_Character** blueprint and change the **Max Walk Speed** f
 
 *Play* the game and press **Shift** and **Control** and you should now have the player moving at three speeds! Press **Save All** and update Github by **committing** and **pushing** all the changes made.
 
+https://user-images.githubusercontent.com/5504953/133075486-5b3799cd-2324-4656-b077-6e0856e86575.mp4
+
 ___
 
 
