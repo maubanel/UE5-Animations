@@ -41,6 +41,8 @@ Move player start in front of this box.
 
 Now select the edit tool in the box. Press the Control key and left click the back top points on the rectangle. Pull them upwards to make a nice slope. Do the same thing for the front two but pull them down to the ground.
 
+https://user-images.githubusercontent.com/5504953/133777427-122eb2bb-866a-47b8-8229-d14d19c88187.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
