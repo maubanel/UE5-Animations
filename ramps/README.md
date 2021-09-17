@@ -80,44 +80,57 @@ Open your player blueprint. Add a variable called `bShowVelocity` that is type *
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Drag and drop* a reference to the **Character Movement** Component in the player blueprint.
+
+![alt_text](images/GetReferenceForCharacterMovement.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+*Pull off* the **Character Movement** node and select the **Velocity** node.
+
+![add a velocity node](images/GetVelocityNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now lets get the magnitude (length) of the **Vector** which will return how fast they are moving. *Pull off* of the **Velocity** exit pin and add a **Vector Length** node.
+
+![add vector length node](images/VectorOutputGetLength.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Take* the ouput of the **Vector Length** node and plug it into the **In String** in the **Print String** node. *Press* the triangle at the bottom to get more options. Set the **Duration** to `0.0`.
+
+![connect output of Vector Length to print node with a duration of 0](images/PrintVelocityLength.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Drag* the pin from **Set Is Jumping** output execution pin and from the **True** pin of the **Branch** node before **Set Is Jumping** to the input pin on the new **Branch** node created. We only care now about the ground speed so this will suffice. Add a comment around these nodes called D`ebug Velocity`.
+
+![check if player is jumping as there will be no ground speed up if not](images/DebugVelocityCommentConnectExecPin.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Set **bShowVelocity** to `True` in the blueprint. *Press* the <kbe>Compile</kbd> button on the blueprint. Go to back to the game.
+
+![set bShowVelocity default to true](images/ShowCharacterVelocity.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+*Run* the game and sprint, run and walk up and down the ramp. Now the player does not lean into the ramps not does the speed change when running on slopes.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
