@@ -23,7 +23,9 @@ Now we need to cast a line down the player based on his world angle. So we will 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now *add* a **Vector * Float** node. We need to scale this normalized vector 300 units in the opposite direction. Set the multiplication amount to `-300.0` (multiplying a vector by -1 reverses the direction of the vector, since Unreal is Z-Up this will make it 300 cm downwards). 
+
+![multiply by -300](images/Down300Units.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
