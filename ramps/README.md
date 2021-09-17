@@ -64,13 +64,17 @@ Open your player blueprint. Add a variable called `bShowVelocity` that is type *
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Drag and drop* a `Get bShowVelocity` node and *pull off* of the pin to add a **Branch** node.
+
+![add get bShowVelocity and branch node](images/AddBranchToVelocity.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Pull off* of the **True** branch and select a **Print** node. We will be printing the magnitude (length) of the **Velocity** vector of our character.
+
+![print velocity output](images/BranchTrueToPrint.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
