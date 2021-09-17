@@ -47,7 +47,9 @@ https://user-images.githubusercontent.com/5504953/133777427-122eb2bb-866a-47b8-8
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+Now run up and down the ramps. Hmmm, doesn't feel right to me. I don't feel an acceleration down the ramp or deceleration running up the ramp. Lets add some debug to confirm.
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
