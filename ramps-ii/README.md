@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Running up & down ramps continued...
 
 <br>
 
@@ -15,7 +15,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now we need to cast a line down the player based on his world angle. So we will drag and drop the **Capsule Component** from the **Component** menu and then pull the pin and add a **Get Up Vector** node. This gets a vector pointing upwards from his head.
+
+![add a get up vector node](images/GetUpVectorOfCapsuleComponent.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
