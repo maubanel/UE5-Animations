@@ -57,6 +57,7 @@ I add a comment explaining my actions.
 
 *Run* the game. You should see a red line casting downwards with a hit target on the ground beneath the player when the player is moving and no line cast when they stop.
 
+https://user-images.githubusercontent.com/5504953/134693811-e7d62071-15c4-4623-830c-1ee9b8658ed3.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
