@@ -63,44 +63,58 @@ https://user-images.githubusercontent.com/5504953/134693811-e7d62071-15c4-4623-8
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now I need to cast a second line then be the angle of the slope. This will tell me if I am going up or down the slope as well. I am going to cast a line 10 units ahead based on the direction of their **Velocity**. *Add* a second **Line Trace By Channel** node to the graph beneath the previous one. To the left add a **Get Actor Location** node.
+
+![Add second line trace by channel and get actor location nodes](images/SecondLineTraceGetActorLocation.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+We need to get forward by 10 velocity units from the current location. *Add* a **vector + vector** node and connect the input to the **Return Value** of the **Get Actor Location** pin. Send the output to the **Start** pin of the **Line Trace By Channel** node.
+
+![add return value and get actor location vectors together and send to line trace by channel](images/VectorPlusVectorStartSecondLineTrace.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Drag* a **Character Movement** node from the **Component** menu. *Drag off* of its pin and select a **Get Velocity** node.
+
+![add a get velocity node](images/GetTheVelocity.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Grab the output of the **Velocity** pin and select a **Normalize** node. Now add a **vector * float** node to multiply the vector by `10.0` to scale it up. Remember a normalized vector is 1 unit in length. Multiplying it by 10 sends it forward by 10 units. Send this output to the second side of the vector **Addition** node.
+
+![multiply veocity by 10](images/FinishGettingStartPoint10UnitsInFrontOfPlayer.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+The end unit will be 300 units underneath the player. *Add* a **vector + vector** node.
+
+![add vector + vector nodez](images/CheckDownwardsBy300ForSecondLineTrace.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Connect* the output of the **Multiplication** pin where you go down 300 units from the center downwards to the topside of the addition node. Take the output of the **Addition** pin to the input of the other end of the addition node. *Send* the output of to the **End** pin in the **Line Trace by Channel** node. Set the **Draw Debug Type** to `For One Frame` to test out.
+
+![connect multiply to addition pin then go to end of line trace by channel](images/ConnectEndOfSecondLineByChannel.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Connect* the execution pin between the two **Line Trace by Channel** nodes. *Play* the game and see if you can see the second vector. It renders two vectors very close to each other (which is what we want) which might still looks like one single vector. What we need to do is termporarilly make them further apart. Change the distance of the **Multiplication** pin from `10.0` to `50.0` and make sure the second vector is in front of the player.
+
+![change length to 50](images/ChangeTo50.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
