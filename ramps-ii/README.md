@@ -39,19 +39,24 @@ To see this line trace we will turn the **Draw Debug Type** to `For One Frame`. 
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now this value is in local space and we need to translate it to world space. We do this by adding the actual world location. *Pull off* the **Multiplication** pin and select a **vector + vector** node. *Add* the **Return Value** to the **Get Actor Location**. *Send* the output to the **End** pin of the **Line Trace By Channel** node.
+
+![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/SetEndForFirstLineCast.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+I add a comment explaining my actions.
+
+![add code comments](images/LocalToGlobalComment.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Run* the game. You should see a red line casting downwards with a hit target on the ground beneath the player when the player is moving and no line cast when they stop.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
