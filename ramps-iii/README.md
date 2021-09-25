@@ -23,7 +23,9 @@ Play the game and run around and up and down the ramp. It should be 0 degrees on
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now we want the player's pitch to rotate to match the slope of the round. The player will lean back when running uphill and forward when moving downhill. We will use this slop value we calculated for this. *Right click* on the **Return Value Y (Pitch)** pin from the **Find Look at Rotation** node and *select* **Promote to Variable**. *Call* it `NewPlayerPitch` and make it **Type** `Float` and `Private`. Set the **Tooltip** to `Pitch of player negative downhill, positive uphill in degrees`. *Connect* the execution pins between the second **Line Trace** and the **Print String** statement.
+
+![new player pitch variable](images/NewPlayerPitchVariableDefinition.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
