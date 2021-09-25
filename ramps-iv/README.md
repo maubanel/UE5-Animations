@@ -212,8 +212,9 @@ https://user-images.githubusercontent.com/5504953/134772161-9b6fc0fb-33b9-4b18-b
 
 *Play* the game and you will notice that all three speeds should work and change speeds on slopes. Press **Save All** and update Github by **committing** and **pushing** all the changes made. That's it for this walk through, you have created a character with animation in Unreal!
 
-___
-
+| `animation.character`\|`THE END`| 
+| :--- |
+| **That's All Folks!** Thanks for sticking around. That's it for this lesson. |
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
