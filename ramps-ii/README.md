@@ -128,43 +128,57 @@ https://user-images.githubusercontent.com/5504953/134770183-e9882c0c-d9f6-4af9-9
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+To get the angle we need to results of the two line traces of where they hit on the ground. *Pull* from the **Out Hit** output pin of BOTH **Line Trace By Channel** nodes and select **Break Hit Result** to *split* the struct pins for the separate return value pins.
+
+![break it result pins in both line grace by channels node](images/BreakHitResultsForBoth.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+*Add* a **Find Look at Rotation** node and break the output pins to their individual outputs.
+
+![find look at rotation node](images/FindLookAtRotation.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Connect* the **Location** from the top **Line Trace By Channel** then **Break Hit Results** node to the **Start** pin of the **Find Look at Rotation** node. *Send* the second **Location** pin to the **Target** pin on the **Find Look at Rotation** node. So we are looking from the collision point just beneath us to the one 10 units ahead.
+
+![connect pins to collide with ground](images/ConnectStartTargetGetAngle.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Lets print this on the screen to make sure we have this right. Add an **Append String** node and in the **A** box put in `Pitch`:.
+
+![add append string and add Pitch to A](images/PrintOnScreenPitch.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Connect* the **Return Value Y (Pitch)** to the **B** pin of the **Append String** node:
+
+![connect Pitch pin to the B side of the append node](images/AppendPitchOutput.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+*Pull off* of the output of the **Append** node and select the ***Print String*** node. *Change* the **Duration** to `0.0`.
+
+![add print string node and send output of append node](images/AddPrintString.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Connect* the **Execution** pins from the first **Line Trace by Channel** to the second **Line Trace by Channel** to the **Print String** nodes.
+
+![connect execution pins](images/ConnectExecutionPinsToPrint.jpg)
 
 ___
 

@@ -113,7 +113,7 @@ Now lets get the magnitude (length) of the **Vector** which will return how fast
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Drag* the pin from **Set Is Jumping** output execution pin and from the **True** pin of the **Branch** node before **Set Is Jumping** to the input pin on the new **Branch** node created. We only care now about the ground speed so this will suffice. Add a comment around these nodes called D`ebug Velocity`.
+*Drag* the pin from **Set Is Jumping** output execution pin and from the **True** pin of the **Branch** node before **Set Is Jumping** to the input pin on the new **Branch** node created. We only care now about the ground speed so this will suffice. Add a comment around these nodes called `Debug Velocity`.
 
 ![check if player is jumping as there will be no ground speed up if not](images/DebugVelocityCommentConnectExecPin.jpg)
 
