@@ -15,6 +15,8 @@ Running up & down ramps continued...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
+https://user-images.githubusercontent.com/5504953/134770628-4ea7e0c3-baf2-41a9-8b58-cc9b4381edc5.mp4
+
 Play the game and run around and up and down the ramp. It should be 0 degrees on flat land, a positive number when going up hill and a negative number in degrees when going downhill.
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
