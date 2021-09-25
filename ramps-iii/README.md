@@ -106,6 +106,8 @@ The **RInterp To** node needs the delta time since last frame. *Right click* and
 
 *Play* the game and run up and down the slope and on flat ground. You should see the player rotate to match the slope of the ground. Works great now we will move on to adjusting speed. We want the player to move faster going downhill and slower moving uphill.
 
+https://user-images.githubusercontent.com/5504953/134771021-86032461-37c0-4797-aad6-c6f79c78f777.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
