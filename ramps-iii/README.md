@@ -112,55 +112,73 @@ https://user-images.githubusercontent.com/5504953/134771021-86032461-37c0-4797-a
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+This will make us rethink the movement logic for the player. They will be dynamically changing based on the slope. Right now we have hard coded our speed values. Lets change this and turn them into states we can check. *Delete all* the nodes inside the **Sprint** and **Walk** sections.
+
+![delete all sprinting and walking logic](images/DeleteMovementForSprintAndWalk.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+We are going to *add* another **Variable**. Call it `bIsWalking` and make it **Type** `Boolean`. Set it to `Private` and to **Category** to `Physics`. Add a **Tooltip** that states `Is player is walking or not?`.
+
+![add bIsWalking boolean](images/IsWalkingBoolean.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+*Right click* the **bIsWalking** variable and **Duplicate** it. *Call* it `bIsSprinting` and adjust the tooltip accordingly.
+
+![dupe bIsWalkinga nd call it bIsSprinting](images/DupeIsWaklingForSpriting.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+In the Sprint section *add two* **Set bIsSprinting** nodes. *Connect* the **Pressed** execution pin to the top node and set it to `True`. The the **Released** pin to the bottom one and leave it as `False`.
+
+![add two Set IsSprinting nodes and connect to the Pressed and Released pins](images/SprintSection.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now we don't want sprinting and walking at the same time so add a **Set bIsWalking** node and set it to false right after you set **Is Sprinting** to true.
+
+![add set bIsWalking node](images/CancelWalkAfterSprint.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Repeat this procedure with the **Event Slow Walk**. *Add* two **bIsWalking** nodes with the *`true`* node connected to **Pressed** and the `false` node connected to **Released**.
+
+![repeat for slow walk](images/RepeatWithSlowWalk.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Then add after you set **bIsWalking** to `true` another **Set bIsSprinting** node and *set* it to `false`. This way we can't have sprinting and walking at the same time.
+
+![set sprinting to false when walking](images/SetSprintingToFalse.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+We will calculate the spriting and walking as an offset of our master speed. Create a new float called `Sprint Multiplier` of type **Float**. Set **Instace Editable** and **Private** to `true` then set the **Category** to `Physics`. Set the **Tooltip** to `How much faster is sprint from base speed`. *Press* the **Compile** button and set the default to `1.33`.
+
+![crease sprint multiplier float variable](images/SprintMultiplierVariableDefinition.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Create another variable called `Walking Multiplier` and set it to **Type** `Float`. Set **Private** and **Instance Editable** to `true`. Set the **Category** to `Physics` and the **Tooltip** to `How much slower is walk speed from base speed`. Press the **Compile** button and set the **Default** to `0.044`.
+
+![add walking multiplier float variable](images/WalkMultiplierVariableDefinition.jpg)
 
 ___
 
