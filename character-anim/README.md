@@ -177,9 +177,18 @@ Double click the **Skeletal Mesh** and lets look at the model. Now when going fr
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>File | Save All</kbd> button and then select the <kbd>Source Control</kbd> button.  Select `Git(Beta)` as the version control then press the 
+Press the <kbd>File | Save All</kbd> button and then select the <kbd>Source Control</kbd> button.  Select `Git(Beta)` as the version control then press the <kbd>Accept Settings</kbd> button.
 
-![save, commit and push to github](images/ConnectToSourceControl.png)
+![save and connect UE4 project to github](images/ConnectToSourceControl.png)
+___
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Press the <kbd>Source Control</kbd> button and then select the <kbd>Source Control</kbd> button.  Select `Git(Beta)` as the version control then press the <kbd>Accept Settings</kbd> button.
+
+![commit and push to github](images/Github.png)
 ___
 
 
