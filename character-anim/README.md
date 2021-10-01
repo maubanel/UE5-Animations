@@ -136,13 +136,17 @@ Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* t
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the textures into this folder.
+In importing the mesh an error popped up telling me it had to duplicate textures.  It created three copies of `Boy01_FacialAnimMap`.  Right click and delete each duplicate
 
-![move textures to AJ | Textures folder](images/MoveAJTexturesToFolder.jpg)
+![duplicate textures](images/ImportError.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the textures into this folder.
+
+![move textures to AJ | Textures folder](images/MoveAJTexturesToFolder.jpg)
 
 *Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine.
 
