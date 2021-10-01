@@ -136,7 +136,7 @@ Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* t
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-In importing the mesh an error popped up telling me it had to duplicate textures.  It created three copies of `Boy01_FacialAnimMap`.  Right click and delete each duplicate
+In importing the mesh an error popped up telling me it had to duplicate textures.  It created three copies of `Boy01_FacialAnimMap`.  Right click and select the <kbd>Delete</kbd> button and then select the original file press the <kbd>Replace References</kbd> button to replace the refences with the one original file.  In my case this got rid of the duplicate textures.
 
 ![duplicate textures](images/ImportError.png)
 
@@ -148,13 +148,18 @@ Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the 
 
 ![move textures to AJ | Textures folder](images/MoveAJTexturesToFolder.jpg)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 *Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine.
 
 ![aj physics asset](images/PhysicsAsset.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open the **skeletal mesh**. Look at the left-hand side and you will see a list of bones that are on the skeleton.
 
@@ -162,7 +167,7 @@ Open the **skeletal mesh**. Look at the left-hand side and you will see a list o
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
 Double click the **Skeletal Mesh** and lets look at the model. Now when going from Mixamo to UE4 there are some errors in how the Materials are put together. In some cases it is quite prominent. With **AJ**, something is wrong with the face. We will fix this on the next page.
 
@@ -170,14 +175,11 @@ Double click the **Skeletal Mesh** and lets look at the model. Now when going fr
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Save all to github.
+Press the <kbd>File | Save All</kbd> button and then select the <kbd>Source Control</kbd> button.  Select `Git(Beta)` as the version control then press the 
 
-![save, commit and push to github](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
+![save, commit and push to github](images/ConnectToSourceControl.png)
 ___
 
 
