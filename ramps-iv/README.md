@@ -208,14 +208,17 @@ Add a **comment** called `Set Run Speed on Slope` for these nodes added.
 
 ##### `Step 25.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
+https://user-images.githubusercontent.com/5504953/134772161-9b6fc0fb-33b9-4b18-bf18-9f106c387a86.mp4
+
 *Play* the game and you will notice that all three speeds should work and change speeds on slopes. Press **Save All** and update Github by **committing** and **pushing** all the changes made. That's it for this walk through, you have created a character with animation in Unreal!
 
-___
-
+| `animation.character`\|`THE END`| 
+| :--- |
+| **That's All Folks!** Thanks for sticking around. That's it for this lesson. |
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The End!">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
