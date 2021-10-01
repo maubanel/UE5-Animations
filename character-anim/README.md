@@ -186,7 +186,7 @@ ___
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>Source Control</kbd> button and then select the <kbd>Source Control</kbd> button.  Select `Git(Beta)` as the version control then press the <kbd>Accept Settings</kbd> button.
+Press the <kbd>Source Control</kbd> button and then select the **Submit to Source Control...** selection.  Tupe in a commit message then press the <kbd>Submit</kbd> button.  Open up **GitHub Desktop** and press **Push**.
 
 ![commit and push to github](images/Github.png)
 ___
