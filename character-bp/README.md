@@ -132,7 +132,7 @@ https://user-images.githubusercontent.com/5504953/132420802-8782387f-1b4e-432c-a
 
 Now since we have made a change to an unsaved level we need to save the **World Settings** by saving the level.  Create a new root folder called `Levels`.  Press the 
 
-![save level](images/SaveLevel.jpg)
+![save level](images/SaveLevel.png)
 ___
 
 
