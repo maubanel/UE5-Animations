@@ -128,7 +128,7 @@ https://user-images.githubusercontent.com/5504953/132613486-bfbbbf6c-084a-4cb0-a
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-*Click* on the **Mesh** component and change the **Rotation** on **Z** to `-90.0`:
+The blue arrow indicates what the game *knows* as the forward direction of the player.  Notice is off by ninety degrees? *Click* on the **Mesh** component and change the **Rotation** on **Z** to `-90.0`:
 
 ![rotate mesh -90 degrees](images/RotateAJMeshNeg90-1.jpg)
 
