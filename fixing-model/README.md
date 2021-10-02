@@ -47,7 +47,7 @@ Go back to the material and look at the texture plugged into the **Opacity Mask*
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now change the pin going to **Opacity** from the top **RGB** pin to the bottom **Alpha** pin. Also since these graphics are not opaque we can use it in the **Opacity Mask** pin in the shader.  Redirect the **Alpha** pin to the **Opacity Mask** and remove the conection to the **Opacity** pin.  Change the shader **Blend Mode** to `Masked`. This uses the alpha channel to mask out the texture from the background. Press the Apply button.  You will notice that the textures don't streak and are sharp.  Do this to all the materials using this texture.
+Now change the pin going to **Opacity** from the top **RGB** pin to the bottom **Alpha** pin. Also since these graphics are not opaque we can use it in the **Opacity Mask** pin in the shader.  Redirect the **Alpha** pin to the **Opacity Mask** and remove the conection to the **Opacity** pin.  Change the shader **Blend Mode** to `Masked`. This uses the alpha channel to mask out the texture from the background. Press the <kbd>Apply</kbd> button.  You will notice that the textures don't streak and are sharp.  Do this to all the materials using this texture.
 
 ![plug alpha into opacity](images/ChannelForOpacityCorrected.png)
 
