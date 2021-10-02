@@ -133,6 +133,13 @@ https://user-images.githubusercontent.com/5504953/132420802-8782387f-1b4e-432c-a
 Now since we have made a change to an unsaved level we need to save the **World Settings** by saving the level.  Create a new root folder called `Levels`.  Select **File | Save Current** and call the level `AnimTestLevel` and make sure you save it in the **Levels** folder.  Press the <kbd>Save</kbd> button. 
 
 ![save level](images/SaveLevel.png)
+
+##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
+
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
+
+
+![save, commit and push to github](images/GitHub.png)
 ___
 
 
