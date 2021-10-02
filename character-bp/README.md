@@ -87,7 +87,7 @@ Now lets add a new gamemode blueprint to select this character when the level st
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Press the <kbe>Add/Import</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
+Press the <kbd>Add/Import</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
 
 ![game mode base blueprint](images/AddNewGameModeBase.jpg)
 
