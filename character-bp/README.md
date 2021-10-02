@@ -130,7 +130,7 @@ https://user-images.githubusercontent.com/5504953/132420802-8782387f-1b4e-432c-a
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:
 
-Now since we have made a change to an unsaved level we need to save the **World Settings** by saving the level.  Create a new root folder called `Levels`.  Press the 
+Now since we have made a change to an unsaved level we need to save the **World Settings** by saving the level.  Create a new root folder called `Levels`.  Select **File | Save Current** and call the level `AnimTestLevel` and make sure you save it in the **Levels** folder.  Press the <kbd>Save</kbd> button. 
 
 ![save level](images/SaveLevel.png)
 ___
