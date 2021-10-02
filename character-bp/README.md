@@ -15,7 +15,7 @@ There is a special kind of blueprint used for a bipedal character that we can co
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Go to the **AJ** folder and press the <kbd>Add New</kbd> button and select **Blueprint Class**.
+Go to the **AJ** folder and press the <kbd>Add/Import</kbd> button and select **Blueprint Class**.
 
 ![add new blueprint class to aj folder](images/BlueprintClassAJAdd.jpg)
 
@@ -55,7 +55,7 @@ Add a another component and this time it will be a `Camera`.
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure that **Spring Arm** is not a child of any other component except for the root **Capsule Component**.
+Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure that **Spring Arm** a *child* of the root **Capsule Component**.
 
 ![make camera child of spring arm](images/MakeCameraChildOfSpringArm.jpg)
 
@@ -63,7 +63,7 @@ Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Target Offset | Z** to `260.0` and make the arm a bit longer to `400.0` units.
+Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Target Offset | Z** to `260.0` and make the **Target Arm Length** a bit longer to `400.0` units.
 
 ![adjust rotation and target](images/SpringArm90Deg.jpg)
 
@@ -87,7 +87,7 @@ Now lets add a new gamemode blueprint to select this character when the level st
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Press the <kbe>Add New</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
+Press the <kbd>Add/Import</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
 
 ![game mode base blueprint](images/AddNewGameModeBase.jpg)
 
