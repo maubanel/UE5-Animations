@@ -217,9 +217,9 @@ https://user-images.githubusercontent.com/5504953/132963088-80c197e7-9901-4d1f-8
 
 ##### `Step 26.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
-Save all to github.
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
-![connect](images/.jpg)
+![save, commit and push to github](images/GitHub.png)
 
 
 ___
