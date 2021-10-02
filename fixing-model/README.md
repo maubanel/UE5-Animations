@@ -41,15 +41,15 @@ If we turn the **Alpha** back on then the texture is rendered correctly.
 
 Go back to the material and look at the texture plugged into the **Opacity Mask**. It is the three 3 channels minus the alpha. This is wrong, the only channel that should be plugged into Opacity is the **A** alpha channel.
 
-![channel for opacity is wrong](images/ChannelForOpacityIsWrong.jpg)
+![channel for opacity is wrong](images/ChannelForOpacityIsWrong.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now change the pin going to **Opacity** from the top **RGB** pin to the bottom **Alpha** pin. This uses the alpha channel to cut out the texture from the background. Press the Apply button.  
+Now change the pin going to **Opacity** from the top **RGB** pin to the bottom **Alpha** pin. Also since these graphics are not opaque we can use it in the **Opacity Mask** pin in the shader.  Redirect the **Alpha** pin to the **Opacity Mask** and remove the conection to the **Opacity** pin.  Change the shader **Blend Mode** to `Masked`. This uses the alpha channel to mask out the texture from the background. Press the Apply button.  You will notice that the textures don't streak and are sharp.  Do this to all the materials using this texture.
 
-![plug alpha into opacity](images/ChannelForOpacityCorrected.jpg)
+![plug alpha into opacity](images/ChannelForOpacityCorrected.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
