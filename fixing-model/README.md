@@ -55,9 +55,18 @@ Now change the pin going to **Opacity** from the top **RGB** pin to the bottom *
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose.
+Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose. The issues you may have may be different depending on which character you selected.
 
 ![check model for errors](images/ModelFixedMaterials.jpg)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
+
+
+![check model for errors](images/GitHub.png)
 
 ___
 
