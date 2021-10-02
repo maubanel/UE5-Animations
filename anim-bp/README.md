@@ -139,7 +139,7 @@ We need to get access to the **Speed** of the player. We do this in the **Event 
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Drag off* of the **Return Value** from the **Try Get Pawn Owner** node again and select **Get Velocity** to get the velocity vector of the player pawn.
+*Drag off* of the **Return Value** from the **Try Get Pawn Owner** node again and select **Get Velocity** to get the velocity vector of the player pawn. Connect hte execution pin from **Event Blueprint Update Animation** to **? Is Valid** nodes.
 
 ![add get velocity node](images/GetVelocityFromPawn.jpg)
 
