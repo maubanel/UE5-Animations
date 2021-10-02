@@ -168,7 +168,7 @@ Now lets add the movement for going left and right in the game. Go back to the *
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Add a **Axis Events | MoveRight** node under the **MoveForward** node.
+Add a **Axis Events | MoveRight** node.
 
 ![add moveright node](images/InputAxisMoveRight.jpg)
 
