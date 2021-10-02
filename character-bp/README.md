@@ -55,7 +55,7 @@ Add a another component and this time it will be a `Camera`.
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure that **Spring Arm** is not a child of any other component except for the root **Capsule Component**.
+Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure that **Spring Arm** a *child* of the root **Capsule Component**.
 
 ![make camera child of spring arm](images/MakeCameraChildOfSpringArm.jpg)
 
