@@ -55,14 +55,6 @@ Now change the pin going to **Opacity** from the top **RGB** pin to the bottom *
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-I repeated this for the other two face materials on this character. I put in the correct alpha pin and pressed <kbd>Apply</kbd>. You can see that th texture has the correct Alpha cut out in the preview window. If you picked a different character you will have to figure out how to correct any material issues your model might have.
-
-![texture no longer has stripes](images/RepeatFaceOpacityFixTwice.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose.
 
 ![check model for errors](images/ModelFixedMaterials.jpg)
