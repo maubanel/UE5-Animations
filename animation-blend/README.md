@@ -15,7 +15,7 @@ To go between stand, creep walk, walk, run and fast run that can adopt to any sp
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-The first thing we will implement is our player movement. The player will go from idle to creep walk to walk to run to speed run. We will be blending between these 5 animations. Go to the **Animations** folder and *press* the <kbd>Add New</kbd> button. *Select* **Animation | Blend Space 1D**. This will be a 1 dimensional blend.
+The first thing we will implement is our player movement. The player will go from idle to creep walk to walk to run to speed run. We will be blending between these 5 animations. Go to the **Animations** folder and *press* the <kbd>Add/Import</kbd> button. *Select* **Animation | Blend Space 1D**. This will be a 1 dimensional blend.
 
 ![add blend space](images/AddBlendSpace1D.jpg)
 
