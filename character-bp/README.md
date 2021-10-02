@@ -15,7 +15,7 @@ There is a special kind of blueprint used for a bipedal character that we can co
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Go to the **AJ** folder and press the <kbd>Add New</kbd> button and select **Blueprint Class**.
+Go to the **AJ** folder and press the <kbd>Add/Import</kbd> button and select **Blueprint Class**.
 
 ![add new blueprint class to aj folder](images/BlueprintClassAJAdd.jpg)
 
