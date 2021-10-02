@@ -39,7 +39,7 @@ If we turn the **Alpha** back on then the texture is rendered correctly.
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the material and look at the texture plugged into the **Opacity Mask**. It is the full 4 channels. This is wrong.
+Go back to the material and look at the texture plugged into the **Opacity Mask**. It is the three 3 channels minus the alpha. This is wrong, the only channel that should be plugged into Opacity is the **A** alpha channel.
 
 ![channel for opacity is wrong](images/ChannelForOpacityIsWrong.jpg)
 
