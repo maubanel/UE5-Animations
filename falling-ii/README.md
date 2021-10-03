@@ -112,7 +112,7 @@ We want this animation to play once then blend back to the **IdleWalkRun** state
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to the input of the **Result** node.
+Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to the input of the **Result** node. Why do we start the transition with 20% left?  Because we need room to blend out of this animation into the next (overlap).
 
 ![set bottom value of <= to .2](images/LessThanPointSevenFive.png)
 
@@ -120,7 +120,7 @@ Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to 
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the game editor and select the **Floor** object in the **World Outliner**. *Change* its **Scale** to `10.0` on the **X** and **Y**.
+Go back to the game editor and select the **Floor** object in the **World Outliner**. Copy it multiple times to create a **6 x 6** grid centered in the world.  You should have 36 ground pieces.  Put them in a folder called `Ground` and lock them in place by turning on **Transform | Lock Actor Movement**.
 
 ![scale floor by 10](images/MakeFloorBigger.jpg)
 
