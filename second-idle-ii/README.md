@@ -136,9 +136,11 @@ https://user-images.githubusercontent.com/5504953/132986290-d633e829-b132-4fec-8
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel to the **Sample Interpolation | Target Weight Interpolation** setting and *adjust* it to `6.0` (you can play with values between 5 and 10 to see what you like). Now it should be much smoother. Press **Save All** and update **Github** by committing and pushing all the changes made. Next up we will be adding a falling animation.
+Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel to the **Sample Interpolation | Target Weight Interpolation** setting and *adjust* it to `6.0` (you can play with values between 5 and 10 to see what you like). Now it should be much smoother.  Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
 https://user-images.githubusercontent.com/5504953/132986417-fca35ab4-1b28-4bdb-a7e3-5aa31388fd46.mp4
+
+
 ___
 
 
