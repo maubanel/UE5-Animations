@@ -39,7 +39,7 @@ I also found an animation from falling to hitting the ground. I sped up the anim
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the game and go to the **AJ | Animations** folder and *press* the <kbd>Import</kbd> button and *select* these two animations you just downloaded.
+Go back to the game and go to the **AJ | Animations** folder and *press* the <kbd>Add/Import</kbd> button and *select* these two animations you just downloaded.
 
 ![import animations into unreal](images/ImportFallingAnimation.jpg)
 
