@@ -128,7 +128,7 @@ Go back to the game editor and select the **Floor** object in the **World Outlin
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Add a cube under the **Player Start** so that the player will land on the cube. Scale the cube to a size that makes sense to you. Raise the **Player Start** so it is above this platform.
+Add a cube under the **Player Start** so that the player will land on the cube. Scale the cube to`3.0` to triple its size. Raise the **Player Start** so it is above this platform.
 
 ![add cube under player start in level](images/AddCubeUnderPlayerStart.jpg)
 
