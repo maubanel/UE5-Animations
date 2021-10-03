@@ -15,7 +15,7 @@ Lets add the ability for the player to jump around the level and tune this to ou
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Before we start lets set this level as the default boot up level. Go to **Edit | Project Settings** and navigate to the **Maps & Modes** section. Change the **Editor Startup Map** to `TestLevel`.
+Before we start lets set this level as the default boot up level. Go to **Edit | Project Settings** and navigate to the **Maps & Modes** section. Change the **Editor Startup Map** to `AnimTestLevel`.
 
 ![add TestLevel to startup map in project settings](images/ProjectSettingTestLevel.jpg)
 
