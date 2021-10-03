@@ -79,7 +79,7 @@ Add two **Set Idle Timer** nodes. *Connect* each to the **True** and **False** e
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the outut of **Idle Timer** and **Get World Delta Seconds** nodes to the input pins of the **Addition** node. *Send* the output to the **Set Idle** Timer pin.
+*Connect* the outut of **Idle Timer** and **Get World Delta Seconds** nodes to the input pins of the **Addition** node. *Send* the output to the **Set Idle** Timer pin connected to the **Branch | True** execution pin.
 
 ![connect idle timer and get world delat to addition node](images/ConnectAdditionPinsForTimer.jpg)
 
