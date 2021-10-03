@@ -153,7 +153,7 @@ So open up the **Falling_To_Landing** animation and scroll to the end.  You will
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: 
 
-
+Click on the tarnsition from **Falling End** to **IdleWalkRun** and change the **Details | Duration** to `0.25` to increase the blend time to a quarter of a second.  *Double click* on the transition and change the value in the **<** node to `0.5` to start blend at 50% complete (roughly a quarter second left in anim at this point).
 
 ![adjust falling to landing blends](images/AdjustBlend.png)
 
