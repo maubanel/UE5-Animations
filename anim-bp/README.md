@@ -225,6 +225,8 @@ Now press the <kbd>Compile</kbd> button and go back into the game. Now the playe
 
 https://user-images.githubusercontent.com/5504953/132985183-13aeb172-0a84-40e7-8033-d30f3ec22ca1.mp4
 
+![save, commit and push to github](images/GitHub.png)
+
 ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
