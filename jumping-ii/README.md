@@ -192,7 +192,7 @@ I then go to the **Capsule** component and increate the **Capsule Radius**. For 
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better. *Press* **Save All** and update Github by **committing** and **pushing** all the changes made. 
+Now I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better.  Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
 https://user-images.githubusercontent.com/5504953/133071433-7e83b339-bef4-4235-a43b-ef7e69b31149.mp4
 ___
