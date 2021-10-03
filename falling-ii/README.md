@@ -164,7 +164,13 @@ Click on the tarnsition from **Falling End** to **IdleWalkRun** and change the *
 
 https://user-images.githubusercontent.com/5504953/135755444-752e994b-c9e0-4aed-89d1-3ec14d008eae.mp4
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
+
 Press **Save All** and update **Github** by **committing** and **pushing** all the changes made. Next up we will be adding jumping to the game.
+
+![save, commit and push to github](images/GitHub.png)
 ___
 
 
