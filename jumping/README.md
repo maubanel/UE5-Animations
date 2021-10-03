@@ -63,7 +63,7 @@ Add a **comment** around these two nodes called `Jump`.
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button (<kbd>space bar</kbd>). Now you should be jumping around the level.
+*Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button <kbd>space bar</kbd>. Now you should be jumping around the level.
 
 https://user-images.githubusercontent.com/5504953/132988110-e708986d-8dd4-46f1-9d40-b92ad8b8015f.mp4
 
