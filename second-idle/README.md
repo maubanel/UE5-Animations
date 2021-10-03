@@ -55,7 +55,7 @@ We will leave the default values alone. We want it to be close to `0.0` and the 
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Drag* a **Get Idle Timer** variable to the graph and add a **Get World Delta Seconds** node.
+*Drag* a **Get Idle Timer** variable to the graph and add a **Get World Delta Seconds** node. Connect **Nearly Equal | Return Value** to the **Branch | Condition** pin.
 
 ![add get idle time node and world delta seconds node](images/GetIdleTimerDeltaSeconds.jpg)
 
