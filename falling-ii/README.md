@@ -122,7 +122,7 @@ Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to 
 
 Go back to the game editor and select the **Floor** object in the **World Outliner**. Copy it multiple times to create a **6 x 6** grid centered in the world.  You should have 36 ground pieces.  Put them in a folder called `Ground` and lock them in place by turning on **Transform | Lock Actor Movement**.
 
-![scale floor by 10](images/MakeFloorBigger.jpg)
+![scale floor by 10](images/MakeFloorBigger.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
