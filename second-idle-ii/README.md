@@ -39,7 +39,7 @@ Drag a reference to **Idle_Fidget** to the open graph.
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-**Connect** the animation pins and then *press* the <kbd>Compile</kbd> button. That should do it for the animation blueprint.
+**Connect** the animation pins and then *press* the <kbd>Compile</kbd> button. That should do it for the animation blueprint. Press the <kbd>Compile</kbd> button.
 
 ![connect animation pins and compile](images/ConnectAnimationPinsAlternateIdle.jpg)
 
