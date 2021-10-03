@@ -138,8 +138,7 @@ Add a cube under the **Player Start** so that the player will land on the cube. 
 
 *Run* the game and the player should fall on the cube. Walk off the cube and the player should fall on the floor. We should have our states working correctly for falling. Now the only issue is that it is jerky at the end the blend is not working properly.  It is either getting cut off or is not long enough.
 
-https://user-images.githubusercontent.com/5504953/132987892-ec21b82f-c6eb-4190-a7e7-e52882d3baa4.mp4
-
+https://user-images.githubusercontent.com/5504953/135755418-1e18c62b-d315-4f3e-a452-ef280803120b.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -157,7 +156,13 @@ Click on the tarnsition from **Falling End** to **IdleWalkRun** and change the *
 
 ![adjust falling to landing blends](images/AdjustBlend.png)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
+##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+*Run* the game and the player should fall on the floor and the blend works perfectly!
+
+https://user-images.githubusercontent.com/5504953/135755444-752e994b-c9e0-4aed-89d1-3ec14d008eae.mp4
 
 Press **Save All** and update **Github** by **committing** and **pushing** all the changes made. Next up we will be adding jumping to the game.
 ___
@@ -171,3 +176,7 @@ ___
 
 | [previous](../falling/README.md#user-content-falling-animation)| [home](../README.md#user-content-ue4-animations) | [next](../jumping/README.md#user-content-jumping-animation)|
 |---|---|---|
+
+
+
+
