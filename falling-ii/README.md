@@ -112,7 +112,7 @@ We want this animation to play once then blend back to the **IdleWalkRun** state
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Set the bottom value for the **<=** node to `0.25`. Then *connect* the output to the input of the **Result** node.
+Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to the input of the **Result** node.
 
 ![set bottom value of <= to .25](images/LessThanPointSevenFive.jpg)
 
