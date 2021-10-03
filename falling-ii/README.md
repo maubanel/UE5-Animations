@@ -114,7 +114,7 @@ We want this animation to play once then blend back to the **IdleWalkRun** state
 
 Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to the input of the **Result** node.
 
-![set bottom value of <= to .25](images/LessThanPointSevenFive.jpg)
+![set bottom value of <= to .2](images/LessThanPointSevenFive.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
