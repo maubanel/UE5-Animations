@@ -186,7 +186,7 @@ Go to the **BP_AJ_Character** blueprint and *select* the **Mesh** component. I a
 
 I then go to the **Capsule** component and increate the **Capsule Radius**. For my character `60.0` seems to work fine.
 
-![increase radius of capsule to 60](images/CapsuleRadiusGreater.jpg)
+![increase radius of capsule to 60](images/CapsuleRadiusGreater.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
