@@ -25,11 +25,14 @@ Before we start lets set this level as the default boot up level. Go to **Edit |
 
 Now we need to add a controller event for jumping. Go to the **Engine | Input** section and press the **+** button next to the **Action Mappings** heading.
 
-![go to input in projecdt settings and add a action mapping](images/PlayerJumpAxisEvent.jpg)
+![go to input in project settings and add a action mapping](images
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+
+:small_blue_diamond:
 
 Call this new action `Jump`. Press the **+** button next to the **Jump** setting and add a **Keyboard | Space Bar** to the controls.
 
