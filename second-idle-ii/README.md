@@ -140,7 +140,7 @@ Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel t
 
 https://user-images.githubusercontent.com/5504953/132986417-fca35ab4-1b28-4bdb-a7e3-5aa31388fd46.mp4
 
-
+![save, commit and push to github](images/GitHub.png)
 ___
 
 
