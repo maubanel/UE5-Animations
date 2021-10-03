@@ -221,7 +221,7 @@ Now go back to the **BP_AJ_Character** blueprint and *select* the **CharacterMov
 
 ##### `Step 26.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
-Now press the <kbd>Compile</kbd> button and go back into the game. Now the player should animate and turn correctly. *Press* **Save All** and update **Github** by committing and pushing all the changes made. 
+Now press the <kbd>Compile</kbd> button and go back into the game. Now the player should animate and turn correctly. Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
 https://user-images.githubusercontent.com/5504953/132985183-13aeb172-0a84-40e7-8033-d30f3ec22ca1.mp4
 
