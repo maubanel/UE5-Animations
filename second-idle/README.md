@@ -104,7 +104,7 @@ Now we want to check to see if we have been idling for more than 5 seconds. Add 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Pull off* of the execution pin of the **Branch** node and select a **Set Does Idle Time Out?** node. Set this **boolean** to `true`.
+*Pull off* of the execution pin of the **Branch** node and select a **Set Does Idle Time Out** node. Set this **boolean** to `true`.
 
 ![add set does idle time out node](images/PullOffExecutionPin.jpg)
 
