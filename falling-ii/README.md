@@ -145,11 +145,17 @@ https://user-images.githubusercontent.com/5504953/132987892-ec21b82f-c6eb-4190-a
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: 
 
-So open up 
+So open up the **Falling_To_Landing** animation and scroll to the end.  You will see that is is **16** frames long or **0.53** seconds (remember we exported these animations from Mixamo at 30 FPS).  So we should start the blend at about half way (.5) and blend for .25 seconds.
 
-![scale floor by 10](images/FallingToLanding.png)
+![falling to landing is wrong](images/FallingToLanding.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: 
 
 
+
+![adjust falling to landing blends](images/AdjustBlend.png)
 
 
 
