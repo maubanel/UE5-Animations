@@ -136,7 +136,7 @@ Now you should see our only **IdleWalkRun** state. *Right click* above this on t
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Call* this new state `AlternateIdle`. *Connect* the state from **IdleWalkRun** to **AlternateIdle** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations.
+Now we will be switching to the alternate animation state based on the player not controlling the game character for at least 5 seconds.  If the player hits any valid button or key we will switch back to the regular motion tree. *Call* this new state `AlternateIdle`. *Connect* the state from **IdleWalkRun** to **AlternateIdle** states **and** back again. There should be arrows coming to and from **both** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations!
 
 ![call new state alternate idle and connect to idle walk run](images/CallItAlternateIdle.jpg)
 
