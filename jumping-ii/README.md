@@ -120,7 +120,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-This is for falling off the edge of an object without jumping. We need to find out if we are in the air but not pressing the jump button. *Drag* a **Get Are We in Air?** and **Get Pressed Jump?** nodes onto the graph.
+This is for falling off the edge of an object without jumping. We need to find out if we are in the air but not pressing the jump button. *Drag* a **Get Are We in Air** and **Get Pressed Jump** nodes onto the graph.
 
 ![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.jpg)
 
@@ -160,7 +160,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.2`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints.
+*Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.5`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints.
 
 ![add a float <= with bottom value set to .2](images/LessThanPointSevenFive2.jpg)
 
@@ -192,7 +192,7 @@ I then go to the **Capsule** component and increate the **Capsule Radius**. For 
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better. *Press* **Save All** and update Github by **committing** and **pushing** all the changes made. 
+Now I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better.  Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
 https://user-images.githubusercontent.com/5504953/133071433-7e83b339-bef4-4235-a43b-ef7e69b31149.mp4
 ___
