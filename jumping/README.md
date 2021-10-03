@@ -87,7 +87,7 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Import* the **Jump Start** animation into the jump start folder.
+*Add/Import* the **Jump Start** animation into the jump start folder.
 
 ![import jump start to animation](images/ImportJumpStartAnimFolder.jpg)
 
