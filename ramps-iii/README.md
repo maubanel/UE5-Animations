@@ -39,7 +39,7 @@ Lets get a reference to the **Capsule Component** and *pull off* its pin and get
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We don't want the player to just jump immediately to the new angle, we want them to animate to it. So we need a LERP node. *Pull off* of the **Return Value** from the **Get World Rotation** node and select a **RInterp To** node. *Right click* on the **Target** pin and select **Split Struct Pins**.
+We don't want the player to just jump immediately to the new angle, we want them to animate to it. So we need a LERP node. *Pull off* of the **Return Value** from the **Get World Rotation** node and select a **RInterp To** node. *Right click* on the **Target** pin and select **Split Struct Pin**.
 
 ![add RinterpTo node](images/RInterpetToNodes.jpg)
 
