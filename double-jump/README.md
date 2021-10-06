@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/5504953/133075815-ad64f111-a297-4ef0-a
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Go to the **Animations** folder and press the <kbd>Import</kbd> button. *Select* the latest animation you just downloaded.
+Go to the **Animations** folder and press the <kbd>Add/Import</kbd> button. *Select* the latest animation you just downloaded.
 
 ![import double jump animation](images/ImportDoubleJumpAnim.jpg)
 
