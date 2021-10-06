@@ -138,7 +138,7 @@ Now we need a variable to know that we have pressed this button. *Right click* o
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Pull* from the **Switch on Int** node's execution pin and select a **Launch Character** node.
+*Pull* from the **Switch on Int | 2** node's execution pin and select a **Launch Character** node.
 
 ![add a launch character node](images/Pin2ToLaunchCharacter.jpg)
 
