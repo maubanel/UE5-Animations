@@ -120,7 +120,7 @@ The end unit will be 300 units underneath the player. *Add* a **vector + vector*
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Play* the game and you should now see the second vector. Set the **Multiplication** pin back to `10.0`. Now on the next page we will figure out the slope of the surface by measuring the angle between these two vectors. *Press* **Save All** and update Github by **committing** and **pushing** all the changes made.
+*Play* the game and you should now see the second vector. Set the **Multiplication** pin back to `10.0`.
 
 https://user-images.githubusercontent.com/5504953/134770183-e9882c0c-d9f6-4af9-90b8-1b00ef7783a6.mp4
 
