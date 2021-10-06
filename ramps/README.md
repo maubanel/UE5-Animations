@@ -56,7 +56,7 @@ https://user-images.githubusercontent.com/5504953/133778590-23023748-01da-4a51-a
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Open your player blueprint. Add a variable called `bShowVelocity` that is type **Boolean**. Set **Instance Edit** and **Private** to `true`. Set the **Category** to `Debug` and the **Tooltip** to `Prints on screen the velociy of the player`.
+Open your player blueprint **BP_AJCharacter**. Add a variable called `bShowVelocity` that is type **Boolean**. Set **Instance Edit** and **Private** to `true`. Set the **Category** to `Debug` and the **Tooltip** to `Prints on screen the velociy of the player`.
 
 ![add boolean variable bShowVelocity](images/AddShowVelocityPrint.jpg)
 
