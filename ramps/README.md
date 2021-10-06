@@ -88,7 +88,7 @@ Open your player blueprint **BP_AJCharacter**. Add a variable called `bShowVeloc
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Pull off* the **Character Movement** node and select the **Velocity** node.
+*Pull off* the **Character Movement** node and select the **Get Velocity** node.
 
 ![add a velocity node](images/GetVelocityNode.jpg)
 
