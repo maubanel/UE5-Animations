@@ -160,7 +160,7 @@ Go back to the **BP_AJ_Character** blueprint and at the bottom *right click* and
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *run* the game and press the <kbd>Alt</dbd> key. You will notice that the character skates across the screen. This is no good we need to slow the player speed down for when this animation is triggered.
+Now *run* the game and press the <kbd>Alt</kbd> key. You will notice that the character skates across the screen. This is no good we need to slow the player speed down for when this animation is triggered.
 
 https://user-images.githubusercontent.com/5504953/133074473-c2f8b743-696b-4d81-9551-912353cac0fe.mp4
 
