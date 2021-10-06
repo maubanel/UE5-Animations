@@ -63,7 +63,7 @@ https://user-images.githubusercontent.com/5504953/134693811-e7d62071-15c4-4623-8
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now I need to cast a second line then be the angle of the slope. This will tell me if I am going up or down the slope as well. I am going to cast a line 10 units ahead based on the direction of their **Velocity**. *Add* a second **Line Trace By Channel** node to the graph beneath the previous one. To the left add a **Get Actor Location** node.
+Now I need to cast a second line then be the angle of the slope. This will tell me if I am going up or down the slope as well. I am going to cast a line 10 units ahead based on the direction of their **Velocity**. *Add* a second **Line Trace By Channel** node to the graph beneath the previous one. To the left add a **Get Actor Location** node. Set **Draw Debug Type** to `For One Frame`.
 
 ![Add second line trace by channel and get actor location nodes](images/SecondLineTraceGetActorLocation.jpg)
 
