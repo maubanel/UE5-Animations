@@ -168,10 +168,11 @@ Set the **Duration** of the **Delay** node to `0.1`. *Pull off* of the **Executi
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-*Run* the game and a double jump animation should now run during the second jump. Press Save All and update Github by committing and pushing all the changes made.
+*Run* the game and a double jump animation should now run during the second jump.Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit</kbd>. Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
 https://user-images.githubusercontent.com/5504953/133079769-07e7d1f1-2ae2-4cb1-bb11-9be5d719a054.mp4
 
+![save, commit and push to github](images/GitHub.png)
 ___
 
 
