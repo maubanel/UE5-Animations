@@ -155,9 +155,9 @@ Make some room to the right of the debug **Print String** nodes and add a **Sequ
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Attach* the execution pin between **Print String** and **Sequence** nodes.
+*Attach* the execution pin between **Print String** and **Sequence** nodes and from the **Branch | False** from the branch node in front of the **Print String**.
 
-![attach execution pins from print string to sequence nodes](images/HighjackExecutionPinToSequence.jpg)
+![attach execution pins from print string to sequence nodes](images/HighjackExecutionPinToSequence.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
