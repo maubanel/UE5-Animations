@@ -106,7 +106,7 @@ We are going to now switch on the integer coming from the **DoN** node. Add a **
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the **Jump** node's secution pin to the **DoN** node.
+*Connect* the **Jump** node's execution pin to the **DoN** node.
 
 ![connet jump to DoN node](images/ConnectJumpToDoNNode.jpg)
 
