@@ -136,7 +136,7 @@ To get the angle we need to results of the two line traces of where they hit on 
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Add* a **Find Look at Rotation** node and break the output pins to their individual outputs.
+*Add* a **Find Look at Rotation** node and break the output pins to their individual outputs by clicking on the pin and select **Split Struct Pin**.
 
 ![find look at rotation node](images/FindLookAtRotation.jpg)
 
