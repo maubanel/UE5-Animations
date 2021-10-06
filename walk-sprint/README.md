@@ -213,6 +213,8 @@ Go back to the **BP_AJ_Character** blueprint and change the **Max Walk Speed** f
 
 https://user-images.githubusercontent.com/5504953/133075486-5b3799cd-2324-4656-b077-6e0856e86575.mp4
 
+![save, commit and push to github](images/GitHub.png)
+
 ___
 
 
