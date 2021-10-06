@@ -144,7 +144,7 @@ To get the angle we need to results of the two line traces of where they hit on 
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the **Location** from the top **Line Trace By Channel** then **Break Hit Results** node to the **Start** pin of the **Find Look at Rotation** node. *Send* the second **Location** pin to the **Target** pin on the **Find Look at Rotation** node. So we are looking from the collision point just beneath us to the one 10 units ahead.
+*Connect* the **Location** the top **Break Hit Results** node to the **Start** pin of the **Find Look at Rotation** node. *Send* the second **Location** pin to the **Target** pin on the **Find Look at Rotation** node. So we are looking from the collision point just beneath us to the one 10 units ahead.
 
 ![connect pins to collide with ground](images/ConnectStartTargetGetAngle.jpg)
 
