@@ -152,7 +152,7 @@ We will add a **FInterp To** node to the **Event Graph**. This will allow us to 
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the ouput of **Get Max Speed** node to the **Current** pin in the **FInterp To** node. *Add* a new **Get New Max Speed** node and *send* the output to the **Target** pin of the **FInterp To** node.
+*Connect* the ouput of **Get Max Speed** node to the **Current** pin in the **FInterp To** node. *Add* a new **Get New Max Speed** node and *send* the output to the **Target** pin of the **FInterp To** node. Set the **Interp Speed** to `2.0`.
 
 ![add get max speed and set to finterp to](images/NewMaxSpeedIUsed.jpg)
 
