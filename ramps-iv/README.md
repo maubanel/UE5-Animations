@@ -208,9 +208,12 @@ Add a **comment** called `Set Run Speed on Slope` for these nodes added.
 
 ##### `Step 25.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
+*Play* the game and you will notice that all three speeds should work and change speeds on slopes. Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit</kbd>. Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
+
 https://user-images.githubusercontent.com/5504953/134772161-9b6fc0fb-33b9-4b18-bf18-9f106c387a86.mp4
 
-*Play* the game and you will notice that all three speeds should work and change speeds on slopes. Press **Save All** and update Github by **committing** and **pushing** all the changes made. That's it for this walk through, you have created a character with animation in Unreal!
+![save, commit and push to github](images/GitHub.png)
+
 
 | `animation.character`\|`THE END`| 
 | :--- |
