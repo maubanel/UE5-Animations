@@ -176,7 +176,7 @@ Set the **Interp Speed** to `2.0` on the **FInterp To** node. *Drag* from the **
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Send the output of the **Set Actor Rotation** execution pin to the input of the first **Branch** node.
+Send the output of the **Set Actor Rotation** execution pin (the last node in the **Event Tick** chain) to the input of the first **Branch** node.
 
 ![sned set actor rotation to branch node](images/FirstBranchExecPin.jpg)
 
