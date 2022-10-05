@@ -4,14 +4,14 @@
 <!-- OVERVIEW -->
 ## Overview
 
-We will be creating character skeletal animations and rigid body animations in UE4. We will be rebuilding and adding to the third perfson template to see all the work it takes to set up a very basic animation for playing.
+We will be creating character skeletal animations and rigid body animations in UE5. We will be rebuilding and adding to the third perfson template to see all the work it takes to set up a very basic animation for playing.
   
 
 * Tested on UE4 5.0.X
 * Required to install: Github, GitHub Desktop, Git, Git LFS, and Unreal Engine
 
 <!-- TOC -->
-## Table of Contents - UE4 Animations
+## Table of Contents - UE5 Animations
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 <kbd></kbd> &nbsp;&nbsp; [Download Character & Animations](character-anim/README.md#user-content-download-character--animations) <br>
 <kbd></kbd> &nbsp;&nbsp; [Fixing Mixamo Models](fixing-model/README.md#user-content-fixing-mixamo-models) <br>
