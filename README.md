@@ -1,4 +1,4 @@
-# UE4 Animations
+# UE5 Animations
 
 
 <!-- OVERVIEW -->
@@ -7,7 +7,7 @@
 We will be creating character skeletal animations and rigid body animations in UE4. We will be rebuilding and adding to the third perfson template to see all the work it takes to set up a very basic animation for playing.
   
 
-* Tested on UE4 4.26
+* Tested on UE4 5.0.X
 * Required to install: Github, GitHub Desktop, Git, Git LFS, and Unreal Engine
 
 <!-- TOC -->
