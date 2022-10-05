@@ -35,7 +35,9 @@ ___
 
 ![](../images/line1.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Download Character / Animations">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Download Character / Animations"> -->
+![next up next tile](images/banner.png)
+
 
 ![](../images/line1.png)
 
