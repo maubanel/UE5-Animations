@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Setting Up
 
 <sub>[home](../README.md#user-content-ue4-animations) • [next](../character-anim/README.md#user-content-download-character--animations)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets get set up with the sample project provided and get it ready to start importing animations ASAP.
 
@@ -22,7 +22,7 @@ Make sure you have a GitHub account and that you are logged into it. Click on th
 
 ![accept github classroom invite](images/GithubClassroomInvite.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 Navigate to the directory where you installed it. You will have a **Source Files** folder with all the files you need. There is a hidden .git folder that contains the database for all your files. There is a **LICENSE** file that declares the copyright and licensing terms. You can look at this if you like. The **README.md** file has temporary text that you need to keep updated. You also have a **.gitignore** file that keeps binaries and files that are not required out of the git repository. You should fill it in with relevant content as you progress through this walk through. You will only see the .git folder if you have hidden folders turned on.
@@ -33,11 +33,11 @@ Navigate to the directory where you installed it. You will have a **Source Files
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Download Character / Animations">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
 | [home](../README.md#user-content-ue4-animations) | [next](../character-anim/README.md#user-content-download-character--animations)|
 |---|---|

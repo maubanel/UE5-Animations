@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Jumping Animation II
 
 <sub>[previous](../jumping/README.md#user-content-jumping-animation) • [home](../README.md#user-content-ue4-animations) • [next](../walk-sprint/README.md#user-content-slow-walk--sprint)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Continue implementing jump animation...
 
@@ -19,7 +19,7 @@ Make some room on the left hand side of the comment. Right click and add a Event
 
 ![add event tick](images/AddEventTick.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Make some room on the left hand side of the comment. Right click and add a Event
 
 ![connect tick to branch node](images/ConnectTickToBranchPins.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Now your graph should look like the below image.
 
 ![confirm nodes](images/FinishedIsJumpingOff.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Now your graph should look like the below image.
 
 ![cast pawn owner to aj_character](images/CastToCharacterBP.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ![ad get isjumping node](images/GetIsJumpingAJCharacter.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ We need a variable in the animation blueprint to run our transitions with. Add a
 
 ![add new boolean bPressedJump](images/AddPressedJump.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ We need a variable in the animation blueprint to run our transitions with. Add a
 
 ![connect pins](images/SetIsJumpingNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ To keep things need add a **Sequence** node between the **Is Valid** node and th
 
 ![add sequence node connet pins](images/AddSequenceNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Go back to the **Anim Graph | Core Locomotion** section of the animatin blueprin
 
 ![go to idlewalkrun to jump transition in core locomotion](images/TransitionWalkToJump.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
@@ -91,7 +91,7 @@ Add a **Get bPressedJump** node and *connect* the pin to the **Result | Can Ente
 
 ![add a bPressedJump node and connect it to can enter transition](images/PressedJumpToResult.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +99,7 @@ Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jump*
 
 ![open jump state](images/DoubleClickJump.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -108,7 +108,7 @@ Drag and drop the **Jump_Start** animation to the graph. *Connect* the animation
 
 ![add jump_start animation to jump state](images/HookUpJumpStartAnim.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -116,7 +116,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ![go idelwalkrun to falling transition](images/WalkToFallTransition.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -124,7 +124,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -132,7 +132,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ![add boolean AND node](images/BooleanAnd.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -140,7 +140,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ![connect pressed jump to NOT Boolean to AND to Result](images/ConnectOuputOfAndToResult.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -148,7 +148,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ![enter the jump to falling transition](images/DoubleClickJumpFallingTransition.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -156,7 +156,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ![add a Time Remaining (ratio) node](images/TimeRemainingJumpToFall.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -164,7 +164,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ![add a float <= with bottom value set to .5](images/LessThanPointSevenFive2.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
@@ -172,7 +172,7 @@ Press *play* and run around and fall off edge and jump. Make sure both transitio
 
 https://user-images.githubusercontent.com/5504953/133070942-118cb874-f74f-48c3-8a71-a2a381dc69c0.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -180,7 +180,7 @@ Go to the **BP_AJ_Character** blueprint and *select* the **Mesh** component. I a
 
 ![adjust y location of ajcharacter bp](images/MovingCharacterFurtherBack.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -188,7 +188,7 @@ I then go to the **Capsule** component and increase the **Capsule Radius**. For 
 
 ![increase radius of capsule to 60](images/CapsuleRadiusGreater.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -203,11 +203,12 @@ https://user-images.githubusercontent.com/5504953/135758442-fcf8a098-5c4b-4bf4-8
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Slow Walk & Sprint">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Slow Walk & Sprint"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
 | [previous](../jumping/README.md#user-content-jumping-animation)| [home](../README.md#user-content-ue4-animations) | [next](../walk-sprint/README.md#user-content-slow-walk--sprint)|
 |---|---|---|

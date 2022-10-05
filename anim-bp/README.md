@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Our First Animation Blueprint
 
 <sub>[previous](../animation-blend/README.md#user-content-animation-blend-space) • [home](../README.md#user-content-ue4-animations) • [next](../second-idle/README.md#user-content-time-out-for-second-idle)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 There is a special kind of blueprint used as a state machine for animations. It is an animation blueprint. Lets create one for our character.
 
@@ -19,7 +19,7 @@ We are now going to start to set up a state machine for our character. Go to the
 
 ![add animation blueprint to aj folder](images/AddNewAnimationBlueprint.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ We are now going to start to set up a state machine for our character. Go to the
 
 ![select animinstance ](images/AnimInstanceSkeleton.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Name it `AJ_AnimBlueprint`.
 
 ![namne file AJ_AnimBlueprint](images/CallItAJAnimBP.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Open the animation blueprint and go to the **AnimGraph** tab. If it is not there
 
 ![open animgraph](images/GoToAnimGraphTabAnimBP.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Open the animation blueprint and go to the **AnimGraph** tab. If it is not there
 
 ![add state machine node](images/RightClickAddNewStateMachine.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
@@ -62,7 +62,7 @@ Name this node `Basic Locomotion`.
 
 ![name node basic locomotion](images/NameStateMachineBasicLocomotion.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -70,7 +70,7 @@ Name this node `Basic Locomotion`.
 
 ![connect pin from basic locomotion to final animatoin pose](images/ConnectGoToGraphForLoco.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -78,7 +78,7 @@ This gets us to the entrance of the Basic Locomotion animation tree. It has an *
 
 ![entry node](images/EntranceToBasicLocomotion.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -86,7 +86,7 @@ This gets us to the entrance of the Basic Locomotion animation tree. It has an *
 
 ![add state](images/AddStateToTree.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
@@ -94,7 +94,7 @@ This gets us to the entrance of the Basic Locomotion animation tree. It has an *
 
 ![name state IdleWalkRun and attach to Entry state](images/NameIdleWalkRunDC.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -102,7 +102,7 @@ Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_
 
 ![drag blend space to graph](images/DragBlendSpaceToGraph.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -111,7 +111,7 @@ Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_
 
 ![connect blendspace to state machine](images/ConnectAnimPins.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -119,7 +119,7 @@ Now this blend space requires an input float to represent the speed of the playe
 
 ![promote none to variable](images/PromoteToVariableSpeed.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -127,7 +127,7 @@ Name this variable `Speed` and set **Private** to `true`. *Press* the <kbd>Compi
 
 ![name variable speed and make private](images/VariableSpeedPrivate.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -135,7 +135,7 @@ We need to get access to the **Speed** of the player. We do this in the **Event 
 
 ![add try get pawn owner and check if valid](images/PawnOwnerValid.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -143,7 +143,7 @@ We need to get access to the **Speed** of the player. We do this in the **Event 
 
 ![add get velocity node](images/GetVelocityFromPawn.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -151,7 +151,7 @@ Now a **Velocity** (or any vector for that matter) has a *direction* and a *magn
 
 ![get velocity magnitude](images/GetVelocityMagnitude.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -160,7 +160,7 @@ Now a **Velocity** (or any vector for that matter) has a *direction* and a *magn
 
 ![add set speed variable](images/DragAndDropSetSpeed.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -168,7 +168,7 @@ Connect the execution pins between the three nodes and *press* the <kbd>Compile<
 
 ![connect execution pins and compile](images/ConnectExecPinsCompile.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
@@ -176,7 +176,7 @@ Add a comment called `Get Speed From Player` to these nodes:
 
 ![add code comment](images/AddCommentSpeedNodes.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -184,7 +184,7 @@ Now we need to assign this animation blueprint to our skeletal mesh. *Open* the 
 
 ![add anim blueprint to player blueprint](images/SelectAnimBPOnCharacterMesh.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -192,7 +192,7 @@ We want the player to face the direction we are moving in as opposed to always l
 
 ![set Use Controller Rotation Yaw to false](images/NoControllerYaw.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -201,7 +201,7 @@ Now *select* the **Spring Arm** component and in **Camera Settings** *set* **Use
 
 ![set use pawn control rotation to true](images/SpringArmRotationTrue.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 24.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -209,7 +209,7 @@ Now press the <kbd>Compile</kbd> button and go into the game and press *play*. Y
 
 https://user-images.githubusercontent.com/5504953/132985178-71262496-6c39-4202-a0d0-55974a03eb39.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 25.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
@@ -217,7 +217,7 @@ Now go back to the **BP_AJ_Character** blueprint and *select* the **CharacterMov
 
 ![set orient rotation to movement to true](images/OrientRotationToMovement.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 26.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
@@ -229,11 +229,12 @@ https://user-images.githubusercontent.com/5504953/132985183-13aeb172-0a84-40e7-8
 
 ___
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Time Out for Second Idle">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Time Out for Second Idle"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
 | [previous](../animation-blend/README.md#user-content-animation-blend-space)| [home](../README.md#user-content-ue4-animations) | [next](../second-idle/README.md#user-content-time-out-for-second-idle)|
 |---|---|---|

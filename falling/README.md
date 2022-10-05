@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Falling Animation
 
 <sub>[previous](../second-idle-ii/README.md#user-content-time-out-for-second-idle-ii) • [home](../README.md#user-content-ue4-animations) • [next](../falling-ii/README.md#user-content-falling-animation-ii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets add an animation for when the player is falling to our movement state machine for when the player falls off the edge of a surface.
 
@@ -19,7 +19,7 @@ Lets go back to [Mixamo](https://www.mixamo.com/#/) and look for some more anima
 
 ![go to mixamo and download loop falling animation](images/LoopingFalling.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Lets go back to [Mixamo](https://www.mixamo.com/#/) and look for some more anima
 
 ![download falling animation without skin](images/DownloadJustAnimationFall.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ I also found an animation from falling to hitting the ground. I sped up the anim
 
 ![download falling hitting ground anim](images/FallingToLanding.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Go back to the game and go to the **AJ | Animations** folder and *press* the <kb
 
 ![import animations into unreal](images/ImportFallingAnimation.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ In the **FBX Import Options** overlay, make sure you select the skeleton you hav
 
 ![select skeleton then import all](images/SelectSkeletonFallingAnims.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ In the **FBX Import Options** overlay, make sure you select the skeleton you hav
 
 ![rename animations](images/RenameAndPreviewAnims.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ Open the **aj_AnimBlueprint** animation blueprint and go to the **Anim Graph | C
 
 ![press add state button in ainmation blueprint](images/AddFallingState.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ Call this new state `Falling`. *Right click* again and select another **Add Stat
 
 ![call state falling and add new state](images/CallItFallingAddAnotherState.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Call this new state `Falling`. *Right click* again and select another **Add Stat
 
 ![call new state FallingEnd](images/FallingEnd.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
@@ -91,7 +91,7 @@ Now we need a boolean to track when we are on the ground or in the air. Add a ne
 
 ![add are we in air boolean variable](images/AreWeInAirBooleanDef.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +99,7 @@ Go to the **Event Graph** tab and make some space between the **Is Valid** node 
 
 ![add space to nodes](images/MakeSpaceEventGraphAnimBP.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -108,7 +108,7 @@ Go to the **Event Graph** tab and make some space between the **Is Valid** node 
 
 ![add get mvoement component node](images/GetMovementComponentAnimBP.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -116,7 +116,7 @@ Go to the **Event Graph** tab and make some space between the **Is Valid** node 
 
 ![add isfalling node](images/IsFallingVariableGet.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -124,7 +124,7 @@ Go to the **Event Graph** tab and make some space between the **Is Valid** node 
 
 ![add set are we in air node](images/SetAreWeInAir.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -132,7 +132,7 @@ Connect the **Return Value** pin from the **Is Falling** node to the **Set Are W
 
 ![connect is falling to are we in air nodes](images/ConnectAreWeInAirPins.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -140,7 +140,7 @@ Connect the **Return Value** pin from the **Is Falling** node to the **Set Are W
 
 ![move execution from is valid to are we in air node](images/IsValidExecutionPin.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -148,7 +148,7 @@ Take the output execution pin from **Set Are We in Air?** node to the **Set Spee
 
 ![connect are we in air to set speed](images/ReconnectSetSpeedPin.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -156,7 +156,7 @@ Select the new nodes and make a **comment** `Sets Whether Player Is In Air`.
 
 ![add code comments](images/AddCommnentIsPlayerInAir.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -164,7 +164,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Connect* the **IdleWalk
 
 ![connect idlewalkrun to falling to falling end back to idlewalkrun in core locomotion in anim graph](images/ConnectFallingStates.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
@@ -172,7 +172,7 @@ Double click the transition from **IdleWalkRun** to **Falling**.
 
 ![go to idlewalkrun to falling transition](images/ConditionToFalling.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -183,11 +183,12 @@ Double click the transition from **IdleWalkRun** to **Falling**.
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Falling Animation II">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Falling Animation II"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
 | [previous](../second-idle-ii/README.md#user-content-time-out-for-second-idle-ii)| [home](../README.md#user-content-ue4-animations) | [next](../falling-ii/README.md#user-content-falling-animation-ii)|
 |---|---|---|

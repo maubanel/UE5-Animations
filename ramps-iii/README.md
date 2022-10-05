@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Speed Up & Down Ramps III
 
 <sub>[previous](../ramps-ii/README.md#user-content-speed-up--down-ramps-ii) • [home](../README.md#user-content-ue4-animations) • [next](../ramps-iv/README.md#user-content-speed-up--down-ramps-iv)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Running up & down ramps continued...
 
@@ -19,7 +19,7 @@ https://user-images.githubusercontent.com/5504953/134770628-4ea7e0c3-baf2-41a9-8
 
 Play the game and run around and up and down the ramp. It should be 0 degrees on flat land, a positive number when going up hill and a negative number in degrees when going downhill.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Now we want the player's pitch to rotate to match the slope of the round. The pl
 
 ![new player pitch variable](images/NewPlayerPitchVariableDefinition.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Lets get a reference to the **Capsule Component** and *pull off* its pin and get
 
 ![add get world rotation node from the capsule component](images/GetWorldRotationCapsule.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ We don't want the player to just jump immediately to the new angle, we want them
 
 ![add RinterpTo node](images/RInterpetToNodes.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Our starting point in our current angle and our destination point is the angle w
 
 ![add second get world rotation node](images/SecondGetWorldRotation.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ Split the pins on this new node by *right clicking* on the **Return Value** pin 
 
 ![split return value on rotation node](images/SplitPinsOnNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ Split the pins on this new node by *right clicking* on the **Return Value** pin 
 
 ![connect roll and yaw pins](images/ConnectRollAndYaw.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ Now we will take the angle of the ground plane and add this to our pitch target 
 
 ![add get new player pitch node](images/NewPlayerPitchToY.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Now we will take the angle of the ground plane and add this to our pitch target 
 
 ![add set actor rotation node](images/AddSetActorRotationNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
@@ -91,7 +91,7 @@ Now we will take the angle of the ground plane and add this to our pitch target 
 
 ![connect return value to rinterpert to node](images/ConnectToNewRotation.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +99,7 @@ The **RInterp To** node needs the delta time since last frame. *Right click* and
 
 ![add world delta seconds and send to delta time with a interp speed of 5.0](images/GetWorldDeltaSeconds.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -108,7 +108,7 @@ The **RInterp To** node needs the delta time since last frame. *Right click* and
 
 https://user-images.githubusercontent.com/5504953/134771021-86032461-37c0-4797-aad6-c6f79c78f777.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -116,7 +116,7 @@ This will make us rethink the movement logic for the player. They will be dynami
 
 ![delete all sprinting and walking logic](images/DeleteMovementForSprintAndWalk.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -124,7 +124,7 @@ We are going to *add* another **Variable**. Call it `bIsWalking` and make it **T
 
 ![add bIsWalking boolean](images/IsWalkingBoolean.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -132,7 +132,7 @@ We are going to *add* another **Variable**. Call it `bIsWalking` and make it **T
 
 ![dupe bIsWalkinga nd call it bIsSprinting](images/DupeIsWaklingForSpriting.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -140,7 +140,7 @@ In the Sprint section *add two* **Set bIsSprinting** nodes. *Connect* the **Pres
 
 ![add two Set IsSprinting nodes and connect to the Pressed and Released pins](images/SprintSection.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -148,7 +148,7 @@ Now we don't want sprinting and walking at the same time so add a **Set bIsWalki
 
 ![add set bIsWalking node](images/CancelWalkAfterSprint.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -156,7 +156,7 @@ Repeat this procedure with the **Event Slow Walk**. *Add* two **bIsWalking** nod
 
 ![repeat for slow walk](images/RepeatWithSlowWalk.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -164,7 +164,7 @@ Then add after you set **bIsWalking** to `true` another **Set bIsSprinting** nod
 
 ![set sprinting to false when walking](images/SetSprintingToFalse.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
@@ -172,7 +172,7 @@ We will calculate the spriting and walking as an offset of our master speed. Cre
 
 ![crease sprint multiplier float variable](images/SprintMultiplierVariableDefinition.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -183,11 +183,12 @@ Create another variable called `Walking Multiplier` and set it to **Type** `Floa
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Speed Up / Down Ramps IV">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Speed Up / Down Ramps IV"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line1.png)
 
 | [previous](../ramps-ii/README.md#user-content-speed-up--down-ramps-ii)| [home](../README.md#user-content-ue4-animations) | [next](../ramps-iv/README.md#user-content-speed-up--down-ramps-iv)|
 |---|---|---|
