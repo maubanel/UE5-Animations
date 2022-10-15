@@ -88,7 +88,7 @@ Download a normal speed walk.
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Pick two idle animations. One that is just breathing and another one that we can cut to after a timer to give the animation some personality. My second animation is **s**.
+Pick two idle animations. One that is just breathing and another one that we can cut to after a timer to give the animation some personality. My second animation is **Happy Idle**.
 
 ![select two idle animations](images/TwoIdlesDownload.png)
 
@@ -96,7 +96,7 @@ Pick two idle animations. One that is just breathing and another one that we can
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Double click the **UE4** Project **IntroToAnimation.uproject** to open the **UE4** editor. Create two new folders called `Characters | AJ`. You can call the name of the second folder by the character you picked for the game (I picked AJ).
+Double click the **UE4** Project **IntroToAnimation.uproject** to open the **UE4** editor. Create two new folders called `Characters | AJ`. You can call the name of the second folder by the character you picked for the game (I picked AJ). Make sure you pick an idle that starts and stops in the same position and doesn't move around too much (so they don't collide with objects accidentally when they are triggered).
 
 ![add Characters/AJ folder to game](images/CreateCharacterPlayerNameFolder.jpg)
 
