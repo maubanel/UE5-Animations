@@ -123,7 +123,7 @@ Now in a production game we want to share the same base skeleton where we can. T
 
 Now this imports a lot of files into the project. You should see a **Skeletal Mesh**, a **Physics Asset**, a **Skeleton**, a group of **Materials** and finally a group of **Textures**. If you picked a different character then your folder will have different files.
 
-![folder full of skeletal mesh assets](images/LargeGroupOfFiles.jpg)
+![folder full of skeletal mesh assets](images/LargeGroupOfFiles.png)
 
 ![](../images/line2.png)
 
