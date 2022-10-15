@@ -105,13 +105,21 @@ Double click the **IntroToAnimation.uproject** from **P4V** to open up the game 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go to your **Downloads** folder and drag the file that has the characters name on it into the **AJ** character folder. As a hint, it will be the largest file (model is bigger than the animations, but they are all .fbx format).
+First thing to do in game is to make sure we are connected to source control.  Make sure you are conneted to **Perforce**.
 
-![import aj model](images/ImportAJFbx.png)
+![connect to Perforce](images/loggedIntoP4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Go to your **Downloads** folder and drag the file that has the characters name on it into the **AJ** character folder. As a hint, it will be the largest file (model is bigger than the animations, but they are all .fbx format).
+
+![import aj model](images/ImportAJFbx.png
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now in a production game we want to share the same base skeleton where we can. To learn more about this go to this [Skeletal Assets Unreal Training Video](https://www.youtube.com/watch?v=JkcJ5bjGPsg) to find out more. For us we will use the skeleton that is provided with this geometry. So make sure you leave **Skeleton** blank and you can leave all the other settings as default. It should set **Skeletal Mesh** and **Import Mesh** to `true` as it should detect the skeleton automatically.  If it doesn't set these to `true`.
 
@@ -119,7 +127,7 @@ Now in a production game we want to share the same base skeleton where we can. T
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
 Now this imports a lot of files into the project. You should see a **Skeletal Mesh**, a **Physics Asset**, a **Skeleton**, a group of **Materials** and finally a group of **Textures**. If you picked a different character then your folder will have different files.
 
@@ -127,7 +135,7 @@ Now this imports a lot of files into the project. You should see a **Skeletal Me
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* the materials into this folder. The materials have the green line in their icon.
 
@@ -135,7 +143,7 @@ Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* t
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 In importing the mesh an error popped up telling me it had to duplicate textures.  It created three copies of `Boy01_FacialAnimMap`.  Right click and select the <kbd>Delete</kbd> button and then select the original file press the <kbd>Replace References</kbd> button to replace the refences with the one original file.  In my case this got rid of the duplicate textures.
 
@@ -143,16 +151,17 @@ In importing the mesh an error popped up telling me it had to duplicate textures
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the textures into this folder.
 
 ![move textures to AJ | Textures folder](images/MoveAJTexturesToFolder.jpg)
 
+
+
 ![](../images/line2.png)
 
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
+##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine.
 
@@ -160,7 +169,7 @@ Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the 
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
 Open the **skeletal mesh**. Look at the left-hand side and you will see a list of bones that are on the skeleton.
 
@@ -168,24 +177,20 @@ Open the **skeletal mesh**. Look at the left-hand side and you will see a list o
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Double click the **Skeletal Mesh** and lets look at the model. Now when going from Mixamo to UE4 there are some errors in how the Materials are put together. In some cases it is quite prominent. With **AJ**, something is wrong with the face. We will fix this on the next page.
 
 ![look at skeletal mesh to see if materials are correct](images/SkeletalMesh.jpg)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Press the <kbd>File | Save All</kbd> button and then select the <kbd>Source Control</kbd> button.  Select `Git(Beta)` as the version control then press the <kbd>Accept Settings</kbd> button.
-
-![save and connect UE4 project to github](images/ConnectToSourceControl.png)
 ___
 
 ![](../images/line2.png)
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Press the <kbd>File | Save All</kbd> button and then select the <kbd>Source Control</kbd> button.  Select `Git(Beta)` as the version control then press the <kbd>Accept Settings</kbd> button.
+
+![save and connect UE4 project to github](images/ConnectToSourceControl.png)
 
 Press the <kbd>Source Control</kbd> button and then select the **Submit to Source Control...** selection.  Tupe in a commit message then press the <kbd>Submit</kbd> button.  Open up **GitHub Desktop** and press **Push**.
 
