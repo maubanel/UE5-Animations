@@ -173,7 +173,7 @@ Right click on the **Content** folder and select **Fix Up Redirectors in Folder*
 
 Open the **skeletal mesh**. Look at the left-hand side and you will see a list of bones that are on the skeleton.
 
-![bones of skeletal mesh](images/PlayerBones.jpg)
+![bones of skeletal mesh](images/PlayerBones.png)
 
 ![](../images/line2.png)
 
