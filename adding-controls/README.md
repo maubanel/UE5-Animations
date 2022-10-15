@@ -98,6 +98,7 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
 
+https://user-images.githubusercontent.com/5504953/195997035-c84060cd-fd76-42c9-b672-fa3dca5c0e11.mp4
 
 ![](../images/line2.png)
 
