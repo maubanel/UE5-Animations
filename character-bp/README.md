@@ -97,9 +97,14 @@ Now lets test our work.  Go back to the editor and drag **BP_AJ** to the level. 
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Press the <kbd>Add/Import</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
+Add a new folder called `Blueprints`. Press the <kbd>+ Add</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
 
 ![game mode base blueprint](images/AddNewGameModeBase.jpg)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now lets add a new gamemode blueprint to select this character when the level starts. Go to the Content Browser and add a new folder called `Blueprints`.
 
@@ -108,11 +113,6 @@ Now lets add a new gamemode blueprint to select this character when the level st
 Call it `BP_AnimGamemode`.
 
 ![call blueprint BP_AnimGamemode](images/BPAnimGameMode.jpg)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Double click the blueprint and set the **Default Pawn** Class to the newly created `BP_AJCharacter`.
 
