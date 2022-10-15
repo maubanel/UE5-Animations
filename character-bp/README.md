@@ -106,21 +106,17 @@ Add a new folder called `Blueprints`. Press the <kbd>+ Add</kbd> button and *sel
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now lets add a new gamemode blueprint to select this character when the level starts. Go to the Content Browser and add a new folder called `Blueprints`.
-
-![add Blueprints folder](images/AddBlueprintsFolder.jpg)
-
 Call it `BP_AnimGamemode`.
 
-![call blueprint BP_AnimGamemode](images/BPAnimGameMode.jpg)
-
-Double click the blueprint and set the **Default Pawn** Class to the newly created `BP_AJCharacter`.
-
-![add BP_AJCharacter to default pawn in game mode](images/DefaultPawnClassAJChar.jpg)
+![call blueprint BP_AnimGamemode](images/BPAnimGameMode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Double click the blueprint and set the **Default Pawn** Class to the newly created `BP_AJCharacter`.
+
+![add BP_AJCharacter to default pawn in game mode](images/DefaultPawnClassAJChar.jpg)
 
 We can assign the gamemode to the entire game or just the single level.  We do it for the entire game in the **Project Settings | Maps & Modes**.  You set it for a single level in the **World Settings**. 
 
