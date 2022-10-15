@@ -134,7 +134,13 @@ Go to **Game Mode** in the **World Settings** and then *select* the newly create
 
 ![select game mode](images/selectGM.png)
 
+![](../images/line2.png)
+
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
+
+Drag a **Add Content | Basic | Player Start** actor into the level and rotate it to face the ramp.
+
+![drag a player start in level](images/dragPSinLevel.png)
 
 *Press* **Play** and we should have a character being rendered with no physics. Make any adjustments to the spring arm and camera angle to properly from the character. If you have no character on screen make sure your spring arm and camera are correctly adjusted.
 
