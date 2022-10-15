@@ -64,7 +64,7 @@ Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Target Offset | Z** to `260.0` and make the **Target Arm Length** a bit longer to `400.0` units.
+Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Socket Offset | Z** to `218.0` and make the **Target Arm Length** a bit longer to `750.0` units.
 
 ![adjust rotation and target](images/SpringArm90Deg.png)
 
@@ -72,13 +72,18 @@ Select the **Spring Arm** component. Notice that it is to the left of the player
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the camera should be *rotated* to be angled correctly by altering the **Camera** component in **Rotation | Y** by about `334.0`.
+Now notice that the static meshes forward vector (red) is not matching the arrow. Select the static mesh and adjust the **Rotation | Z** to `-90`.  Now the player should be facing the forward arrow.
 
-![rotate camera on Y axis](images/MoveCamUpAndPointDown.jpg)
+![rotate player -90 degrees](images/rotationZ90.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now the camera should be *rotated* to be angled correctly by altering the **Camera** component in **Rotation | Y** by about `334.0`.
+
+![rotate camera on Y axis](images/MoveCamUpAndPointDown.jpg)
 
 Now lets add a new gamemode blueprint to select this character when the level starts. Go to the Content Browser and add a new folder called `Blueprints`.
 
