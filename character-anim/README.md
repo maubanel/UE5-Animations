@@ -181,20 +181,17 @@ Open the **skeletal mesh**. Look at the left-hand side and you will see a list o
 
 Double click the **Skeletal Mesh** and lets look at the model. Now when going from Mixamo to UE4 there are some errors in how the Materials are put together. In some cases it is quite prominent. With **AJ**, something is wrong with the face. We will fix this on the next page.
 
-![look at skeletal mesh to see if materials are correct](images/SkeletalMesh.jpg)
+![look at skeletal mesh to see if materials are correct](images/SkeletalMesh.png)
 ___
 
 ![](../images/line2.png)
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the <kbd>File | Save All</kbd> button and then select the <kbd>Source Control</kbd> button.  Select `Git(Beta)` as the version control then press the <kbd>Accept Settings</kbd> button.
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![save and connect UE4 project to github](images/ConnectToSourceControl.png)
+![save all and submit to perforce in P4V](images/submitP4.png)
 
-Press the <kbd>Source Control</kbd> button and then select the **Submit to Source Control...** selection.  Tupe in a commit message then press the <kbd>Submit</kbd> button.  Open up **GitHub Desktop** and press **Push**.
-
-![commit and push to github](images/Github.png)
 ___
 
 
