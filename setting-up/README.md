@@ -25,7 +25,7 @@ Got to [Github Animation Starter](https://github.com/maubanel/GMS2-Animation-Sta
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
-Right click on 
+Right click on the downloaded file and select **Extract Here**.  This decompresses the `.zip` file so you can use it.  Rename the new unzipped folder to `UE5-Animations`.
 
 ![folder with ue4 project](images/extractDelete.png)
 
