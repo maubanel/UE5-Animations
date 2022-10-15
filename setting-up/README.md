@@ -36,6 +36,15 @@ Right click on the downloaded file and select **Extract Here**.  This decompress
 Delte `.gitattributes`, `.gitignore` and `README.md`. We do not need these. There is a **LICENSE** file that declares the copyright and licensing terms. You can look at this if you like and make any changes to your liking. The **README.txt** file has temporary text that you need to keep updated. You also have a **.p4ignore** file that keeps binaries and files that are not required out of the Perforce repository. 
 
 ![delete git files](images/deleteGitFiles.png)
+
+![](../images/line2.png)
+
+##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Move the **UE5-Animation** folder to the root of your **Perforce** directory (should be the name of your **Workspace**).
+
+![move project to P4 Workspace](images/moveFolder.png)
+
 ___
 
 ![](../images/line1.png)
