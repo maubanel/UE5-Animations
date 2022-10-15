@@ -42,41 +42,30 @@ Once you select the skeleton press the <kbd>Import All</kbd> button leaving all 
 
 Now this will take a while as it is solving the animation to this skeleton.
 
-![UE4 progress bar importing animations](images/ImportingAnimationsTakeTime.jpg)
+![UE4 progress bar importing animations](images/ImportingAnimationsTakeTime.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
-Double click each animation then watch them. Rename the animation appropriately.
+Double click each animation then watch them. Rename the animation appropriately. I renamed the animations I selected to `CreepWalk`, `Idle`, `Run`, `SpecialIdle`, `Sprint` and `Walk`.
 
-![slow walk animation frame](images/PlayAnim.jpg)
-
-
+![slow walk animation frame](images/PlayAnim.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-I have named mine `Creep_Walk`, `Fast_Run`, `Idle`, `Idle_Fidget` and `Run and Walk`. This gives me two run cycles, an idle and walk animations to use in our animation graph.
+Now the animation viewer has the new names that match the animation we are playing!
 
-![animation name](images/NameEachAnim.jpg)
+![animation name](images/NameEachAnim.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-
-![check model for errors](images/GitHub.png)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-___
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 ![](../images/line1.png)
 
