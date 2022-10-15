@@ -25,7 +25,7 @@ Add to the Content Browser's Character | AJ folder, a new sub-folder called `Ani
 
 Now the **FBX Import Options** appear. *Select* the **Skeleton** tab and select the skeleton asset we just downloaded. There should only be one option.
 
-![select skeleton from player dowloaded](images/ImportSkeleton.jpg)
+![select skeleton from player dowloaded](images/ImportSkeleton.png)
 
 ![](../images/line2.png)
 
