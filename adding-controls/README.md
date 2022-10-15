@@ -57,7 +57,7 @@ Call it `MoveForward` and press the **+** button next to it four times. Assign t
 
 Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the existing nodes. Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
 
-![Add Move Forward node](images/InputAxisMoveForwardNode.jpg)
+![Add Move Forward node](images/InputAxisMoveForwardNode.png)
 
 ![](../images/line2.png)
 
