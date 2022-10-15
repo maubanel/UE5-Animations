@@ -31,9 +31,9 @@ Now the **FBX Import Options** appear. *Select* the **Skeleton** tab and select 
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Once you select the skeleton press the <kbd>Import All</kbd> button.
+Once you select the skeleton press the <kbd>Import All</kbd> button leaving all the other options at their default setting.
 
-![import all button](images/ImportAllMotionAnimation.jpg)
+![import all button](images/ImportAllMotionAnimation.png)
 
 
 ![](../images/line2.png)
