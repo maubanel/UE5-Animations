@@ -97,61 +97,47 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Now go into the game and press the up and down or W and S key. We should be moving forward and backwards!
 
 
 ![](../images/line2.png)
 
-
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
-
-![connect pins of **InputAxis Movement Forward | ](images/AxisToScaleValuePins.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now lets add the movement for going left and right in the game. Go back to the **BP_AJ_Character** blueprint and go to the **Event Graph**. *Pull off* the **Make Rotator | Return Value** pin and now *select* **Get Right Vector** node. We will use this vector to turn left and right.
 
+![add get right vector node](images/GetRightVectorNode.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Return to **BP_AJ** and *add* a **Axis Events | MoveRight** node.
 
+![add moveright node](images/InputAxisMoveRight.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-The blue arrow indicates what the game *knows* as the forward direction of the player.  Notice is off by ninety degrees? *Click* on the **Mesh** component and change the **Rotation** on **Z** to `-90.0`:
-
-![rotate mesh -90 degrees](images/RotateAJMeshNeg90-1.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-Now the camera is in the wrong position. Go to the **Spring Arm** *component* and *change* the **Rotation** on the **Z** axis back to `0.0`.
-
-![change spring arm to 0](images/PutSpringArmBackToZero.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now play the game and the player should move backwards and forwards. Lets add left and right turning motion on the next page.
-
-https://user-images.githubusercontent.com/5504953/132962900-942c62d5-63a4-483f-bca5-71c72d52b103.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets add the movement for going left and right in the game. Go back to the **BP_AJ_Character** blueprint and go to the **Event Graph**. *Pull off* the **Make Rotator | Return Value** pin and now *select* **Get Right Vector** node. We will use this vector to turn left and right.
 
-![add get right vector node](images/GetRightVectorNode.jpg)
 
 ![](../images/line2.png)
 
@@ -165,9 +151,7 @@ Now lets add the movement for going left and right in the game. Go back to the *
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Add a **Axis Events | MoveRight** node.
 
-![add moveright node](images/InputAxisMoveRight.jpg)
 
 ![](../images/line2.png)
 
