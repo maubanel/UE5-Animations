@@ -122,9 +122,15 @@ Double click the blueprint and set the **Default Pawn** Class to the newly creat
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-We can assign the gamemode to the entire game or just the single level.  We do it for the entire game in the **Project Settings | Maps & Modes**.  You set it for a single level in the **World Settings**. 
+We can assign the gamemode to the entire game or just the single level.  We do it for the entire game in the **Project Settings | Maps & Modes**.  You set it for a single level in the **World Settings**. This bring up the **World Settings** tab on the bottom right by default.. 
 
-Go back to the game window. Now select the **Settings | World Settings** to bring up the **World Settings** tab. Go to **Game Mode** in the **World Settings** and then *select* the newly created `BP_AnimGamemode`. Make sure that the correct pawn is selected underneath.
+![open world settings](images/worldSettingsTab.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:
+
+Go to **Game Mode** in the **World Settings** and then *select* the newly created `BP_AnimGamemode`. Make sure that the correct pawn is selected underneath.
 
 https://user-images.githubusercontent.com/5504953/132420802-8782387f-1b4e-432c-a2f8-5a79d10758fb.mp4
 
@@ -132,9 +138,6 @@ https://user-images.githubusercontent.com/5504953/132420802-8782387f-1b4e-432c-a
 
 ![play and test character in game](images/image_01.jpg)
 
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:
 
 Now since we have made a change to an unsaved level we need to save the **World Settings** by saving the level.  Create a new root folder called `Levels`.  Select **File | Save Current** and call the level `AnimTestLevel` and make sure you save it in the **Levels** folder.  Press the <kbd>Save</kbd> button. 
 
