@@ -24,12 +24,18 @@ Got to [Github Animation Starter](https://github.com/maubanel/GMS2-Animation-Sta
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: 
 Right click on the downloaded file and select **Extract Here**.  This decompresses the `.zip` file so you can use it.  Rename the new unzipped folder to `UE5-Animations`.
 
 ![folder with ue4 project](images/extractDelete.png)
 
-Navigate to the directory where you installed it. You will have a **Source Files** folder with all the files you need. There is a hidden .git folder that contains the database for all your files. There is a **LICENSE** file that declares the copyright and licensing terms. You can look at this if you like. The **README.md** file has temporary text that you need to keep updated. You also have a **.gitignore** file that keeps binaries and files that are not required out of the git repository. You should fill it in with relevant content as you progress through this walk through. You will only see the .git folder if you have hidden folders turned on.
+![](../images/line2.png)
+
+##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Open up the folder. You will have a **Source Files** folder with all the files you need. There is a hidden .git folder that contains the database for all your files. There is a **LICENSE** file that declares the copyright and licensing terms. You can look at this if you like. The **README.md** file has temporary text that you need to keep updated. You also have a **.gitignore** file that keeps binaries and files that are not required out of the git repository. You should fill it in with relevant content as you progress through this walk through. You will only see the .git folder if you have hidden folders turned on.
+
+![alt_text](images/deleteGitFiles.png)
 ___
 
 
