@@ -22,7 +22,7 @@ There are some common issues with the materials. I see problems in the face in m
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Change the channel going to the **Opacity** node instead to **Alpha**. Notice now how the graphics for the eyes, brows and mouth all of a sudden are opaque!
+Change the channel going to the **Opacity** node instead to **Alpha**. Notice now how the graphics for the eyes, brows and mouth all of a sudden are opaque! Press the <kbd>Apply</kbd> button.
 
 ![texture without alpha is streaking](images/alphaPlug.png)
 
@@ -30,9 +30,9 @@ Change the channel going to the **Opacity** node instead to **Alpha**. Notice no
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If we turn the **Alpha** back on then the texture is rendered correctly.
+Repeat this for the mouth and brows materials which have the same problem. Press the <kbd>Apply</kbd> button.
 
-![turn alpha on to get rid of streaking](images/TextWithAlpha.jpg)
+![repeat for mouth and brows.](images/repeatMouthBrows.png)
 
 ![](../images/line2.png)
 
