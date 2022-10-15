@@ -114,19 +114,19 @@ Call it `BP_AnimGamemode`.
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Double click the blueprint and set the **Default Pawn** Class to the newly created `BP_AJCharacter`.
+Double click the blueprint and set the **Default Pawn** Class to the newly created `BP_AJ`. This will launch this blueprint when we start the game if we select the game mode.
 
-![add BP_AJCharacter to default pawn in game mode](images/DefaultPawnClassAJChar.jpg)
+![add BP_AJCharacter to default pawn in game mode](images/DefaultPawnClassAJChar.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 We can assign the gamemode to the entire game or just the single level.  We do it for the entire game in the **Project Settings | Maps & Modes**.  You set it for a single level in the **World Settings**. 
 
 Go back to the game window. Now select the **Settings | World Settings** to bring up the **World Settings** tab. Go to **Game Mode** in the **World Settings** and then *select* the newly created `BP_AnimGamemode`. Make sure that the correct pawn is selected underneath.
 
 https://user-images.githubusercontent.com/5504953/132420802-8782387f-1b4e-432c-a2f8-5a79d10758fb.mp4
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Press* **Play** and we should have a character being rendered with no physics. Make any adjustments to the spring arm and camera angle to properly from the character. If you have no character on screen make sure your spring arm and camera are correctly adjusted.
 
