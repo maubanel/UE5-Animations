@@ -12,12 +12,11 @@ There may or may not be issues with the skeletal meshe's material(s). Look caref
 
 ---
 
-
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
 There are some common issues with the materials. Sometimes the material uses a **Transulucent** instead of an **Opaque Blend Mode**. I see problems in the face in my model. I see 3 materials that control the mouth, brow and eyes. I look at one of the materials and see some streaking in the texture:
 
-![streaks in face material](images/IssueWithAlpha.jpg)
+![streaks in face material](images/IssueWithAlpha.png)
 
 ![](../images/line2.png)
 
