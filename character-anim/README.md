@@ -129,7 +129,7 @@ Now this imports a lot of files into the project. You should see a **Skeletal Me
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* the materials into this folder.
+Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* the materials into this folder. The materials have the green line in their icon.
 
 ![move aj materials to materials folder](images/MoveAJMaterialsToFolder.png)
 
