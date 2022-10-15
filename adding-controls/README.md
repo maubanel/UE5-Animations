@@ -23,9 +23,9 @@ Lets go to the **Edit | Project Settings** to add some controller input into our
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Fill in the appropriate **Descriptio**n information.
+Fill in the appropriate **Description** information. Fill in the copyright information.  I am using [MIT License](https://opensource.org/licenses/MIT) and publishing it as Open Source.
 
-![filled in description fields](images/FillInDescriptionInfo.jpg)
+![filled in description fields](images/FillInDescriptionInfo.png)
 
 ![](../images/line2.png)
 
