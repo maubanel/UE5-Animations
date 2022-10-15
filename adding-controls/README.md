@@ -155,6 +155,7 @@ Take the output of the **Get Forward Vector | Return Value** pin to the **Add Mo
 
 Now *press* the <kbd>Compile</kbd> button and *play* the game. The character should now move in four directions. Now all we are doing in the game is moving this **Capsule** component around the screen. The player animation is just an animation blueprint that runs based on the vector of the motion of the player.
 
+https://user-images.githubusercontent.com/5504953/195998505-dae9ffec-7e52-4d5e-a40b-5d5b89ae9c33.mp4
 
 ![](../images/line2.png)
 
