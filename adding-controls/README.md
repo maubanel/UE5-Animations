@@ -80,7 +80,7 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a **Get Forward Vector** pin to translate the rotator to a vector. Right click the **In Rot** input and select **Split Struct Pin**.  Then connect the **Rturen Value Z (Yaw)** to the **In Rot Z(Yaw) of the *Get Forward Vector** pin.
+*Add* a **Get Forward Vector** pin to translate the rotator to a vector. Right click the **In Rot** input and select **Split Struct Pin**.  Then connect the **Return Value Z (Yaw)** to the **In Rot Z(Yaw)** of the **Get Forward Vector** pin.
 
 
 ![add get forward vector node](images/getForwardVector.png)
