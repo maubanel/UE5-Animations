@@ -38,34 +38,26 @@ Repeat this for the mouth and brows materials which have the same problem. Press
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the material and look at the texture plugged into the **Opacity Mask**. It is the three 3 channels minus the alpha. This is wrong, the only channel that should be plugged into Opacity is the **A** alpha channel.
+Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose. The issues you may have may be different depending on which character you selected.
 
-![channel for opacity is wrong](images/ChannelForOpacityIsWrong.png)
+![check model for errors](images/ModelFixedMaterials.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now change the pin going to **Opacity** from the top **RGB** pin to the bottom **Alpha** pin. Also since these graphics are not opaque we can use it in the **Opacity Mask** pin in the shader.  Redirect the **Alpha** pin to the **Opacity Mask** and remove the conection to the **Opacity** pin.  Change the shader **Blend Mode** to `Masked`. This uses the alpha channel to mask out the texture from the background. Press the <kbd>Apply</kbd> button.  You will notice that the textures don't streak and are sharp.  Do this to all the materials using this texture.
-
-![plug alpha into opacity](images/ChannelForOpacityCorrected.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose. The issues you may have may be different depending on which character you selected.
 
-![check model for errors](images/ModelFixedMaterials.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
-
-![check model for errors](images/GitHub.png)
 
 ___
 
