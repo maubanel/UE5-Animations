@@ -12,12 +12,11 @@ There are many options available to us, but lets use a non UE4 solution to see j
 
 ---
 
-
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
 Navigate in a web browser to [mixamo.com](https://www.mixamo.com/#/) and you can sign in with your **Adobe** credentials (they are run by Adobe) or create a new account (it is free to use).
 
-![mixamo website](images/LoginSignUpToMixamo.jpg)
+![mixamo website](images/LoginSignUpToMixamo.png)
 
 ![](../images/line2.png)
 
