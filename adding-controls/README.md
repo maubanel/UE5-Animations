@@ -113,9 +113,7 @@ Return to **BP_AJ** and *add* a **Axis Events | MoveRight** node.
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets add the movement for going left and right in the game. Go back to the **BP_AJ_Character** blueprint and go to the **Event Graph**. *Pull off* the **Make Rotator | Return Value** pin and now *select* **Get Right Vector** node. We will use this vector to turn left and right.
-
-![add get right vector node](images/GetRightVectorNode.jpg)
+Copy and paste the **Get Control Rotation** node. and place it next to **Move Right**.
 
 ![](../images/line2.png)
 
@@ -140,7 +138,9 @@ Now lets add the movement for going left and right in the game. Go back to the *
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now lets add the movement for going left and right in the game. Go back to the **BP_AJ_Character** blueprint and go to the **Event Graph**. *Pull off* the **Make Rotator | Return Value** pin and now *select* **Get Right Vector** node. We will use this vector to turn left and right.
 
+![add get right vector node](images/GetRightVectorNode.jpg)
 
 ![](../images/line2.png)
 
