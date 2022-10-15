@@ -17,7 +17,7 @@ Lets add the ability to move the character using a special actor component.
 
 Lets go to the **Edit | Project Settings** to add some controller input into our game. 
 
-![open project settings](images/GoToProjectSettings.jpg)
+![open project settings](images/GoToProjectSettings.png)
 
 ![](../images/line2.png)
 

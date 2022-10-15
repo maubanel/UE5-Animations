@@ -8,7 +8,7 @@ We will be creating character skeletal animations and rigid body animations in U
   
 
 * Tested on UE4 5.0.X
-* Required to install: Github, GitHub Desktop, Git, Git LFS, and Unreal Engine
+* Required to install: Unreal Engine and Perforce
 
 <!-- TOC -->
 ## Table of Contents - UE5 Animations
