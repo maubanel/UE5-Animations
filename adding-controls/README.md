@@ -71,13 +71,19 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on the **Return Value** pin and select **Split Struct Pin**. We are going to be controlling the player rotating around the **Z** axis or **Yaw**. *Pull* from the **Return Value Z(Yaw)** pin and select a **Make Rotator** node:
+*Right click* on the **Return Value** pin and select **Split Struct Pin**. 
 
-![plit struct pin on return value and add make rotator node](images/MakeARotator.jpg)
+
+![spuit struct pin on return value](images/splitStruct.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+We are going to be controlling the player rotating around the **Z** axis or **Yaw**. *Pull* from the **Return Value Z(Yaw)** pin and select a **Make Rotator** node:
+
+![plit struct pin on return value and add make rotator node](images/MakeARotator.jpg)
+
 
 Now we want to move the player forward based on his facing angle. *Pull off* of the **Return Value** pin and *select* a **Get Forward Vector** node.
 
