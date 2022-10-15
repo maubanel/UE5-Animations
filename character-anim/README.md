@@ -98,7 +98,7 @@ Pick two idle animations. One that is just breathing and another one that we can
 
 Double click the **UE4** Project **IntroToAnimation.uproject** to open the **UE4** editor. Create two new folders called `Characters | AJ`. You can call the name of the second folder by the character you picked for the game (I picked AJ). Make sure you pick an idle that starts and stops in the same position and doesn't move around too much (so they don't collide with objects accidentally when they are triggered).
 
-![add Characters/AJ folder to game](images/CreateCharacterPlayerNameFolder.jpg)
+![add Characters/AJ folder to game](images/CreateCharacterPlayerNameFolder.png)
 
 ![](../images/line2.png)
 
