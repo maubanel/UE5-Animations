@@ -22,9 +22,9 @@ There are some common issues with the materials. I see problems in the face in m
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-If I open the **Texture** that is used on the face I can see that if I turn the **Alpha** off I see the same steaking.
+Change the channel going to the **Opacity** node instead to **Alpha**. Notice now how the graphics for the eyes, brows and mouth all of a sudden are opaque!
 
-![texture without alpha is streaking](images/TextWithoutAlpha.jpg)
+![texture without alpha is streaking](images/alphaPlug.png)
 
 ![](../images/line2.png)
 
