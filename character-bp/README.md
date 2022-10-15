@@ -148,6 +148,8 @@ Drag a **Add Content | Basic | Player Start** actor into the level and rotate it
 
 *Press* **Play** and we should have a character being rendered with no physics. Now you have the player being launched with the aid of the game mode blueprint. 
 
+https://user-images.githubusercontent.com/5504953/195994662-83b4bc65-9f9e-42b7-942d-271295be9d0d.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
