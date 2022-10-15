@@ -38,7 +38,7 @@ Repeat this for the mouth and brows materials which have the same problem. Press
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose. The issues you may have may be different depending on which character you selected.
+Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose. The issues you may have may be different depending on which character you selected. My face is all better now and looks like the version on ***Mixamo***.
 
 ![check model for errors](images/ModelFixedMaterials.png)
 
@@ -46,18 +46,9 @@ Go back to the skeletal mesh and move the camera around the character. Make sure
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 ___
 
