@@ -23,7 +23,7 @@ Lets go to the **Edit | Project Settings** to add some controller input into our
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Fill in the appropriate **Description** information. Fill in the copyright information.  I am using [MIT License](https://opensource.org/licenses/MIT) and publishing it as Open Source.
+Fill in the appropriate **Description** information. Fill in the **Copyright Notice** section.  I am using [MIT License](https://opensource.org/licenses/MIT) and publishing it as Open Source.
 
 ![filled in description fields](images/FillInDescriptionInfo.png)
 
@@ -33,7 +33,7 @@ Fill in the appropriate **Description** information. Fill in the copyright infor
 
 Go to **Engine | Input** and press the <kbd>+</kbd> button next to **Axis Mappings**.
 
-![add axis mapping](images/AddAxisMappings1.jpg)
+![add axis mapping](images/AddAxisMappings1.png)
 
 ![](../images/line2.png)
 
@@ -41,7 +41,7 @@ Go to **Engine | Input** and press the <kbd>+</kbd> button next to **Axis Mappin
 
 Call it `MoveForward` and press the **+** button next to it four times. Assign the following buttons by pressing **+** next to **MoveForward**: `Keyboard | W`, `Keyboard | Up`, `Keyboard | S`, `Keyboard | Down`. Set the **Scale** for **W** and **Up** at `1.0` and the **Scale** for **S** and **Down** to `-1.0`.
 
-![Add W, S, Up and Down keys](images/MoveForewardSettingsAxis.jpg)
+![Add W, S, Up and Down keys](images/MoveForewardSettingsAxis.png)
 
 ![](../images/line2.png)
 
