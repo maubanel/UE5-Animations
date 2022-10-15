@@ -131,7 +131,7 @@ Now this imports a lot of files into the project. You should see a **Skeletal Me
 
 Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* the materials into this folder.
 
-![move aj materials to materials folder](images/MoveAJMaterialsToFolder.jpg)
+![move aj materials to materials folder](images/MoveAJMaterialsToFolder.png)
 
 ![](../images/line2.png)
 
