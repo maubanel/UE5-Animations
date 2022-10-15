@@ -66,7 +66,7 @@ Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure
 
 Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Target Offset | Z** to `260.0` and make the **Target Arm Length** a bit longer to `400.0` units.
 
-![adjust rotation and target](images/SpringArm90Deg.jpg)
+![adjust rotation and target](images/SpringArm90Deg.png)
 
 ![](../images/line2.png)
 
