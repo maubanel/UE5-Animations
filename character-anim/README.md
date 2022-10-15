@@ -88,9 +88,9 @@ Download a normal speed walk.
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Pick two idle animations. One that is just breathing and another one that we can cut to after a timer to give the animation some personality. My second one has the character striking his foot like he wants to move again.
+Pick two idle animations. One that is just breathing and another one that we can cut to after a timer to give the animation some personality. My second animation is **s**.
 
-![select two idle animations](images/TwoIdlesDownload.jpg)
+![select two idle animations](images/TwoIdlesDownload.png)
 
 ![](../images/line2.png)
 
