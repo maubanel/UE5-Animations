@@ -163,7 +163,7 @@ Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the 
 
 Right click on the **Content** folder and select **Fix Up Redirectors**. This will fix all the links to the files we moved around.  
 
-*Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine.
+*Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine. Notice that is has a simplified collision shape around each bone (a bone is a line between two joints in a skeleton).
 
 ![aj physics asset](images/PhysicsAsset.png)
 
