@@ -15,21 +15,13 @@ Lets add the animations we downloaded to the game and map them to the skeleton s
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Add to the Content Browser's Character | AJ folder, a new sub-folder called `Animations`.
+Add to the Content Browser's Character | AJ folder, a new sub-folder called `Animations`. *Drag and drop* the 6 animations you downloaded to the new **Animations** folder.
 
-![add folder called Character | AJ | Animations](images/AJAnimationsFolder.jpg)
+![add folder called Character | AJ | Animations](images/AJAnimationsFolder.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
-
-Press the <kbd>Import</kbd> button and select the six animations we downloaded from Mixamo:
-
-![drag and drop animations downloaded from mixamo](images/ImportAnimations.jpg)
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now the **FBX Import Options** appear. *Select* the **Skeleton** tab and select the skeleton asset we just downloaded. There should only be one option.
 
@@ -37,15 +29,16 @@ Now the **FBX Import Options** appear. *Select* the **Skeleton** tab and select 
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Once you select the skeleton press the <kbd>Import All</kbd> button.
 
 ![import all button](images/ImportAllMotionAnimation.jpg)
 
+
 ![](../images/line2.png)
 
-##### `Step 5.`\|`ITA`| :small_orange_diamond:
+##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now this will take a while as it is solving the animation to this skeleton.
 
@@ -53,15 +46,16 @@ Now this will take a while as it is solving the animation to this skeleton.
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
-
+##### `Step 5.`\|`ITA`| :small_orange_diamond:
 Double click each animation then watch them. Rename the animation appropriately.
 
 ![slow walk animation frame](images/PlayAnim.jpg)
 
+
+
 ![](../images/line2.png)
 
-##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
 I have named mine `Creep_Walk`, `Fast_Run`, `Idle`, `Idle_Fidget` and `Run and Walk`. This gives me two run cycles, an idle and walk animations to use in our animation graph.
 
@@ -69,12 +63,18 @@ I have named mine `Creep_Walk`, `Fast_Run`, `Idle`, `Idle_Fidget` and `Run and W
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
 
 ![check model for errors](images/GitHub.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ___
 
