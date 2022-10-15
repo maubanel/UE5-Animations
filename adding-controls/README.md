@@ -100,8 +100,6 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 Now go into the game and press the up and down or W and S key. We should be moving forward and backwards!
 
 
-![connect execution pin between InputAxis and Add Movement Input](images/ConnectOnlyTwoExecutionPins.jpg)
-
 ![](../images/line2.png)
 
 
