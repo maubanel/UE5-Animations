@@ -82,11 +82,8 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 *Pull off* of the **Return Value** pin and *select* the **Add Movement Input** node. *Connect* the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node. Take the output of the **InputAxis MovementForward** pin **Axis Value** and connect it to the **Scale Value** pin of the **Add Movement** Input node.
 
-![add movement input node](images/AddMoveInput.jpg)
+![add movement input node](images/AddMoveInput.png)
 
-
-
-![add get forward vector node](images/GetForwardVectorNode.jpg)
 
 ![](../images/line2.png)
 
