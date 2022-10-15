@@ -89,12 +89,15 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+*Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
 
+![add comment to nodes in chart](images/CoreMovementComment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
+Now go into the game and press the up and down or W and S key. We should be moving forward and backwards!
 
 
 ![connect execution pin between InputAxis and Add Movement Input](images/ConnectOnlyTwoExecutionPins.jpg)
@@ -112,17 +115,13 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
 
-![add comment to nodes in chart](images/CoreMovementComment.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now go into the game and press the up and down or W and S key. We are moving left to right instead of forward and backwards. Go back to the **BP_AJ_Character** blueprint and click on the **Arrow** component. This is the forward facing vector for the player and it is at the wrong angle.
 
-https://user-images.githubusercontent.com/5504953/132613486-bfbbbf6c-084a-4cb0-a63f-9c57e945ee6d.mp4
 
 ![](../images/line2.png)
 
