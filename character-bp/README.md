@@ -83,15 +83,15 @@ Now notice that the static meshes forward vector (red) is not matching the arrow
 
 Now the camera should be *rotated* to be angled correctly by altering the **Camera** component in **Rotation | Y** by about `334.0`.
 
-![rotate camera on Y axis](images/MoveCamUpAndPointDown.jpg)
-
-Now lets add a new gamemode blueprint to select this character when the level starts. Go to the Content Browser and add a new folder called `Blueprints`.
-
-![add Blueprints folder](images/AddBlueprintsFolder.jpg)
+![rotate camera on Y axis](images/MoveCamUpAndPointDown.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
+
+Now lets add a new gamemode blueprint to select this character when the level starts. Go to the Content Browser and add a new folder called `Blueprints`.
+
+![add Blueprints folder](images/AddBlueprintsFolder.jpg)
 
 Press the <kbd>Add/Import</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
 
