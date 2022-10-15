@@ -81,7 +81,7 @@ Now notice that the static meshes forward vector (red) is not matching the arrow
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the camera should be *rotated* to be angled correctly by altering the **Camera** component in **Rotation | Y** by about `334.0`.
+Now the camera should be *rotated* to be angled correctly by altering the **Camera** component in **Rotation | Y** by about `350.0`.
 
 ![rotate camera on Y axis](images/MoveCamUpAndPointDown.png)
 
@@ -89,17 +89,21 @@ Now the camera should be *rotated* to be angled correctly by altering the **Came
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Now lets add a new gamemode blueprint to select this character when the level starts. Go to the Content Browser and add a new folder called `Blueprints`.
+Now lets test our work.  Go back to the editor and drag **BP_AJ** to the level.  Select the character in the **Outliner** and a preview window of the camera view will pop up.  Make changes to the spring arm and camera angle to frame up the player to your liking. When you are done remove the player from the game as we will load the player with a **Player Start** actor and a custom **Game Mode** blueprint.
 
-![add Blueprints folder](images/AddBlueprintsFolder.jpg)
+![frame up camera](images/getCameraFraming.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
 Press the <kbd>Add/Import</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
 
 ![game mode base blueprint](images/AddNewGameModeBase.jpg)
 
-![](../images/line2.png)
+Now lets add a new gamemode blueprint to select this character when the level starts. Go to the Content Browser and add a new folder called `Blueprints`.
 
-##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+![add Blueprints folder](images/AddBlueprintsFolder.jpg)
 
 Call it `BP_AnimGamemode`.
 
