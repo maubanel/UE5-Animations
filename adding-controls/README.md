@@ -129,6 +129,10 @@ Copy and paste the **Get Control Rotation** node. and place it next to **Move Ri
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Now *add* a **Get Right Vector** node.  Right click the **In Rot** input and select **Split Struct Pin**.
+
+![cadd a right vector node and split pins](images/getRightVector.png)
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
