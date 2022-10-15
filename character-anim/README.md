@@ -48,7 +48,7 @@ You will now get a **Download Settings** menu. We will leave the **Format** as `
 
 Now the unreal engine will be propelling the player forward and backward. So we do not want the animation to translate through space. When you find an animation you like make sure you press the **In Place** toggle so that the player runs on the spot. *Make sure you do this for ALL your animations that are controlled by player or AI*. Make all adjustments then press the <kbd>Download</kbd> button.
 
-![run animation](images/FindRunAnimationAndPreview.png)
+![make sure inplace is checked](images/inPlace.png)
 
 https://user-images.githubusercontent.com/5504953/132144425-3b043aff-a8a6-4de0-a65c-7435a532e222.mp4
 
