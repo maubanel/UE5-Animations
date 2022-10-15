@@ -58,7 +58,7 @@ Add a another component and this time it will be a `Camera`.
 
 Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure that **Spring Arm** a *child* of the root **Capsule Component**.
 
-![make camera child of spring arm](images/MakeCameraChildOfSpringArm.jpg)
+![make camera child of spring arm](images/MakeCameraChildOfSpringArm.png)
 
 ![](../images/line2.png)
 
