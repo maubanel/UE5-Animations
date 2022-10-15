@@ -63,7 +63,7 @@ Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the e
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets *add* a **Get Control Rotation** node to get the controller rotation for the player controlled pawn. This returns a vector (X, Y, Z).
+Lets *add* a **Get Control Rotation** node to get the controller rotation for the player controlled pawn. This returns a rotator.
 
 ![add get control rotation node vector](images/AddGetControlRotation.png)
 
@@ -80,12 +80,12 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We are going to be controlling the player rotating around the **Z** axis or **Yaw**. Add a **Get Forward Vector** node
+We are going to be controlling the player rotating around the **Z** axis or **Yaw**. We need to convert from a rotation to a vector. Add a **Get Forward Vector** node.  Connect the **Get Control Rotation | Return Value Z(Yaw)** to the **In Rot Z(Yaw)** of the forward vector node.
 
 ![plit struct pin on return value and add make rotator node](images/MakeARotator.png)
 
 
-Now we want to move the player forward based on his facing angle. *Pull off* of the **Return Value** pin and *select* a **Get Forward Vector** node.
+Now we want to move the player forward based on his facing angle. *Pull off* of the **Return Value** pin and *select* a **Get Forward Vector** node. Connect the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node. Take the output of the **InputAxis MovementForward** pin **Axis Value** and connect it to the **Scale Value** pin of the **Add Movement** Input node.
 
 ![add get forward vector node](images/GetForwardVectorNode.jpg)
 
@@ -101,7 +101,7 @@ Now we want to move the player forward based on his facing angle. *Pull off* of 
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Connect the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node:
+
 
 ![connect execution pin between InputAxis and Add Movement Input](images/ConnectOnlyTwoExecutionPins.jpg)
 
@@ -110,7 +110,7 @@ Connect the output execution pin from the **InputAxis MoveForward** node to the 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Take the output of the **InputAxis MovementForward** pin **Axis Value** and connect it to the **Scale Value** pin of the **Add Movement** Input node:
+
 
 ![connect pins of **InputAxis Movement Forward | ](images/AxisToScaleValuePins.jpg)
 
