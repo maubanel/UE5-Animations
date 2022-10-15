@@ -115,6 +115,8 @@ Return to **BP_AJ** and *add* a **Axis Events | MoveRight** node.
 
 Copy and paste the **Get Control Rotation** node. and place it next to **Move Right**.
 
+![copy get control rotation node](images/copyGetControl.png)
+
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
