@@ -115,7 +115,7 @@ Go to your **Downloads** folder and drag the file that has the characters name o
 
 Now in a production game we want to share the same base skeleton where we can. To learn more about this go to this [Skeletal Assets Unreal Training Video](https://www.youtube.com/watch?v=JkcJ5bjGPsg) to find out more. For us we will use the skeleton that is provided with this geometry. So make sure you leave **Skeleton** blank and you can leave all the other settings as default.
 
-![leave settings default](images/SharingMesh.jpg)
+![leave settings default](images/SharingMesh.png)
 
 ![](../images/line2.png)
 
