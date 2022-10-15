@@ -97,6 +97,7 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
+Now go into the game and press the up and down or W and S key. We should be moving forward and backwards!
 
 https://user-images.githubusercontent.com/5504953/195997035-c84060cd-fd76-42c9-b672-fa3dca5c0e11.mp4
 
@@ -104,6 +105,9 @@ https://user-images.githubusercontent.com/5504953/195997035-c84060cd-fd76-42c9-b
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Return to **BP_AJ** and *add* a **Axis Events | MoveRight** node.
+
+![add moveright node](images/InputAxisMoveRight.png)
 
 ![](../images/line2.png)
 
@@ -117,9 +121,7 @@ Now lets add the movement for going left and right in the game. Go back to the *
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Return to **BP_AJ** and *add* a **Axis Events | MoveRight** node.
 
-![add moveright node](images/InputAxisMoveRight.jpg)
 
 ![](../images/line2.png)
 
