@@ -88,7 +88,7 @@ Download a normal speed walk.
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Pick two idle animations. One that is just breathing and another one that we can cut to after a timer to give the animation some personality. My second animation is **Happy Idle**.
+Pick two idle animations. One that is just breathing and another one that we can cut to after a timer to give the animation some personality. My second animation is **Happy Idle**. Make sure you pick an idle that starts and stops in the same position and doesn't move around too much (so they don't collide with objects accidentally when they are triggered).
 
 ![select two idle animations](images/TwoIdlesDownload.png)
 
@@ -96,7 +96,7 @@ Pick two idle animations. One that is just breathing and another one that we can
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Double click the **UE4** Project **IntroToAnimation.uproject** to open the **UE4** editor. Create two new folders called `Characters | AJ`. You can call the name of the second folder by the character you picked for the game (I picked AJ). Make sure you pick an idle that starts and stops in the same position and doesn't move around too much (so they don't collide with objects accidentally when they are triggered).
+Double click the **IntroToAnimation.uproject** from **P4V** to open up the game editor. Create two new folders called `Characters | AJ`. You can call the name of the second folder by the character you picked for the game (I picked AJ). 
 
 ![add Characters/AJ folder to game](images/CreateCharacterPlayerNameFolder.png)
 
@@ -107,7 +107,7 @@ Double click the **UE4** Project **IntroToAnimation.uproject** to open the **UE4
 
 Go to your **Downloads** folder and drag the file that has the characters name on it into the **AJ** character folder. As a hint, it will be the largest file (model is bigger than the animations, but they are all .fbx format).
 
-![import aj model](images/ImportAJFbx.jpg)
+![import aj model](images/ImportAJFbx.png)
 
 ![](../images/line2.png)
 
