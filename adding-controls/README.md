@@ -82,7 +82,7 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 We are going to be controlling the player rotating around the **Z** axis or **Yaw**. Add a **Get Forward Vector** node
 
-![plit struct pin on return value and add make rotator node](images/MakeARotator.jpg)
+![plit struct pin on return value and add make rotator node](images/MakeARotator.png)
 
 
 Now we want to move the player forward based on his facing angle. *Pull off* of the **Return Value** pin and *select* a **Get Forward Vector** node.
