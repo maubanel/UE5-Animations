@@ -38,7 +38,7 @@ You will now get a **Download Settings** menu. We will leave the **Format** as `
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* on the **Animations** tab. Lets find some animations. Lets start with the regular run speed. *Type* `Run` in the **Search** menu and *click* through various runs. Pick a moderate speed run that you like. Now adjust the various settings to make it as you would like. Make sure the arms don't swing into the body poloygons.
+*Press* on the **Animations** tab. Lets find some animations. Lets start with the regular run speed. *Type* `Run` in the **Search** menu and *click* through various runs. Pick a moderate speed run that you like. Now adjust the various settings to make it as you would like. Make sure the arms don't swing into the body polygons.
 
 ![run animation](images/FindRunAnimationAndPreview.png)
 
@@ -46,7 +46,9 @@ You will now get a **Download Settings** menu. We will leave the **Format** as `
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now the unreal engine will be propelling the player forward and backward. So we do not want the animation to translate through space. When you find an animation you like make sure you press the **In Place** toggle so that the player runs on the spot. Make all adjustments then press the <kbd>Download</kbd> button.
+Now the unreal engine will be propelling the player forward and backward. So we do not want the animation to translate through space. When you find an animation you like make sure you press the **In Place** toggle so that the player runs on the spot. *Make sure you do this for ALL your animations that are controlled by player or AI*. Make all adjustments then press the <kbd>Download</kbd> button.
+
+![run animation](images/FindRunAnimationAndPreview.png)
 
 https://user-images.githubusercontent.com/5504953/132144425-3b043aff-a8a6-4de0-a65c-7435a532e222.mp4
 
