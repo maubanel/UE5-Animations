@@ -99,7 +99,7 @@ Now lets test our work.  Go back to the editor and drag **BP_AJ** to the level. 
 
 Add a new folder called `Blueprints`. Press the <kbd>+ Add</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
 
-![game mode base blueprint](images/AddNewGameModeBase.jpg)
+![game mode base blueprint](images/AddNewGameModeBase.png)
 
 ![](../images/line2.png)
 
