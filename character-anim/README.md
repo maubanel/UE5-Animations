@@ -155,17 +155,17 @@ In importing the mesh an error popped up telling me it had to duplicate textures
 
 Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the textures into this folder.
 
-![move textures to AJ | Textures folder](images/MoveAJTexturesToFolder.jpg)
-
-
+![move textures to AJ | Textures folder](images/MoveAJTexturesToFolder.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Right click on the **Content** folder and select **Fix Up Redirectors**. This will fix all the links to the files we moved around.  
+
 *Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine.
 
-![aj physics asset](images/PhysicsAsset.jpg)
+![aj physics asset](images/PhysicsAsset.png)
 
 ![](../images/line2.png)
 
