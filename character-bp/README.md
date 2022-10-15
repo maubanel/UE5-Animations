@@ -32,7 +32,7 @@ Go to the **AJ** folder and press the <kbd>+ Add</kbd> button and select **Bluep
 
 Open the blueprint and select the **Mesh** component. *Select* the `AJ Skeletal Mesh` from the menu on the right.
 
-![add aj skeleta mesh to mesh component](images/SkeletalMeshToCharacterAJ.jpg)
+![add aj skeleta mesh to mesh component](images/SkeletalMeshToCharacterAJ.png)
 
 ![](../images/line2.png)
 
