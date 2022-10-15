@@ -50,7 +50,7 @@ Now we need to attach a camera to the player that will follow them around the le
 
 Add a another component and this time it will be a `Camera`.
 
-![add camera component](images/AddCameraNode.jpg)
+![add camera component](images/AddCameraNode.png)
 
 ![](../images/line2.png)
 
