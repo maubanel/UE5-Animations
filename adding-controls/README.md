@@ -80,8 +80,10 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Add* a **Get Forward Vector** pin to translate the rotator to a vector. 
 
 
+![spuit struct pin on return value](images/getForwardVector.png)
 
 ![](../images/line2.png)
 
