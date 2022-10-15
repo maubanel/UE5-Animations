@@ -40,7 +40,7 @@ You will now get a **Download Settings** menu. We will leave the **Format** as `
 
 *Press* on the **Animations** tab. Lets find some animations. Lets start with the regular run speed. *Type* `Run` in the **Search** menu and *click* through various runs. Pick a moderate speed run that you like. Now adjust the various settings to make it as you would like. Make sure the arms don't swing into the body poloygons.
 
-![run animation](images/FindRunAnimationAndPreview.jpg)
+![run animation](images/FindRunAnimationAndPreview.png)
 
 ![](../images/line2.png)
 
