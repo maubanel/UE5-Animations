@@ -80,12 +80,11 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We are going to be controlling the player rotating around the **Z** axis or **Yaw**. We need to convert from a rotation to a vector. Add a **Get Forward Vector** node.  Connect the **Get Control Rotation | Return Value Z(Yaw)** to the **In Rot Z(Yaw)** of the forward vector node.
+*Pull off* of the **Return Value** pin and *select* the **Add Movement Input** node. *Connect* the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node. Take the output of the **InputAxis MovementForward** pin **Axis Value** and connect it to the **Scale Value** pin of the **Add Movement** Input node.
 
-![plit struct pin on return value and add make rotator node](images/MakeARotator.png)
+![add movement input node](images/AddMoveInput.jpg)
 
 
-Now we want to move the player forward based on his facing angle. *Pull off* of the **Return Value** pin and *select* a **Get Forward Vector** node. Connect the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node. Take the output of the **InputAxis MovementForward** pin **Axis Value** and connect it to the **Scale Value** pin of the **Add Movement** Input node.
 
 ![add get forward vector node](images/GetForwardVectorNode.jpg)
 
@@ -93,9 +92,7 @@ Now we want to move the player forward based on his facing angle. *Pull off* of 
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Pull off* of the **Return Value** pin and *select* the **Add Movement Input** node.
 
-![add movement input node](images/AddMoveInput.jpg)
 
 ![](../images/line2.png)
 
