@@ -80,7 +80,7 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We are going to be controlling the player rotating around the **Z** axis or **Yaw**. *Pull* from the **Return Value Z(Yaw)** pin and select a **Make Rotator** node:
+We are going to be controlling the player rotating around the **Z** axis or **Yaw**. Add a **Get Forward Vector** node
 
 ![plit struct pin on return value and add make rotator node](images/MakeARotator.jpg)
 
