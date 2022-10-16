@@ -25,7 +25,7 @@ The first thing we will implement is our player movement. The player will go fro
 
 This brings up a **Pick Skeleton** overlay. Pick the skeleton you imported.
 
-![pick skeleton](images/BringsUpPickSkeleton.jpg)
+![pick skeleton](images/BringsUpPickSkeleton.png)
 
 ![](../images/line2.png)
 
