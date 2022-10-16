@@ -49,7 +49,7 @@ Call it `BlendSpace_IdleWalkRun`.
 
 Make sure on the right hand side you are on the **Asset Browser** tab and *drag and drop* the **Idle** animation (the breathing idle that loops and not the fancier one) to the far left side of the blend space. It should be at location `0`.
 
-![drag idle to blend space](images/AddIdleAnimToBlendSpace.jpg)
+![drag idle to blend space](images/AddIdleAnimToBlendSpace.png)
 
 ![](../images/line2.png)
 
@@ -57,7 +57,7 @@ Make sure on the right hand side you are on the **Asset Browser** tab and *drag 
 
 Drag and drop the **CreepWalk** animation and put it close to `40.0` on the **1D blend space**.
 
-![creep walk to 40](images/SlowWalkTo50.jpg)
+![creep walk to 40](images/SlowWalkTo50.png)
 
 ![](../images/line2.png)
 
