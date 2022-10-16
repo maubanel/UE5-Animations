@@ -89,24 +89,24 @@ This gets us to the entrance of the Basic Locomotion animation tree. It has an *
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_BlendSpace** onto the graph.
 
+![drag blend space to graph](images/DragBlendSpaceToGraph.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_BlendSpace** onto the graph.
+*Connect* the animation pins so that this **blendspace** runs and gets sent to the **state machine**.
 
-![drag blend space to graph](images/DragBlendSpaceToGraph.jpg)
+![connect blendspace to state machine](images/ConnectAnimPins.jpg)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the animation pins so that this **blendspace** runs and gets sent to the **state machine**.
 
-![connect blendspace to state machine](images/ConnectAnimPins.jpg)
 
 ![](../images/line2.png)
 
