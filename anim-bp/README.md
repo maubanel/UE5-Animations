@@ -83,7 +83,7 @@ This gets us to the entrance of the Basic Locomotion animation tree. It has an *
 
 *Name* this state **IdleWalkRun** and *attach* the node from **Entry** to this new **State**. *Double click* on **IdleWalkRun** to enter this state.
 
-![name state IdleWalkRun and attach to Entry state](images/NameIdleWalkRunDC.jpg)
+![name state IdleWalkRun and attach to Entry state](images/NameIdleWalkRunDC.png)
 
 ![](../images/line2.png)
 
