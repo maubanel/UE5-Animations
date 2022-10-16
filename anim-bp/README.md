@@ -31,14 +31,15 @@ Name it `AnimBP_AJ`.
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open the animation blueprint and go to the **AnimGraph** tab. If it is not there you can double click it in the **AnimGraph** menu item on the left hand side.
+
+![open animgraph](images/GoToAnimGraphTabAnimBP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the animation blueprint and go to the **AnimGraph** tab. If it is not there you can double click it in the **My Blueprint** tab on the left hand side.
 
-![open animgraph](images/GoToAnimGraphTabAnimBP.jpg)
 
 ![](../images/line2.png)
 
