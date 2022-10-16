@@ -73,22 +73,23 @@ This gets us to the entrance of the Basic Locomotion animation tree. It has an *
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Right click* on the anim graph and select **Add State.**
+
+![add state](images/AddStateToTree.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on the anim graph and select **Add State.**
+*Name* this state **IdleWalkRun** and *attach* the node from **Entry** to this new **State**. *Double click* on **IdleWalkRun** to enter this state.
 
-![add state](images/AddStateToTree.jpg)
+![name state IdleWalkRun and attach to Entry state](images/NameIdleWalkRunDC.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Name* this state **IdleWalkRun** and *attach* the node from **Entry** to this new **State**. *Double click* on **IdleWalkRun** to enter this state.
 
-![name state IdleWalkRun and attach to Entry state](images/NameIdleWalkRunDC.jpg)
 
 ![](../images/line2.png)
 
