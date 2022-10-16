@@ -106,23 +106,23 @@ Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Now this blend space requires an input float to represent the speed of the player. *Right click* on **None** and select **Promote to Variable**.
 
+![promote none to variable](images/PromoteToVariableSpeed.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now this blend space requires an input float to represent the speed of the player. *Right click* on **None** and select **Promote to Variable**.
+Name this variable `Speed` and set **Private** to `true`. *Press* the <kbd>Compile</kbd> button.
 
-![promote none to variable](images/PromoteToVariableSpeed.jpg)
+![name variable speed and make private](images/VariableSpeedPrivate.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Name this variable `Speed` and set **Private** to `true`. *Press* the <kbd>Compile</kbd> button.
 
-![name variable speed and make private](images/VariableSpeedPrivate.jpg)
 
 ![](../images/line2.png)
 
