@@ -131,14 +131,21 @@ Now there is no begin play in animation blueprints but there is a **Event Bluepr
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-![name variable speed and make private](images/getReference.png)
+Pull off of the **Get Owning Actor** pin and select a **Cast to Character** node.  This will cast the class from **Pawn** to **Character**.  Right click on the **As Character** and select **Promote to Variable**.  Connect the execution pin from **Cast to Character** to **Set Character** node.
 
-
+![Get owning actor cast to character and set character as promoted var](images/getReference.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+![Get owning actor cast to character and set character as promoted var](images/finishCharRef.png)
+
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We need to get access to the **Speed** of the player. We do this in the **Event Graph** of the animation blueprint. *Click on* the **Event Graph** tab (or *double click* it from the Graphs menu on the left) and you should see two *greyed* out nodes. If you don't see the **Try Get Pawn Owner** then add it. *Drag off* of the **Return Value** pin from the **Try Get Pawn Owner** node and selecdt a **? Is Valid** node. We want to make sure that this pawn is active in game.
 
@@ -147,10 +154,6 @@ We need to get access to the **Speed** of the player. We do this in the **Event 
 *Drag off* of the **Return Value** from the **Try Get Pawn Owner** node again and select **Get Velocity** to get the velocity vector of the player pawn. Connect the execution pin from **Event Blueprint Update Animation** to **? Is Valid** nodes.
 
 ![add get velocity node](images/GetVelocityFromPawn.jpg)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now a **Velocity** (or any vector for that matter) has a *direction* and a *magnitude*. All we care about here is the *magnitude*. *Drag off* of the **Return Value** pin from the **Get Velocity** node and select **Vector Length** (I typed in Magnitude in the search window and it still points to this node!). This returns a float with the length of the vector (magnitude).
 
