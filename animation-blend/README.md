@@ -31,7 +31,7 @@ This brings up a **Pick Skeleton** overlay. Pick the skeleton you imported.
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Call it `IdleWalkRun_BlendSpace`.
+Call it `BlendSpace_IdleWalkRun`.
 
 ![idle walk run](images/IdleWalkRunName.jpg)
 
