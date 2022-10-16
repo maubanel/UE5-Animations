@@ -147,9 +147,16 @@ Pull off of the **Get Owning Actor** pin and select a **Cast to Character** node
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+![Get owning actor cast to character and set character as promoted var](images/validatedGet.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 We need to get access to the **Speed** of the player. We do this in the **Event Graph** of the animation blueprint. *Click on* the **Event Graph** tab (or *double click* it from the Graphs menu on the left) and you should see two *greyed* out nodes. If you don't see the **Try Get Pawn Owner** then add it. *Drag off* of the **Return Value** pin from the **Try Get Pawn Owner** node and selecdt a **? Is Valid** node. We want to make sure that this pawn is active in game.
 
 ![add try get pawn owner and check if valid](images/PawnOwnerValid.jpg)
+
 
 *Drag off* of the **Return Value** from the **Try Get Pawn Owner** node again and select **Get Velocity** to get the velocity vector of the player pawn. Connect the execution pin from **Event Blueprint Update Animation** to **? Is Valid** nodes.
 
@@ -158,11 +165,6 @@ We need to get access to the **Speed** of the player. We do this in the **Event 
 Now a **Velocity** (or any vector for that matter) has a *direction* and a *magnitude*. All we care about here is the *magnitude*. *Drag off* of the **Return Value** pin from the **Get Velocity** node and select **Vector Length** (I typed in Magnitude in the search window and it still points to this node!). This returns a float with the length of the vector (magnitude).
 
 ![get velocity magnitude](images/GetVelocityMagnitude.jpg)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 
 *Drag and drop* the **Speed Variable** and select **Set Speed**:
 
