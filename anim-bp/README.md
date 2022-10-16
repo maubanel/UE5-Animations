@@ -66,7 +66,7 @@ Name this node `BasicLocomotion`.
 
 This gets us to the entrance of the Basic Locomotion animation tree. It has an **Entry** node that is what it plays when it enters this state (the only state we are calling for the moment)
 
-![entry node](images/EntranceToBasicLocomotion.jpg)
+![entry node](images/EntranceToBasicLocomotion.png)
 
 
 ![](../images/line2.png)
