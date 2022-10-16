@@ -55,7 +55,7 @@ That rescales our graph. So I want to know the speed of our normal run animation
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Now go back to the **BP_AJ_Character** blueprint and select the **Character Movement** Component. Then go to **Character Movement Walking | Max Walk Speed** and set it to `450.0` and adjust **Max Walk Speed Crouched** to `200.0`.
+DON"T NEED STEP 6Now go back to the **BP_AJ_Character** blueprint and select the **Character Movement** Component. Then go to **Character Movement Walking | Max Walk Speed** and set it to `450.0` and adjust **Max Walk Speed Crouched** to `200.0`.
 
 ![set max walk speed to 450](images/WalkSpeed450.jpg)
 
