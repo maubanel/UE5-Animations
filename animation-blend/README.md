@@ -79,7 +79,7 @@ Drag and drop the **CreepWalk** animation and put it close to `40.0` on the **1D
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Finally *place* the **Fast_Run** animation at the end of the *timeline*.
+Finally *place* the **Sprint** animation at the end of the *timeline* at `350`.
 
 ![add fast run to very end](images/FastRunToEnd.jpg)
 
