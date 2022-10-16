@@ -65,7 +65,7 @@ Drag and drop the **CreepWalk** animation and put it close to `40.0` on the **1D
 
 *Drag and drop* the **Walk** animation to around `80` on the **blend space**.
 
-![drag walk animation to 80 on blend space](images/WalkTo87BlendSpace.jpg)
+![drag walk animation to 80 on blend space](images/WalkTo87BlendSpace.png)
 
 ![](../images/line2.png)
 
@@ -73,7 +73,7 @@ Drag and drop the **CreepWalk** animation and put it close to `40.0` on the **1D
 
 *Drag and drop* **Run** around `250.0` on **blend space**.
 
-![drag run animation to 250 on blend space](images/DragRunTo250.jpg)
+![drag run animation to 250 on blend space](images/DragRunTo250.png)
 
 ![](../images/line2.png)
 
@@ -81,7 +81,7 @@ Drag and drop the **CreepWalk** animation and put it close to `40.0` on the **1D
 
 Finally *place* the **Sprint** animation at the end of the *timeline* at `350`.
 
-![add fast run to very end](images/FastRunToEnd.jpg)
+![add fast run to very end](images/FastRunToEnd.png)
 
 ![](../images/line2.png)
 
