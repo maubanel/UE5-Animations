@@ -89,15 +89,16 @@ Finally *place* the **Sprint** animation at the end of the *timeline* at `350`.
 
 Scrub along the timeline and watch animation states blend. In this case I am happy with the results and can leave the blend defaults as they stand. The animation will be selected based on the speed of the character.
 
-https://user-images.githubusercontent.com/5504953/132963289-7ecbd5a7-5735-4144-a4da-0a0320bd893f.mp4
+https://user-images.githubusercontent.com/5504953/196059260-aa3292ba-848e-41b7-bf9f-5d991eac75f6.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![save, commit and push to github](images/GitHub.png)
+![save all and submit to perforce in P4V](images/submitP4.png)
+
 
 ___
 
