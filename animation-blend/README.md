@@ -33,7 +33,7 @@ This brings up a **Pick Skeleton** overlay. Pick the skeleton you imported.
 
 Call it `BlendSpace_IdleWalkRun`.
 
-![idle walk run](images/IdleWalkRunName.jpg)
+![idle walk run](images/IdleWalkRunName.png)
 
 ![](../images/line2.png)
 
