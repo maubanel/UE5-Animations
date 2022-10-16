@@ -23,17 +23,14 @@ We are now going to start to set up a state machine for our character. Go to the
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+Name it `AnimBP_AJ`.
 
-
-![select animinstance ](images/AnimInstanceSkeleton.jpg)
+![namne file AJ_AnimBlueprint](images/CallItAJAnimBP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Name it `AnimBP_AJ`.
-
-![namne file AJ_AnimBlueprint](images/CallItAJAnimBP.jpg)
 
 ![](../images/line2.png)
 
