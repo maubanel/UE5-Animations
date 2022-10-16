@@ -156,14 +156,26 @@ Now drag a **Get** for the **Character** variable next to the **EventBlueprint U
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Drag* off the **GET | Is Valid** execution pin and select a **Sequence** node. the *Drag off* of the **Character** from the **GET** node and select **Get Velocity** to get the velocity vector of the player pawn. 
+
+![add get velocity node](images/GetVelocityFromPawn.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+We forgot to clean up above so go back to the **Intialize Animation** and place a comment box around the nodes saying `Get Reference`.
+
+![add get reference comment](images/getReferencesComment.png)
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
+
+Connect the execution pin from **Event Blueprint Update Animation** to **? Is Valid** nodes.
 We need to get access to the **Speed** of the player. We do this in the **Event Graph** of the animation blueprint. *Click on* the **Event Graph** tab (or *double click* it from the Graphs menu on the left) and you should see two *greyed* out nodes. If you don't see the **Try Get Pawn Owner** then add it. *Drag off* of the **Return Value** pin from the **Try Get Pawn Owner** node and selecdt a **? Is Valid** node. We want to make sure that this pawn is active in game.
 
 ![add try get pawn owner and check if valid](images/PawnOwnerValid.jpg)
-
-
-*Drag off* of the **Return Value** from the **Try Get Pawn Owner** node again and select **Get Velocity** to get the velocity vector of the player pawn. Connect the execution pin from **Event Blueprint Update Animation** to **? Is Valid** nodes.
-
-![add get velocity node](images/GetVelocityFromPawn.jpg)
 
 Now a **Velocity** (or any vector for that matter) has a *direction* and a *magnitude*. All we care about here is the *magnitude*. *Drag off* of the **Return Value** pin from the **Get Velocity** node and select **Vector Length** (I typed in Magnitude in the search window and it still points to this node!). This returns a float with the length of the vector (magnitude).
 
@@ -173,17 +185,9 @@ Now a **Velocity** (or any vector for that matter) has a *direction* and a *magn
 
 ![add set speed variable](images/DragAndDropSetSpeed.jpg)
 
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Connect the execution pins between the three nodes and *press* the <kbd>Compile</kbd> button.
 
 ![connect execution pins and compile](images/ConnectExecPinsCompile.jpg)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
 Add a comment called `Get Speed From Player` to these nodes:
 
