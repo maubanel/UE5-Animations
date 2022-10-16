@@ -39,15 +39,18 @@ Open the animation blueprint and go to the **AnimGraph** tab. If it is not there
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Right click* on the anim graph and select a **Add New State Machine** node.
+
+![add state machine node](images/RightClickAddNewStateMachine.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-*Right click* on the anim graph and select a **Add New State Machine** node.
+Name this node `BasicLocomotion`.
 
-![add state machine node](images/RightClickAddNewStateMachine.jpg)
+![name node basic locomotion](images/NameStateMachineBasicLocomotion.png)
 
 ![](../images/line2.png)
 
@@ -56,9 +59,7 @@ Open the animation blueprint and go to the **AnimGraph** tab. If it is not there
 
 Name State Machine
 
-Name this node `BasicLocomotion`.
 
-![name node basic locomotion](images/NameStateMachineBasicLocomotion.jpg)
 
 ![](../images/line2.png)
 
