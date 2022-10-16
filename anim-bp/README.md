@@ -56,26 +56,23 @@ Name this node `BasicLocomotion`.
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+*Connect* the animation pins from the **Basic Locomotion** node to the **Final Animation Pose** node. *Double click* on the **Basic Locomotion** node to enter its state machine.
 
-Name State Machine
-
-
+![connect pin from basic locomotion to final animatoin pose](images/ConnectGoToGraphForLoco.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the animation pins from the **Basic Locomotion** node to the **Final Animation Pose** node. *Double click* on the **Basic Locomotion** node to enter its state machine.
+This gets us to the entrance of the Basic Locomotion animation tree. It has an **Entry** node that is what it plays when it enters this state (the only state we are calling for the moment)
 
-![connect pin from basic locomotion to final animatoin pose](images/ConnectGoToGraphForLoco.jpg)
+![entry node](images/EntranceToBasicLocomotion.jpg)
+
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-This gets us to the entrance of the Basic Locomotion animation tree. It has an **Entry** node that is what it plays when it enters this state (the only state we are calling for the moment)
-
-![entry node](images/EntranceToBasicLocomotion.jpg)
 
 ![](../images/line2.png)
 
