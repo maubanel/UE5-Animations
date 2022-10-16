@@ -99,7 +99,7 @@ Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_
 
 *Connect* the animation pins so that this **blendspace** runs and gets sent to the **state machine**.
 
-![connect blendspace to state machine](images/ConnectAnimPins.jpg)
+![connect blendspace to state machine](images/ConnectAnimPins.png)
 
 ![](../images/line2.png)
 
