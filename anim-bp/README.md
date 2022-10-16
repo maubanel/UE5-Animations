@@ -58,7 +58,7 @@ Open the animation blueprint and go to the **AnimGraph** tab. If it is not there
 
 Name State Machine
 
-Name this node `Basic Locomotion`.
+Name this node `BasicLocomotion`.
 
 ![name node basic locomotion](images/NameStateMachineBasicLocomotion.jpg)
 
