@@ -131,7 +131,7 @@ Now there is no begin play in animation blueprints but there is a **Event Bluepr
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Pull off of the **Get Owning Actor** pin and select a **Cast to Character** node.  This will cast the class from **Pawn** to **Character**.  Right click on the **As Character** and select **Promote to Variable**.  Connect the execution pin from **Cast to Character** to **Set Character** node.
+Pull off of the **Get Owning Actor** pin and select a **Cast to Character** node.  This will cast the class from **Pawn** to **Character**.  Right click on the **As Character** and select **Promote to Variable**.  Connect the execution pin from **Cast to Character** to **Set Character** node. Set **Private** to `true` and add a **Category** `References` to the animation blueprint.
 
 ![Get owning actor cast to character and set character as promoted var](images/getReference.png)
 
@@ -140,12 +140,15 @@ Pull off of the **Get Owning Actor** pin and select a **Cast to Character** node
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![Get owning actor cast to character and set character as promoted var](images/finishCharRef.png)
+Connect the execution pin from **EventBlueprint Initialize Annimation** to **Cast to Character**.
 
+![connect execution pins](images/finishCharRef.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now drag a **Get** for the **Character** variable next to the **EventBlueprint Update Animation** which will tick every frame like the tick node in a normal blueprint as long as this animation is active.  Now we need to make sure that the character still exists in the game (could have died for example and have been remoted) so we *right click* on the node and select **Convert to Validated Get** which will stop the game from crashing if we access a null reference.
 
 ![Get owning actor cast to character and set character as promoted var](images/validatedGet.png)
 
