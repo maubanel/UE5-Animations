@@ -47,7 +47,7 @@ Call it `BlendSpace_IdleWalkRun`.
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Make sure on the right hand side you are on the **Asset Browser** tab and *drag and drop* the **Idle** animation (the breathing idle that loops and not the fancier one) to the far left side of the blend space.
+Make sure on the right hand side you are on the **Asset Browser** tab and *drag and drop* the **Idle** animation (the breathing idle that loops and not the fancier one) to the far left side of the blend space. It should be at location `0`.
 
 ![drag idle to blend space](images/AddIdleAnimToBlendSpace.jpg)
 
