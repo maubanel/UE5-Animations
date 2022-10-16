@@ -15,7 +15,7 @@ There is a special kind of blueprint used as a state machine for animations. It 
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-We are now going to start to set up a state machine for our character. Go to the **AJ** folder and *press* the <kbd>Add/Import</kbd> button and *select* **Animation | Animation Blueprint**. Make sure it is of type **AnimInstance**. Press the <kbd>OK</kbd> button.
+We are now going to start to set up a state machine for our character. Go to the **AJ** folder and *press* the <kbd>Add/Import</kbd> button and *select* **Animation | Animation Blueprint**. Make sure it is of type **AnimInstance** and the correct skeleton is selected. Press the <kbd>Create</kbd> button.
 
 ![add animation blueprint to aj folder](images/AddNewAnimationBlueprint.png)
 
