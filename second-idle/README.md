@@ -155,21 +155,23 @@ Double click on the left hand button next to the arrow going from **IdleWalkRun*
 
 ![enter idlewalkrun to alternate idle state by double clicking arrow](images/DoubleClickLeftHandLogic.png)
 
-The logic is simple. It will transition when the idle time out boolean switches to true. So add a **Get Does Idle Time Out?** node and attach it to the **Result** node so it can enter the transition.
-
-![add get does idle time out node](images/AddDoesIdleTimeOutTrue.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Core Locomotion** state screen. Now *double click* on the right hand transition from **Alternate Idle** back to **IdleWalkRun**.
+The logic is simple. It will transition when the idle time out boolean switches to true. So add a **Get Does Idle Time Out?** node and attach it to the **Result** node so it can enter the transition.
 
-![go to alternate idle to idlewalk run transition](images/DoubleClickRightHandLogic.jpg)
+![add get does idle time out node](images/AddDoesIdleTimeOutTrue.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
+
+Go back to the **Core Locomotion** state screen. Now *double click* on the right hand transition from **Alternate Idle** back to **IdleWalkRun**.
+
+![go to alternate idle to idlewalk run transition](images/DoubleClickRightHandLogic.jpg)
 
 Drag a **Get Does Idle Time Out?** variable onto the graph.
 
