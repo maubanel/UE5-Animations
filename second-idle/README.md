@@ -121,7 +121,7 @@ Now we want to check to see if we have been idling for more than 5 seconds. Add 
 
 Go back to the **AJ_AnimBlueprint | Anim Graph** tab and *double click* on the **BasicLocomotion** node.
 
-![go to core locomotion in animblueprint anim graph](images/DoubleClickCoreLocoStateMach.jpg)
+![go to core locomotion in animblueprint anim graph](images/DoubleClickCoreLocoStateMach.png)
 
 ![](../images/line2.png)
 
@@ -129,27 +129,31 @@ Go back to the **AJ_AnimBlueprint | Anim Graph** tab and *double click* on the *
 
 Now you should see our only **IdleWalkRun** state. *Right click* above this on the open graph and select **Add State**.
 
-![add state](images/AddNewAlternateIdleState.jpg)
+![add state](images/AddNewAlternateIdleState.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now we will be switching to the alternate animation state based on the player not controlling the game character for at least 5 seconds.  If the player hits any valid button or key we will switch back to the regular motion tree. *Call* this new state `AlternateIdle`. *Connect* the state from **IdleWalkRun** to **AlternateIdle** states **and** back again. There should be arrows coming to and from **both** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations!
+Now we will be switching to the alternate animation state based on the player not controlling the game character for at least 5 seconds.  If the player hits any valid button or key we will switch back to the regular motion tree. *Call* this new state `AlternateIdle`. 
 
-![call new state alternate idle and connect to idle walk run](images/CallItAlternateIdle.jpg)
+![call new state alternate idle and connect to idle walk run](images/CallItAlternateIdle.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click on the left hand button next to the arrow going from **IdleWalkRun** to **AlternateIdle** to adjust the logic for this transition.
+*Connect* the state from **IdleWalkRun** to **AlternateIdle** states **and** back again. There should be arrows coming to and from **both** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations!
 
-![enter idlewalkrun to alternate idle state by double clicking arrow](images/DoubleClickLeftHandLogic.jpg)
+ADD CONNECT PINS VIDEO DESKTOP
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Double click on the left hand button next to the arrow going from **IdleWalkRun** to **AlternateIdle** to adjust the logic for this transition.
+
+![enter idlewalkrun to alternate idle state by double clicking arrow](images/DoubleClickLeftHandLogic.jpg)
 
 The logic is simple. It will transition when the idle time out boolean switches to true. So add a **Get Does Idle Time Out?** node and attach it to the **Result** node so it can enter the transition.
 
