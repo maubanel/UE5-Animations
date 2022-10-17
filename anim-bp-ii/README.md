@@ -48,7 +48,7 @@ Now *select* the **Spring Arm** component and in **Camera Settings** *set* **Use
 
 Now press the <kbd>Compile</kbd> button and go into the game and press *play*. You will notice that the player does animate but doesn't change directions.
 
-ADD RUN NO TURN MOVIE ON DESKTOP
+https://user-images.githubusercontent.com/5504953/196080751-359be9c8-710d-440e-91e1-3b82f0b7e5df.mp4
 
 ![](../images/line2.png)
 
@@ -66,7 +66,7 @@ Now go back to the **BP_AJ_Character** blueprint and *select* the **CharacterMov
 
 Now press the <kbd>Compile</kbd> button and go back into the game. Now the player should animate and turn correctly. 
 
-ADD RUN ALL DIRECTIONS VIDEO IN DESKTOP
+https://user-images.githubusercontent.com/5504953/196080902-9a2d4181-6eb7-4eeb-bb5a-4fb3415a47a4.mp4
 
 ![](../images/line2.png)
 
