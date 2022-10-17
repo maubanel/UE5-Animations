@@ -160,7 +160,7 @@ Double click on the left hand button next to the arrow going from **IdleWalkRun*
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The logic is simple. It will transition when the idle time out boolean switches to true. So add a **Get Does Idle Time Out?** node and attach it to the **Result** node so it can enter the transition.
+The logic is simple. It will transition when the idle time out boolean switches to true. So add a **Get Does Idle Time Out** node and attach it to the **Result** node so it can enter the transition.
 
 ![add get does idle time out node](images/AddDoesIdleTimeOutTrue.png)
 
