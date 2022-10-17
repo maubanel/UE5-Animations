@@ -145,7 +145,7 @@ Now we will be switching to the alternate animation state based on the player no
 
 *Connect* the state from **IdleWalkRun** to **AlternateIdle** states **and** back again. There should be arrows coming to and from **both** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations!
 
-ADD CONNECT PINS VIDEO DESKTOP
+https://user-images.githubusercontent.com/5504953/196081355-e37d2317-638d-4be0-9595-ca93a1dfc3ac.mp4
 
 ![](../images/line2.png)
 
