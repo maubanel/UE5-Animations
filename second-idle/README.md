@@ -12,12 +12,11 @@ Now we are going to add a state change when the idle animation times out. How wi
 
 ---
 
-
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Open the **aj_AnimBlueprint** and go to the **Event Graph**. *Add* a new **Variable** called `bDoesIdleTimeOut` and make it **Variable Type** `Boolean`. *Set* **Private** to `true` and add a **Tooltip** of `Switch to alternate idle when main idle times out`.
+Open the **AnimBP_AJ** and go to the **Event Graph**. *Add* a new **Variable** called `DoesIdleTimeOut` and make it **Variable Type** `Boolean`. *Set* **Private** to `true` and **Description** to `timeout boolean for alternate idle` and add a **Cateogry** of `Player Physics`.
 
-![add boolean bDoesIdleTimeOut to anim blueprint](images/AddDoesIdleTimeOutBooleanVar.jpg)
+![add boolean bDoesIdleTimeOut to anim blueprint](images/AddDoesIdleTimeOutBooleanVar.png)
 
 ![](../images/line2.png)
 
@@ -25,15 +24,15 @@ Open the **aj_AnimBlueprint** and go to the **Event Graph**. *Add* a new **Varia
 
 *Add* a new **Variable** called `IdleTimer` and make it **Variable Type** `Float`. Set **Private** to `true` and add a **Tooltip** of `Calculates time in seconds when velocity length is 0`.
 
-![add idletimer float variable](images/AddIdleTimerVariable.jpg)
+![add idletimer float variable](images/AddIdleTimerVariable.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to check if the Vector Length is 0. Add a **Branch** node to the right of the other nodes.
+Now we need to check if the Vector Length is 0. Add a **Branch** node to the right of the **Set Speed** node.
 
-![add branch node](images/AddBranchNodeToAnimBP.jpg)
+![add branch node](images/AddBranchNodeToAnimBP.png)
 
 ![](../images/line2.png)
 
@@ -41,7 +40,7 @@ Now we need to check if the Vector Length is 0. Add a **Branch** node to the rig
 
 Now we are going to see if this vector is close enough to zero. *Pull* from the **Return Value** pin on the **Vector Length** node and look for **Nearly Equal (float)** node.
 
-![add nearly equal node](images/NearlyEqualVectorLength.jpg)
+![add nearly equal node](images/NearlyEqualVectorLength.png)
 
 ![](../images/line2.png)
 
@@ -49,39 +48,39 @@ Now we are going to see if this vector is close enough to zero. *Pull* from the 
 
 We will leave the default values alone. We want it to be close to `0.0` and the error tolerance seems fine. *Connect* the execution pin form the **Set Speed** node to the **Branch** node. *Connect* the **Return Value** pin from the **Nearly Equal** node to the **Branch** node. *Connect* **Nearly Equal | Return Value** to the **Branch | Condition** pin.
 
-![connect set speed to branch and return value to nearly equal](images/ExecutionPinsAndBranchCondition.jpg)
+![connect set speed to branch and return value to nearly equal](images/ExecutionPinsAndBranchCondition.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Drag* a **Get Idle Timer** variable to the graph and add a **Get World Delta Seconds** node.
+*Drag* a **Get Idle Timer** variable to the graph and add a **Get Delta Seconds** node.
 
-![add get idle time node and world delta seconds node](images/GetIdleTimerDeltaSeconds.jpg)
+![add get idle time node and world delta seconds node](images/GetIdleTimerDeltaSeconds.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add two **Set Idle Timer** nodes. *Connect* each to the **True** and **False** execution pins of the **Branch** node.
+Add two **Set Idle Timer** nodes. *Connect* nexts to each to the **True** and **False** execution pins of the **Branch** node.
 
-![add two set idel timer nodes and attach both to branch](images/AddTwoSetIdleTimerNodes.jpg)
+![add two set idel timer nodes and attach both to branch](images/AddTwoSetIdleTimerNodes.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a **float + float** node and put it between the **Idle Timer** and **Set Idle Timer** nodes.
+*Add* a **float + float** node and put it between the **Idle Timer** and **Set Idle Timer** nodes. *Connect* the outut of **Idle Timer** and **Get Delta Seconds** nodes to the input pins of the **Addition** node. *Send* the output to the **Set Idle** Timer pin.  Connected to the **Branch | True** execution pin. Connect the **False** execution pin to the second **Set Timer** leaving the **Idle Timer** value set to the default of `0`.  Essentially if the player is moving then reset the timer to zero.  If true add the time since last frame.
 
-![Add a float plus float node](images/AddFloatPlusFloatNode.jpg)
+![Add a float plus float node](images/AddFloatPlusFloatNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the outut of **Idle Timer** and **Get World Delta Seconds** nodes to the input pins of the **Addition** node. *Send* the output to the **Set Idle** Timer pin connected to the **Branch | True** execution pin.
-
-![connect idle timer and get world delat to addition node](images/ConnectAdditionPinsForTimer.jpg)
+Connect the execution pin of **Set Speed** node to the input of the **Branch Node**.
+NEED SCREENSHOT OF THIS
+![connect idle timer and get world delat to addition node](images/NEEDSCREENSHOT.png)
 
 ![](../images/line2.png)
 
@@ -89,7 +88,7 @@ Add two **Set Idle Timer** nodes. *Connect* each to the **True** and **False** e
 
 Now we want to check to see if we have been idling for more than 5 seconds. Add a **Branch** node and a **float >= float** node and set the bottom pin value to `5.0`.
 
-![check to see if idle is longer than 5 seconds](images/LongerThan5SecondsInIdle.jpg)
+![check to see if idle is longer than 5 seconds](images/LongerThan5SecondsInIdle.png)
 
 ![](../images/line2.png)
 
@@ -97,7 +96,7 @@ Now we want to check to see if we have been idling for more than 5 seconds. Add 
 
 *Connect* the execution pin from **Set Idle Timer** node to the new **Branch** node. *Connect* the output pin of the **Set Idle Timer** to the **>=** node. *Send* the output of the **>=** node to the **Condition** pin of the **Branch** node.
 
-![connect set idle timer to branch](images/ConnectIdletimerToBranch.jpg)
+![connect set idle timer to branch](images/ConnectIdletimerToBranch.png)
 
 ![](../images/line2.png)
 
@@ -106,21 +105,21 @@ Now we want to check to see if we have been idling for more than 5 seconds. Add 
 
 *Pull off* of the execution pin of the **Branch** node and select a **Set Does Idle Time Out** node. Set this **boolean** to `true`.
 
-![add set does idle time out node](images/PullOffExecutionPin.jpg)
+![add set does idle time out node](images/PullOffExecutionPin.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Pull off* of the **Set Does Idle Timer Time Out?** node and select a **Set Idle Timer** node and set it to `0.0` seconds. *Add* a **comment** around these new nodes and call it `Idle Timer`.
+*Add* a **comment** around these new nodes and call it `Idle Timer`.
 
-![add set idle timer node set to 0](images/SetIdleTimeToZeroAddComment.jpg)
+![add set idle timer node set to 0](images/SetIdleTimeToZeroAddComment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the **AJ_AnimBlueprint | Anim Graph** tab and *double click* on the **Core Locomotion** node.
+Go back to the **AJ_AnimBlueprint | Anim Graph** tab and *double click* on the **BasicLocomotion** node.
 
 ![go to core locomotion in animblueprint anim graph](images/DoubleClickCoreLocoStateMach.jpg)
 

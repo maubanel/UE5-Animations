@@ -2,7 +2,7 @@
 
 ### Our First Animation Blueprint
 
-<sub>[previous](../animation-blend/README.md#user-content-animation-blend-space) • [home](../README.md#user-content-ue4-animations) • [next](../second-idle/README.md#user-content-time-out-for-second-idle)</sub>
+<sub>[previous](../anim-bp-ii/README.md#user-content-our-first-animation-blueprint) • [home](../README.md#user-content-ue4-animations) • [next](../second-idle/README.md#user-content-time-out-for-second-idle)</sub>
 
 ![](../images/line3.png)
 
@@ -172,86 +172,24 @@ We forgot to clean up above so go back to the **Intialize Animation** and place 
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Connect the execution pin from **Event Blueprint Update Animation** to **? Is Valid** nodes.
-We need to get access to the **Speed** of the player. We do this in the **Event Graph** of the animation blueprint. *Click on* the **Event Graph** tab (or *double click* it from the Graphs menu on the left) and you should see two *greyed* out nodes. If you don't see the **Try Get Pawn Owner** then add it. *Drag off* of the **Return Value** pin from the **Try Get Pawn Owner** node and selecdt a **? Is Valid** node. We want to make sure that this pawn is active in game.
+*Drag* a **Set Speed** variable onto the chart. Now if you try and connect the output of velocity it will not connect to speed. Now a **Velocity** (or any vector for that matter) has a *direction* and a *magnitude*. 
 
-![add try get pawn owner and check if valid](images/PawnOwnerValid.jpg)
-
-Now a **Velocity** (or any vector for that matter) has a *direction* and a *magnitude*. All we care about here is the *magnitude*. *Drag off* of the **Return Value** pin from the **Get Velocity** node and select **Vector Length** (I typed in Magnitude in the search window and it still points to this node!). This returns a float with the length of the vector (magnitude).
-
-![get velocity magnitude](images/GetVelocityMagnitude.jpg)
-
-*Drag and drop* the **Speed Variable** and select **Set Speed**:
-
-![add set speed variable](images/DragAndDropSetSpeed.jpg)
-
-Connect the execution pins between the three nodes and *press* the <kbd>Compile</kbd> button.
-
-![connect execution pins and compile](images/ConnectExecPinsCompile.jpg)
-
-Add a comment called `Get Speed From Player` to these nodes:
-
-![add code comment](images/AddCommentSpeedNodes.jpg)
+![add a set speed variable](images/addSetSpeed.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now we need to assign this animation blueprint to our skeletal mesh. *Open* the **BP_AJ_Character** blueprint. *Go* to the **Viewport** tab. We notice our character is in a *T-Pose*. *Select* the **Animation Class** on the Details panel and pick the animation blueprint we just made **AJ_AnimBlueprint**. You will notice that the player should enter the idle state. *Press* the <kbd>Compile</kbd> button.
+All we care about here is the *magnitude*. *Drag off* of the **Return Value** pin from the **Get Velocity** node and select **Vector Length** (I typed in Magnitude in the search window and it still points to this node!). This returns a float with the length of the vector (magnitude).
 
-![add anim blueprint to player blueprint](images/SelectAnimBPOnCharacterMesh.jpg)
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-We want the player to face the direction we are moving in as opposed to always looking forward. Go to the top level component on the blueprint and under **Pawn** *set* the **Use Controller Rotation Yaw** to `false`.
-
-![set Use Controller Rotation Yaw to false](images/NoControllerYaw.jpg)
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-Now *select* the **Spring Arm** component and in **Camera Settings** *set* **Use Pawn Control Rotation** to `true`.
-
-![set use pawn control rotation to true](images/SpringArmRotationTrue.jpg)
-
-![](../images/line2.png)
-
-##### `Step 24.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now press the <kbd>Compile</kbd> button and go into the game and press *play*. You will notice that the player does animate but doesn't change directions.
-
-https://user-images.githubusercontent.com/5504953/132985178-71262496-6c39-4202-a0d0-55974a03eb39.mp4
-
-![](../images/line2.png)
-
-##### `Step 25.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
-
-Now go back to the **BP_AJ_Character** blueprint and *select* the **CharacterMovement** component. *Scroll* in the **Details** panel down to C**haracter Movement (Rotation Settings)** tab. Open it up and look for **Orient Rotation to Movement**. Set this to *true*.
-
-![set orient rotation to movement to true](images/OrientRotationToMovement.jpg)
-
-![](../images/line2.png)
-
-##### `Step 26.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
-
-Now press the <kbd>Compile</kbd> button and go back into the game. Now the player should animate and turn correctly. Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
-
-https://user-images.githubusercontent.com/5504953/132985183-13aeb172-0a84-40e7-8033-d30f3ec22ca1.mp4
-
-![save, commit and push to github](images/GitHub.png)
-
-___
+![get velocity magnitude](images/GetVelocityMagnitude.png)
 
 ![](../images/line1.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Time Out for Second Idle"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Anim BP II"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line1.png)
 
-| [previous](../animation-blend/README.md#user-content-animation-blend-space)| [home](../README.md#user-content-ue4-animations) | [next](../second-idle/README.md#user-content-time-out-for-second-idle)|
+| [previous](../anim-bp-ii/README.md#user-content-our-first-animation-blueprint)| [home](../README.md#user-content-ue4-animations) | [next](../second-idle/README.md#user-content-time-out-for-second-idle)|
 |---|---|---|

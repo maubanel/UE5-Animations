@@ -20,6 +20,7 @@ We will be creating character skeletal animations and rigid body animations in U
 <kbd></kbd> &nbsp;&nbsp; [Adding Controls](adding-controls/README.md#user-content-adding-controls) <br>
 <kbd></kbd> &nbsp;&nbsp; [Animation Blend Space](animation-blend/README.md#user-content-animation-blend-space) <br>
 <kbd></kbd> &nbsp;&nbsp; [Our First Animation Blueprint](anim-bp/README.md#user-content-our-first-animation-blueprint) <br>
+<kbd></kbd> &nbsp;&nbsp; [Our First Animation Blueprint II](anim-bp-ii/README.md#user-content-our-first-animation-blueprint) <br>
 <kbd></kbd> &nbsp;&nbsp; [Time Out for Second Idle](second-idle/README.md#user-content-time-out-for-second-idle) <br>
 <kbd></kbd> &nbsp;&nbsp; [Time Out for Second Idle II](second-idle-ii/README.md#user-content-time-out-for-second-idle-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Falling Animation](falling/README.md#user-content-falling-animation) <br>
