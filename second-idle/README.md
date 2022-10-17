@@ -153,7 +153,7 @@ https://user-images.githubusercontent.com/5504953/196081355-e37d2317-638d-4be0-9
 
 Double click on the left hand button next to the arrow going from **IdleWalkRun** to **AlternateIdle** to adjust the logic for this transition.
 
-![enter idlewalkrun to alternate idle state by double clicking arrow](images/DoubleClickLeftHandLogic.jpg)
+![enter idlewalkrun to alternate idle state by double clicking arrow](images/DoubleClickLeftHandLogic.png)
 
 The logic is simple. It will transition when the idle time out boolean switches to true. So add a **Get Does Idle Time Out?** node and attach it to the **Result** node so it can enter the transition.
 
