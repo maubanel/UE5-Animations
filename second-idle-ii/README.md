@@ -15,13 +15,17 @@ Second idle continued...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-*Connect* the output of the **NOT** node to the **Can Enter Transition** pin in the **Result** node.
+Now we are looking for the opposite so we want the **Does Idle Time Out?** to be false. So we pull off the pin and select a **NOT** (Not Boolean) node which looks to see if it is the opposite of **True** (false).
 
-![conect not to can enter transition node](images/OutputOfNotToTransition.jpg)
+![add NOT node](images/BooleanNotNode.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+*Connect* the output of the **NOT** node to the **Can Enter Transition** pin in the **Result** node.
+
+![conect not to can enter transition node](images/OutputOfNotToTransition.jpg)
 
 Go back to the **Core Locomotion** state tab. Now we have dealt with the transitions but not the actual animation in this new state. *Double click* the **Alternate Idle** node.
 

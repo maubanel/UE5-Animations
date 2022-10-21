@@ -179,13 +179,7 @@ Go back to the **Core Locomotion** state screen. Now *double click* on the right
 
 Drag a **Get Does Idle Time Out?** variable onto the graph.
 
-![add a get does idle time out node to graph](images/AddDoesIdleTimeOutVari.jpg)
-
-Now we are looking for the opposite so we want the **Does Idle Time Out?** to be false. So we pull off the pin and select a **NOT** (Not Boolean) node which looks to see if it is the opposite of **True** (false).
-
-![add NOT node](images/BooleanNotNode.jpg)
-
-___
+![add a get does idle time out node to graph](images/AddDoesIdleTimeOutVari.png)
 
 
 ![](../images/line1.png)
