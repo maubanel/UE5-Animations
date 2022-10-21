@@ -49,9 +49,9 @@ Go back to the **Anim Graph | Core Locomotion** screen and *double click* the tr
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-We switch to this animation when we hit the ground. *Drag* a **Get Are We in Air?** node to the graph.
+We switch to this animation when we hit the ground. *Drag* a **Get Are We in Air** node to the graph.
 
-![drag a get are we in air variable to graph](images/GetAreWeInAirNOT.jpg)
+![drag a get are we in air variable to graph](images/GetAreWeInAirNOT.png)
 
 ![](../images/line2.png)
 
@@ -59,7 +59,7 @@ We switch to this animation when we hit the ground. *Drag* a **Get Are We in Air
 
 *Pull off* of the **Are We in Air?** node and select a **NOT Boolean** node as we want to find out if the player is not in the air.
 
-![add NOT node](images/PullOffNOTBool.jpg)
+![add NOT node](images/PullOffNOTBool.png)
 
 ![](../images/line2.png)
 
@@ -67,7 +67,7 @@ We switch to this animation when we hit the ground. *Drag* a **Get Are We in Air
 
 Connect the output of the **NOT** node to the **Result** node.
 
-![connect NOT to Result node](images/ConnectNotToEnterTransition.jpg)
+![connect NOT to Result node](images/ConnectNotToEnterTransition.png)
 
 ![](../images/line2.png)
 
