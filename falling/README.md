@@ -16,7 +16,6 @@ Lets add an animation for when the player is falling to our movement state machi
 
 Lets go back to [Mixamo](https://www.mixamo.com/#/) and look for some more animations. I am looking for a looping falling animation and for hitting the ground (after falling). Select the character you are using then search for these two animations. First pick the looping falling and make the appropriate adjustments. *Click* the **Download** button.
 
-ADD SCREENSHOT 
 ![go to mixamo and download loop falling animation](images/LoopingFalling.jpg)
 
 ![](../images/line2.png)
