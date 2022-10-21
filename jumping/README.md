@@ -39,9 +39,9 @@ Open up the **AnimBP_AJ** blueprint and go to the **Event Graph**. *Right click*
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Pull off of the **Jump** node's **Pressed** execution pin and select the **Jump** node.
+Pull off of the **Jump** node's **Pressed** execution pin and select the **Action Events | Jump** node.
 
-![select Jump node](images/PressedToJump.jpg)
+![select Jump node](images/PressedToJump.png)
 
 ![](../images/line2.png)
 
