@@ -64,7 +64,7 @@ https://user-images.githubusercontent.com/5504953/197163799-a4aaf480-2701-4d54-a
 
 We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **SpecialIdle** animation.
 
-![enter idle never leaves the state](images/IdleFidgetPre.jpg)
+![enter idle never leaves the state](images/IdleFidgetPre.png)
 
 
 ![](../images/line2.png)
