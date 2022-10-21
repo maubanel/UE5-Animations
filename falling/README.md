@@ -153,7 +153,7 @@ Take the output execution pin from **Set Are We in Air** node to the **Set Speed
 
 Select the new nodes and make a **comment** `Sets Whether Player Is In Air`.
 
-![add code comments](images/AddCommnentIsPlayerInAir.jpg)
+![add code comments](images/AddCommnentIsPlayerInAir.png)
 
 ![](../images/line2.png)
 
