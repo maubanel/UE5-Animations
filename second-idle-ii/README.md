@@ -75,33 +75,34 @@ Right click on the **Notifies** timeline near the end (on the 1 row) and select 
 
 ![add notify](images/AddNotifyToIdleTimeline.png)
 
-A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and press the <kbd>Enter</kbd> key.
-
-![call notify endanim](images/NameNotifyEndAnim.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Adjust the position after the core movement ends but with room to blend it back to the core idle. I set it at the 80<sup>th</sup> frame.
+A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and press the <kbd>Enter</kbd> key.
 
-![call from frame 80](images/GiveItRoomToBlend.jpg)
+![call notify endanim](images/NameNotifyEndAnim.png)
 
-Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for when this notify event triggers. *Right clic*k on the open graph and select a **Event AnimNotify_EndAnim** node. It should be red with an execution pin.
-
-![add event AnimNotify_EndAnim node to anim blueprint](images/EndAnimAnimEvent.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Pull off of the **EndAnim** pin and select a **Set Idle Time Out?** node and set it to `false`. *Pull off* this execution pin and select **Set Idle Timer** and set it to `0.0`.
+Adjust the position after the core movement ends but with room to blend it back to the core idle. I set it at the 80<sup>th</sup> frame.
 
-![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.jpg)
+![call from frame 80](images/GiveItRoomToBlend.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+
+Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for when this notify event triggers. *Right clic*k on the open graph and select a **Event AnimNotify_EndAnim** node. It should be red with an execution pin.
+
+![add event AnimNotify_EndAnim node to anim blueprint](images/EndAnimAnimEvent.jpg)
+
+Pull off of the **EndAnim** pin and select a **Set Idle Time Out?** node and set it to `false`. *Pull off* this execution pin and select **Set Idle Timer** and set it to `0.0`.
+
+![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.jpg)
 
 Now add a **comment** around these nodes that says `Reset Idle Timer`. *Press* the <kbe>Compile</kbd> button.
 
