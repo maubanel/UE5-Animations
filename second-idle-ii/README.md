@@ -62,7 +62,7 @@ https://user-images.githubusercontent.com/5504953/197163799-a4aaf480-2701-4d54-a
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **Idle_Fidget** animation.
+We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **SpecialIdle** animation.
 
 ![enter idle never leaves the state](images/IdleFidgetPre.jpg)
 
