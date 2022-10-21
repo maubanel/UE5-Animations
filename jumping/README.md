@@ -139,7 +139,7 @@ Now the animation blueprint needs to know when the jump button is pressed. Go to
 
 *Set* the execution pin from the **Jump** node to the **Set Is Jumping** node. *Set* **Is Jumping** to `true`.
 
-![set is jumping to true](images/image_02.jpg)
+![set is jumping to true](images/image_02.png)
 
 ![](../images/line2.png)
 
