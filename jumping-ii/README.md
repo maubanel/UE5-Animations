@@ -24,7 +24,9 @@ Continue implementing jump animation...
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-We need a variable in the animation blueprint to run our transitions with. Add a new **Boolean** Variable named `PressedJump` and make it *Private* and set the tooltip to `Jump button was pressed`.
+*Connect* the **Sequence | Then 1** pin to the **Cast to BP_AJ** execution pin. 
+
+We need a variable in the animation blueprint to run our transitions with. Add a new **Boolean** Variable named `PressedJump` and make it **Private** and set the tooltip to `Jump button was pressed`. *Put* it in **Catogory** `Player Physics`.
 
 ![add new boolean bPressedJump](images/AddPressedJump.png)
 
