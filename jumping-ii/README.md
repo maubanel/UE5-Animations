@@ -69,7 +69,7 @@ Add a **Get PressedJump** node and *connect* the pin to the **Result | Can Enter
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jumping** state to assign the **JumpingUp** animation. Drag and drop the **Jump_Start** animation to the graph. *Connect* the animation nodes with the **Final Animation Pose**.
+Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jumping** state to assign the **JumpingUp** animation. Drag and drop the **JumpingUp** animation to the graph. *Connect* the animation nodes with the **Final Animation Pose**.
 
 ![open jump state](images/DoubleClickJump.png)
 
