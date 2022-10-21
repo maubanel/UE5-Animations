@@ -123,7 +123,6 @@ Connect the execution pins from **EndAnim** to **DoesIdleTimeOut** and then conn
 
 We have done enough to test our work. Play the game and move the character then let go of the controls. Let the character idle and see if the idle animation plays. Then make sure it goes back to the normal idle. After playing around there is a clear issue with trying to move while in the alternate idle. It is not switching back to our normal blend IdleWalkRun animation when branching from this state.
 
-https://user-images.githubusercontent.com/5504953/132986162-d782c87f-f7fe-4d03-b94b-6197fbd6dd4a.mp4
 
 ![](../images/line2.png)
 
