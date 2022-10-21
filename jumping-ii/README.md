@@ -95,7 +95,8 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Drag off* of the **Pressed Jump** pin and select **NOT Boolean**. *Connect* it to the input of the **AND** pin. *Connect* the output of the **AND** node to **Result** node.
+*Drag off* of the **Pressed Jump** pin and select **NOT Boolean**. *Connect* it to the inpu
+t of the **AND** pin. *Connect* the output of the **AND** node to **Result** node. Connect the **Are Wer in Air** pin to the top of the **AND** node.
 
 ![connect pressed jump to NOT Boolean to AND to Result](images/ConnectOuputOfAndToResult.png)
 
@@ -104,6 +105,10 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
+*Double click* on the **Jump** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen.
+
+![enter the jump to falling transition](images/DoubleClickJumpFallingTransition.png
+)
 
 ![](../images/line2.png)
 
@@ -141,9 +146,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Double click* on the **Jump** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen.
 
-![enter the jump to falling transition](images/DoubleClickJumpFallingTransition.jpg)
 
 ![](../images/line2.png)
 
