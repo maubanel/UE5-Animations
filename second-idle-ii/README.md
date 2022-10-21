@@ -165,9 +165,6 @@ Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top pro
 
 ![save all and submit to perforce in P4V](images/submitP4.png)
 
-___
-
-
 ![](../images/line1.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Falling Animation"> -->
