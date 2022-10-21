@@ -87,7 +87,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-This is for falling off the edge of an object without jumping. We need to find out if we are in the air but not pressing the jump button. *Drag* a **Get Are We in Air** and **Get Pressed Jump** nodes onto the graph.
+This is for falling off the edge of an object without jumping. We need to find out if we are in the air but **not** pressing the jump button. *Drag* a  **Get Pressed Jump** nodes onto the graph.
 
 ![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.jpg)
 
@@ -95,6 +95,9 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+*Drag off* of the **Pressed Jump** pin and select **NOT Boolean**. *Connect* it to the input of the **AND** pin. *Connect* the output of the **AND** node to **Result** node.
+
+![connect pressed jump to NOT Boolean to AND to Result](images/ConnectOuputOfAndToResult.png)
 
 
 ![](../images/line2.png)
@@ -133,9 +136,6 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Drag off* of the **Pressed Jump** pin and select **NOT Boolean**. *Connect* it to the input of the **AND** pin. *Connect* the output of the **AND** node to **Result** node.
-
-![connect pressed jump to NOT Boolean to AND to Result](images/ConnectOuputOfAndToResult.jpg)
 
 ![](../images/line2.png)
 
