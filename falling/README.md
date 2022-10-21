@@ -119,7 +119,7 @@ Go to the **Event Graph** tab and make some space between the **Is Valid** node 
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Pull off* of the **Return Value** pin from the **Get Movement Component** and select the **IsFalling** node.
+*Drag* a get **Character Movement** variable to the graph. *Pull off* of the **Return Value** pin from the **Movement Component** and select the **IsFalling** node.
 
 ![add isfalling node](images/IsFallingVariableGet.png)
 
@@ -129,7 +129,11 @@ Go to the **Event Graph** tab and make some space between the **Is Valid** node 
 
 *Drag* the **Set Are We In Air** variable onto the graph.
 
-![add set are we in air node](images/SetAreWeInAir.jpg)
+![add set are we in air node](images/SetAreWeInAir.png)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Connect the **Return Value** pin from the **Is Falling** node to the **Set Are We In Air?** node.
 
@@ -137,15 +141,11 @@ Connect the **Return Value** pin from the **Is Falling** node to the **Set Are W
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Hijack* the execution pin from **Is Valid** node and *send it* to the **Set Are We In Air?** node.
 
 ![move execution from is valid to are we in air node](images/IsValidExecutionPin.jpg)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Take the output execution pin from **Set Are We in Air?** node to the **Set Speed** node.
 
