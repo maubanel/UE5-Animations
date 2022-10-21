@@ -99,7 +99,7 @@ Lets assign the falling end animation. Go back to the **Anim Graph | CBasicore L
 
 We want this animation to play once then blend back to the **IdleWalkRun** state. There is a node for this. *Right click* on the graph and select a **Time Remaining (ratio)(Falling_To_Landing)** node.
 
-![add Time Remaining (ratio)(Falling_To_Landing) node](images/TimeRemainingRatioFallEnd.jpg)
+![add Time Remaining (ratio)(Falling_To_Landing) node](images/TimeRemainingRatioFallEnd.png)
 
 ![](../images/line2.png)
 
