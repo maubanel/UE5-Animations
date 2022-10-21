@@ -25,7 +25,7 @@ Now we need to add a controller event for jumping. Go to the **Engine | Input** 
 
 Call this new action `Jump`. Press the **+** button next to the **Jump** setting and add a **Keyboard | Space Bar** to the controls.
 
-![add jump action and assign space bar](images/JumpSpaceBar.jpg)
+![add jump action and assign space bar](images/JumpSpaceBar.png)
 
 ![](../images/line2.png)
 
