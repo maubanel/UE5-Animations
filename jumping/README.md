@@ -121,9 +121,9 @@ https://user-images.githubusercontent.com/5504953/197190409-b9021428-7b22-4fe3-a
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Now the animation blueprint needs to know when the jump button is pressed. Go to **BP_AJ_Character** blueprint and add a **Boolean** variable called `bIsJumping`. Keep it **Public** (**Private** set to `false`) because we need to access it in the animation blueprint.
+Now the animation blueprint needs to know when the jump button is pressed. Go to **BP_AJ_Character** blueprint and add a **Boolean** variable called `IsJumping`. Keep it **Public** (**Private** set to `false`) because we need to access it in the animation blueprint.
 
-![add boolean bIsJumping](images/IsJumpingPlayerBPVar.jpg)
+![add boolean bIsJumping](images/IsJumpingPlayerBPVar.png)
 
 ![](../images/line2.png)
 
