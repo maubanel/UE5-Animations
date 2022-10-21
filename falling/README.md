@@ -101,12 +101,15 @@ Increase the size of the **References** comment group to include these new nodes
 
 ![](../images/line2.png)
 
-
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now we need a boolean to track when we are on the ground or in the air. Add a new **Boolean** Variable and call it `bAreWeInAir`. *Make* it **Private** and set the **Tooltip** to `True when player is not on the ground`.
 
-![add are we in air boolean variable](images/AreWeInAirBooleanDef.jpg)
+![add are we in air boolean variable](images/AreWeInAirBooleanDef.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Go to the **Event Graph** tab and make some space between the **Is Valid** node and the **Get Velocity** node to check to see if we are in air.
 
@@ -115,10 +118,6 @@ Go to the **Event Graph** tab and make some space between the **Is Valid** node 
 *Pull off* of the **Return Value** pin from the **Try Get Pawn Owner** node and *select* the **Get Movement Component** node.
 
 ![add get mvoement component node](images/GetMovementComponentAnimBP.jpg)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Pull off* of the **Return Value** pin from the **Get Movement Component** and select the **IsFalling** node.
 
