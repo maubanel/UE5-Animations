@@ -37,7 +37,7 @@ We need a variable in the animation blueprint to run our transitions with. Add a
 
 Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get IsJumping**.
 
-![ad get isjumping node](images/GetIsJumpingAJCharacter.jpg)
+![ad get isjumping node](images/GetIsJumpingAJCharacter.png)
 
 
 ![](../images/line2.png)
