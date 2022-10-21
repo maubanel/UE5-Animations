@@ -105,16 +105,15 @@ Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for wh
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
 *Add* a **Set Idle Time Out** node and set it to `false`. *Add* a **Set Idle Timer** and set it to `0.0`.
 
 ![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now add a **comment** around these nodes that says `Reset Idle Timer`. *Press* the <kbe>Compile</kbd> button.
+Connect the execution pins from Now add a **comment** around these nodes that says `Reset Idle Timer`. *Press* the <kbe>Compile</kbd> button.
 
-![add comment and compile](images/AddCommentCompile.jpg)
+![add comment and compile](images/AddCommentCompile.png)
 
 ![](../images/line2.png)
 
