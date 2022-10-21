@@ -54,9 +54,9 @@ In the **FBX Import Options** overlay, make sure you select the skeleton you hav
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Preview* the animations in the editor. *Name* them accordingly. I named them `Falling_Loop` and `Falling_To_Landing`.
+*Preview* the animations in the editor. *Name* them accordingly. I named them `FallingLoop` and `FallingToLanding`.
 
-![rename animations](images/RenameAndPreviewAnims.jpg)
+![rename animations](images/RenameAndPreviewAnims.png)
 
 ![](../images/line2.png)
 
