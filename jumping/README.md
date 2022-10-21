@@ -147,7 +147,7 @@ Now the animation blueprint needs to know when the jump button is pressed. Go to
 
 We need to reset this **boolean** when you are touching the ground. Under the **Jump** nodes *right click* on the graph and add a **Get Movement Component** node. Pull of its pin and look for a **Is Falling** node.
 
-![add get movement component and is falling nodes](images/SetToIsJumpingFalse.jpg)
+![add get movement component and is falling nodes](images/SetToIsJumpingFalse.png)
 
 ![](../images/line2.png)
 
