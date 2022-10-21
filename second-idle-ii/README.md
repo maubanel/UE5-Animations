@@ -55,13 +55,15 @@ Drag a reference to **SpecialIdle** to the open graph.
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Now go into the game. After 5 seconds the player should go to the alternate idle. But he/she never leaves this state. We now want to reset the Does Idle Time Out? variable back to false. We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **Idle_Fidget** animation.
-
-![enter idle never leaves the state](images/IdleFidgetPre.jpg)
+Now go into the game. After 5 seconds the player should go to the alternate idle. But he/she never leaves this state. We now want to reset the Does Idle Time Out? variable back to false. 
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **Idle_Fidget** animation.
+
+![enter idle never leaves the state](images/IdleFidgetPre.jpg)
 
 Right click on the **Notifies** timeline near the end and select **Add Notify | New Notify**.
 
