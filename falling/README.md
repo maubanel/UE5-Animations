@@ -62,7 +62,7 @@ In the **FBX Import Options** overlay, make sure you select the skeleton you hav
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Locomotion** tab. *Right click* on the area and add an **Add State** button.
+Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Locomotion** tab. *Right click* on the area and add an **Add State** button. Call this new state `Falling`. 
 
 ![press add state button in ainmation blueprint](images/AddFallingState.png)
 
@@ -70,15 +70,15 @@ Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Lo
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Call this new state `Falling`. *Right click* again and select another **Add State** node.
+*Right click* again and select another **Add State** node. *Call* this new state `FallingEnd`.
 
-![call state falling and add new state](images/CallItFallingAddAnotherState.jpg)
+![call state falling and add new state](images/CallItFallingAddAnotherState.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Call* this new state `FallingEnd`.
+
 
 ![call new state FallingEnd](images/FallingEnd.jpg)
 
