@@ -78,7 +78,7 @@ Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jumpi
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the transition in the **Anim Graph | Core Locomotion** page from **IdleWalkRun** to **Falling**.
+Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the transition in the **Anim Graph | Basic Locomotion** page from **IdleWalkRun** to **Falling**.
 
 ![go idelwalkrun to falling transition](images/WalkToFallTransition.png)
 
@@ -87,7 +87,9 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+This is for falling off the edge of an object without jumping. We need to find out if we are in the air but not pressing the jump button. *Drag* a **Get Are We in Air** and **Get Pressed Jump** nodes onto the graph.
 
+![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.jpg)
 
 ![](../images/line2.png)
 
@@ -107,8 +109,6 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 
 
-![add jump_start animation to jump state](images/HookUpJumpStartAnim.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
@@ -119,9 +119,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-This is for falling off the edge of an object without jumping. We need to find out if we are in the air but not pressing the jump button. *Drag* a **Get Are We in Air** and **Get Pressed Jump** nodes onto the graph.
 
-![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.jpg)
 
 ![](../images/line2.png)
 
