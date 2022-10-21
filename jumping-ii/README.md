@@ -16,7 +16,7 @@ Continue implementing jump animation...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-*Open* the **AnimmBP_AJ | Event Graph**. We need to access the character's **IsJumping** variable. We are not in the right class with the Pawn Owner. *Drag* a **Get Character** node from the **Variables** section.  Then *pull* off of it's output pin and select a **Cast To BP **AJ** node.
+*Open* the **AnimmBP_AJ | Event Graph**. We need to access the character's **IsJumping** variable. We are not in the right class with the Pawn Owner. *Drag* a **Get Character** node from the **Variables** section.  Then *pull* off of it's output pin and select a **Cast To BP AJ** node.
 
 ![cast pawn owner to aj_character](images/CastToCharacterBP.png)
 
