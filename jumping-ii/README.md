@@ -44,7 +44,7 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* the Set **PressedJump** node. Connect the **IsJumping** pin to the **PressedJump** pin. *Connect* the execution pins from **Cast** to **BP_AJCharacter** to Set **bPressedJump**. Add a comment around the text sayin `Set Is Jumping`.
+*Drag and drop* the Set **PressedJump** node. Connect the **IsJumping** pin to the **PressedJump** pin. *Connect* the execution pins from **Cast to BP_AJ** to Set **bPressedJump**. Add a comment around the text sayin `Set Is Jumping`.
 
 ![connect pins](images/SetIsJumpingNode.png)
 
@@ -53,7 +53,7 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Go back to the **Anim Graph | Core Locomotion** section of the animatin blueprint and *click on* the transition button from **IdleWalkRun** to **Jump** transition.
+Go back to the **Anim Graph | Basic Locomotion** section of the animation blueprint and *click on* the transition button from **IdleWalkRun** to **Jumping** transition.
 
 ![go to idlewalkrun to jump transition in core locomotion](images/TransitionWalkToJump.png)
 
