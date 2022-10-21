@@ -65,13 +65,14 @@ We need to do this at the end of the alternate animation. We can this using **No
 
 ![enter idle never leaves the state](images/IdleFidgetPre.jpg)
 
-Right click on the **Notifies** timeline near the end and select **Add Notify | New Notify**.
-
-![add notify](images/AddNotifyToIdleTimeline.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Right click on the **Notifies** timeline near the end and select **Add Notify | New Notify**.
+
+![add notify](images/AddNotifyToIdleTimeline.jpg)
 
 A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and press the <kbd>Enter</kbd> key.
 
