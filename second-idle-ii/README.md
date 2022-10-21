@@ -98,7 +98,7 @@ Adjust the position after the core movement ends but with room to blend it back 
 
 Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for when this notify event triggers. *Right clic*k on the open graph and select a **Event AnimNotify_EndAnim** node. It should be red with an execution pin.
 
-![add event AnimNotify_EndAnim node to anim blueprint](images/EndAnimAnimEvent.jpg)
+![add event AnimNotify_EndAnim node to anim blueprint](images/EndAnimAnimEvent.png)
 
 ![](../images/line2.png)
 
