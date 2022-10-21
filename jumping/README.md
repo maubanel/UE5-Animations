@@ -55,15 +55,15 @@ https://user-images.githubusercontent.com/5504953/197189065-bafc020b-5773-4957-9
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we could leave it like this as it looks ok. We will add a jump start just to show how it is done. Go back to the [Mixamo](https://www.mixamo.com/#/) site and look for the start of a jump animation. Make sure you speed it up as we want it to be very fast. Also clip just the very begining of the jump. Pick one that will work from jump from stand and from run.
+
+https://user-images.githubusercontent.com/5504953/132995968-f2f3999a-bd91-400e-9bec-c9564ca3beb6.mp4
 
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we could leave it like this as it looks ok. We will add a jump start just to show how it is done. Go back to the [Mixamo](https://www.mixamo.com/#/) site and look for the start of a jump animation. Make sure you speed it up as we want it to be very fast. Also clip just the very begining of the jump. Pick one that will work from jump from stand and from run.
-
-https://user-images.githubusercontent.com/5504953/132995968-f2f3999a-bd91-400e-9bec-c9564ca3beb6.mp4
 
 ![](../images/line2.png)
 
