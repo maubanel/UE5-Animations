@@ -99,6 +99,7 @@ In the **FBX Import Options** select the *skeleton* for the character. *Press* t
 
 Open up the **JumpingUp** animation and make sure it is very short. On its own it should look like this:
 
+https://user-images.githubusercontent.com/5504953/197190174-baa347cb-6951-4f75-8148-52bcfd66334f.mp4
 
 ![](../images/line2.png)
 
