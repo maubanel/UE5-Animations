@@ -107,7 +107,9 @@ Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for wh
 
 Pull off of the **EndAnim** pin and select a **Set Idle Time Out?** node and set it to `false`. *Pull off* this execution pin and select **Set Idle Timer** and set it to `0.0`.
 
-![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.jpg)
+![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.png)
+
+##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now add a **comment** around these nodes that says `Reset Idle Timer`. *Press* the <kbe>Compile</kbd> button.
 
@@ -118,8 +120,6 @@ We have done enough to test our work. Play the game and move the character then 
 https://user-images.githubusercontent.com/5504953/132986162-d782c87f-f7fe-4d03-b94b-6197fbd6dd4a.mp4
 
 ![](../images/line2.png)
-
-##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now go back to the **aj_AnimBlueprint** to its **Event Graph** tab. Look to see the **Branch** node where we check to see if the **Vector Length** is close to `0.0.` We do not set the **Does Idle Time Out** node back to false. **Add** a **Set Does Idle Time Out?** node to the right of the **Set Idle Timer** node.
 
