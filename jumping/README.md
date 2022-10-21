@@ -31,7 +31,7 @@ Call this new action `Jump`. Press the **+** button next to the **Jump** setting
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the **AnimBP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Action Events | Jump** to the graph.
+Open up the **AnimBP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Character | Jump** to the graph.
 
 ![open BP_AJ_Character bp and add a Jump event](images/RightClickForJumpAction.png)
 
@@ -39,7 +39,7 @@ Open up the **AnimBP_AJ** blueprint and go to the **Event Graph**. *Right click*
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Pull off of the **Jump** node's **Pressed** execution pin and select the **Action Events | Jump** node.
+Pull off of the **Jump** node's **Pressed** execution pin and select the **Action Events | Jump** node. Add a **comment** around these two nodes called `Jump`.
 
 ![select Jump node](images/PressedToJump.png)
 
@@ -47,17 +47,13 @@ Pull off of the **Jump** node's **Pressed** execution pin and select the **Actio
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Add a **comment** around these two nodes called `Jump`.
-
-![add code comments](images/AddJumpComment.jpg)
+*Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button <kbd>space bar</kbd>. Now you should be jumping around the level.
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button <kbd>space bar</kbd>. Now you should be jumping around the level.
 
-https://user-images.githubusercontent.com/5504953/132988110-e708986d-8dd4-46f1-9d40-b92ad8b8015f.mp4
 
 ![](../images/line2.png)
 
