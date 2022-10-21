@@ -12,7 +12,6 @@ Lets add an animation for when the player is falling to our movement state machi
 
 ---
 
-
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
 Lets go back to [Mixamo](https://www.mixamo.com/#/) and look for some more animations. I am looking for a looping falling animation and for hitting the ground (after falling). Select the character you are using then search for these two animations. First pick the looping falling and make the appropriate adjustments. *Click* the **Download** button.
@@ -41,7 +40,7 @@ I also found an animation from falling to hitting the ground. I sped up the anim
 
 Go back to the game and go to the **AJ | Animations** folder and *press* the <kbd>Add/Import</kbd> button and *select* these two animations you just downloaded.
 
-![import animations into unreal](images/ImportFallingAnimation.jpg)
+![import animations into unreal](images/ImportFallingAnimation.png)
 
 ![](../images/line2.png)
 
@@ -49,7 +48,7 @@ Go back to the game and go to the **AJ | Animations** folder and *press* the <kb
 
 In the **FBX Import Options** overlay, make sure you select the skeleton you have been using. Then press the <kbd>Import All</kbd> button.
 
-![select skeleton then import all](images/SelectSkeletonFallingAnims.jpg)
+![select skeleton then import all](images/SelectSkeletonFallingAnims.png)
 
 ![](../images/line2.png)
 
