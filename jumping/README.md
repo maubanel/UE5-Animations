@@ -82,22 +82,22 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 In the **FBX Import Options** select the *skeleton* for the character. *Press* the <kbd>Import</kbd> button.
 
-![select skeleton and import](images/JumpStartFBXSettings.jpg)
+![select skeleton and import](images/JumpStartFBXSettings.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
+*Rename* the animation `JumpingUp` and *run* it to confirm you are happy with the animation.
 
+![rename jump start animation](images/RenameJumpStart.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Rename* the animation `Jump_Start` and *run* it to confirm you are happy with the animation.
 
-![rename jump start animation](images/RenameJumpStart.jpg)
 
 ![](../images/line2.png)
 
