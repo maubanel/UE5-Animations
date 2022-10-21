@@ -35,6 +35,10 @@ We need a variable in the animation blueprint to run our transitions with. Add a
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get IsJumping**.
+
+![ad get isjumping node](images/GetIsJumpingAJCharacter.jpg)
+
 
 ![](../images/line2.png)
 
@@ -46,9 +50,6 @@ We need a variable in the animation blueprint to run our transitions with. Add a
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get IsJumping**.
-
-![ad get isjumping node](images/GetIsJumpingAJCharacter.jpg)
 
 ![](../images/line2.png)
 
