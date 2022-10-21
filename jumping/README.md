@@ -49,6 +49,8 @@ Pull off of the **Jump** node's **Pressed** execution pin and select the **Actio
 
 *Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button <kbd>space bar</kbd>. Now you should be jumping around the level.
 
+https://user-images.githubusercontent.com/5504953/197189065-bafc020b-5773-4957-98c6-2901a6fa7518.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
