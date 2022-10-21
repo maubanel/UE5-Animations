@@ -25,7 +25,7 @@ Attach the two only pins in this graph.
 
 Lets put the animation inside the falling state. *Double click* the **Falling** state node.
 
-![double click falling state](images/DoubleClickFallingState.jpg)
+![double click falling state](images/DoubleClickFallingState.png)
 
 ![](../images/line2.png)
 
