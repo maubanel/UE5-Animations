@@ -61,6 +61,9 @@ Go back to the **Anim Graph | Basic Locomotion** section of the animation bluepr
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+Add a **Get PressedJump** node and *connect* the pin to the **Result | Can Enter Transition** pin.
+
+![add a bPressedJump node and connect it to can enter transition](images/PressedJumpToResult.png)
 
 ![](../images/line2.png)
 
@@ -80,9 +83,7 @@ Go back to the **Anim Graph | Basic Locomotion** section of the animation bluepr
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Add a **Get bPressedJump** node and *connect* the pin to the **Result | Can Enter Transition** pin.
 
-![add a bPressedJump node and connect it to can enter transition](images/PressedJumpToResult.jpg)
 
 ![](../images/line2.png)
 
