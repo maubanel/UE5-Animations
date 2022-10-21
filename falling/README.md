@@ -78,17 +78,18 @@ Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Lo
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need a boolean to track when we are on the ground or in the air. Add a new **Boolean** Variable and call it `bAreWeInAir`. *Make* it **Private** and set the **Tooltip** to `True when player is not on the ground`.
+We need a reference to the character component of the player blueprint.  
 
-![add are we in air boolean variable](images/AreWeInAirBooleanDef.jpg)
+![call state falling and add new state](images/charComponentRef.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Go to the **Event Graph** tab and make some space between the **Is Valid** node and the **Get Velocity** node to check to see if we are in air.
 
-![add space to nodes](images/MakeSpaceEventGraphAnimBP.jpg)
+
+
 
 ![](../images/line2.png)
 
@@ -100,6 +101,14 @@ Go to the **Event Graph** tab and make some space between the **Is Valid** node 
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Now we need a boolean to track when we are on the ground or in the air. Add a new **Boolean** Variable and call it `bAreWeInAir`. *Make* it **Private** and set the **Tooltip** to `True when player is not on the ground`.
+
+![add are we in air boolean variable](images/AreWeInAirBooleanDef.jpg)
+
+Go to the **Event Graph** tab and make some space between the **Is Valid** node and the **Get Velocity** node to check to see if we are in air.
+
+![add space to nodes](images/MakeSpaceEventGraphAnimBP.jpg)
 
 *Pull off* of the **Return Value** pin from the **Try Get Pawn Owner** node and *select* the **Get Movement Component** node.
 
