@@ -105,7 +105,7 @@ t of the **AND** pin. *Connect* the output of the **AND** node to **Result** nod
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-*Double click* on the **Jump** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen.
+*Double click* on the **Jumping** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen.
 
 ![enter the jump to falling transition](images/DoubleClickJumpFallingTransition.png
 )
@@ -115,7 +115,9 @@ t of the **AND** pin. *Connect* the output of the **AND** node to **Result** nod
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+*Right click* on the graph and select a **Time Remaining (ratio) (JumpingUp)** node.
 
+![add a Time Remaining (ratio) node](images/TimeRemainingJumpToFall.png)
 
 ![](../images/line2.png)
 
@@ -152,9 +154,7 @@ t of the **AND** pin. *Connect* the output of the **AND** node to **Result** nod
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on the graph and select a **Time Remaining (ratio) (Jump_Start)** node.
 
-![add a Time Remaining (ratio) node](images/TimeRemainingJumpToFall.jpg)
 
 ![](../images/line2.png)
 
