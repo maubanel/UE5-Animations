@@ -70,7 +70,7 @@ Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Lo
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* again and select another **Add State** node. *Call* this new state `FallingEnd`.
+*Right click* again and select another **Add State** node. *Call* this new state `Landing`.
 
 ![call state falling and add new state](images/CallItFallingAddAnotherState.png)
 
@@ -78,25 +78,23 @@ Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Lo
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![call new state FallingEnd](images/FallingEnd.jpg)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITA`| :large_blue_diamond:
-
 Now we need a boolean to track when we are on the ground or in the air. Add a new **Boolean** Variable and call it `bAreWeInAir`. *Make* it **Private** and set the **Tooltip** to `True when player is not on the ground`.
 
 ![add are we in air boolean variable](images/AreWeInAirBooleanDef.jpg)
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
 Go to the **Event Graph** tab and make some space between the **Is Valid** node and the **Get Velocity** node to check to see if we are in air.
 
 ![add space to nodes](images/MakeSpaceEventGraphAnimBP.jpg)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
