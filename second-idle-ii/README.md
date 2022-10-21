@@ -145,7 +145,7 @@ https://user-images.githubusercontent.com/5504953/197170784-b8114c22-6c03-4707-b
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel to the **Sample Interpolation | Target Weight Interpolation** setting and *adjust* it to `6.0` (you can play with values between 5 and 10 to see what you like). Now it should be much smoother.  
+Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel to the **Sample Smoothing | Weight Speed** setting and *adjust* it to `6.0` (you can play with values between 5 and 10 to see what you like). Now it should be a much smoother transition.  
 
 ![add set does idle time out node to anim blueprint](images/AdjustBlend.png)
 
