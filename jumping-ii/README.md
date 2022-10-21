@@ -89,7 +89,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 This is for falling off the edge of an object without jumping. We need to find out if we are in the air but **not** pressing the jump button. *Drag* a  **Get Pressed Jump** nodes onto the graph.
 
-![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.jpg)
+![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.png)
 
 ![](../images/line2.png)
 
