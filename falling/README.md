@@ -62,7 +62,7 @@ In the **FBX Import Options** overlay, make sure you select the skeleton you hav
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the **aj_AnimBlueprint** animation blueprint and go to the **Anim Graph | Core Locomotion** tab. *Right click* on the area and add an **Add State** button.
+Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Core Locomotion** tab. *Right click* on the area and add an **Add State** button.
 
 ![press add state button in ainmation blueprint](images/AddFallingState.png)
 
