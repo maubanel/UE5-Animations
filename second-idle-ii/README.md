@@ -71,9 +71,9 @@ We need to do this at the end of the alternate animation. We can this using **No
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Notifies** timeline near the end and select **Add Notify | New Notify**.
+Right click on the **Notifies** timeline near the end (on the 1 row) and select **Add Notify | New Notify**.
 
-![add notify](images/AddNotifyToIdleTimeline.jpg)
+![add notify](images/AddNotifyToIdleTimeline.png)
 
 A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and press the <kbd>Enter</kbd> key.
 
