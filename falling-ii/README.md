@@ -139,7 +139,11 @@ It takes too long to blend from landing back to running again.  Look at **Fallin
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Run* the game and the player should fall on the floor and the blend works perfectly!
+*Run* 
+
+https://user-images.githubusercontent.com/5504953/197186411-d48e87c9-d941-4d9b-a338-80de9be1c7f7.mp4
+
+the game and the player should fall on the floor and the blend works perfectly!
 
 ![](../images/line2.png)
 
