@@ -122,42 +122,40 @@ https://user-images.githubusercontent.com/5504953/197184951-0242aace-dfa2-4b7d-9
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+It takes too long to blend from landing back to running again.  Look at **FallingToLanding** and scrub in the timeline to pick a better blend point.  I think about half way through might be best.
 
+![add a less or equal node](images/lookAtBlend.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
 
-![](../images/line2.png)
-
-##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: 
-
-So open up the **Falling_To_Landing** animation and scroll to the end.  You will see that is is **16** frames long or **0.53** seconds (remember we exported these animations from Mixamo at 30 FPS).  So we should start the blend at about half way (.5) and blend for .25 seconds.
-
-![falling to landing is wrong](images/FallingToLanding.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-Click on the tarnsition from **Falling End** to **IdleWalkRun** and change the **Details | Duration** to `0.25` to increase the blend time to a quarter of a second.  *Double click* on the transition and change the value in the **<** node to `0.5` to start blend at 50% complete (roughly a quarter second left in anim at this point).
+*Double click*  on the transition from **Landing** to **IdleWalkRun** on the transition and change the value in the **<** node to `0.5` to start blend at 50% complete (roughly a quarter second left in anim at this point).
 
 ![adjust falling to landing blends](images/AdjustBlend.png)
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 *Run* the game and the player should fall on the floor and the blend works perfectly!
 
-https://user-images.githubusercontent.com/5504953/135755444-752e994b-c9e0-4aed-89d1-3ec14d008eae.mp4
+![](../images/line2.png)
+
+##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: 
+
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
