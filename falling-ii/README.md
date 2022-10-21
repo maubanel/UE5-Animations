@@ -139,36 +139,18 @@ It takes too long to blend from landing back to running again.  Look at **Fallin
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Run* 
+*Run* the game and the player should fall on the floor and the blend works perfectly!
 
 https://user-images.githubusercontent.com/5504953/197186411-d48e87c9-d941-4d9b-a338-80de9be1c7f7.mp4
-
-the game and the player should fall on the floor and the blend works perfectly!
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: 
 
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![](../images/line2.png)
+![save all and submit to perforce in P4V](images/submitP4.png)
 
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
-
-Press **Save All** and update **Github** by **committing** and **pushing** all the changes made. Next up we will be adding jumping to the game.
-
-![save, commit and push to github](images/GitHub.png)
-___
 
 
 ![](../images/line1.png)
