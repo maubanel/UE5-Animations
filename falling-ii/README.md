@@ -114,30 +114,25 @@ We want this animation to play once then blend back to the **IdleWalkRun** state
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Run* the game and the player should fall on the cube. Walk off the cube and the player should fall on the floor. We should have our states working correctly for falling. Now the only issue is that it is jerky at the end the blend is not working properly.  It is either getting cut off or is not long enough.
+
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the game editor and select the **Floor** object in the **World Outliner**. Copy it multiple times to create a **6 x 6** grid centered in the world.  You should have 36 ground pieces.  Put them in a folder called `Ground` and lock them in place by turning on **Transform | Lock Actor Movement**.
 
-![scale floor by 10](images/MakeFloorBigger.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Add a cube under the **Player Start** so that the player will land on the cube. Scale the cube to`3.0` to triple its size. Raise the **Player Start** so it is above this platform.
-
-![add cube under player start in level](images/AddCubeUnderPlayerStart.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Run* the game and the player should fall on the cube. Walk off the cube and the player should fall on the floor. We should have our states working correctly for falling. Now the only issue is that it is jerky at the end the blend is not working properly.  It is either getting cut off or is not long enough.
 
-https://user-images.githubusercontent.com/5504953/135755418-1e18c62b-d315-4f3e-a452-ef280803120b.mp4
 
 ![](../images/line2.png)
 
