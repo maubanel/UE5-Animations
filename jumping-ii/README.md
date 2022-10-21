@@ -141,11 +141,11 @@ Open up **BP_AJ**. Then go to the **Capsule** component and increase the **Capsu
 
 ![increase radius of capsule to 60](images/CapsuleRadiusGreater.png)
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Now I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better. 
 
 
 ![](../images/line2.png)
@@ -189,7 +189,7 @@ Go to the **BP_AJ_Character** blueprint and *select* the **Mesh** component. I a
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better.  
+ 
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
