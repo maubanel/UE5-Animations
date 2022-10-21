@@ -73,17 +73,17 @@ Connect the output of the **NOT** node to the **Result** node.
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets assign the falling end animation. Go back to the **Anim Graph | Core Locomotiion** screen and *double left-click* on **Falling End**.
+Lets assign the falling end animation. Go back to the **Anim Graph | CBasicore Locomotiion** screen and *double left-click* on **Landing**.
 
-![go to falling end animation in core locomotion](images/DoubleClickFallingEnd.jpg)
+![go to falling end animation in core locomotion](images/DoubleClickFallingEnd.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* the **Falling_To_Landing** animation onto the graph. *Connect* the animation pin to the **Output Animation Pose**.
+*Drag and drop* the **FallingToLanding** animation onto the graph. *Connect* the animation pin to the **Output Animation Pose**.
 
-![add falling to landing animatoin and connect pin](images/FallingToLandingConnectAnim.jpg)
+![add falling to landing animatoin and connect pin](images/FallingToLandingConnectAnim.png)
 
 ![](../images/line2.png)
 
