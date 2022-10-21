@@ -116,6 +116,7 @@ We want this animation to play once then blend back to the **IdleWalkRun** state
 
 *Run* the game and the player should fall on the cube. Walk off the cube and the player should fall on the floor. We should have our states working correctly for falling. Now the only issue is that it is jerky at the end the blend is not working properly.  It is either getting cut off or is not long enough.
 
+https://user-images.githubusercontent.com/5504953/197184951-0242aace-dfa2-4b7d-97ff-100400cfcf7f.mp4
 
 ![](../images/line2.png)
 
