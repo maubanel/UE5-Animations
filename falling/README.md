@@ -113,27 +113,23 @@ Now we need a boolean to track when we are on the ground or in the air. Add a ne
 
 Go to the **Event Graph** tab and make some space between the **Is Valid** node and the **Get Velocity** node to check to see if we are in air.
 
-![add space to nodes](images/MakeSpaceEventGraphAnimBP.jpg)
-
-*Pull off* of the **Return Value** pin from the **Try Get Pawn Owner** node and *select* the **Get Movement Component** node.
-
-![add get mvoement component node](images/GetMovementComponentAnimBP.jpg)
-
-*Pull off* of the **Return Value** pin from the **Get Movement Component** and select the **IsFalling** node.
-
-![add isfalling node](images/IsFallingVariableGet.jpg)
+![add space to nodes](images/MakeSpaceEventGraphAnimBP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Drag* the **Set Are We In Air** variable onto the graph.
+*Pull off* of the **Return Value** pin from the **Get Movement Component** and select the **IsFalling** node.
 
-![add set are we in air node](images/SetAreWeInAir.jpg)
+![add isfalling node](images/IsFallingVariableGet.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
+
+*Drag* the **Set Are We In Air** variable onto the graph.
+
+![add set are we in air node](images/SetAreWeInAir.jpg)
 
 Connect the **Return Value** pin from the **Is Falling** node to the **Set Are We In Air?** node.
 
