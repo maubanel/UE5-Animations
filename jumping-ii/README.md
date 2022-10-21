@@ -137,6 +137,10 @@ https://user-images.githubusercontent.com/5504953/197299827-39bb2a30-3b99-4936-b
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Open up **BP_AJ**. Then go to the **Capsule** component and increase the **Capsule Radius**. For my character `70.0` seems to work fine. I also adjusted the height as it was a bit short to a **Capsule Half Height** of `95.0`.
+
+![increase radius of capsule to 60](images/CapsuleRadiusGreater.png)
+
 
 
 ![](../images/line2.png)
@@ -180,9 +184,6 @@ Go to the **BP_AJ_Character** blueprint and *select* the **Mesh** component. I a
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-I then go to the **Capsule** component and increase the **Capsule Radius**. For my character `70.0` seems to work fine. I also adjusted the height as it was a bit short to a **Capsule Half Height** of `95.0`.
-
-![increase radius of capsule to 60](images/CapsuleRadiusGreater.png)
 
 ![](../images/line2.png)
 
