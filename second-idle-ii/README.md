@@ -12,7 +12,6 @@ Second idle continued...
 
 ---
 
-
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
 Now we are looking for the opposite so we want the **Does Idle Time Out?** to be false. So we pull off the pin and select a **NOT** (Math | NOT Boolean) node which looks to see if it is the opposite of **True** (false).
@@ -56,6 +55,8 @@ Drag a reference to **SpecialIdle** to the open graph.
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
 Now go into the game. After 5 seconds the player should go to the alternate idle. But he/she never leaves this state. We now want to reset the Does Idle Time Out? variable back to false. 
+
+https://user-images.githubusercontent.com/5504953/197163799-a4aaf480-2701-4d54-ab6d-6fd9d0187dd8.mp4
 
 ![](../images/line2.png)
 
