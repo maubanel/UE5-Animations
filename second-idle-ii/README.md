@@ -129,7 +129,7 @@ https://user-images.githubusercontent.com/5504953/197168634-22e60b87-28a9-4ad3-9
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Now go back to the **AnimBP_AJ** to its **Event Graph** tab. Look to see the **Branch** node where we check to see if the **Vector Length** is close to `0.0.` We do not set the **Does Idle Time Out** node back to false. So if the player is moving we need to pop out of idle mode by setting **Does Idle Time out** to `false`. **Add** a **Set Does Idle Time Out** node to the right of the **Set Idle Timer** node.
+Now go back to the **AnimBP_AJ** to its **Event Graph** tab. Look to see the **Branch** node where we check to see if the **Vector Length** is close to `0.0.` We do not set the **Does Idle Time Out** node back to false. So if the player is moving we need to pop out of idle mode by setting **Does Idle Time out** to `false`. **Add** a **Set Does Idle Time Out** node to the right of the **Set Idle Timer** node. *Connect* the execution pin from **Set Idle Timer** to **Set Does Idle Time Out** node.
 
 ![add set does idle time out node to anim blueprint](images/DoesIdleTimeWaitFalse.png)
 
@@ -137,19 +137,22 @@ Now go back to the **AnimBP_AJ** to its **Event Graph** tab. Look to see the **B
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Connect* the execution pin from **Set Idle Timer** to **Set Does Idle Time Out?** node.
+*Play* the game and transition from the alternate idle. It now snaps back to the regular IdleWalkRun blend sequence. This works great. I don't like the snap back to the idle though and it is rough and jerky. We need to add a bit of a blend here
 
-![connect set idle timer to set does idle time out](images/ConnectTwoSetExecutionPins.jpg)
+![](../images/line2.png)
 
-*Play* the game and transition from the alternate idle. It now snaps back to the regular IdleWalkRun blend sequence. This works great. I don't like the snap back to the idle though and it is rough and jerky. We need to add a bit of a blend here.
-
-https://user-images.githubusercontent.com/5504953/132986290-d633e829-b132-4fec-8d5a-01e9423504ea.mp4
+##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel to the **Sample Interpolation | Target Weight Interpolation** setting and *adjust* it to `6.0` (you can play with values between 5 and 10 to see what you like). Now it should be much smoother.  Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
 
-https://user-images.githubusercontent.com/5504953/132986417-fca35ab4-1b28-4bdb-a7e3-5aa31388fd46.mp4
+![](../images/line2.png)
 
-![save, commit and push to github](images/GitHub.png)
+##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
+
+![save all and submit to perforce in P4V](images/submitP4.png)
+
 ___
 
 
