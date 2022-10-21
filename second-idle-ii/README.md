@@ -17,7 +17,7 @@ Second idle continued...
 
 Now we are looking for the opposite so we want the **Does Idle Time Out?** to be false. So we pull off the pin and select a **NOT** (Not Boolean) node which looks to see if it is the opposite of **True** (false).
 
-![add NOT node](images/BooleanNotNode.jpg)
+![add NOT node](images/BooleanNotNode.png)
 
 ![](../images/line2.png)
 
