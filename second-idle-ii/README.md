@@ -105,7 +105,8 @@ Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for wh
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Pull off of the **EndAnim** pin and select a **Set Idle Time Out?** node and set it to `false`. *Pull off* this execution pin and select **Set Idle Timer** and set it to `0.0`.
+
+*Add* a **Set Idle Time Out?** node and set it to `false`. *Add* a **Set Idle Timer** and set it to `0.0`.
 
 ![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.png)
 
@@ -114,6 +115,10 @@ Pull off of the **EndAnim** pin and select a **Set Idle Time Out?** node and set
 Now add a **comment** around these nodes that says `Reset Idle Timer`. *Press* the <kbe>Compile</kbd> button.
 
 ![add comment and compile](images/AddCommentCompile.jpg)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 We have done enough to test our work. Play the game and move the character then let go of the controls. Let the character idle and see if the idle animation plays. Then make sure it goes back to the normal idle. After playing around there is a clear issue with trying to move while in the alternate idle. It is not switching back to our normal blend IdleWalkRun animation when branching from this state.
 
@@ -124,10 +129,6 @@ https://user-images.githubusercontent.com/5504953/132986162-d782c87f-f7fe-4d03-b
 Now go back to the **aj_AnimBlueprint** to its **Event Graph** tab. Look to see the **Branch** node where we check to see if the **Vector Length** is close to `0.0.` We do not set the **Does Idle Time Out** node back to false. **Add** a **Set Does Idle Time Out?** node to the right of the **Set Idle Timer** node.
 
 ![add set does idle time out node to anim blueprint](images/DoesIdleTimeWaitFalse.jpg)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Connect* the execution pin from **Set Idle Timer** to **Set Does Idle Time Out?** node.
 
