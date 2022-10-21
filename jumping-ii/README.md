@@ -147,6 +147,7 @@ Open up **BP_AJ**. Then go to the **Capsule** component and increase the **Capsu
 
 Now I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better. 
 
+https://user-images.githubusercontent.com/5504953/197301091-1ff74a00-0f7f-4efa-90ae-ad307cd18e4f.mp4
 
 ![](../images/line2.png)
 
