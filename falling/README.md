@@ -78,9 +78,9 @@ Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Lo
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We need a reference to the character component of the player blueprint.  
+We need a reference to the character component of the player blueprint.  Go to the **Event Graph** of the **AnimBP_AJ**.  Go to the right of setting the **Character Reference** and pull off the **Set Character** output pin and select **Character Movemement** to add this node.  Right click on the output and select **Promote to Variable**.
 
-![call state falling and add new state](images/charComponentRef.png)
+![add character movement and promote to var](images/charComponentRef.png)
 
 
 ![](../images/line2.png)
@@ -89,7 +89,7 @@ We need a reference to the character component of the player blueprint.
 
 
 
-
+![add character movement and promote to var](images/setRefVar.png)
 
 ![](../images/line2.png)
 
