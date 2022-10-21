@@ -90,7 +90,7 @@ A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and
 
 Adjust the position after the core movement ends but with room to blend it back to the core idle. I set it at the 80<sup>th</sup> frame.
 
-![call from frame 80](images/GiveItRoomToBlend.jpg)
+![call from frame 80](images/GiveItRoomToBlend.png)
 
 ![](../images/line2.png)
 
@@ -100,6 +100,11 @@ Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for wh
 
 ![add event AnimNotify_EndAnim node to anim blueprint](images/EndAnimAnimEvent.jpg)
 
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 Pull off of the **EndAnim** pin and select a **Set Idle Time Out?** node and set it to `false`. *Pull off* this execution pin and select **Set Idle Timer** and set it to `0.0`.
 
 ![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.jpg)
@@ -107,11 +112,6 @@ Pull off of the **EndAnim** pin and select a **Set Idle Time Out?** node and set
 Now add a **comment** around these nodes that says `Reset Idle Timer`. *Press* the <kbe>Compile</kbd> button.
 
 ![add comment and compile](images/AddCommentCompile.jpg)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 We have done enough to test our work. Play the game and move the character then let go of the controls. Let the character idle and see if the idle animation plays. Then make sure it goes back to the normal idle. After playing around there is a clear issue with trying to move while in the alternate idle. It is not switching back to our normal blend IdleWalkRun animation when branching from this state.
 
