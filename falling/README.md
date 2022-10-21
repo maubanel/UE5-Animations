@@ -103,7 +103,7 @@ Increase the size of the **References** comment group to include these new nodes
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we need a boolean to track when we are on the ground or in the air. Add a new **Boolean** Variable and call it `AreWeInAir`. *Make* it **Private** and set the **Tooltip** to `True when player is not on the ground`.
+Now we need a boolean to track when we are on the ground or in the air. Add a new **Boolean** Variable and call it `AreWeInAir`. *Make* it **Private** and set the **Tooltip** to `True when player is not on the ground`. Set the **Category** to `Player Physics`.
 
 ![add are we in air boolean variable](images/AreWeInAirBooleanDef.png)
 
