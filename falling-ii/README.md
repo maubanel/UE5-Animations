@@ -106,17 +106,14 @@ We want this animation to play once then blend back to the **IdleWalkRun** state
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Pull off* of the **Return Value** pin from the **Time Remaining** node and select a **<=** node:
+*Pull off* of the **Return Value** pin from the **Time Remaining** node and select a **<** node. Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to the input of the **Result** node. Why do we start the transition with 20% left?  Because we need room to blend out of this animation into the next (overlap).
 
-![add a less or equal node](images/LessEqualTimeRemaining.jpg)
+![add a less or equal node](images/LessEqualTimeRemaining.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to the input of the **Result** node. Why do we start the transition with 20% left?  Because we need room to blend out of this animation into the next (overlap).
-
-![set bottom value of <= to .2](images/LessThanPointSevenFive.png)
 
 ![](../images/line2.png)
 
