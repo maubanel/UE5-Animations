@@ -44,6 +44,9 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Drag and drop* the Set **PressedJump** node and connect its execution pin to the **Cast** node. Connect the **IsJumping** pin to the **PressedJump?** pin. *Connect* the execution pins from **Cast** to **BP_AJCharacter** to Set **bPressedJump**.
+
+![connect pins](images/SetIsJumpingNode.jpg)
 
 
 ![](../images/line2.png)
@@ -60,9 +63,6 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* the Set **bPressedJump** node and connect its execution pin to the **Cast** node. Connect the **IsJumping** pin to the **PressedJump?** pin. *Connect* the execution pins from **Cast** to **BP_AJCharacter** to Set **bPressedJump**.
-
-![connect pins](images/SetIsJumpingNode.jpg)
 
 ![](../images/line2.png)
 
