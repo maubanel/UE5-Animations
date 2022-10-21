@@ -18,7 +18,7 @@ Continue implementing jump animation...
 
 *Open* the **aj_AnimBlueprint | Event Graph**. We need to access the character's **IsJumping** variable. We are not in the right class with the Pawn Owner. We need to pull off of it's execution pin and select a **Cast** To BP **AJ_Character** node.
 
-![cast pawn owner to aj_character](images/CastToCharacterBP.jpg)
+![cast pawn owner to aj_character](images/CastToCharacterBP.png)
 
 ![](../images/line2.png)
 
