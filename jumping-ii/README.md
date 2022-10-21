@@ -131,14 +131,13 @@ This is for falling off the edge of an object without jumping. We need to find o
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 
+Press *play* and run around and fall off edge and jump. Make sure both transitions of running off edge and jumping are working correctly? I run up to the cube and the character penetrates it too much for my liking. The head when jumping up the wall gets buried inside the wall geometry. Lets fix this.
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-*Drag* off of the **Are We in Air?** pin and *add* a **Boolean AND** node.
 
-![add boolean AND node](images/BooleanAnd.jpg)
 
 ![](../images/line2.png)
 
@@ -167,9 +166,7 @@ This is for falling off the edge of an object without jumping. We need to find o
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Press *play* and run around and fall off edge and jump. Make sure both transitions of running off edge and jumping are working correctly? I run up to the cube and the character penetrates it too much for my liking. The head when jumping up the wall gets buried inside the wall geometry. Lets fix this.
 
-https://user-images.githubusercontent.com/5504953/133070942-118cb874-f74f-48c3-8a71-a2a381dc69c0.mp4
 
 ![](../images/line2.png)
 
