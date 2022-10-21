@@ -113,7 +113,7 @@ https://user-images.githubusercontent.com/5504953/197190409-b9021428-7b22-4fe3-a
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Connect* a transition from **IdleWalkRun** to **Jump to Falling**. There will be a different path to just running off a platform and jumping.
+*Connect* a transition from **IdleWalkRun** to **Jumping** and **Jumping** to **Falling**.  There will be a different path to just running off a platform and jumping.
 
 ![call state jump and connect from idlewalkrun](images/StateJumpConnect.png)
 
