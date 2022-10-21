@@ -64,30 +64,31 @@ https://user-images.githubusercontent.com/5504953/132995968-f2f3999a-bd91-400e-9
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ![set without skin when downloading](images/DownloadJumpStartWithoutSkin.jpg)
 
 ![](../images/line2.png)
 
+##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Drag and drop* the **Jump Start** animation into the **Animatoins** folder.
+
+![import jump start to animation](images/ImportJumpStartAnimFolder.png)
+
+![](../images/line2.png)
+
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Add/Import* the **Jump Start** animation into the jump start folder.
+In the **FBX Import Options** select the *skeleton* for the character. *Press* the <kbd>Import</kbd> button.
 
-![import jump start to animation](images/ImportJumpStartAnimFolder.jpg)
+![select skeleton and import](images/JumpStartFBXSettings.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-In the **FBX Import Options** select the *skeleton* for the character. *Press* the <kbd>Import</kbd> button.
 
-![select skeleton and import](images/JumpStartFBXSettings.jpg)
 
 ![](../images/line2.png)
 
