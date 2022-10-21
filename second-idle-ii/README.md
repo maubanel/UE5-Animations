@@ -31,17 +31,17 @@ Now we are looking for the opposite so we want the **Does Idle Time Out?** to be
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Core Locomotion** state tab. Now we have dealt with the transitions but not the actual animation in this new state. *Double click* the **Alternate Idle** node.
+Go back to the **Basic Locomotion** state tab. Now we have dealt with the transitions but not the actual animation in this new state. *Double click* the **Alternate Idle** node.
 
-![enter alternate idle graph](images/CoreLocomotionToAlternateIdle.jpg)
+![enter alternate idle graph](images/CoreLocomotionToAlternateIdle.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag a reference to **Idle_Fidget** to the open graph.
+Drag a reference to **SpecialIdle** to the open graph.
 
-![add idle_fidget to graph](images/PlayIdleFidget.jpg)
+![add idle_fidget to graph](images/PlayIdleFidget.png)
 
 ![](../images/line2.png)
 
@@ -49,7 +49,7 @@ Drag a reference to **Idle_Fidget** to the open graph.
 
 **Connect** the animation pins and then *press* the <kbd>Compile</kbd> button. That should do it for the animation blueprint. Press the <kbd>Compile</kbd> button.
 
-![connect animation pins and compile](images/ConnectAnimationPinsAlternateIdle.jpg)
+![connect animation pins and compile](images/ConnectAnimationPinsAlternateIdle.png)
 
 ![](../images/line2.png)
 
