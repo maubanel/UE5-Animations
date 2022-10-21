@@ -105,7 +105,7 @@ https://user-images.githubusercontent.com/5504953/197190409-b9021428-7b22-4fe3-a
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Open* the **aj_AnimBlueprint** and go to the **Anim Graph | Core Locomotion** page. Right click and select **Add State**. Call this state `Jumping`.
+*Open* the **aj_AnimBlueprint** and go to the **Anim Graph | Basic Locomotion** page. Right click and select **Add State**. Call this state `Jumping`.
 
 ![add state to animation blueprint core locomotion](images/AddStateToTree.png)
 
@@ -115,7 +115,7 @@ https://user-images.githubusercontent.com/5504953/197190409-b9021428-7b22-4fe3-a
 
 and *connect* a transition from **IdleWalkRun** to **Jump to Falling**. There will be a different path to just running off a platform and jumping.
 
-![call state jump and connect from idlewalkrun](images/StateJumpConnect.jpg)
+![call state jump and connect from idlewalkrun](images/StateJumpConnect.png)
 
 ![](../images/line2.png)
 
