@@ -87,7 +87,7 @@ We need a reference to the character component of the player blueprint.  Go to t
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-
+Connect thte execution pin from **Set Character** to **Set Character Movement**.  On the **Character Movement** variable set **Private** to `true` and **Category** to `Reference`.
 
 ![add character movement and promote to var](images/setRefVar.png)
 
