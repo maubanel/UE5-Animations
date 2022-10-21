@@ -25,7 +25,11 @@ Now we are looking for the opposite so we want the **Does Idle Time Out?** to be
 
 *Connect* the output of the **NOT** node to the **Can Enter Transition** pin in the **Result** node.
 
-![conect not to can enter transition node](images/OutputOfNotToTransition.jpg)
+![conect not to can enter transition node](images/OutputOfNotToTransition.png)
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go back to the **Core Locomotion** state tab. Now we have dealt with the transitions but not the actual animation in this new state. *Double click* the **Alternate Idle** node.
 
@@ -33,7 +37,7 @@ Go back to the **Core Locomotion** state tab. Now we have dealt with the transit
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Drag a reference to **Idle_Fidget** to the open graph.
 
@@ -41,7 +45,7 @@ Drag a reference to **Idle_Fidget** to the open graph.
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
 **Connect** the animation pins and then *press* the <kbd>Compile</kbd> button. That should do it for the animation blueprint. Press the <kbd>Compile</kbd> button.
 
@@ -49,7 +53,7 @@ Drag a reference to **Idle_Fidget** to the open graph.
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`ITA`| :small_orange_diamond:
+##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
 Now go into the game. After 5 seconds the player should go to the alternate idle. But he/she never leaves this state. We now want to reset the Does Idle Time Out? variable back to false. We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **Idle_Fidget** animation.
 
@@ -57,7 +61,7 @@ Now go into the game. After 5 seconds the player should go to the alternate idle
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Right click on the **Notifies** timeline near the end and select **Add Notify | New Notify**.
 
@@ -65,7 +69,7 @@ Right click on the **Notifies** timeline near the end and select **Add Notify | 
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and press the <kbd>Enter</kbd> key.
 
@@ -73,15 +77,11 @@ A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Adjust the position after the core movement ends but with room to blend it back to the core idle. I set it at the 80<sup>th</sup> frame.
 
 ![call from frame 80](images/GiveItRoomToBlend.jpg)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for when this notify event triggers. *Right clic*k on the open graph and select a **Event AnimNotify_EndAnim** node. It should be red with an execution pin.
 
