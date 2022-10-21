@@ -153,52 +153,9 @@ https://user-images.githubusercontent.com/5504953/197301091-1ff74a00-0f7f-4efa-9
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Go to the **BP_AJ_Character** blueprint and *select* the **Mesh** component. I adjust the mesh back on the **Y** Location a bit.
-
-![adjust y location of ajcharacter bp](images/MovingCharacterFurtherBack.jpg)
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
- 
-
-Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**.  Enter a **Changelist Description** and then press <kbd>Submit</kbd>.  Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
-
-https://user-images.githubusercontent.com/5504953/135758442-fcf8a098-5c4b-4bf4-847c-a7ae513f6e55.mp4
-
-![save, commit and push to github](images/GitHub.png)
-
-___
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 
 ![](../images/line1.png)
