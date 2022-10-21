@@ -53,6 +53,9 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+Go back to the **Anim Graph | Core Locomotion** section of the animatin blueprint and *click on* the transition button from **IdleWalkRun** to **Jump** transition.
+
+![go to idlewalkrun to jump transition in core locomotion](images/TransitionWalkToJump.png)
 
 ![](../images/line2.png)
 
@@ -66,19 +69,12 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-To keep things need add a **Sequence** node between the **Is Valid** node and the **Set Are We in Air?** node. *Reconnect* **Is Valid** to the **Sequence** input node then the **Then 0** to S**et Are We in Air** node. *Send* the **Then 1** pin to the **Cast** to **BP_AI_Character** node.
-
-![add sequence node connet pins](images/AddSequenceNode.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Anim Graph | Core Locomotion** section of the animatin blueprint and *click on* the transition button from **IdleWalkRun** to **Jump** transition.
 
-![go to idlewalkrun to jump transition in core locomotion](images/TransitionWalkToJump.jpg)
 
 ![](../images/line2.png)
 
