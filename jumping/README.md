@@ -97,6 +97,7 @@ In the **FBX Import Options** select the *skeleton* for the character. *Press* t
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Open up the **JumpingUp** animation and make sure it is very short. On its own it should look like this:
 
 
 ![](../images/line2.png)
