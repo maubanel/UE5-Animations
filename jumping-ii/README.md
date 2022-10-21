@@ -69,12 +69,18 @@ Add a **Get PressedJump** node and *connect* the pin to the **Result | Can Enter
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jumping** state to assign the **JumpingUp** animation. Drag and drop the **JumpingUp** animation to the graph. *Connect* the animation nodes with the **Final Animation Pose**.
+Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jumping** state to assign the **JumpingUp** animation. Drag and drop the **JumpingUp** animation to the graph. *Connect* the animation nodes with the **Output Animation Pose**.
 
 ![open jump state](images/DoubleClickJump.png)
 
 
 ![](../images/line2.png)
+
+##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the transition in the **Anim Graph | Core Locomotion** page from **IdleWalkRun** to **Falling**.
+
+![go idelwalkrun to falling transition](images/WalkToFallTransition.png)
 
 
 ![](../images/line2.png)
@@ -107,9 +113,7 @@ Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jumpi
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the transition in the **Anim Graph | Core Locomotion** page from **IdleWalkRun** to **Falling**.
 
-![go idelwalkrun to falling transition](images/WalkToFallTransition.jpg)
 
 ![](../images/line2.png)
 
