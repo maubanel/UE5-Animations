@@ -2,7 +2,7 @@
 
 ### Our First Animation Blueprint
 
-<sub>[previous](../animation-blend/README.md#user-content-animation-blend-space) • [home](../README.md#user-content-ue4-animations) • [next](../anim-bp-ii/README.md#user-content-our-first-animation-blueprint)</sub>
+<sub>[previous](../animation-blend/README.md#user-content-animation-blend-space) • [home](../README.md#user-content-ue4-animations) • [next](../anim-bp-ii/README.md#user-content-our-first-animation-blueprint-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -191,5 +191,5 @@ All we care about here is the *magnitude*. *Drag off* of the **Return Value** pi
 
 ![](../images/line1.png)
 
-| [previous](../animation-blend/README.md#user-content-animation-blend-space)| [home](../README.md#user-content-ue4-animations) | [next](../anim-bp-ii/README.md#user-content-our-first-animation-blueprint|
+| [previous](../animation-blend/README.md#user-content-animation-blend-space)| [home](../README.md#user-content-ue4-animations) | [next](../anim-bp-ii/README.md#user-content-our-first-animation-blueprint-ii)|
 |---|---|---|
