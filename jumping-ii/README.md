@@ -24,6 +24,10 @@ Continue implementing jump animation...
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+We need a variable in the animation blueprint to run our transitions with. Add a new **Boolean** Variable named `PressedJump` and make it *Private* and set the tooltip to `Jump button was pressed`.
+
+![add new boolean bPressedJump](images/AddPressedJump.png)
+
 
 ![](../images/line2.png)
 
@@ -48,9 +52,6 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-We need a variable in the animation blueprint to run our transitions with. Add a new **Boolean** Variable named `bPressedJump` and make it *Private* and set the tooltip to `Jump button was pressed`.
-
-![add new boolean bPressedJump](images/AddPressedJump.jpg)
 
 ![](../images/line2.png)
 
