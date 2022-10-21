@@ -15,33 +15,26 @@ Continue implementing jump animation...
 
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
-Make some room on the left hand side of the comment. Right click and add a Event Tick node.
 
-![add event tick](images/AddEventTick.jpg)
+*Open* the **aj_AnimBlueprint | Event Graph**. We need to access the character's **IsJumping** variable. We are not in the right class with the Pawn Owner. We need to pull off of it's execution pin and select a **Cast** To BP **AJ_Character** node.
+
+![cast pawn owner to aj_character](images/CastToCharacterBP.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the execution pin from **Event Tick** to **Branch**.
-
-![connect tick to branch node](images/ConnectTickToBranchPins.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now your graph should look like the below image.
-
-![confirm nodes](images/FinishedIsJumpingOff.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Open* the **aj_AnimBlueprint | Event Graph**. We need to access the character's **IsJumping** variable. We are not in the right class with the Pawn Owner. We need to pull off of it's execution pin and select a **Cast** To BP **AJ_Character** node.
 
-![cast pawn owner to aj_character](images/CastToCharacterBP.jpg)
 
 ![](../images/line2.png)
 
