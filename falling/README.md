@@ -169,7 +169,7 @@ Go back to the **Anim Graph | BasicLocomotion** screen. *Connect* the **IdleWalk
 
 Double click the transition from **IdleWalkRun** to **Falling**.
 
-![go to idlewalkrun to falling transition](images/ConditionToFalling.jpg)
+![go to idlewalkrun to falling transition](images/ConditionToFalling.png)
 
 ![](../images/line2.png)
 
