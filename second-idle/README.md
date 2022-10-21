@@ -171,7 +171,7 @@ The logic is simple. It will transition when the idle time out boolean switches 
 
 Go back to the **Core Locomotion** state screen. Now *double click* on the right hand transition from **Alternate Idle** back to **IdleWalkRun**.
 
-![go to alternate idle to idlewalk run transition](images/DoubleClickRightHandLogic.jpg)
+![go to alternate idle to idlewalk run transition](images/DoubleClickRightHandLogic.png)
 
 ![](../images/line2.png)
 
