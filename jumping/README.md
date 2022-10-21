@@ -15,24 +15,13 @@ Lets add the ability for the player to jump around the level and tune this to ou
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Before we start lets set this level as the default boot up level. Go to **Edit | Project Settings** and navigate to the **Maps & Modes** section. Change the **Editor Startup Map** to `AnimTestLevel`.
+Now we need to add a controller event for jumping. Go to the **Engine | Input** section and press the **+** button next to the **Action Mappings** heading.
 
-![add TestLevel to startup map in project settings](images/ProjectSettingTestLevel.png)
+![go to input in project settings and add a action mapping](images/ActionMap.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
-
-Now we need to add a controller event for jumping. Go to the **Engine | Input** section and press the **+** button next to the **Action Mappings** heading.
-
-![go to input in project settings and add a action mapping](images
-
-
-
-
-
-
-:small_blue_diamond:
 
 Call this new action `Jump`. Press the **+** button next to the **Jump** setting and add a **Keyboard | Space Bar** to the controls.
 
