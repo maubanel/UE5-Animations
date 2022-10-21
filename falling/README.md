@@ -151,7 +151,7 @@ Take the output execution pin from **Set Are We in Air** node to the **Set Speed
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the new nodes and make a **comment** `Sets Whether Player Is In Air`.
+Select the new nodes and make a **comment** `Set In Air`.
 
 ![add code comments](images/AddCommnentIsPlayerInAir.png)
 
@@ -161,7 +161,7 @@ Select the new nodes and make a **comment** `Sets Whether Player Is In Air`.
 
 Go back to the **Anim Graph | Core Locomotion** screen. *Connect* the **IdleWalkRun** state to the **Falling** state to the **Falling End** state *back* to the **IdleWalkRun**.
 
-![connect idlewalkrun to falling to falling end back to idlewalkrun in core locomotion in anim graph](images/ConnectFallingStates.jpg)
+![connect idlewalkrun to falling to falling end back to idlewalkrun in core locomotion in anim graph](images/ConnectFallingStates.png)
 
 ![](../images/line2.png)
 
