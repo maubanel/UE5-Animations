@@ -159,7 +159,7 @@ Select the new nodes and make a **comment** `Set In Air`.
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Anim Graph | Core Locomotion** screen. *Connect* the **IdleWalkRun** state to the **Falling** state to the **Falling End** state *back* to the **IdleWalkRun**.
+Go back to the **Anim Graph | BasicLocomotion** screen. *Connect* the **IdleWalkRun** state to the **Falling** state to the **Landing** state *back* to the **IdleWalkRun**. This only goes in the single direction.
 
 ![connect idlewalkrun to falling to falling end back to idlewalkrun in core locomotion in anim graph](images/ConnectFallingStates.png)
 
