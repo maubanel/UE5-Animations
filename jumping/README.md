@@ -169,7 +169,7 @@ We need to reset this **boolean** when you are touching the ground. Under the **
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Add an **Event Tick** node and connect it to the input execution pin of the **Branch** node.  *Surround* these nodes with a **comment** saying `Reset IsJumping When On Ground`. Now notice there are no execution pins that run every frame (Tick Event).
+Add an **Event Tick** node and connect it to the input execution pin of the **Branch** node.  *Surround* these nodes with a **comment** saying `Reset IsJumping When Falling`. Now notice there are no execution pins that run every frame (Tick Event).
 
 ![add cnode comments](images/ResentIsJumpingCommnet.png)
 
