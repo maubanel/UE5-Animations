@@ -155,6 +155,8 @@ Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel t
 
 *Press* the <kbd>Play</kbd> button and notice that the blend is much smoother when going out of idle.
 
+https://user-images.githubusercontent.com/5504953/197172305-31f2c383-a5eb-432d-87e2-8fd198def883.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
