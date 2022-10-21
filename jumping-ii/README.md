@@ -123,7 +123,9 @@ t of the **AND** pin. *Connect* the output of the **AND** node to **Result** nod
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.5`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints and the warning will disapear.
 
+![add a float <= with bottom value set to .5](images/LessThanPointSevenFive2.png)
 
 ![](../images/line2.png)
 
@@ -160,9 +162,7 @@ t of the **AND** pin. *Connect* the output of the **AND** node to **Result** nod
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.5`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints and the warning will disapear.
 
-![add a float <= with bottom value set to .5](images/LessThanPointSevenFive2.png)
 
 ![](../images/line2.png)
 
