@@ -116,7 +116,7 @@ Add a new **Boolean** vairable called `PressedDoubleJump`.  Create a tooltip **D
 
 Now we need a variable to know that we have pressed this button. *Right click* on the **bIsJumping** variable and select **Duplicate** to make another copy.
 
-![duplicate bIsJumping](images/.jpg)
+![duplicate bIsJumping](images/playerCount.png)
 
 ![](../images/line2.png)
 
