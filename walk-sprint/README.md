@@ -128,7 +128,7 @@ https://user-images.githubusercontent.com/5504953/197333143-ef65aaf6-563f-4218-a
 
 OK, lets work on the slow walk. Open the **BlendSpace_IdleWalkRun** editor. It is the second option on the left. We can see that it is at ~ `40`.
 
-![go to idle walk run blend space](images/SlowWalkSpeedBlendSpace.jpg)
+![go to idle walk run blend space](images/SlowWalkSpeedBlendSpace.png)
 
 ![](../images/line2.png)
 
@@ -136,7 +136,7 @@ OK, lets work on the slow walk. Open the **BlendSpace_IdleWalkRun** editor. It i
 
 Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it `SlowWalk`. Press the **+** next to the **Slow Walk** action. *Assign* the `Left Alt` and `Right` Alt keys.
 
-![add slowwalk action mapping to engin input with left and right alt keys](images/SlowWalkControllerSettings.jpg)
+![add slowwalk action mapping to engin input with left and right alt keys](images/SlowWalkControllerSettings.png)
 
 ![](../images/line2.png)
 
