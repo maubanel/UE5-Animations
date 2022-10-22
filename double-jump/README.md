@@ -106,7 +106,9 @@ Add **Comments** to the print node to clean up the chart.
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Add a new **Boolean** vairable called `DoubleJump`.  
 
+![duplicate bIsJumping](images/doubleJump.png)
 
 ![](../images/line2.png)
 
@@ -114,7 +116,7 @@ Add **Comments** to the print node to clean up the chart.
 
 Now we need a variable to know that we have pressed this button. *Right click* on the **bIsJumping** variable and select **Duplicate** to make another copy.
 
-![duplicate bIsJumping](images/DuplicateIsJumpingVariable.jpg)
+![duplicate bIsJumping](images/.jpg)
 
 ![](../images/line2.png)
 
@@ -122,7 +124,7 @@ Now we need a variable to know that we have pressed this button. *Right click* o
 
 *Call* this new Variable `bIsDoubleJumping`.
 
-![name variable bIsDoubleJumping](images/CallItDoubleJumping.jpg)
+![name variable bIsDoubleJumping](images/.jpg)
 
 ![](../images/line2.png)
 
@@ -130,7 +132,7 @@ Now we need a variable to know that we have pressed this button. *Right click* o
 
 *Press* the **+** button three times on the **Switch On Int** node. Even though we only need two pins the **DoN** node starts counting at `1` and the **Switch On Int** node starts on `0`. Connect the output pin **1** from the **Switch on Int** node to the **Jump** node:
 
-![connect switch on int to jump node](images/SwitchOnIntToJump.jpg)
+![connect switch on int to jump node](images/.jpg)
 
 ![](../images/line2.png)
 
