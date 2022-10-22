@@ -144,7 +144,7 @@ Open up **BP_AJ** and we need a new **Variable**.  Create a new **Variable Type*
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we do not want to trigger an animation if the jump is pressed three or more times.
+Now we do not want to trigger an animation if the jump is pressed three or more times. *Drag* a get **Jump Count**. Select the pin and select a **<=** node.  Set the bottom value to `2`.
 
 ![set up set is double jumping](images/lessThan2.png)
 
@@ -152,9 +152,9 @@ Now we do not want to trigger an animation if the jump is pressed three or more 
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Set the **Is Double Jumping** setting to `true`.
 
-![set is double jumping to true](images/.jpg)
+
+![set is double jumping to true](images/jumpIfLess2.png)
 
 ![](../images/line2.png)
 
