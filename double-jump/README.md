@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/5504953/197363276-33f0dfb0-a71d-4acb-8
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Open **BP_AJ** blueprint and go to the **Jump** section. 
+Open **BP_AJ** blueprint and go to the **Jump** section. Click on the top component and select **Jump max Count** to `2`.
 
 ![open up ajcharacter blueprint and go to jump section](images/maxJumpCount.png)
 
@@ -65,9 +65,7 @@ Open **BP_AJ** blueprint and go to the **Jump** section.
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click and add a **DoN** node. This node will repeat n number of times. We will set it to two for double jump.
-
-![add a DoN nuode](images/AddDoNNode.jpg)
+*Press* the <kbd>Play</kbd> button and double jump.  Notice that you double jump but there are no animations.
 
 ![](../images/line2.png)
 
