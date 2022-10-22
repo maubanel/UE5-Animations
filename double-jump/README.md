@@ -55,9 +55,9 @@ Confim that the animation is correct.
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Open **BP_AJ_Character** blueprint and go to the **Jump** section. Make some room in this comment box to add some more nodes for double jumps.
+Open **BP_AJ** blueprint and go to the **Jump** section. 
 
-![open up ajcharacter blueprint and go to jump section](images/MakeSpaceInJumpPlayerBP.jpg)
+![open up ajcharacter blueprint and go to jump section](images/maxJumpCount.png)
 
 ![](../images/line2.png)
 
