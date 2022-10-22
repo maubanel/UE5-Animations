@@ -130,7 +130,7 @@ Open up **BP_AJ** and we need a new **Variable**.  Create a new **Variable Type*
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-*Drag* off of the 
+*Drag* off of the **Jump Count** pin and select a **Increment Int** node.  This will add `1` to the interger value.
 
 ![connect switch on int to jump node](images/incrementByOne.png)
 
@@ -138,9 +138,8 @@ Open up **BP_AJ** and we need a new **Variable**.  Create a new **Variable Type*
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Pull* from the **Switch on Int | 2** node's execution pin and select a **Launch Character** node.
-
-![add a launch character node](images/.jpg)
+*Highjack* the execution pins 
+![add a launch character node](images/highjackExecutionPins.png)
 
 ![](../images/line2.png)
 
