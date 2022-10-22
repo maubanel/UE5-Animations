@@ -14,7 +14,7 @@ Lets add some speed changes so we can adjust our speed based on a button state c
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-So we need to control the speed of the player. Open the **BP_AJ** blueprint and select the **Character Movement** component. In the detail panel look for **Character Movement: Walking | Max Walk Speed**. It is set to `600`. My guess is that this is the same value as the magnitude of the velocity vector. Please take note that the word walking means speed on ground and does not imply an animation state. It is used for all ground movement (not flying or swimming). Set **Max Walk Speed** TO `450`.
+So we need to control the speed of the player. Open the **BP_AJ** blueprint and select the **Character Movement** component. In the detail panel look for **Character Movement: Walking | Max Walk Speed**. My guess is that this is the same value as the magnitude of the velocity vector. Please take note that the word walking means speed on ground and does not imply an animation state. It is used for all ground movement (not flying or swimming). Set **Max Walk Speed** TO `450`.
 
 ![set max walk speed to 450](images/ShowWalkingSpeed.png)
 
@@ -24,7 +24,7 @@ So we need to control the speed of the player. Open the **BP_AJ** blueprint and 
 
 Remember we placed this velocity magnitude in the animation blueprint. Open the **aj_AnimBlueprint | Event Graph** blueprint and add to the bottom of the graph a **Get Speed** node. Add a **Print String** node. *Connect* the output of the **Speed** node to the **In String** of the **Print String** node. Press the arrow at the bottom of the **Print** node and change the **Duration** to `0.0`. *Connect* the execution pin coming from **Set PressedJump** node to the **Print String** node.
 
-![add print string to print velocity](images/PrintVelocityMagnitude.jpg)
+![add print string to print velocity](images/PrintVelocityMagnitude.png)
 
 ![](../images/line2.png)
 
