@@ -106,7 +106,7 @@ Add **Comments** to the print node to clean up the chart.
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add a new **Boolean** vairable called `DoubleJump`.  Create a tooltip **Description** with `Has Player pressed double jump`. Then *set* **Private** to `true` and **Category** to `Player Physics`.
+Add a new **Boolean** vairable called `PressedDoubleJump`.  Create a tooltip **Description** with `Has Player pressed double jump`. Then *set* **Private** to `true` and **Category** to `Player Physics`.
 
 ![add double jump var](images/doubleJump.png)
 
