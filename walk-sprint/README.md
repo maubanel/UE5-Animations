@@ -12,12 +12,11 @@ Lets add some speed changes so we can adjust our speed based on a button state c
 
 ---
 
-
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
 So we need to control the speed of the player. Open the **BP_AJ_Character** blueprint and select the **Character Movement** component. In the detail panel look for **Character Movement: Walking | Max Walk Speed**. It is set to `600`. My guess is that this is the same value as the magnitude of the velocity vector. Please take note that the word walking means speed on ground and does not imply an animation state. It is used for all ground movement (not flying or swimming). Set **Max Walk Speed** TO `450`.
 
-![set max walk speed to 450](images/ShowWalkingSpeed.jpg)
+![set max walk speed to 450](images/ShowWalkingSpeed.png)
 
 ![](../images/line2.png)
 
