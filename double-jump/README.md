@@ -138,16 +138,17 @@ Open up **BP_AJ** and we need a new **Variable**.  Create a new **Variable Type*
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Highjack* the execution pins 
-![add a launch character node](images/highjackExecutionPins.png)
+*Highjack* the execution pins from **InputAction Jump** to **++** to **Jump** node.
+
+![highjack execution node](images/highjackExecutionPins.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We want to launch the characer upwards, or positive along the **Z** axis. *Change* the **Launch Velocity | Z** to `700.0`. *Pull off* the execution pin and select **Set Is Double Jumping** variable.
+Now we do not want to trigger an animation if the jump is pressed three or more times.
 
-![set up set is double jumping](images/.jpg)
+![set up set is double jumping](images/lessThan2.png)
 
 ![](../images/line2.png)
 
