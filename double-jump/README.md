@@ -156,7 +156,7 @@ Now we do not want to trigger an animation if the jump is pressed three or more 
 
 Set the **Is Double Jumping** setting to `true`.
 
-![set is double jumping to true](images/SetIsDoubleJumpingToTrue.jpg)
+![set is double jumping to true](images/.jpg)
 
 ![](../images/line2.png)
 
@@ -164,7 +164,7 @@ Set the **Is Double Jumping** setting to `true`.
 
 *Right click* under the **Action Event Jump** node and select an **Event On Landed**. This will run when the player lands.
 
-![add event on landed node](images/ResetWhenPlayerLands.jpg)
+![add event on landed node](images/.jpg)
 
 ![](../images/line2.png)
 
