@@ -17,9 +17,7 @@ Falling animation continued...
 
 Attach the two only pins in this graph.
 
-ADD SCREENSHOT 
-
-![attach pins for falling](images/ADD SCREENSHOT.jpg)
+![attach pins for falling](images/attachPins.png)
 
 ![](../images/line2.png)
 
