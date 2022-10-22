@@ -72,7 +72,7 @@ https://user-images.githubusercontent.com/5504953/197332475-37d6ae45-a7ce-44d5-8
 
 Lets add sprinting to get the speed back up to 600. We will do this when pressing the <kbd>Shift</kbd> key. Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it **Sprint**. Press the **+** next to the **Sprint** action. *Assign* the `Left Shift` and `Right Shift` keys.
 
-![add sprint to project settings input action mapping](images/SprintProjectSettings.jpg)
+![add sprint to project settings input action mapping](images/SprintProjectSettings.png)
 
 ![](../images/line2.png)
 
