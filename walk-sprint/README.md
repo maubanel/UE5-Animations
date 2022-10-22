@@ -88,22 +88,22 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 
 *Drag and drop* a reference to the **Character Movement** component. *Pull off* of its pin and add a **Set Max Walk Speed** node.
 
-![add set max walk speed node](images/SetMaxWalkSpeedForSprint.jpg)
+![add set max walk speed node](images/SetMaxWalkSpeedForSprint.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-*Connect* the execution pin **Pressed** from the **Sprint** node to the **Set Max Walk Speed** node. *Change* the **Speed** to `600.0`. *Copy and paste* the the **Set Max Walk Speed** node.
+ *Copy and paste* the the **Set Max Walk Speed** node to have a duplicate.
 
-![chnage speed to 600 and add another set max walk speed node](images/PressedSetSpeedSprint.jpg)
+![chnage speed to 600 and add another set max walk speed node](images/PressedSetSpeedSprint.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the **Character Movement** node to the **Target** input on the pasted **Set Max Walk Speed** node. *Connect* the **Released** execution pin from the **Sprint** node to this node as well. *Change* the **Speed** to `450.0`.
+*Connect* the execution pin **Pressed** from the **Sprint** node to the **Set Max Walk Speed** node. *Connect* the **Character Movement** node to the **Target** input on the pasted **Set Max Walk Speed** node. *Connect* the **Released** execution pin from the **Sprint** node to this node as well. *Change* the **Speed** to `450.0`. *Change* the **Speed** to `600.0`
 
 ![set the released pin to set max walk speed to 450](images/MaxWalkSpeedBackToRun.jpg)
 
