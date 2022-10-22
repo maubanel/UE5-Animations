@@ -182,36 +182,15 @@ Go back to the **IdleWalkRun_BlendSpace**. Then change the Speed of the second t
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+*Play* the game and press **Shift** and **Control** and you should now have the player moving at three speeds!
 
 ![](../images/line2.png)
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Scrub* the controller to see what happens this time. You will notice that it now animates much better.
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-https://user-images.githubusercontent.com/5504953/133075235-8f84db62-e5cf-4c62-bed5-de2b5edb442a.mp4
-
-![](../images/line2.png)
-
-##### `Step 24.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Go back to the **BP_AJ_Character** blueprint and change the **Max Walk Speed** from the **Pressed** execution link from **Slow Walk** to `20.0`.
-
-![change slow walk to 20 in ajcharacter bp](images/SlowWalkTo20.jpg)
-
-![](../images/line2.png)
-
-##### `Step 25.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
-
-*Play* the game and press **Shift** and **Control** and you should now have the player moving at three speeds! Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit</kbd>. Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
-
-
-https://user-images.githubusercontent.com/5504953/133075486-5b3799cd-2324-4656-b077-6e0856e86575.mp4
-
-![save, commit and push to github](images/GitHub.png)
-
-___
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 
 ![](../images/line1.png)
