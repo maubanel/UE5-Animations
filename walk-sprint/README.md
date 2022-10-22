@@ -100,12 +100,11 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 
 ![](../images/line2.png)
 
-
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the execution pin **Pressed** from the **Sprint** node to the **Set Max Walk Speed** node. *Connect* the **Character Movement** node to the **Target** input on the pasted **Set Max Walk Speed** node. *Connect* the **Released** execution pin from the **Sprint** node to this node as well. *Change* the **Speed** to `450.0`. *Change* the **Speed** to `600.0`
+*Connect* the execution pin **Pressed** from the **Sprint** node to the **Set Max Walk Speed** node.  *Change* the **Speed** to `600.0` so that the speed increases when pressing the shift key. *Connect* the **Released** execution pin from the **Sprint** node to the second **Set Max Walk Speed** node.  *Change* it back to your regular run speed setting **Speed** to `450.0`.
 
-![set the released pin to set max walk speed to 450](images/MaxWalkSpeedBackToRun.jpg)
+![set the released pin to set max walk speed to 450](images/MaxWalkSpeedBackToRun.png)
 
 ![](../images/line2.png)
 
