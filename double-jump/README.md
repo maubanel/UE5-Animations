@@ -17,19 +17,23 @@ Since I have downloaded this cartoon character, I would like to implement double
 
 Go back to [Mixamo](https://www.mixamo.com/#/) and look for a good animation for a double jump. I am going with a foreward roll. Make sure it is set to **In Place** if there is translation and trim it to just the spin. We don't don't want any foot on ground bits in our final exported animation. **Export** the file without the skin. Just snip only the roll portion so don't include the legs extending or contracting.
 
-![import double jump animation](images/ImportDoubleJumpAnim2.png)
+![trim double jump animation](images/ImportDoubleJumpAnim2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Go to the **Animations** folder and press the <kbd>Add/Import</kbd> button. *Select* the latest animation you just downloaded.
+Download the animation without a skin.
 
-![import double jump animation](images/ImportDoubleJumpAnim.jpg)
+![download double jump animation](images/ImportDoubleJumpAnim3.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Go to the **Animations** folder and press the <kbd>Add/Import</kbd> button. *Select* the latest animation you just downloaded.
+
+![import double jump animation](images/ImportDoubleJumpAnim.jpg)
 
 In the **FBX Import Options** assign the **Skeleton** that you are using. *Press* the <kbd>Import</kbd> button.
 
