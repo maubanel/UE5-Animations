@@ -120,6 +120,7 @@ Add a comment with `Sprint` around these nodes.
 
 *Play* the game. You will noticed that in the player runs at 450 until the sprint button is pressed. Then the player runs at a full 600 with the faster animation.
 
+https://user-images.githubusercontent.com/5504953/197333143-ef65aaf6-563f-4218-aad3-5ef144acc5f1.mp4
 
 ![](../images/line2.png)
 
