@@ -51,8 +51,6 @@ Confim that the animation is correct.
 
 https://user-images.githubusercontent.com/5504953/197363276-33f0dfb0-a71d-4acb-851b-29c795c19dba.mp4
 
-![alt_text](images/.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
