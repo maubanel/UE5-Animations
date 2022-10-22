@@ -32,7 +32,7 @@ Remember we placed this velocity magnitude in the animation blueprint. Open the 
 
 *Play* the game. You will notice that the speed is set at 450. So our assumption is correct, this matches the max walking value in the blueprint. Also, it is picking the sprint animation but it doesn't feel like our player is sprinting.  Remember it is the 1D Blend that we have set which animation to run so this is what we would need to adjust to pick a more appropriate animation speed to match the displacement velocity vector we are printing.
 
-
+https://user-images.githubusercontent.com/5504953/197331731-7adb2d51-b383-48a1-bf95-90b2518a6c1e.mp4
 
 ![](../images/line2.png)
 
