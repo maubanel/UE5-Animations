@@ -22,7 +22,7 @@ So we need to control the speed of the player. Open the **BP_AJ** blueprint and 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Remember we placed this velocity magnitude in the animation blueprint. Open the **aj_AnimBlueprint | Event Graph** blueprint and add to the bottom of the graph a **Get Speed** node. Add a **Print String** node. *Connect* the output of the **Speed** node to the **In String** of the **Print String** node. Press the arrow at the bottom of the **Print** node and change the **Duration** to `0.0`. *Connect* the execution pin coming from **Set PressedJump** node to the **Print String** node.
+Remember we placed this velocity magnitude in the animation blueprint. Open the **AnimBP_AJ | Event Graph** blueprint and add to the bottom of the graph a **Get Speed** node. Add a **Print String** node. *Connect* the output of the **Speed** node to the **In String** of the **Print String** node. Press the arrow at the bottom of the **Print** node and change the **Duration** to `0.0`. *Connect* the execution pin coming from **Set PressedJump** node to the **Print String** node.
 
 ![add print string to print velocity](images/PrintVelocityMagnitude.png)
 
