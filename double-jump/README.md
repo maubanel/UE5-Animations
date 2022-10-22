@@ -89,7 +89,9 @@ Now next to the **Update Animation** event press the **Add Pin +** in the **Sequ
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+Move the **Print** nodes to the bottom. Connect the output of the **Sequence | Then 2** node to the input **Print** node.
 
+![add execution pin to sequence node](images/connectToPin.png)
 
 ![](../images/line2.png)
 
