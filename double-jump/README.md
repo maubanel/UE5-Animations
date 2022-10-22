@@ -73,15 +73,15 @@ https://user-images.githubusercontent.com/5504953/197363429-3ea55e48-6045-456a-8
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We are going to now switch on the integer coming from the **DoN** node. Add a **Switch on Int** node. Set the **N** number to start at `2` as the player will be starting by falling and can't jump at the very begining of pressing play (like they are coming down from a double jump).
+Disconnect the **Print** node as we will be moving it as we will be adding logic to the double jumping.  
 
-![add switch on int node and set n to 2](images/AddSwitchOnIntNode.jpg)
+![add switch on int node and set n to 2](images/disconnectPrint.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the **Counter** pin from the **DoN** node to the **Switch on Int** node's **Selection** pin:
+
 
 ![connect Counter to Selection pin](images/CounterToSelectionPin.jpg)
 
