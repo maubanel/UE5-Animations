@@ -15,7 +15,7 @@ Since I have downloaded this cartoon character, I would like to implement double
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Go back to [Mixamo](https://www.mixamo.com/#/) and look for a good animation for a double jump. I am going with a foreward roll. Make sure it is set to **In Place** if there is translation and trim it to just the spin. We don't don't want any foot on ground bits in our final exported animation. **Export** the file without the skin.
+Go back to [Mixamo](https://www.mixamo.com/#/) and look for a good animation for a double jump. I am going with a foreward roll. Make sure it is set to **In Place** if there is translation and trim it to just the spin. We don't don't want any foot on ground bits in our final exported animation. **Export** the file without the skin. Just snip only the roll portion so don't include the legs extending or contracting.
 
 https://user-images.githubusercontent.com/5504953/133075815-ad64f111-a297-4ef0-a9f6-eda8f01a2e3b.mp4
 
