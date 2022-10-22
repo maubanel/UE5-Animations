@@ -166,7 +166,7 @@ https://user-images.githubusercontent.com/5504953/197333478-c1d276ae-e159-4c65-b
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Go back to the **IdleWalkRun_BlendSpace**. Then change the Speed of the second to the left creep walk animation to `20.0.`.  This means the in game velocity needs to be lower which should get rid of the aking.
+Go back to the **IdleWalkRun_BlendSpace**. Then change the Speed of the second to the left creep walk animation to `20.0.`.  This means the in game velocity needs to be lower which should get rid of the aking. Go to **BP_AJ** and change the **Set Speed** for the creep walk to `20.0` as well.
 
 ![change blend space speed to 20 by turning off snap to grid](images/ChangeBlendTo10.png)
 
