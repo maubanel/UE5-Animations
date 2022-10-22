@@ -70,7 +70,7 @@ https://user-images.githubusercontent.com/5504953/197332475-37d6ae45-a7ce-44d5-8
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets add sprinting to get the speed back up to 600. We will do this when pressing the <kbd>Shift</kbd> key. Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it **Sprint**. Press the **+** next to the **Sprint** action. *Assign* the `Left Shift` and `Right Shift` keys.
+Lets add sprinting to get the speed back up to 600. We will do this when pressing the <kbd>Shift</kbd> key. Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it **Sprint**. Press the **+** next to the **Sprint** action. *Assign* the `Left Shift` and `Right Shift` keys. So when we shift run we will sprint!
 
 ![add sprint to project settings input action mapping](images/SprintProjectSettings.png)
 
@@ -78,9 +78,9 @@ Lets add sprinting to get the speed back up to 600. We will do this when pressin
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Reopen **BP_AJ_Character** blueprint and go to the **Event Graph**. At the bottom add a **Action Events | Sprint** node.
+Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **Action Events | Sprint** node.
 
-![add sprint to ajCharacter blueprint](images/SprintActionMappingAdd.jpg)
+![add sprint to ajCharacter blueprint](images/SprintActionMappingAdd.png)
 
 ![](../images/line2.png)
 
