@@ -169,7 +169,7 @@ Now we do not want to trigger an animation if the jump is pressed three or more 
 
 *Connect* the output execution pin from the **Event On Landed** node and put it on the **Reset** pin on the **DoN** node. This means that each time the player lands he will be able to jump then double jump again!
 
-![connect on landed to reset](images/ConnectOnLandedToReset.jpg)
+![connect on landed to reset](images/.jpg)
 
 ![](../images/line2.png)
 
@@ -177,7 +177,7 @@ Now we do not want to trigger an animation if the jump is pressed three or more 
 
 To test our work lets print on screen. *Add* two **Print String** nodes. *Add* to the **InString** in the top one `Single Jump` then in the bottom one `Double Jump`. *Connect* the **Is Jumping** output to the top **Print String** node and the **Is Double Jumping** to the bottom **Print String** node.
 
-![print single and double jump to test logic](images/AddTwoPrintNodesDoubleJump.jpg)
+![print single and double jump to test logic](images/.jpg)
 
 ___
 
