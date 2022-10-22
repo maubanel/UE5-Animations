@@ -31,13 +31,9 @@ Download the animation without a skin.
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Animations** folder and press the <kbd>Add/Import</kbd> button. *Select* the latest animation you just downloaded.
+*Drag and drop* the animation to the **Animations** folder. In the **FBX Import Options** assign the **Skeleton** that you are using. *Press* the <kbd>Import</kbd> button.
 
-![import double jump animation](images/ImportDoubleJumpAnim.jpg)
-
-In the **FBX Import Options** assign the **Skeleton** that you are using. *Press* the <kbd>Import</kbd> button.
-
-![assign skeleton and import](images/AssignSkeletonToDoubleJumpImport.jpg)
+![import double jump animation](images/ImportDoubleJumpAnim.png)
 
 ![](../images/line2.png)
 
