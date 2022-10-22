@@ -64,7 +64,7 @@ Now we need to set our regular run speed to 450. *Click* on the second to last r
 
 *Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays:
 
-
+https://user-images.githubusercontent.com/5504953/197332475-37d6ae45-a7ce-44d5-872f-5566a81714a8.mp4
 
 ![](../images/line2.png)
 
