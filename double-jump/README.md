@@ -81,9 +81,9 @@ Open up **AnimBP_AJ** and *disconnect* the **Print** node as we will be moving i
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now next to the **Update Animation** event press the 
+Now next to the **Update Animation** event press the **Add Pin +** in the **Sequence** node to add a `Then 2` execution pin.
 
-![connect Counter to Selection pin](images/addToSequence.png)
+![add execution pin to sequence node](images/addToSequence.png)
 
 ![](../images/line2.png)
 
