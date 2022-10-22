@@ -160,7 +160,7 @@ Go back to the **BP_AJ** blueprint and at the bottom *right click* and add a **A
 
 Now *run* the game and press the <kbd>Alt</kbd> key. You will notice that the character skates across the screen. This is no good we need to slow the player speed down for when this animation is triggered.
 
-
+https://user-images.githubusercontent.com/5504953/197333478-c1d276ae-e159-4c65-b30c-bdd0bbdf34a0.mp4
 
 ![](../images/line2.png)
 
