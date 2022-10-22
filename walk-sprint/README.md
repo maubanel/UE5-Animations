@@ -184,6 +184,8 @@ Go back to the **IdleWalkRun_BlendSpace**. Then change the Speed of the second t
 
 *Play* the game and press **Shift** and **Control** and you should now have the player moving at three speeds!
 
+https://user-images.githubusercontent.com/5504953/197334923-9cd9bee4-2af5-4dd2-a213-cc127649f4f1.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
