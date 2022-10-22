@@ -160,24 +160,24 @@ Now we do not want to trigger an animation if the jump is pressed three or more 
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Below the jumping on the falling node.  Switch setting **Is Jumping** to `false` on the **False** node.  This way when we hit the ground we set **Is Jumping** to `false`.  Also add a **Set Jump Count** variable to the chart and set it to `0`.  Connect it from the **Set | Is Jumping** execution pin.
 
-![add event on landed node](images/resetJumpCount.png)
+![set jump count to 0](images/resetJumpCount.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-*Connect* the output execution pin from the **Event On Landed** node and put it on the **Reset** pin on the **DoN** node. This means that each time the player lands he will be able to jump then double jump again!
 
-![connect on landed to reset](images/.jpg)
+
+![connect on landed to reset](images/deleteJumpingNodes.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-To test our work lets print on screen. *Add* two **Print String** nodes. *Add* to the **InString** in the top one `Single Jump` then in the bottom one `Double Jump`. *Connect* the **Is Jumping** output to the top **Print String** node and the **Is Double Jumping** to the bottom **Print String** node.
 
-![print single and double jump to test logic](images/.jpg)
+![print single and double jump to test logic](images/.png)
 
 ___
 
