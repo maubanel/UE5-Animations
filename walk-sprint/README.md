@@ -126,7 +126,7 @@ https://user-images.githubusercontent.com/5504953/197333143-ef65aaf6-563f-4218-a
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-OK, lets work on the slow walk. Open the **IdleWalkRun_BlendSpace** editor. It is the second option on the left. We can see that it is at `75`.
+OK, lets work on the slow walk. Open the **BlendSpace_IdleWalkRun** editor. It is the second option on the left. We can see that it is at ~ `40`.
 
 ![go to idle walk run blend space](images/SlowWalkSpeedBlendSpace.jpg)
 
