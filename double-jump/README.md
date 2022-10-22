@@ -152,7 +152,7 @@ Now we do not want to trigger an animation if the jump is pressed three or more 
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+*Pull off* the **<=** pin and select a **Branch** node.  *Highjack* the execution pin from **Jump** to **Branch** and **Branch | True** to **Set | Is Jupming**.  This will only set is jumping tif the count is 2 or less (so the first or second jump).
 
 ![set is double jumping to true](images/jumpIfLess2.png)
 
@@ -160,9 +160,8 @@ Now we do not want to trigger an animation if the jump is pressed three or more 
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* under the **Action Event Jump** node and select an **Event On Landed**. This will run when the player lands.
 
-![add event on landed node](images/.jpg)
+![add event on landed node](images/resetJumpCount.png)
 
 ![](../images/line2.png)
 
