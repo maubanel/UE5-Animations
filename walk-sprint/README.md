@@ -62,14 +62,9 @@ Now we need to set our regular run speed to 450. *Click* on the second to last r
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-DON"T NEED STEP 6Now go back to the **BP_AJ_Character** blueprint and select the **Character Movement** Component. Then go to **Character Movement Walking | Max Walk Speed** and set it to `450.0` and adjust **Max Walk Speed Crouched** to `200.0`.
-
-![set max walk speed to 450](images/WalkSpeed450.jpg)
-
-
 *Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays:
 
-https://user-images.githubusercontent.com/5504953/133072932-ce6d095c-c983-404a-a5ae-528e9a3c2618.mp4
+
 
 ![](../images/line2.png)
 
