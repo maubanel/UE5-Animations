@@ -73,7 +73,7 @@ https://user-images.githubusercontent.com/5504953/197363429-3ea55e48-6045-456a-8
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Disconnect the **Print** node as we will be moving it as we will be adding logic to the double jumping.  
+Open up **AnimBP_AJ** and *disconnect* the **Print** node as we will be moving it as we will be adding logic to the double jumping.  
 
 ![add switch on int node and set n to 2](images/disconnectPrint.png)
 
@@ -89,9 +89,7 @@ Disconnect the **Print** node as we will be moving it as we will be adding logic
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Connect* the **DoN** execution pin to the **Switch on Int** node:
 
-![connect DoN to Switch on Int](images/ConnectDoNExecutionPins.jpg)
 
 ![](../images/line2.png)
 
