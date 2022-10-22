@@ -114,7 +114,7 @@ Add a new **Boolean** vairable called `PressedDoubleJump`.  Create a tooltip **D
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we need a variable to know that we have pressed this button. *Right click* on the **bIsJumping** variable and select **Duplicate** to make another copy.
+Open up **BP_AJ** and we need a new **Variable**.  Create a new **Variable Type** `Integer` and call it `JumpCount`.  Change the **Category** to `Player Physics` and the **Description** to `Counts Player Jumps`.
 
 ![duplicate bIsJumping](images/playerCount.png)
 
@@ -122,17 +122,17 @@ Now we need a variable to know that we have pressed this button. *Right click* o
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Call* this new Variable `bIsDoubleJumping`.
+*Drag* a get **Jump Count** to the **Jumping** area.  Make room to add some nodes before the jump function.
 
-![name variable bIsDoubleJumping](images/.jpg)
+![name variable bIsDoubleJumping](images/jumpCountMakeRoom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-*Press* the **+** button three times on the **Switch On Int** node. Even though we only need two pins the **DoN** node starts counting at `1` and the **Switch On Int** node starts on `0`. Connect the output pin **1** from the **Switch on Int** node to the **Jump** node:
+*Drag* off of the 
 
-![connect switch on int to jump node](images/.jpg)
+![connect switch on int to jump node](images/incrementByOne.png)
 
 ![](../images/line2.png)
 
@@ -140,7 +140,7 @@ Now we need a variable to know that we have pressed this button. *Right click* o
 
 *Pull* from the **Switch on Int | 2** node's execution pin and select a **Launch Character** node.
 
-![add a launch character node](images/Pin2ToLaunchCharacter.jpg)
+![add a launch character node](images/.jpg)
 
 ![](../images/line2.png)
 
@@ -148,7 +148,7 @@ Now we need a variable to know that we have pressed this button. *Right click* o
 
 We want to launch the characer upwards, or positive along the **Z** axis. *Change* the **Launch Velocity | Z** to `700.0`. *Pull off* the execution pin and select **Set Is Double Jumping** variable.
 
-![set up set is double jumping](images/SetDoubleJumping.jpg)
+![set up set is double jumping](images/.jpg)
 
 ![](../images/line2.png)
 
