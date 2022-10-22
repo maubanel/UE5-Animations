@@ -97,18 +97,16 @@ Move the **Print** nodes to the bottom. Connect the output of the **Sequence | T
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-*Disconnect* the execution pin coming out of the **Jump** node
+Add **Comments** to the print node to clean up the chart.
 
-![disconnect pin from jump node](images/DisconnectExecutionPin.jpg)
+![disconnect pin from jump node](images/addComments.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the **Jump** node's execution pin to the **DoN** node.
 
-![connet jump to DoN node](images/ConnectJumpToDoNNode.jpg)
 
 ![](../images/line2.png)
 
