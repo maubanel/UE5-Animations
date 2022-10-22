@@ -166,25 +166,23 @@ https://user-images.githubusercontent.com/5504953/197333478-c1d276ae-e159-4c65-b
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Go back to the **IdleWalkRun_BlendSpace**. Now *expand* the **Blend Samples | Creep Walk** and *remove* **Snap to Grid**. Then change the Speed to `10.0.`
+Go back to the **IdleWalkRun_BlendSpace**. Then change the Speed of the second to the left creep walk animation to `10.0.`.  This means the in game velocity needs to be lower which should get rid of the aking.
 
-![change blend space speed to 10 by turning off snap to grid](images/ChangeBlendTo10.jpg)
+![change blend space speed to 10 by turning off snap to grid](images/ChangeBlendTo10.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Scrub* the controller to see what happens. You will notice that when you are at 10 it is blending mostly the Idle and we are not seeing the slow walk. This is because it blends between the grid divisions.
+*Change* the number of **Grid Divisions** to `30` just to make sure that the math tweens between the different speeds properly.
 
-https://user-images.githubusercontent.com/5504953/133074747-bd52cdd6-11b7-4d8d-81a8-0f60692ea2dc.mp4
+![set grid divisions to 30 and change speed to 20](images/GridDivisionsTo30.png)
 
 ![](../images/line2.png)
 
 ##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Change* the number of **Grid Divisions** to `30` and change the **Speed** to `20`.
 
-![set grid divisions to 30 and change speed to 20](images/GridDivisionsTo30.jpg)
 
 ![](../images/line2.png)
 
