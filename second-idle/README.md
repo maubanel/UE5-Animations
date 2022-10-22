@@ -79,8 +79,8 @@ Add two **Set Idle Timer** nodes. *Connect* nexts to each to the **True** and **
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Connect the execution pin of **Set Speed** node to the input of the **Branch Node**.
-NEED SCREENSHOT OF THIS
-![connect idle timer and get world delat to addition node](images/NEEDSCREENSHOT.png)
+
+![connect idle timer and get world delat to addition node](images/attachExecPins.png)
 
 ![](../images/line2.png)
 
