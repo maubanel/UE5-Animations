@@ -65,7 +65,7 @@ Now after the jump count is set to `3` we then set both **Pressed Jump** and **P
 
 Go to the **Anim Graph | Core Locomotion** screen. To the right of the **Fall** node right click and select **Add State**.
 
-![add state to anim graph](images/.jpg)
+![add state to anim graph](images/addState.png)
 
 ![](../images/line2.png)
 
