@@ -23,7 +23,7 @@ Now lets set pressed jump to true for the first jump and reset the double jump i
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-
+Drag off the **Jump Count** pin and select a **==** node.  This will now check to see if it is the second jump so set the second pin in the **==** node to `2`. This will run when we are at the second jump.
 
 ![delete print string nodes](images/checkSecondJump.png)
 
@@ -33,15 +33,15 @@ Now lets set pressed jump to true for the first jump and reset the double jump i
 
 *Open* to the **bj_AnimBlueprint** and go to the **Event Graph**. *Duplicate* the **Pressed Jump** variable. Call it `bPressedDoubleJump`.
 
-![duplicate pressed jump](images/.jpg)
+![duplicate pressed jump](images/secondBranch.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Set Is Jumpin**g Section. Pull the As **BP_AJ_Character** pin and select a **Get Is Double Jumping** node.
 
-![add is double jumping node](images/SetDoubleJumpVariableAnimBP.jpg)
+
+![add is double jumping node](images/secondBranch.png)
 
 ![](../images/line2.png)
 
@@ -49,7 +49,7 @@ Go to the **Set Is Jumpin**g Section. Pull the As **BP_AJ_Character** pin and se
 
 *Drag and drop* a **Set Pressed Double Jump** node. *Connect* it to the **Is Double Jumping** pin.
 
-![add set pressed double jump node](images/SetIsDoubleJump.jpg)
+![add set pressed double jump node](images/.jpg)
 
 ![](../images/line2.png)
 
@@ -57,7 +57,7 @@ Go to the **Set Is Jumpin**g Section. Pull the As **BP_AJ_Character** pin and se
 
 *Connect* the execution pin from the **Set Pressed Jump** node to the **Set Pressed Double Jump** node.
 
-![connect set pressed jump to set pressed double jump](images/ConnectExecuteDoubleJumpIs.jpg)
+![connect set pressed jump to set pressed double jump](images/.jpg)
 
 ![](../images/line2.png)
 
