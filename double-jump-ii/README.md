@@ -31,7 +31,7 @@ Drag off the **Jump Count** pin and select a **==** node.  This will now check t
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Pull off the second **==** nodes and select a new **Branch** node.  Connect it to the **Branch | False** pin from the first jump.
 
 ![duplicate pressed jump](images/secondBranch.png)
 
@@ -41,7 +41,7 @@ Drag off the **Jump Count** pin and select a **==** node.  This will now check t
 
 
 
-![add is double jumping node](images/.png)
+![add is double jumping node](images/connectPins.png)
 
 ![](../images/line2.png)
 
@@ -65,7 +65,7 @@ Drag off the **Jump Count** pin and select a **==** node.  This will now check t
 
 Go to the **Anim Graph | Core Locomotion** screen. To the right of the **Fall** node right click and select **Add State**.
 
-![add state to anim graph](images/AddStateForDoubleJump.jpg)
+![add state to anim graph](images/.jpg)
 
 ![](../images/line2.png)
 
