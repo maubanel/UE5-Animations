@@ -53,7 +53,7 @@ So first we need to find out the slope of the ground under us. How are we going 
 
 *Right click* under the debug print we just made on the character blueprint then add a **Line Trace By Channel** node.
 
-![add line trace by channel node](images/LineByTraceChannel.jpg)
+![add line trace by channel node](images/LineByTraceChannel.png)
 
 
 ![](../images/line2.png)
