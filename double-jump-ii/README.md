@@ -23,9 +23,9 @@ Now lets set pressed jump to true for the first jump and reset the double jump i
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-When you have the double jump physics working you can delete the two **Print String** nodes.
 
-![delete print string nodes](images/.jpg)
+
+![delete print string nodes](images/checkSecondJump.png)
 
 ![](../images/line2.png)
 
