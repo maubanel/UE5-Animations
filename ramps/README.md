@@ -150,6 +150,7 @@ Split the output pins by right clicking and splitting the struct on the **Get Wo
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+https://user-images.githubusercontent.com/5504953/197370872-07ef41f8-63cc-4da3-b664-7f790dd78e20.mp4
 
 ![attach execution pins from print string to sequence nodes](images/setWorldRotation.png)
 
@@ -157,23 +158,21 @@ Split the output pins by right clicking and splitting the struct on the **Get Wo
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-https://user-images.githubusercontent.com/5504953/197370872-07ef41f8-63cc-4da3-b664-7f790dd78e20.mp4
-
-![add float > float node](images/OnlyIfPlayerIsMoving.png)
+![add float > float node](images/curveFloat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-![add branch and connect to Then 1 of sequence node](images/.png)
+![add branch and connect to Then 1 of sequence node](images/4Keys.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now we will start the line trace in the center of the character. *Right click* and select a **Get Actor Location** node. *Send* the output of this to the **Start** pin in the **Line Trace By Channel** node. *Connect* the **Then 0** pin of the **Sequence** node to the **Branch** node then select the **True** execution pin from the **Branch** node to the **Line Trace By Channel** node.
 
-![start line trace from center of character](images/StartLineTraceFromCenterOfCharacter.jpg)
+
+![start line trace from center of character](images/adjustFourKeys.png)
 
 ___
 
