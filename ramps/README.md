@@ -157,6 +157,7 @@ Split the output pins by right clicking and splitting the struct on the **Get Wo
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+https://user-images.githubusercontent.com/5504953/197370872-07ef41f8-63cc-4da3-b664-7f790dd78e20.mp4
 
 ![add float > float node](images/OnlyIfPlayerIsMoving.png)
 
