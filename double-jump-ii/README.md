@@ -31,9 +31,9 @@ Drag off the **Jump Count** pin and select a **==** node.  This will now check t
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Open* to the **bj_AnimBlueprint** and go to the **Event Graph**. *Duplicate* the **Pressed Jump** variable. Call it `bPressedDoubleJump`.
 
-![duplicate pressed jump](images/secondBranch.jpg)
+
+![duplicate pressed jump](images/secondBranch.png)
 
 ![](../images/line2.png)
 
@@ -41,7 +41,7 @@ Drag off the **Jump Count** pin and select a **==** node.  This will now check t
 
 
 
-![add is double jumping node](images/secondBranch.png)
+![add is double jumping node](images/.png)
 
 ![](../images/line2.png)
 
