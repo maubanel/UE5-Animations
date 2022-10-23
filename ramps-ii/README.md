@@ -15,7 +15,7 @@ Running up & down ramps continued...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-
+Select each key and right click and make it **Auto**.  This will change the key from a linear to a curved key.  This will give a more natural slope and less abrupt change to the player speed.
 
 ![add a get up vector node](images/autoAllKeys.png)
 
@@ -23,7 +23,7 @@ Running up & down ramps continued...
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-
+Adjust all angles so they are flat curves so there are no bumps in the speed.
 
 ![multiply by -300](images/flattenHumps.png)
 
@@ -31,6 +31,7 @@ Running up & down ramps continued...
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go back to **BP_AJ** and add a **Capsule Component** and then pull off the pin and select a **Get Right Vector** node. This gets the player's relative right hand vector.
 
 ![change draw debug type to for one frame](images/capsuleGetRight.png)
 
@@ -38,6 +39,7 @@ Running up & down ramps continued...
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Add* a **Get Up Vector** node and set **Z** to `1.0` and leave **X** and **Y** at `0.0`.
 
 
 ![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/upVector.png)
@@ -45,6 +47,8 @@ Running up & down ramps continued...
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
+
+Add a **Get Slope Degress Angles** node.  Connect the **Get Right Vector | Return Value** to the **My Right YAxis** node.  Connect the **Out Hit Impace Normal** pin to the **Floor Normal** pin.  Select the output of the **Get Up Vector | Return Value** pin to the **Up Vector** pin in **Get Slope Degree Angles**.
 
 ![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/slopeInAngles.png)
 
