@@ -110,8 +110,9 @@ Add the **Capsule Component** to the right of the **Line Trace by Channel** and 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Split the output pins by right clicking and splitting the struct on the **Get World Rotation**.  Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z(Yaw)** to the **Make Rotator | Z** node.
 
-![add world rotation, right and forward](images/getWorldZ.png)
+![connect world z to make rotator](images/getWorldZ.png)
 
 
 ![](../images/line2.png)
