@@ -73,7 +73,7 @@ Go to the **Anim Graph | Core Locomotion** screen. To the right of the **Fall** 
 
 *Call* this new state `Double Jump`.
 
-![call state Double Jump](images/CallItDoubleJumpState.jpg)
+![call state Double Jump](images/CallItDoubleJumpState.png)
 
 ![](../images/line2.png)
 
