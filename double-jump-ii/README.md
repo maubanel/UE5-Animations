@@ -120,16 +120,16 @@ Drag and drop the **Double Jump** animation onto the animation graph.
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Go back to the **Core Locomotion** screen. *Double click* on the **Double Jump to Falling** transition button. *Right click* on the graph and select a **Time Remaining (ratio) (Double Jump)** node.
 
+![go to double jump to falling transition and add a Time Remaining (ratio) node](images/DoubleJumpToFallingTrans.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Go back to the **Core Locomotion** screen. *Double click* on the **Double Jump to Falling** transition button. *Right click* on the graph and select a **Time Remaining (ratio) (Double Jump)** node.
 
-![go to double jump to falling transition and add a Time Remaining (ratio) node](images/DoubleJumpToFallingTrans.jpg)
 
 ![](../images/line2.png)
 
