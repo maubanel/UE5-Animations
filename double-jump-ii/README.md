@@ -47,6 +47,7 @@ Pull off the second **==** nodes and select a new **Branch** node.  Connect it t
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+*Pull off* the **As BP_AJ** pin and select a **Set Jump Count** node and make it `3`.  Otherwise the player will keep spinning in the second jump spin.  This resets it so it doesn't call any jumping again until the player lands on the ground. Connect the **Execution** pin to the **Set Pressed Jump** node.
 
 ![add set pressed double jump node](images/setJumpCountTo3.png)
 
@@ -54,9 +55,9 @@ Pull off the second **==** nodes and select a new **Branch** node.  Connect it t
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Connect* the execution pin from the **Set Pressed Jump** node to the **Set Pressed Double Jump** node.
 
-![connect set pressed jump to set pressed double jump](images/.jpg)
+
+![connect set pressed jump to set pressed double jump](images/addFinalSettings.png)
 
 ![](../images/line2.png)
 
