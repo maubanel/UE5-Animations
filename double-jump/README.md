@@ -168,7 +168,7 @@ Below the jumping on the falling node.  Switch setting **Is Jumping** to `false`
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-
+Go back to **AnimBP_AJ** and delete all the nodes after **Cast to BP_AJ** node. 
 
 ![connect on landed to reset](images/deleteJumpingNodes.png)
 
@@ -177,10 +177,7 @@ Below the jumping on the falling node.  Switch setting **Is Jumping** to `false`
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 
-![print single and double jump to test logic](images/.png)
-
-___
-
+![print single and double jump to test logic](images/jumpCountBranch.png)
 
 ![](../images/line1.png)
 
