@@ -69,11 +69,16 @@ Connect the second **Set Capsure Radius** (the one that is set to 30 when we are
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Drag a **Capsule Component** onto the graph.  Then *pull off* the pin and select a **Get Up Vector** node.
+
 ![get up vector](images/getUpVector.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![get up vector](images/drawDebugLine.png)
+
 
 ![](../images/line2.png)
 
