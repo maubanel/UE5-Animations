@@ -101,12 +101,17 @@ Add a comment on the line trace about rotating the players to match the pitch of
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-![add comment](images/getCoords.png)
+Add the **Capsule Component** to the right of the **Line Trace by Channel** and pull off the pin to add a **Get World Rotation**, **Get Right Vector** and **Get Forward Vector** node.
+
+![add world rotation, right and forward](images/getCoords.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
+![add world rotation, right and forward](images/getWorldZ.png)
 
 
 ![](../images/line2.png)
