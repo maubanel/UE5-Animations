@@ -87,6 +87,8 @@ Drag the **Get Up Vector | Return Value** and multiply it by `-105`.  When you a
 
 **Compile** the blueprint and *press* the <kbd>Play</kbd> button.  Now you should see a square target at the buttom of the ray, which means it is reaching and touching the ground.  Make sure you run up and down the slopd and make sure it is working on all surfaces.
 
+https://user-images.githubusercontent.com/5504953/197370228-76cb2a44-03f4-4b15-88a1-bdb8b2140e18.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
