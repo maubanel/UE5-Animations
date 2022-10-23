@@ -60,6 +60,8 @@ So first we need to find out the slope of the ground under us. How are we going 
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+Connect the second **Set Capsure Radius** (the one that is set to 30 when we are on the ground) to the **Line Trace by Channel**.  Add a **Get Actor Location** node an dconnect the **Return Value** pin to the **Start** of the line trace.
+
 ![get actor location](images/getActorLocation2.png)
 
 
@@ -67,6 +69,7 @@ So first we need to find out the slope of the ground under us. How are we going 
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+![get up vector](images/getUpVector.png)
 
 ![](../images/line2.png)
 
