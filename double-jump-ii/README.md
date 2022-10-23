@@ -15,17 +15,15 @@ Finish setting up the double jump ability to the player.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Play the game and you should now be able to double jump and the text should reflect the correct state. Next up we will add the animation of the player rolling.
 
-https://user-images.githubusercontent.com/5504953/133078025-b828a1e1-b9a0-49da-8a9e-7413e951ffee.mp4
-
+![delete print string nodes](images/setPressedDoubleFalse.png)
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
 When you have the double jump physics working you can delete the two **Print String** nodes.
 
-![delete print string nodes](images/DeletePrintStringWhenDoubleJumpDone.jpg)
+![delete print string nodes](images/.jpg)
 
 ![](../images/line2.png)
 
@@ -33,7 +31,7 @@ When you have the double jump physics working you can delete the two **Print Str
 
 *Open* to the **bj_AnimBlueprint** and go to the **Event Graph**. *Duplicate* the **Pressed Jump** variable. Call it `bPressedDoubleJump`.
 
-![duplicate pressed jump](images/DuplicatePressedJumpNode.jpg)
+![duplicate pressed jump](images/.jpg)
 
 ![](../images/line2.png)
 
