@@ -24,6 +24,7 @@ Now the larger capsule we selected doesn't make much sense for running up and do
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+*Drag* the **Capsule Component** to the graph after setting **Is Jumping** and pull off the pin to add a **Set Capsule Radius** to `90`.  This widens the collision volume when jumping.
 
 ![change box brush to 2000, 400 and 600](images/capsuleCompAdjust.png)
 
@@ -31,9 +32,9 @@ Now the larger capsule we selected doesn't make much sense for running up and do
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move player start in front of this box.
+Repeat the process and bring the **Set Capsule Radius** back to `30` when on ground.
 
-![put player start in front of box](images/.jpg)
+![put player start in front of box](images/setBackto30.png)
 
 ![](../images/line2.png)
 
