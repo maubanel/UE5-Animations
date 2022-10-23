@@ -24,9 +24,8 @@ Now the larger capsule we selected doesn't make much sense for running up and do
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Adjust the size to `2000` by `400` by `600` in the **brush size**. And make sure the box is on the ground (press the <kbd>End</kbd> key).
 
-![change box brush to 2000, 400 and 600](images/.jpg)
+![change box brush to 2000, 400 and 600](images/capsuleCompAdjust.png)
 
 ![](../images/line2.png)
 
