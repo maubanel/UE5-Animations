@@ -147,6 +147,8 @@ Set the value in the **<=** node to `0.1` and *connect* the output to the **Resu
 
 *Run* the game and a double jump animation should now run during the second jump.
 
+https://user-images.githubusercontent.com/5504953/197369018-333d2965-b2d2-4cf8-bda1-f45d5284686a.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
