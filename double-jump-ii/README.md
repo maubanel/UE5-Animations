@@ -112,17 +112,16 @@ Drag and drop the **Double Jump** animation onto the animation graph.
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Drag and drop* a **Get Pressed Double Jump** node onto the graph.
+*Drag and drop* a **Get Pressed Double Jump** node onto the graph. Connect the **Pressed Double Jump** node to the **Can Enter Transition** node. This will be triggered when in air and the **Pressed Double Jump** node is true.
 
-![add Get Pressed Double Jump node](images/PressedDoubleJumpDragAndDrop.png)
+![connect pressed double jump to can enter transition](images/ConnectJumpToTransition.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Connect the **Pressed Double Jump** node to the **Can Enter Transition** node. This will be triggered when in air and the **Pressed Double Jump** node is true.
 
-![connect pressed double jump to can enter transition](images/ConnectJumpToTransition.png)
+
 
 ![](../images/line2.png)
 
