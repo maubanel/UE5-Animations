@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Finish setting up the double jump ability to the player.
+Finish setting up the double jump ability to the player. 
 
 <br>
 
@@ -15,8 +15,10 @@ Finish setting up the double jump ability to the player.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
+Now lets set pressed jump to true for the first jump and reset the double jump in case it is true.  So drag a **Set Pressed Jump** and **Set Pressed Double Jump** to the right of the **Branch** node.  Set **Pressed Jump** to `true` and **Pressed Double Jump** to `false`. Connect them both to the **Branch | True** execution pin.
 
 ![delete print string nodes](images/setPressedDoubleFalse.png)
+
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
