@@ -77,12 +77,15 @@ Drag a **Capsule Component** onto the graph.  Then *pull off* the pin and select
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![get up vector](images/drawDebugLine.png)
+Drag the **Get Up Vector | Return Value** and multiply it by `-105`.  When you add the multiply node you need to right click the bottom pin and select **Convert Pin | Float(single precision)** to change it to a float.  Set it to `-105` so that is goes 105 cm under the player's center of their collision volume. In **Draw Debug Type** select `For One Frame`.
 
+![get up vector](images/drawDebugLine.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+**Compile** the blueprint and *press* the <kbd>Play</kbd> button.  Now you should see a square target at the buttom of the ray, which means it is reaching and touching the ground.  Make sure you run up and down the slopd and make sure it is working on all surfaces.
 
 ![](../images/line2.png)
 
