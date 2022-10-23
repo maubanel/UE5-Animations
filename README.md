@@ -32,8 +32,6 @@ We will be creating character skeletal animations and rigid body animations in U
 <kbd></kbd> &nbsp;&nbsp; [Double Jump II](double-jump-ii/README.md#user-content-double-jump-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Speed Up & Down Ramps](ramps/README.md#user-content-speed-up--down-ramps) <br>
 <kbd></kbd> &nbsp;&nbsp; [Speed Up & Down Ramps II](ramps-ii/README.md#user-content-speed-up--down-ramps-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Speed Up & Down Ramps III](ramps-iii/README.md#user-content-speed-up--down-ramps-iii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Speed Up & Down Ramps IV](ramps-iv/README.md#user-content-speed-up--down-ramps-iv) <br>
 
 
 <!-- LICENSE -->

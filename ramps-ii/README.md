@@ -2,7 +2,7 @@
 
 ### Speed Up & Down Ramps II
 
-<sub>[previous](../ramps/README.md#user-content-speed-up--down-ramps) • [home](../README.md#user-content-ue4-animations) • [next](../ramps-iii/README.md#user-content-speed-up--down-ramps-iii)</sub>
+<sub>[previous](../ramps/README.md#user-content-speed-up--down-ramps) • [home](../README.md#user-content-ue4-animations)</sub>
 
 ![](../images/line3.png)
 
@@ -163,12 +163,16 @@ Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top pro
 ![save all and submit to perforce in P4V](images/submitP4.png)
 
 
+| `animation.character`\|`THE END`| 
+| :--- |
+| **That's All Folks!** Thanks for sticking around. That's it for this lesson. |
+
 ![](../images/line1.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Speed Up / Down Ramps III"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line1.png)
 
-| [previous](../ramps/README.md#user-content-speed-up--down-ramps)| [home](../README.md#user-content-ue4-animations) | [next](../ramps-iii/README.md#user-content-speed-up--down-ramps-iii)|
-|---|---|---|
+| [previous](../ramps/README.md#user-content-speed-up--down-ramps)| [home](../README.md#user-content-ue4-animations) | 
+|---|---|
