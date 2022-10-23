@@ -114,7 +114,7 @@ Drag and drop the **Double Jump** animation onto the animation graph.
 
 *Drag and drop* a **Get Pressed Double Jump** node onto the graph.
 
-![add Get Pressed Double Jump node](images/PressedDoubleJumpDragAndDrop.jpg)
+![add Get Pressed Double Jump node](images/PressedDoubleJumpDragAndDrop.png)
 
 ![](../images/line2.png)
 
