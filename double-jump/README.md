@@ -176,8 +176,9 @@ Go back to **AnimBP_AJ** and delete all the nodes after **Cast to BP_AJ** node.
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+*Drag* off of the **Cast To BP_AJ | As BP_AJ** pin and select **Get Jump Count**. Pull off the **Jump Count** pin and select **==** node and set the check to `1`. This is the first time it is pressed.  *Pull off* the boolean from the **==** node and select a **Branch** node.  Connect the execution pin to the **Cast to BP_AJ** node.
 
-![print single and double jump to test logic](images/jumpCountBranch.png)
+![add a check for one press](images/jumpCountBranch.png)
 
 ![](../images/line1.png)
 
