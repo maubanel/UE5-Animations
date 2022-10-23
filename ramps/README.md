@@ -127,17 +127,23 @@ Split the output pins by right clicking and splitting the struct on the **Get Wo
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Add* a **Make Rot From XZ** node.  Connect the output of the **Get Forward Vector** node to the **Make Rot From XZ | X** pin and the **Out Hit Impact Normal** to the **Make Rot From XZ | Z** pin. Send the output to the the **Make Rotator | X (Roll)** pin.
+
 ![make xz](images/getXZ.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+This will give us the angle that the player should be standing at.  We will not just jump to it but instead LERP to it so we will take the **Return Value** and create a **RInterp To** node.  Plug the reutrn value in to the **Target** pin.
+
 ![make xz](images/rInterp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+*Add* a **Capsule Component** node and pull off of the pin and select a **Get World Rotation**. Plug this into the **Current** pin of the **RInterp To** node.
 
 ![make xz](images/worldRInterp.png)
 
@@ -146,13 +152,15 @@ Split the output pins by right clicking and splitting the struct on the **Get Wo
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add a **Get World Delta Seconds** node and plug it into the **RInterp To | Delta Time** pin.  Set the **Interp Speed** to `3.0`.
+
 ![add sequence node](images/finishInterp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-https://user-images.githubusercontent.com/5504953/197370872-07ef41f8-63cc-4da3-b664-7f790dd78e20.mp4
+OK, now lets actually set the angle of the player.  Pull from the **Capsule Component** and add a **Set World Rotation** node.  Connect the **Execution Pin** to the **Line Trace By Channel** node.
 
 ![attach execution pins from print string to sequence nodes](images/setWorldRotation.png)
 
@@ -160,19 +168,29 @@ https://user-images.githubusercontent.com/5504953/197370872-07ef41f8-63cc-4da3-b
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![add float > float node](images/curveFloat.png)
+*Press* the <kbd>Play</kbd> button.  Now the player is orthoganal to the pitch of the curve and it looks a litle more natural.  Now the player runs at the exact same speed when going up and down the slope.  Lets fix that.
+
+https://user-images.githubusercontent.com/5504953/197370872-07ef41f8-63cc-4da3-b664-7f790dd78e20.mp4
+
+
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-![add branch and connect to Then 1 of sequence node](images/4Keys.png)
+![add float > float node](images/curveFloat.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 
+![add branch and connect to Then 1 of sequence node](images/4Keys.png)
+
+![](../images/line2.png)
+
+##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![start line trace from center of character](images/adjustFourKeys.png)
 
