@@ -120,7 +120,7 @@ Drag and drop the **Double Jump** animation onto the animation graph.
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the **Core Locomotion** screen. *Double click* on the **Double Jump to Falling** transition button. *Right click* on the graph and select a **Time Remaining (ratio) (Double Jump)** node.
+Go back to the **Core Locomotion** screen. *Double click* on the **Double Jump to Falling** transition button.
 
 ![go to double jump to falling transition and add a Time Remaining (ratio) node](images/DoubleJumpToFallingTrans.png)
 
@@ -129,51 +129,31 @@ Go back to the **Core Locomotion** screen. *Double click* on the **Double Jump t
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+ *Right click* on the graph and select a **Time Remaining (ratio) (Double Jump)** node. *Pull off* of the **Return Value** from this node and select a **float <= float** node:
 
+![add <= float node](images/PullOffLessThan.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Pull off* of the **Return Value** from this node and select a **float <= float** node:
+Set the value in the **<=** node to `0.1` and *connect* the output to the **Result** node.
 
-![add <= float node](images/PullOffLessThan.jpg)
+![set <= to 0.2](images/LessThanPointOne.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Set the value in the **<=** node to `0.2` and *connect* the output to the **Result** node.
-
-![set <= to 0.2](images/LessThanPointOne.jpg)
+*Run* the game and a double jump animation should now run during the second jump.
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-One thing we haven't done is turn off the double jump state. If we run the game the player will just keep rolling. Go back to the **BP_AJ_Character** blueprint and go to the **Event Graph**. *Pull off* of the **Set Is Double Jumping** node's execution pin and add a **Delay** node.
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![add delay not to AJ_Character bp](images/DelayAfterDoubleJump.jpg)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Set the **Duration** of the **Delay** node to `0.1`. *Pull off* of the **Execution** pin and add a **Set Is Double Jumping** node and make sure it is set to `false`.
-
-![set delay to .1 and add set is double jumping node](images/IsJumpingFalse.jpg)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
-
-*Run* the game and a double jump animation should now run during the second jump.Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit to Source Control...**. Enter a **Changelist Description** and then press <kbd>Submit</kbd>. Open up **GitHub Desktop** and select **Push origin** to update the server with the latest changes.
-
-https://user-images.githubusercontent.com/5504953/133079769-07e7d1f1-2ae2-4cb1-bb11-9be5d719a054.mp4
-
-![save, commit and push to github](images/GitHub.png)
-___
-
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 ![](../images/line1.png)
 
