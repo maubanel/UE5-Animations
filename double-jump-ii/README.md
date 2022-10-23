@@ -106,7 +106,7 @@ Drag and drop the **Double Jump** animation onto the animation graph.
 
 *Double click* the transition from the **Falling** node to the **Double Jump** node.
 
-![open falling to double jump state](images/DoubleClickFallingToDoubleJump.jpg)
+![open falling to double jump state](images/DoubleClickFallingToDoubleJump.png)
 
 ![](../images/line2.png)
 
@@ -122,7 +122,7 @@ Drag and drop the **Double Jump** animation onto the animation graph.
 
 Connect the **Pressed Double Jump** node to the **Can Enter Transition** node. This will be triggered when in air and the **Pressed Double Jump** node is true.
 
-![connect pressed double jump to can enter transition](images/ConnectJumpToTransition.jpg)
+![connect pressed double jump to can enter transition](images/ConnectJumpToTransition.png)
 
 ![](../images/line2.png)
 
