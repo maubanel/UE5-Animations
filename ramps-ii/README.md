@@ -137,6 +137,8 @@ Running up & down ramps continued...
 
 *Press* the <kbd>Play</kbd> button.  Run, sprint and slow walk up and down all ramps and see that the speed changes!
 
+https://user-images.githubusercontent.com/5504953/197391355-ead384c6-6f93-4499-9dd3-272f3e96fae2.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -149,6 +151,8 @@ Running up & down ramps continued...
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Press* the <kbd>Play</kbd> button. Now you have a final version of a basic third person player.
+
+https://user-images.githubusercontent.com/5504953/197391363-a29b911d-6e5d-4c35-841d-87761b317051.mp4
 
 ![](../images/line2.png)
 
