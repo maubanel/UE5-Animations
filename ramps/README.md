@@ -119,55 +119,52 @@ Split the output pins by right clicking and splitting the struct on the **Get Wo
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+![make zy](images/makeZY.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+![make xz](images/getXZ.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+![make xz](images/rInterp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+![make xz](images/worldRInterp.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make some room to the right of the debug **Print String** nodes and add a **Sequence** node to keep our graph clean.
-
-![add sequence node](images/SequenceBetweenNodes.jpg)
+![add sequence node](images/finishInterp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Attach* the execution pin between **Print String** and **Sequence** nodes and from the **Branch | False** from the branch node in front of the **Print String**.
 
-![attach execution pins from print string to sequence nodes](images/HighjackExecutionPinToSequence.png)
+![attach execution pins from print string to sequence nodes](images/setWorldRotation.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want to only perform this operation if the player is moving. So *grab* the output of the previous **Vector Length** node and add a **Float > Float** node.
 
-![add float > float node](images/OnlyIfPlayerIsMoving.jpg)
+![add float > float node](images/OnlyIfPlayerIsMoving.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Add a **Branch** node after checking in seeing if the **Velocity** is greater than **0**. Attach the output of the **Then 1** execution pin to the input of the **Branch** node.
-
-![add branch and connect to Then 1 of sequence node](images/BranchAfterThenOneBeforeLineTrace.jpg)
+![add branch and connect to Then 1 of sequence node](images/.png)
 
 ![](../images/line2.png)
 
