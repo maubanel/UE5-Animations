@@ -93,10 +93,15 @@ https://user-images.githubusercontent.com/5504953/197370228-76cb2a44-03f4-4b15-8
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+Add a comment on the line trace about rotating the players to match the pitch of the ground.
+
+![add comment](images/addComment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+
+![add comment](images/getCoords.png)
 
 ![](../images/line2.png)
 
