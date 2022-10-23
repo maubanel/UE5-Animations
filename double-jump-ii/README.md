@@ -55,7 +55,7 @@ Pull off the second **==** nodes and select a new **Branch** node.  Connect it t
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-
+Now after the jump count is set to `3` we then set both **Pressed Jump** and **Pressed Double Jump** to false.  Add one more **Set Pressed Jump** and **Set Pressed Double Jump** to `false`.  Connect to the **Branch | False** pin from the second jump.
 
 ![connect set pressed jump to set pressed double jump](images/addFinalSettings.png)
 
