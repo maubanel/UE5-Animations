@@ -15,9 +15,10 @@ Lets make the player run slower when moving up a ramp and faster when moving dow
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Now lets add a ramp to run up and down and see how it feels. We will make adjustments to the physics to get what we would like. Start by *dragging* another **Box** onto the level.
+Now the larger capsule we selected doesn't make much sense for running up and down ramps.  The player hangs way off the side.  So open **BP_AJ** and select the **Capsule Collider** and change the **Radius** to `30`.
 
-![drag box onto level](images/DragFirstRampIntoRoom.jpg)
+
+![drag box onto level](images/changeCapsuleRadius.png)
 
 ![](../images/line2.png)
 
@@ -25,7 +26,7 @@ Now lets add a ramp to run up and down and see how it feels. We will make adjust
 
 Adjust the size to `2000` by `400` by `600` in the **brush size**. And make sure the box is on the ground (press the <kbd>End</kbd> key).
 
-![change box brush to 2000, 400 and 600](images/ResizeBoxForRamp.jpg)
+![change box brush to 2000, 400 and 600](images/.jpg)
 
 ![](../images/line2.png)
 
@@ -33,23 +34,19 @@ Adjust the size to `2000` by `400` by `600` in the **brush size**. And make sure
 
 Move player start in front of this box.
 
-![put player start in front of box](images/image_03.jpg)
+![put player start in front of box](images/.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now select the edit tool in the box. Press the Control key and left click the back top points on the rectangle. Pull them upwards to make a nice slope. Do the same thing for the front two but pull them down to the ground.
 
-https://user-images.githubusercontent.com/5504953/133777427-122eb2bb-866a-47b8-8229-d14d19c88187.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now run up and down the ramps. Hmmm, doesn't feel right to me. I don't feel an acceleration down the ramp or deceleration running up the ramp. Lets add some debug to confirm.
 
-https://user-images.githubusercontent.com/5504953/133778590-23023748-01da-4a51-a5b9-52663298da88.mp4
 
 
 ![](../images/line2.png)
