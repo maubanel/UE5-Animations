@@ -81,7 +81,7 @@ Go to the **Anim Graph | Core Locomotion** screen. To the right of the **Fall** 
 
 *Connect* the **Double Jump** node to and from the **Falling** node. We are double jumping while in the **Falling** state. *Double click* on the **Double Jump** node to assign the animation to this state.
 
-![connect double jump to falling](images/AddLinkToAndFromDoubleJump.jpg)
+![connect double jump to falling](images/AddLinkToAndFromDoubleJump.png)
 
 ![](../images/line2.png)
 
