@@ -60,6 +60,7 @@ So first we need to find out the slope of the ground under us. How are we going 
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+![get actor location](images/getActorLocation2.png)
 
 
 ![](../images/line2.png)
