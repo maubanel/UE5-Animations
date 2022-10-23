@@ -39,7 +39,7 @@ Pull off the second **==** nodes and select a new **Branch** node.  Connect it t
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+*Add* a **Set Pressed Double Jump** and set it to `true`.  Then add a **Set Pressed Jump** and set it to `false`. Connect both of them to the second **Branch** true node on the second jump.
 
 ![add is double jumping node](images/connectPins.png)
 
@@ -47,9 +47,8 @@ Pull off the second **==** nodes and select a new **Branch** node.  Connect it t
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-*Drag and drop* a **Set Pressed Double Jump** node. *Connect* it to the **Is Double Jumping** pin.
 
-![add set pressed double jump node](images/.jpg)
+![add set pressed double jump node](images/setJumpCountTo3.png)
 
 ![](../images/line2.png)
 
