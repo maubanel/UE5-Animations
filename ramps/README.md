@@ -119,6 +119,8 @@ Split the output pins by right clicking and splitting the struct on the **Get Wo
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Add* a **Make Rot From YZ** node.  Connect the output of the **Get Right Vector** node to the **Make Rot From YZ | Y** pin and the **Out Hit Impact Normal** to the **Make Rot From YZ | Z** pin. Send the output to the the **Make Rotator | Y (Pitch)** pin.
+
 ![make zy](images/makeZY.png)
 
 ![](../images/line2.png)
