@@ -89,7 +89,7 @@ Go to the **Anim Graph | Core Locomotion** screen. To the right of the **Fall** 
 
 Drag and drop the **Double Jump** animation onto the animation graph.
 
-![add double jump to anim graph](images/PlayDoubleJump.jpg)
+![add double jump to anim graph](images/PlayDoubleJump.png)
 
 ![](../images/line2.png)
 
@@ -97,7 +97,7 @@ Drag and drop the **Double Jump** animation onto the animation graph.
 
 *Connect* the **Play Double Jump** node to the **Final Animation Pose**.
 
-![connect double jump animation](images/ConnectDoubleJumpAnim.jpg)
+![connect double jump animation](images/ConnectDoubleJumpAnim.png)
 
 ![](../images/line2.png)
 
