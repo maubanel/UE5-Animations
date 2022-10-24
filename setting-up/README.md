@@ -18,7 +18,7 @@ Lets get set up with the sample project provided and get it ready to start impor
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Got to [Github Animation Starter](https://github.com/maubanel/GMS2-Animation-Starter) and select <kbd>Code</kbd> then **Download ZIP**.
+Got to [Github Animation Starter]([https://github.com/maubanel/GMS2-Animation-Starter](https://github.com/LSU-UE5/UE5-Animation-Starter)) and select <kbd>Code</kbd> then **Download ZIP**.
 
 ![download starter project](images/animiationStarter.png)
 
