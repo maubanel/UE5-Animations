@@ -31,7 +31,7 @@ Call this new action `Jump`. Press the **+** button next to the **Jump** setting
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the **AnimBP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Character | Jump** to the graph.
+Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Character | Jump** to the graph.
 
 ![open BP_AJ_Character bp and add a Jump event](images/RightClickForJumpAction.png)
 
