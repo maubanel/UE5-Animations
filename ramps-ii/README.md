@@ -81,8 +81,8 @@ Add a **Gravity Speed** node and *pull off* of the pin and select a **Get Float 
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the problem is that this doesn't take into consideration the sprint and slow walk.  So we will need to scale that value up and down when the player presses the <kbd>Shift</kbd> or <kbd>Alt</kbd> keys.  Add a new **Float** varialbe called `SprintMultiplier`.  Make it **Private** and set the **Category** to `PlayerPhysics`. Set a **Description** that says `Multiplies Speed`.
-
+Now the problem is that this doesn't take into consideration the sprint and slow walk.  So we will need to scale that value up and down when the player presses the <kbd>Shift</kbd> or <kbd>Alt</kbd> keys.  Add a new **Float** varialbe called `SprintMultiplier`.  Make it **Private** and set the **Category** to `PlayerPhysics`. Set a **Description** that says `Multiplies Speed`. SET DEFAULT VALUE TO `1.0` FIX IN SCREENSHOT!!!!!!
+`
 ![add a get velocity node](images/sprintMultiplier.png)
 
 ![](../images/line2.png)
