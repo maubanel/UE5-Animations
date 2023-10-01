@@ -30,7 +30,7 @@ Repeat this for the brows material **Boy01_Brows_MAT2** which has the same probl
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat this for the mouth and brows materials which have the same problem. Press the <kbd>Apply</kbd> button.
+Repeat this for the mouth  material **Boy01_Mouth_MAT2** which have the same problem. Connect the **A** channel and press the <kbd>Apply</kbd> button..
 
 ![repeat for mouth and brows.](images/mouthOpacityFix.png)
 
