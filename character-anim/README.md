@@ -115,7 +115,7 @@ With the AJ model I got a few errors.  It looks like it had an issue with the fa
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-In importing the mesh an error popped up telling me it had to duplicate textures.  It created three copies of `Boy01_FacialAnimMap`.  Right click the two copies and select the <kbd>Delete</kbd> button and then select the original file press the <kbd>Replace References</kbd> button to replace the refences with the one original file.  In my case this got rid of the duplicate textures. If you can't replace the textures then we will manually fix them.
+In importing the mesh an error popped up telling me it had to duplicate textures.  It created three copies of `Boy01_FacialAnimMap`.  Right click the two copies and select the <kbd>Delete</kbd> button and then select the original file press the <kbd>Replace References</kbd> button to replace the refences with the one original file.  In my case I did not get this menu. If you can't replace the textures then we will manually fix them.
 
 ![duplicate textures](images/ImportError.png)
 
@@ -123,7 +123,7 @@ In importing the mesh an error popped up telling me it had to duplicate textures
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+Now open up 
 
 ![leave settings default](images/SharingMesh.png)
 
