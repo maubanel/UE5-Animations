@@ -112,13 +112,15 @@ Double click the blueprint and set the **Default Pawn** Class to the newly creat
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+We can assign the gamemode to the entire game or just the single level.  We do it for the entire game in the **Project Settings | Maps & Modes**.  
 
+![open world settings](images/worldSettingsTab.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-We can assign the gamemode to the entire game or just the single level.  We do it for the entire game in the **Project Settings | Maps & Modes**.  You set it for a single level in the **World Settings**. This bring up the **World Settings** tab on the bottom right by default.. 
+You set it for a single level in the **World Settings**. This bring up the **World Settings** tab on the bottom right by default.. 
 
 ![open world settings](images/worldSettingsTab.png)
 
