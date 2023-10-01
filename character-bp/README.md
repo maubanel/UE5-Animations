@@ -44,15 +44,17 @@ Make sure the character's feet are at the bottom of the collision volume. Do thi
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now we need to attach a camera to the player that will follow them around the level. It needs to be attached to a spring arm. This allows the camera to deal with colliding with walls, ceilings or other surfaces. Press **+ Add** component and look for a `Spring Arm`. Add it to the character:
+Now we need to attach a camera to the player that will follow them around the level. Press the <kbd>+ Add</kbd> button and add a camera component.
 
-Add a another component and this time it will be a `Camera`.
-
-![add camera component](images/AddCameraNode.png)
+![add camera component](images/AddCam.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
+
+It needs to be attached to a spring arm. This allows the camera to deal with colliding with walls, ceilings or other surfaces. Press **+ Add** component and look for a `Spring Arm`. Add it to the character:
+
+![add camera component](images/AddCameraNode.png)
 
 Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure that **Spring Arm** a *child* of the root **Capsule Component**.
 
