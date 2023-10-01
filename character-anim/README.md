@@ -135,6 +135,9 @@ Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* t
 
 ![move aj materials to materials folder](images/MoveAJMaterialsToFolder.png)
 
+Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the textures into this folder.
+
+![move textures to AJ | Textures folder](images/MoveAJTexturesToFolder.png)
 
 ![](../images/line2.png)
 
@@ -151,9 +154,6 @@ Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* t
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the textures into this folder.
-
-![move textures to AJ | Textures folder](images/MoveAJTexturesToFolder.png)
 
 ![](../images/line2.png)
 
