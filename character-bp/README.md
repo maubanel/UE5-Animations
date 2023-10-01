@@ -12,7 +12,7 @@ There is a special kind of blueprint used for a bipedal character that we can co
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Go to the **AJ** folder and press the <kbd>+ Add</kbd> button and select **Blueprint Class**.
+Go to the **AJ** folder and press the <kbd>+ Add</kbd> button and select **Blueprint Class**. *Select* a **Character** class to inherit from (not Actor).
 
 ![add new blueprint class to aj folder](images/BlueprintClassAJAdd.png)
 
@@ -20,7 +20,7 @@ Go to the **AJ** folder and press the <kbd>+ Add</kbd> button and select **Bluep
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Select* a **Character** class to inherit from (not Actor). *Call it* `BP_AJ`.
+ *Call it* `BP_AJ`.
 
 ![name blueprint BP_AJCharacter](images/AJCharacterBP.png)
 
