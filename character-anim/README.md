@@ -131,15 +131,15 @@ Now open up **Boy01_Eyes_MAT2**, **Boy01_Brow_MAT2** and **Boy01_Mouth_MAT2**.  
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* the materials into this folder. The materials have the green line in their icon.
+
+![move aj materials to materials folder](images/MoveAJMaterialsToFolder.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* the materials into this folder. The materials have the green line in their icon.
-
-![move aj materials to materials folder](images/MoveAJMaterialsToFolder.png)
 
 ![](../images/line2.png)
 
