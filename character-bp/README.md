@@ -75,14 +75,16 @@ Select the **Spring Arm** component. Notice that it is to the left of the player
 
 ![adjust rotation and target](images/SpringArm90Deg.png)
 
-Now notice that the static meshes forward vector (red) is not matching the arrow. Select the static mesh and adjust the **Rotation | Z** to `-90`.  Now the player should be facing the forward arrow.
 
-![rotate player -90 degrees](images/rotationZ90.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now notice that the static meshes forward vector (red) is not matching the arrow. Select the static mesh and adjust the **Rotation | Z** to `-90`.  Now the player should be facing the forward arrow.
+
+![rotate player -90 degrees](images/rotationZ90.png)
 
 Now the camera should be *rotated* to be angled correctly by altering the **Camera** component in **Rotation | Y** by about `350.0`.
 
