@@ -62,13 +62,18 @@ Now take the **Camera** and drag it on top of the **Spring Arm** component to ma
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Socket Offset | Z** to `218.0` and make the **Target Arm Length** a bit longer to `750.0` units.
+Now the player is not facing the direction of the white arrow (or forward).  We will select the **Mesh** component and rotate the **Z** axis by `90.0`°. 
 
-![adjust rotation and target](images/SpringArm90Deg.png)
+MISSING SCREENSHOT
+![make camera child of spring arm](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Socket Offset | Z** to `218.0` and make the **Target Arm Length** a bit longer to `750.0` units.
+
+![adjust rotation and target](images/SpringArm90Deg.png)
 
 Now notice that the static meshes forward vector (red) is not matching the arrow. Select the static mesh and adjust the **Rotation | Z** to `-90`.  Now the player should be facing the forward arrow.
 
