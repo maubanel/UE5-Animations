@@ -36,7 +36,7 @@ Now run the project from either Perforce or your Windows Explorer.
 
 Delte `.gitattributes`, `.gitignore` and `README.md`. We do not need these. There is a **LICENSE** file that declares the copyright and licensing terms. You can look at this if you like and make any changes to your liking. The **README.txt** file has temporary text that you need to keep updated. You also have a **.p4ignore** file that keeps binaries and files that are not required out of the Perforce repository. 
 
-![delete git files](images/deleteGitFiles.png)
+![delete git files](images/defaultLevel.png)
 
 ![](../images/line2.png)
 
