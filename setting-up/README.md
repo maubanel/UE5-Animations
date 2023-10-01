@@ -54,6 +54,13 @@ Press the <kbd>Play</kbd> button and look at the character.  You are controlling
 
 https://github.com/maubanel/UE5-Animations/assets/5504953/13f813c7-c007-4b52-bc99-b0e624a55737
 
+![](../images/line2.png)
+
+##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
+
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
+
+![save all and submit to perforce in P4V](images/submitP4.png)
 ___
 
 ![](../images/line1.png)
