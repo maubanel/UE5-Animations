@@ -130,9 +130,6 @@ You set it for a single level in the **World Settings** in the editor. If it is 
 
 Delete the player from the level leaving just the **Player Start**.  The pawn will automatically take the position of the player start. *Press* **Play** and we should have a character being rendered with no physics. Now you have the player being launched with the aid of the game mode blueprint. 
 
-
-![select game mode](images/selectGM.png)
-
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
@@ -154,6 +151,10 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 ![reconcile offline work](images/reconcile.png)
 
 ![](../images/line2.png)
+
+##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line1.png)
 
