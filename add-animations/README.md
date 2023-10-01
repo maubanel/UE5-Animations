@@ -12,7 +12,10 @@ Lets add the animations we downloaded to the game and map them to the skeleton s
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Add to the Content Browser's Character | AJ folder, a new sub-folder called `Animations`. *Drag and drop* the 6 animations you downloaded to the new **Animations** folder.
+Add to the Content Browser's Character | AJ folder, a new sub-folder called `Animations`. *Drag and drop* the 6 animations you downloaded to the new **Animations** folder. Now the **FBX Import Options** appear. *Select* the **Skeleton** tab and select the skeleton asset we just downloaded. There should only be one option.
+
+Once you select the skeleton press the <kbd>Import All</kbd> button leaving all the other options at their default setting.
+
 
 ![add folder called Character | AJ | Animations](images/AJAnimationsFolder.png)
 
@@ -20,7 +23,7 @@ Add to the Content Browser's Character | AJ folder, a new sub-folder called `Ani
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Now the **FBX Import Options** appear. *Select* the **Skeleton** tab and select the skeleton asset we just downloaded. There should only be one option.
+
 
 ![select skeleton from player dowloaded](images/ImportSkeleton.png)
 
@@ -28,7 +31,6 @@ Now the **FBX Import Options** appear. *Select* the **Skeleton** tab and select 
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Once you select the skeleton press the <kbd>Import All</kbd> button leaving all the other options at their default setting.
 
 ![import all button](images/ImportAllMotionAnimation.png)
 
