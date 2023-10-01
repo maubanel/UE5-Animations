@@ -42,7 +42,7 @@ Open up **Maps | Anim Test** level. Open up **Edit | Project Settings** and sele
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now in project settings general 
+Now in project settings description set the **Description** and **Project Name**.  I filled in the **Company Name** and **Support Contact**.  Then I used the [MIT License](https://opensource.org/license/mit/) and added my name and the year 2023.  I suggest you pick a licensing type to use as well recommned using MIT if you want others to interact with your work.  I also added a **Project Dipsplayed Title** and **Project Debug Title Info**. 
 
 ![delete git files](images/projectSettingsSetup.png)
 
