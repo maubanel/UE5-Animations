@@ -22,7 +22,7 @@ There are some common issues with the materials. I see problems in the face in m
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Repeat this for the brows material **Boy01_Eyes_MAT2** which has the same problem. Connect the **A** channel and press the <kbd>Apply</kbd> button.
+Repeat this for the brows material **Boy01_Brows_MAT2** which has the same problem. Connect the **A** channel and press the <kbd>Apply</kbd> button.
 
 ![repeat for mouth and brows.](images/browOpacityFix.png)
 
