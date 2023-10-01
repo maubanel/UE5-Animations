@@ -39,7 +39,9 @@ Double click each animation then watch them. Rename the animation appropriately.
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Right click on the **Animations** folder and select **Fix Up Redirectors** to clean up the work done.
 
+![slow walk animation frame](images/fixUpRedirects.png)
 
 ![](../images/line2.png)
 
