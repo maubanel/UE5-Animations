@@ -156,7 +156,7 @@ Open the **skeletal mesh**. Look at the left-hand side and you will see a list o
 
 *Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine. Notice that is has a simplified collision shape around each bone (a bone is a line between two joints in a skeleton).
 
-![bones of skeletal mesh](images/PayerBones.png)
+![bones of skeletal mesh](images/physicsÅssets.png)
 
 ![](../images/line2.png)
 
