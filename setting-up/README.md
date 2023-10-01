@@ -18,16 +18,17 @@ Lets get set up with the sample project provided and get it ready to start impor
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Got to [Github Animation Starter](https://github.com/LSU-UE5/UE5-Animation-Starter) and select <kbd>Code</kbd> then **Download ZIP**.
+In Perforce select your top folder and press the <kbd>Get Latest</kbd> button and you will get a **UE5-Intro-To-Animation** folder.
 
-![download starter project](images/animiationStarter.png)
+![download starter project](images/getLatest.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: 
-Right click on the downloaded file and select **Extract Here**.  This decompresses the `.zip` file so you can use it.  Rename the new unzipped folder to `UE5-Animations`.
 
-![unzip and rename folder](images/extractDelete.png)
+
+
+![unzip and rename folder](images/p4AnimationFiles.png)
 
 ![](../images/line2.png)
 
