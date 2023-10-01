@@ -20,7 +20,7 @@ Go to the **AJ** folder and press the <kbd>+ Add</kbd> button and select **Bluep
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
- *Call it* `BP_AJ`.
+ *Call it* `BP_AJ` or basaed on the character you downloaded.
 
 ![name blueprint BP_AJCharacter](images/AJCharacterBP.png)
 
