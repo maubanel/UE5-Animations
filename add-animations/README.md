@@ -47,7 +47,7 @@ Right click on the **Animations** folder and select **Fix Up Redirectors** to cl
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now the animation viewer has the new names that match the animation we are playing!
+Now the animation viewer has the new names that match the animation we are playing! You can now select any animation for this skeleton through the single animation viewer, so look at them all and make sure you are happy with them!
 
 ![animation name](images/NameEachAnim.png)
 
