@@ -16,32 +16,28 @@ Add to the Content Browser's Character | AJ folder, a new sub-folder called `Ani
 
 Once you select the skeleton press the <kbd>Import All</kbd> button leaving all the other options at their default setting.
 
-
 ![add folder called Character | AJ | Animations](images/AJAnimationsFolder.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+Now this will take a while as it is solving the animation to this skeleton.
 
+![UE4 progress bar importing animations](images/ImportingAnimationsTakeTime.png)
 
-![select skeleton from player dowloaded](images/ImportSkeleton.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-![import all button](images/ImportAllMotionAnimation.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now this will take a while as it is solving the animation to this skeleton.
 
-![UE4 progress bar importing animations](images/ImportingAnimationsTakeTime.png)
 
 ![](../images/line2.png)
 
