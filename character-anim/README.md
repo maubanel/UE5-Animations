@@ -107,13 +107,17 @@ Now in a production game we want to share the same base skeleton where we can. T
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+With the AJ model I got a few errors.  It looks like it had an issue with the facial textures. Now this imports a lot of files into the project. You should see a **Skeletal Mesh**, a **Physics Asset**, a **Skeleton**, a group of **Materials** and finally a group of **Textures**. If you picked a different character then your folder will have different files.
 
+![folder full of skeletal mesh assets](images/LargeGroupOfFiles.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+In importing the mesh an error popped up telling me it had to duplicate textures.  It created three copies of `Boy01_FacialAnimMap`.  Right click the two copies and select the <kbd>Delete</kbd> button and then select the original file press the <kbd>Replace References</kbd> button to replace the refences with the one original file.  In my case this got rid of the duplicate textures. If you can't replace the textures then we will manually fix them.
 
+![duplicate textures](images/ImportError.png)
 
 ![](../images/line2.png)
 
@@ -127,9 +131,7 @@ Now in a production game we want to share the same base skeleton where we can. T
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Now this imports a lot of files into the project. You should see a **Skeletal Mesh**, a **Physics Asset**, a **Skeleton**, a group of **Materials** and finally a group of **Textures**. If you picked a different character then your folder will have different files.
 
-![folder full of skeletal mesh assets](images/LargeGroupOfFiles.png)
 
 ![](../images/line2.png)
 
@@ -143,9 +145,7 @@ Create a new folder under **AJ** called `Materials`. *Drag and drop* to *move* t
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In importing the mesh an error popped up telling me it had to duplicate textures.  It created three copies of `Boy01_FacialAnimMap`.  Right click and select the <kbd>Delete</kbd> button and then select the original file press the <kbd>Replace References</kbd> button to replace the refences with the one original file.  In my case this got rid of the duplicate textures.
 
-![duplicate textures](images/ImportError.png)
 
 ![](../images/line2.png)
 
