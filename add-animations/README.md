@@ -31,7 +31,9 @@ Now this will take a while as it is solving the animation to this skeleton.
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Double click each animation then watch them. Rename the animation appropriately. I renamed the animations I selected to `CreepWalk`, `Idle`, `Run`, `SpecialIdle`, `Sprint` and `Walk`.
 
+![slow walk animation frame](images/PlayAnim.png)
 
 ![](../images/line2.png)
 
@@ -42,9 +44,7 @@ Now this will take a while as it is solving the animation to this skeleton.
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
-Double click each animation then watch them. Rename the animation appropriately. I renamed the animations I selected to `CreepWalk`, `Idle`, `Run`, `SpecialIdle`, `Sprint` and `Walk`.
 
-![slow walk animation frame](images/PlayAnim.png)
 
 ![](../images/line2.png)
 
