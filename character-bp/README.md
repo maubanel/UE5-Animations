@@ -38,13 +38,13 @@ Open the blueprint and select the **Mesh** component. *Select* the `AJ Skeletal 
 
 Make sure the character's feet are at the bottom of the collision volume. Do this by moving the static mesh to the correct position relative to the collider volume. 
 
-Now we need to attach a camera to the player that will follow them around the level. It needs to be attached to a spring arm. This allows the camera to deal with colliding with walls, ceilings or other surfaces. Press **+ Add** component and look for a `Spring Arm`. Add it to the character:
-
 ![add spring arm component](images/SpringArm.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
+
+Now we need to attach a camera to the player that will follow them around the level. It needs to be attached to a spring arm. This allows the camera to deal with colliding with walls, ceilings or other surfaces. Press **+ Add** component and look for a `Spring Arm`. Add it to the character:
 
 Add a another component and this time it will be a `Camera`.
 
