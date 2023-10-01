@@ -42,9 +42,17 @@ Open up **Maps | Anim Test** level. Open up **Edit | Project Settings** and sele
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move the **UE5-Animation** folder to the root of your **Perforce** directory (should be the name of your **Workspace**).
+Now in project settings general 
 
-![move project to P4 Workspace](images/moveFolder.png)
+![delete git files](images/projectSettingsSetup.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`ITA`| :small_orange_diamond:
+
+Press the <kbd>Play</kbd> button and look at the character.  You are controlling the default player pawn (like a spectator pawn) with no third person character.  We will fix that soon.
+
+
 
 ___
 
