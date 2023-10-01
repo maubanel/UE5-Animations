@@ -96,32 +96,30 @@ Pick two idle animations. One that is just breathing and another one that we can
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Double click the **IntroToAnimation.uproject** from **P4V** to open up the game editor. Create two new folders called `Characters | AJ`. You can call the name of the second folder by the character you picked for the game (I picked AJ). 
+Double click the **IntroToAnimation.uproject** from **P4V** to open up the game editor. Create two new folders called `Characters | AJ`. You can call the name of the second folder by the character you picked for the game (I picked AJ). Go to your **Downloads** folder and drag the file that has the characters name on it into the **AJ** character folder. As a hint, it will be the largest file (model is bigger than the animations, but they are all .fbx format).
 
-![add Characters/AJ folder to game](images/CreateCharacterPlayerNameFolder.png)
+Now in a production game we want to share the same base skeleton where we can. To learn more about this go to this [Skeletal Assets Unreal Training Video](https://www.youtube.com/watch?v=JkcJ5bjGPsg) to find out more. For us we will use the skeleton that is provided with this geometry. So make sure you leave **Skeleton** blank and you can leave all the other settings as default. It should set **Skeletal Mesh** and **Import Mesh** to `true` as it should detect the skeleton automatically.  If it doesn't set these to `true`.
+
+![add Characters/AJ folder to game](images/ImportAJFbx.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-First thing to do in game is to make sure we are connected to source control.  Make sure you are conneted to **Perforce**.
 
-![connect to Perforce](images/loggedIntoP4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go to your **Downloads** folder and drag the file that has the characters name on it into the **AJ** character folder. As a hint, it will be the largest file (model is bigger than the animations, but they are all .fbx format).
 
-![import aj model](images/ImportAJFbx.png
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now in a production game we want to share the same base skeleton where we can. To learn more about this go to this [Skeletal Assets Unreal Training Video](https://www.youtube.com/watch?v=JkcJ5bjGPsg) to find out more. For us we will use the skeleton that is provided with this geometry. So make sure you leave **Skeleton** blank and you can leave all the other settings as default. It should set **Skeletal Mesh** and **Import Mesh** to `true` as it should detect the skeleton automatically.  If it doesn't set these to `true`.
+
 
 ![leave settings default](images/SharingMesh.png)
 
