@@ -38,7 +38,7 @@ Repeat this for the mouth material **Boy01_Mouth_MAT2** which have the same prob
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up the material **Boy01_Body_MAT2** and connect the mask **RGB** pin to the **Roughness** pin of the material so we can use hte rougness channel.
+Now open up the material **Boy01_Body_MAT2** and connect the mask **RGB** pin to the **Roughness** pin of the material so we can use the rougness channel.
 
 ![repeat for mouth and brows.](images/maskToRGB.png)
 
