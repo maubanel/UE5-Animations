@@ -8,10 +8,7 @@
 
 Lets add the animations we downloaded to the game and map them to the skeleton so that they drive the skeletal mesh.
 
-<br>
-
 ---
-
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
