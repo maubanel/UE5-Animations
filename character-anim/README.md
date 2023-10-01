@@ -123,7 +123,7 @@ In importing the mesh an error popped up telling me it had to duplicate textures
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now open up 
+Now open up **Boy01_Eyes_MAT2**, **Boy01_Brow_MAT2** and **Boy01_Mouth_MAT2**.  Make sure all textures are pointing to the texture sheet with all the small images. There should be no compile errors in any of these three materials.
 
 ![leave settings default](images/SharingMesh.png)
 
