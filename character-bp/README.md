@@ -95,7 +95,7 @@ Now lets test our work.  Go back to the editor and drag **BP_AJ** to the level. 
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Add a new folder called `Blueprints`. Press the <kbd>+ Add</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**.
+Add a new set of folders called `Blueprints | Core`. Press the <kbd>+ Add</kbd> button and *select* a **Blueprint Class** of **Game Mode Base**. Call it `BP_AnimGamemode`.
 
 ![game mode base blueprint](images/AddNewGameModeBase.png)
 
@@ -104,7 +104,7 @@ Add a new folder called `Blueprints`. Press the <kbd>+ Add</kbd> button and *sel
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Call it `BP_AnimGamemode`.
+
 
 ![call blueprint BP_AnimGamemode](images/BPAnimGameMode.png)
 
