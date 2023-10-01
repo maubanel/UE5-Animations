@@ -16,7 +16,7 @@ There may or may not be issues with the skeletal meshe's material(s). Look caref
 
 There are some common issues with the materials. I see problems in the face in my model. I see 3 materials that control the mouth, brow and eyes. I look at one of the materials **Boy01_Eyes_MAT2** and see that it is feeding the **RGB** (Albedo) into the **Opacity** channel.  This really should be the **Alpha** channel of the texture. Change the channel going to the **Opacity** node instead to **Alpha**. Notice now how the graphics for the eyes, brows and mouth all of a sudden are opaque! Press the <kbd>Apply</kbd> button.
 
-![streaks in face material](images/IssueWithAlpha.png)
+![streaks in face material](images/IssueWithAlph2.png)
 
 ![](../images/line2.png)
 
