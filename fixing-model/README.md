@@ -14,7 +14,7 @@ There may or may not be issues with the skeletal meshe's material(s). Look caref
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-There are some common issues with the materials. I see problems in the face in my model. I see 3 materials that control the mouth, brow and eyes. I look at one of the materials **Boy01_Eyes_MAT2** and see that it is feeding the **RGB** (Albedo) into the **Opacity** channel.  This really should be the **Alpha** channel of the texture.
+There are some common issues with the materials. I see problems in the face in my model. I see 3 materials that control the mouth, brow and eyes. I look at one of the materials **Boy01_Eyes_MAT2** and see that it is feeding the **RGB** (Albedo) into the **Opacity** channel.  This really should be the **Alpha** channel of the texture. Change the channel going to the **Opacity** node instead to **Alpha**. Notice now how the graphics for the eyes, brows and mouth all of a sudden are opaque! Press the <kbd>Apply</kbd> button.
 
 ![streaks in face material](images/IssueWithAlpha.png)
 
@@ -22,9 +22,9 @@ There are some common issues with the materials. I see problems in the face in m
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Change the channel going to the **Opacity** node instead to **Alpha**. Notice now how the graphics for the eyes, brows and mouth all of a sudden are opaque! Press the <kbd>Apply</kbd> button.
+Repeat this for the brows material **Boy01_Eyes_MAT2** which has the same problem. Connect the **A** channel and press the <kbd>Apply</kbd> button.
 
-![texture without alpha is streaking](images/alphaPlug.png)
+![repeat for mouth and brows.](images/browOpacityFix.png)
 
 ![](../images/line2.png)
 
@@ -32,7 +32,7 @@ Change the channel going to the **Opacity** node instead to **Alpha**. Notice no
 
 Repeat this for the mouth and brows materials which have the same problem. Press the <kbd>Apply</kbd> button.
 
-![repeat for mouth and brows.](images/repeatMouthBrows.png)
+![repeat for mouth and brows.](images/mouthOpacityFix.png)
 
 ![](../images/line2.png)
 
