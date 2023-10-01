@@ -36,7 +36,7 @@ Open the blueprint and select the **Mesh** component. *Select* the `AJ Skeletal 
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure the character's feet are at the bottom of the collision volume. Do this by moving the static mesh to the correct position relative to the collider volume. 
+Make sure the character's feet are at the bottom of the collision volume. Do this by selecting the **Mesh** component and moving the skeletal mesh to the correct position relative to the collider volume. Undo the snap to grid and pick an orthogal view like **Left** and zoom in to the feet and have hte bottom of the foot one pixel below the very bottom of the collision volume.
 
 ![add spring arm component](images/SpringArm.png)
 
