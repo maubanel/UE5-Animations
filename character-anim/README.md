@@ -145,53 +145,39 @@ Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the 
 
 Right click on the **Characters** folder and select **Fix Up Redirectors in Folder**. This will fix all the links to the files we moved around.  
 
-*Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine. Notice that is has a simplified collision shape around each bone (a bone is a line between two joints in a skeleton).
+Open the **skeletal mesh**. Look at the left-hand side and you will see a list of bones that are on the skeleton. You will notice that the face is not rendered correctly.  If you picked a different character there may be this or other problems to fix. We will look at this next.
+
+![bones of skeletal mesh](images/PlayerBones.png)
 
 ![aj physics asset](images/PhysicsAsset.png)
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine. Notice that is has a simplified collision shape around each bone (a bone is a line between two joints in a skeleton).
 
+![bones of skeletal mesh](images/PayerBones.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number. Quit Unreal and make sure your **Pending** tab in **P4V** is empty. **Submit** any work that is still in the editor.
+
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
 
-![](../images/line2.png)
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
 
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
-
-Open the **skeletal mesh**. Look at the left-hand side and you will see a list of bones that are on the skeleton.
-
-![bones of skeletal mesh](images/PlayerBones.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Double click the **Skeletal Mesh** and lets look at the model. Now when going from Mixamo to UE4 there are some errors in how the Materials are put together. In some cases it is quite prominent. With **AJ**, something is wrong with the face. We will fix this on the next page.
-
-![look at skeletal mesh to see if materials are correct](images/SkeletalMesh.png)
-___
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
-
-![save all and submit to perforce in P4V](images/submitP4.png)
-
-___
-
+![reconcile offline work](images/reconcile.png)
 
 ![](../images/line1.png)
 
