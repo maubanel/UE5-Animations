@@ -34,7 +34,7 @@ Now run the project from either Perforce or your Windows Explorer.
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Delte `.gitattributes`, `.gitignore` and `README.md`. We do not need these. There is a **LICENSE** file that declares the copyright and licensing terms. You can look at this if you like and make any changes to your liking. The **README.txt** file has temporary text that you need to keep updated. You also have a **.p4ignore** file that keeps binaries and files that are not required out of the Perforce repository. 
+Open up **Maps | Anim Test** level. Open up **Edit | Project Settings** and select **Maps & Modes | Default Maps** and change both the **Editor Startup Map** and the **Game Default Map** to `AnimTest`.
 
 ![delete git files](images/defaultLevel.png)
 
