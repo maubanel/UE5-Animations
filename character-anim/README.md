@@ -150,6 +150,7 @@ Open the **skeletal mesh**. Look at the left-hand side and you will see a list o
 ![bones of skeletal mesh](images/PlayerBones.png)
 
 ![aj physics asset](images/PhysicsAsset.png)
+
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
