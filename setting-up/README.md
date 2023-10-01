@@ -26,7 +26,7 @@ In Perforce select your top folder and press the <kbd>Get Latest</kbd> button an
 
 ##### `Step 2.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: 
 
-
+Now run the project from either Perforce or your Windows Explorer.
 
 ![unzip and rename folder](images/p4AnimationFiles.png)
 
