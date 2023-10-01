@@ -8,8 +8,6 @@
 
 There is a special kind of blueprint used for a bipedal character that we can control. It has the majority of the hard work to getting all the locomotion in the game. Although it is quick for us, there is a lot of work done by the engine to enable all of this functionality.  We are just playing with the tip of the iceberg in terms of code and prcoesses.
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
