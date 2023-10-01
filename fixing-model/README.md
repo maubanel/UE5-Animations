@@ -30,7 +30,7 @@ Repeat this for the brows material **Boy01_Brows_MAT2** which has the same probl
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat this for the mouth  material **Boy01_Mouth_MAT2** which have the same problem. Connect the **A** channel and press the <kbd>Apply</kbd> button..
+Repeat this for the mouth material **Boy01_Mouth_MAT2** which have the same problem. Connect the **A** channel and press the <kbd>Apply</kbd> button..
 
 ![repeat for mouth and brows.](images/mouthOpacityFix.png)
 
@@ -38,13 +38,17 @@ Repeat this for the mouth  material **Boy01_Mouth_MAT2** which have the same pro
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose. The issues you may have may be different depending on which character you selected. My face is all better now and looks like the version on ***Mixamo***.
+Now open up the material **Boy01_Body_MAT2** and connect the mask **RGB** pin to the **Roughness** pin of the material so we can use hte rougness channel.
 
-![check model for errors](images/ModelFixedMaterials.png)
+![repeat for mouth and brows.](images/maskToRGB.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
+
+Go back to the skeletal mesh and move the camera around the character. Make sure you have fixed all the material issues that arose. The issues you may have may be different depending on which character you selected. My face is all better now and looks like the version on ***Mixamo***.
+
+![check model for errors](images/ModelFixedMaterials.png)
 
 Select the **File | Save All** then press the #<kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number. Quit Unreal and make sure your **Pending** tab in **P4V** is empty. **Submit** any work that is still in the editor.
 
