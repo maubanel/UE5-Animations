@@ -47,14 +47,15 @@ Right click on the **Animations** folder and select **Fix Up Redirectors** to cl
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+Now the animation viewer has the new names that match the animation we are playing!
+
+![animation name](images/NameEachAnim.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Now the animation viewer has the new names that match the animation we are playing!
 
-![animation name](images/NameEachAnim.png)
 
 ![](../images/line2.png)
 
