@@ -52,11 +52,9 @@ Now we need to attach a camera to the player that will follow them around the le
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-It needs to be attached to a spring arm. This allows the camera to deal with colliding with walls, ceilings or other surfaces. Press **+ Add** component and look for a `Spring Arm`. Add it to the character:
+The camera needs to be attached to a spring arm. This allows the camera to deal with colliding with walls, ceilings or other surfaces. Press **+ Add** component and look for a `Spring Arm`. Add it to the character.
 
-![add camera component](images/AddCameraNode.png)
-
-Make sure the **Camera** is a *child* of the **Spring Arm** component. Make sure that **Spring Arm** a *child* of the root **Capsule Component**.
+Now take the **Camera** and drag it on top of the **Spring Arm** component to make it a *child*. Make sure that **Spring Arm** a *child* of the root **Capsule Component**. This way when the spring arm moves the camera moves with it (as it tries to avoid obstacles).
 
 ![make camera child of spring arm](images/MakeCameraChildOfSpringArm.png)
 
