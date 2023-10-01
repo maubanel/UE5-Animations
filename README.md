@@ -4,10 +4,10 @@
 <!-- OVERVIEW -->
 ## Overview
 
-We will be creating character skeletal animations and rigid body animations in UE5. We will be rebuilding and adding to the third perfson template to see all the work it takes to set up a very basic animation for playing.
+We will be creating character skeletal animations and rigid body animations in UE5. We will be rebuilding and adding to the third perfson template to see all the work it takes to set up a very basic animation for interacting with in the game.
   
 
-* Tested on UE4 5.0.X
+* Tested on UE4 5.2.X
 * Required to install: Unreal Engine and Perforce
 
 <!-- TOC -->
