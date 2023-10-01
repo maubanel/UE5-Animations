@@ -114,13 +114,13 @@ Double click the blueprint and set the **Default Pawn** Class to the newly creat
 
 We can assign the gamemode to the entire game or just the single level.  We do it for the entire game in the **Project Settings | Maps & Modes**.  
 
-![open world settings](images/worldSettingsTab.png)
+![open world settings](images/mapsAndModes.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-You set it for a single level in the **World Settings**. This bring up the **World Settings** tab on the bottom right by default.. 
+You set it for a single level in the **World Settings** in the editor. If it is not on the bottom right go to **Winddows | World Settings** to access this window.  Go to the **World Settings** and then *select* the newly created `BP_AnimGamemode`. Make sure that the correct pawn is selected underneath. This way it is the default and you are overriding it with the same game mode in the level.
 
 ![open world settings](images/worldSettingsTab.png)
 
@@ -128,7 +128,7 @@ You set it for a single level in the **World Settings**. This bring up the **Wor
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:
 
-Go to **Game Mode** in the **World Settings** and then *select* the newly created `BP_AnimGamemode`. Make sure that the correct pawn is selected underneath.
+
 
 ![select game mode](images/selectGM.png)
 
