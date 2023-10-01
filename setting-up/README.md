@@ -52,7 +52,7 @@ Now in project settings description set the **Description** and **Project Name**
 
 Press the <kbd>Play</kbd> button and look at the character.  You are controlling the default player pawn (like a spectator pawn) with no third person character.  We will fix that soon.
 
-
+https://github.com/maubanel/UE5-Animations/assets/5504953/13f813c7-c007-4b52-bc99-b0e624a55737
 
 ___
 
