@@ -104,17 +104,15 @@ Add a new set of folders called `Blueprints | Core`. Press the <kbd>+ Add</kbd> 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Double click the blueprint and set the **Default Pawn** Class to the newly created `BP_AJ`. This will launch this blueprint when we start the game if we select the game mode.
 
-
-![call blueprint BP_AnimGamemode](images/BPAnimGameMode.png)
+![add BP_AJCharacter to default pawn in game mode](images/DefaultPawnClassAJChar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Double click the blueprint and set the **Default Pawn** Class to the newly created `BP_AJ`. This will launch this blueprint when we start the game if we select the game mode.
 
-![add BP_AJCharacter to default pawn in game mode](images/DefaultPawnClassAJChar.png)
 
 ![](../images/line2.png)
 
