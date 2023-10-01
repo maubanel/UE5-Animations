@@ -71,12 +71,9 @@ MISSING SCREENSHOT
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Spring Arm** component. Notice that it is to the left of the player. Rotate it 90° on **Z** until it is behind the player. Lets raise the target of the camera to above the player's head by adjusing the **Socket Offset | Z** to `218.0` and make the **Target Arm Length** a bit longer to `750.0` units.
+Select the **Spring Arm** component. Lets raise the target of the camera to above the player's head by adjusing the **Socket Offset | Z** to `218.0` and make the **Target Arm Length** a bit longer to `750.0` units.
 
 ![adjust rotation and target](images/SpringArm90Deg.png)
-
-
-
 
 ![](../images/line2.png)
 
