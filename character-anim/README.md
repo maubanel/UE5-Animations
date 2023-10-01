@@ -143,7 +143,11 @@ Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the 
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Right click on the **Characters** folder and select **Fix Up Redirectors in Folder**. This will fix all the links to the files we moved around.  
 
+*Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine. Notice that is has a simplified collision shape around each bone (a bone is a line between two joints in a skeleton).
+
+![aj physics asset](images/PhysicsAsset.png)
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -159,11 +163,7 @@ Create a new folder under **AJ** called `Textures`. *Drag and drop* to move the 
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Content** folder and select **Fix Up Redirectors in Folder**. This will fix all the links to the files we moved around.  
 
-*Double click* the **Physics** asset and look at it. You can see that this has the collision volumes that move with the mesh. The default settings should be fine. Notice that is has a simplified collision shape around each bone (a bone is a line between two joints in a skeleton).
-
-![aj physics asset](images/PhysicsAsset.png)
 
 ![](../images/line2.png)
 
