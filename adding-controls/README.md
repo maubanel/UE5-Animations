@@ -145,9 +145,16 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/d23d6fa6-4801-41ba-a93
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+![add movement input node](images/NegateALeft.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 *Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
 
 ![add comment to nodes in chart](images/CoreMovementComment.png)
+
 
 Now go into the game and press the up and down or W and S key. We should be moving forward and backwards!
 
@@ -168,10 +175,6 @@ Now *add* a **Get Right Vector** node.  Right click the **In Rot** input and sel
 Connect the **Get Control Rotation | In Rot X (Roll)** and **Get Control Rotation | In Rot Z (Yaw)** to the corresponding pins in **Get Right Vector**. *Pull* from the **InputAxis MoveRight** node and add another **Add Movement Input** node.
 
 ![add movement input](images/add2ndMovement.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Take the output of the **Get Right Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **InputAxis MoveRight | Axis Value** pin to the **Scale Value** pin of the **Add Movement** Input node.
 
