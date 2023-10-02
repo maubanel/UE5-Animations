@@ -71,8 +71,9 @@ Press the <kbd>Keyboard</kbd> button and select the `W` key.
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![Add D, A, Left and Right keys](images/finishMapping.png)
+Repeat this for left and right movement with **A** and **D**.  Also, don't forget left hand controls with the **Up**, **Down**, **Left** and **Right** keyboard keys.  Also lets add support for **Gamepad Left Thumbstick 2D - Axis**.  This will allow a gamepad to control the player.
 
+![Add D, A, Left and Right keys](images/finishMapping.png)
 
 ![](../images/line2.png)
 
