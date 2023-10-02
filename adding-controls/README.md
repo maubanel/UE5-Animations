@@ -79,7 +79,16 @@ Repeat this for left and right movement with **A** and **D**.  Also, don't forge
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the existing nodes. Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
+Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the existing nodes. Right click on the graph and select a **Get Player Controller** node.  Pull off of the blue pin on this node
+
+![Add D, A, Left and Right keys](images/getSubsystem.png)
+
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
 
 ![Add Move Forward node](images/InputAxisMoveForwardNode.png)
 
@@ -92,10 +101,6 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 
 ![spuit struct pin on return value](images/splitStruct.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Add* a **Get Forward Vector** pin to translate the rotator to a vector. Right click the **In Rot** input and select **Split Struct Pin**.  Then connect the **Return Value Z (Yaw)** to the **In Rot Z(Yaw)** of the **Get Forward Vector** pin.
 
