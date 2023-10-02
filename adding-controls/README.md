@@ -39,15 +39,17 @@ Each state of the player (we have a single one) uses potentially many **Input Ac
 
 > Input Mapping Contexts are a collection of Input Actions that represents a certain context that the player can be in. They describe the rules for what triggers a given Input Action. Mapping Contexts can be dynamically added, removed, or prioritized for each user.
 
+Select the **Input** folder and right click and add a **Input | Input Mapping Context** file to the game.
+
 ![filled in description fields](images/MappingContext.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Call it `MoveForward` and press the **+** button next to it four times. Assign the following buttons by pressing **+** next to **MoveForward**: `Keyboard | W`, `Keyboard | Up`, `Keyboard | S`, `Keyboard | Down`. Set the **Scale** for **W** and **Up** at `1.0` and the **Scale** for **S** and **Down** to `-1.0`.
+Press the 
 
-![Add W, S, Up and Down keys](images/MoveForewardSettingsAxis.png)
+![Add W, S, Up and Down keys](images/addInputActionToMC.png)
 
 ![](../images/line2.png)
 
