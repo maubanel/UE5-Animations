@@ -55,7 +55,7 @@ Press the <kbd>+</kbd> button after **Mappings** to add an input action.  Select
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-
+Press the <kbd>Keyboard</kbd> button and select the `W` key.
 
 ![Add D, A, Left and Right keys](images/addForward.png)
 
@@ -63,15 +63,20 @@ Press the <kbd>+</kbd> button after **Mappings** to add an input action.  Select
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*We will use **W** for forward and **D** for backwards movement.  
+*We will use **W** for forward and **D** for backwards movement, press the <kbd>+</kbd> button next to **IA_Move** to add another input and press the <kbd>Keyboard</kbd> button and select the `E` key.
 
 ![Add D, A, Left and Right keys](images/addBack.png)
-
-
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![Add D, A, Left and Right keys](images/finishMapping.png)
+
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the existing nodes. Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
 
@@ -81,9 +86,6 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ![add get control rotation node vector](images/AddGetControlRotation.png)
 
-![](../images/line2.png)
-
-##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on the **Return Value** pin and select **Split Struct Pin**. 
 
