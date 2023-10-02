@@ -66,8 +66,6 @@ Now the player is not facing the direction of the white arrow (or forward).  We 
 
 ![make camera child of spring arm](images/rotatingPlayers.png)
 
-![make camera child of spring arm](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
