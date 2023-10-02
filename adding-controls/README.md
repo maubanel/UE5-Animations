@@ -188,6 +188,10 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/49abb9ac-301c-4202-b40
 
 First we did not negate the negative direction.  So forward is positive and backwards is negative.  Also we have a 2D vector and we are accessing only the **X** component.  For the keyboard we can *swizzle* the **Y** component.  
 
+> Swizzle axis components of an input value. Useful to map a 1D input onto the Y axis of a 2D action.
+
+So for the up movement add a **Modifier** to **UP** and **W** and then set the modifier to `Swizzle INput Axis Values`.  Do the same for **Down** and **S** but not only will add a `Swizzle INput Axis Values` modifier but also a `Negate` to move backwards.
+
 ![add comment to nodes in chart](images/swizzleNegate.png)
 
 
