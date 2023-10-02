@@ -21,7 +21,7 @@ We start by adding an [input action](https://docs.unrealengine.com/5.2/en-US/enh
 
 In this case we will create a folder called **Content | Input | Action** and right click and add an **Input | Input Action**.  We will call it `IA_Move`.  This will create an action for moving the player left and right and forwards and backwards.
 
-![open project settings](images/GoToProjectSettings.png)
+![open project settings](images/MoveInputAction.png)
 
 ![](../images/line2.png)
 
