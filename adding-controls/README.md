@@ -184,6 +184,9 @@ Press the <kbd>Play</kbd> button and press forward and backwards and you are onl
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+First we did not negate the negative direction.  So forward is positive and backwards is negative.  Also we have a 2D vector and we are accessing only the **X** component.  For the keyboard we can *swizzle* the **Y** component.  
+
+
 
 Now *press* the <kbd>Compile</kbd> button and *play* the game. The character should now move in four directions. Now all we are doing in the game is moving this **Capsule** component around the screen. The player animation is just an animation blueprint that runs based on the vector of the motion of the player.
 
