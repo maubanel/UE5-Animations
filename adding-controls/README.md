@@ -35,7 +35,13 @@ Now open up **IA_Move** and the only thing we need to adjust is the **Value Type
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to **Engine | Input** and press the <kbd>+</kbd> button next to **Axis Mappings**.
+Each state of the player (we have a single one) uses potentially many **Input Actions**.  This is done in a **Input Mapping Context**.
+
+> Input Mapping Contexts are a collection of Input Actions that represents a certain context that the player can be in. They describe the rules for what triggers a given Input Action. Mapping Contexts can be dynamically added, removed, or prioritized for each user.
+
+
+![filled in description fields](images/MappingContext.png)
+
 
 ![add axis mapping](images/AddAxisMappings1.png)
 
