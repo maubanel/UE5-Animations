@@ -155,6 +155,8 @@ Open up **IMC_Default** and on the **A** and **Left** actions press the <kbd>+</
 
 Press the <kbd>Play</kbd> button and press the **A** and **D** key to move right and left.  It should now work.  Make sure the **Left** and **Right** arrow keys work as well!
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/78a8939a-ee7f-4ea5-b9e8-4e5b6ac0440a
+
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
