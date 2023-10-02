@@ -47,7 +47,7 @@ Select the **Input** folder and right click and add a **Input | Input Mapping Co
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the 
+Press the <kbd>+</kbd> button after **Mappings** to add an input action.  Select our only **Input Action** to map which is `IA_Move`.  Open up the triangle below where you are going to assign the controller or button press.
 
 ![Add W, S, Up and Down keys](images/addInputActionToMC.png)
 
