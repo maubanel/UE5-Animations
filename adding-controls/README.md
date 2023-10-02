@@ -15,7 +15,11 @@ Lets add the ability to move the character using a special actor component.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Lets go to the **Edit | Project Settings** to add some controller input into our game. 
+We start by adding an [input action](https://docs.unrealengine.com/5.2/en-US/enhanced-input-in-unreal-engine/).
+
+>Input Actions are the communication link between the Enhanced Input system and your project's code. Input Actions are the conceptual equivalent to Action and Axis mapping names, except they are data assets. Each Input Action should represent something that the user can do, like "Crouch" or "Fire Weapon". You can add Input Listeners in either Blueprints or C++ when the Input Action's state changes.
+
+In this case we will create a folder called **Content | Input | Action** and right click and add an **Input | Input Action**.  We will call it `IA_Move`.  This will create an action for moving the player left and right and forwards and backwards.
 
 ![open project settings](images/GoToProjectSettings.png)
 
