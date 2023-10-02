@@ -161,25 +161,18 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/78a8939a-ee7f-4ea5-b9e
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
-
-![add comment to nodes in chart](images/CoreMovementComment.png)
-
-Now go into the game and press the up and down or W and S key. We should be moving forward and backwards!
-
-https://user-images.githubusercontent.com/5504953/195997035-c84060cd-fd76-42c9-b672-fa3dca5c0e11.mp4
-
-Return to **BP_AJ** and *add* a **Axis Events | MoveRight** node.
-
-![add moveright node](images/InputAxisMoveRight.png)
-
-Copy and paste the **Get Control Rotation** node. and place it next to **Move Right**.
+Copy and paste the **Get Control Rotation** node. and place it next to **Move Right**. 
+Now *add* a **Get Right Vector** node.  Right click the **In Rot** input and select **Split Struct Pin**.
 
 ![copy get control rotation node](images/copyGetControl.png)
 
-Now *add* a **Get Right Vector** node.  Right click the **In Rot** input and select **Split Struct Pin**.
+![](../images/line2.png)
 
-![add a right vector node and split pins](images/getRightVector.png)
+##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
+
+![add comment to nodes in chart](images/CoreMovementComment.png)
 
 Connect the **Get Control Rotation | In Rot X (Roll)** and **Get Control Rotation | In Rot Z (Yaw)** to the corresponding pins in **Get Right Vector**. *Pull* from the **InputAxis MoveRight** node and add another **Add Movement Input** node.
 
@@ -192,10 +185,6 @@ Take the output of the **Get Right Vector | Return Value** pin to the **Add Move
 Now *press* the <kbd>Compile</kbd> button and *play* the game. The character should now move in four directions. Now all we are doing in the game is moving this **Capsule** component around the screen. The player animation is just an animation blueprint that runs based on the vector of the motion of the player.
 
 https://user-images.githubusercontent.com/5504953/195998505-dae9ffec-7e52-4d5e-a40b-5d5b89ae9c33.mp4
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
