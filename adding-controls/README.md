@@ -145,6 +145,8 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/d23d6fa6-4801-41ba-a93
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Open up **IMC_Default** and on the **A** and **Left** actions press the <kbd>+</kbd> button next to **Modifiers** and select a `Negate` modifier.  Press the <kbd>Save</kbd> button.
+
 ![add movement input node](images/NegateALeft.png)
 
 ![](../images/line2.png)
