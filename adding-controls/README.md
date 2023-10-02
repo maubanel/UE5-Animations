@@ -79,13 +79,19 @@ Repeat this for left and right movement with **A** and **D**.  Also, don't forge
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the existing nodes. *Right click* next to the **Begin Play** node on the empty graph and select a **Get Player Controller** node.  Pull off of the blue pin on this node and select a **Get Enhanced Input Local Player Subsystem**. Please note that you can only access this node **FROM** the player controller so you will only see this option come up if you pull off of the **Return Value** of the **Player Controller** node.
+First we need to initialize the new input system. Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the existing nodes. *Right click* next to the **Begin Play** node on the empty graph and select a **Get Player Controller** node.  Pull off of the blue pin on this node and select a **Get Enhanced Input Local Player Subsystem**. Please note that you can only access this node **FROM** the player controller so you will only see this option come up if you pull off of the **Return Value** of the **Player Controller** node.
 
 ![Add D, A, Left and Right keys](images/getSubsystem.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![Add D, A, Left and Right keys](images/finishSettingUpInputs.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
 Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
 
@@ -103,12 +109,7 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 *Add* a **Get Forward Vector** pin to translate the rotator to a vector. Right click the **In Rot** input and select **Split Struct Pin**.  Then connect the **Return Value Z (Yaw)** to the **In Rot Z(Yaw)** of the **Get Forward Vector** pin.
 
-
 ![add get forward vector node](images/getForwardVector.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
 *Pull off* of the **Return Value** pin and *select* the **Add Movement Input** node. *Connect* the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node. Take the output of the **Get Forward Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **InputAxis MoveForward | Axis Value** pin to the **Scale Value** pin of the **Add Movement** Input node.
 
