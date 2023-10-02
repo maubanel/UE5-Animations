@@ -200,6 +200,8 @@ So for the up movement add a **Modifier** to **UP** and **W** and then set the m
 
 Press the <kbd>Play</kbd> button and press forward and backwards and even diagonals work.  That's it for our basic movement of the character.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/89839365-4a2b-4ae7-8405-fde85fde6ab5
+
 ![](../images/line2.png)
 
 ##### `Step 23.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
