@@ -129,6 +129,10 @@ You set it for a single level in the **World Settings** in the editor. If it is 
 
 Delete the player from the level leaving just the **Player Start**.  The pawn will automatically take the position of the player start. *Press* **Play** and we should have a character being rendered with no physics. Now you have the player being launched with the aid of the game mode blueprint. 
 
+
+https://github.com/maubanel/UE5-Animations/assets/5504953/4b548e7a-9dca-4c2b-8188-58ac6f7a31c6
+
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
