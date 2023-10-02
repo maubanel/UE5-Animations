@@ -170,7 +170,7 @@ Now *add* a **Get Forward Vector** node.  Right click the **In Rot** input and s
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the **Get Control Rotation | In Rot X (Roll)** and **Get Control Rotation | In Rot Z (Yaw)** to the corresponding pins in **Get Right Vector**. *Pull* from the **InputAxis MoveRight** node and add another **Add Movement Input** node. Take the output of the **Get Right Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **InputAxis MoveRight | Axis Value** pin to the **Scale Value** pin of the **Add Movement** Input node. *Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button.
+Connect the **Get Control Rotation | In Rot Z (Yaw)** and **Get Control Rotation | In Rot Z (Yaw)** to the corresponding pins in **Get Forward Vector**. *Pull* from the **Add Movement Input** node and add another **Add Movement Input** node. Take the output of the **Get Forward Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **IA_Move | Action Value Y** pin to the **Scale Value** pin of the **Add Movement** Input node. *Add* a comment to all these nodes called `Core Movement` overall and `Left / Right Movement` on the right vector nodes and `Forward / Backward Movement` on the forward vector nodes. Press the <kbd>Compile</kbd> button.
 
 ![add comment to nodes in chart](images/CoreMovementComment.png)
 
