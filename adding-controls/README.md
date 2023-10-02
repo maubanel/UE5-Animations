@@ -119,7 +119,7 @@ Under all the nodes right click on the open graph and add a Add a **Axis Events 
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Add* a **Get Forward Vector** pin to translate the rotator to a vector. Right click the **In Rot** input and select **Split Struct Pin**.  Then connect the **Return Value Z (Yaw)** to the **In Rot Z(Yaw)** of the **Get Forward Vector** pin.
+*Add* a **Get Right Vector** pin to translate the rotator to a vector. Right click the **In Rot** input and select **Split Struct Pin**.  Then connect the **Return Value X (Yaw)** to the **In Rot Z(Yaw)** of the **Get Forward Vector** pin.
 
 ![add get forward vector node](images/getForwardVector.png)
 
