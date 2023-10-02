@@ -188,6 +188,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/49abb9ac-301c-4202-b40
 
 First we did not negate the negative direction.  So forward is positive and backwards is negative.  Also we have a 2D vector and we are accessing only the **X** component.  For the keyboard we can *swizzle* the **Y** component.  
 
+![add comment to nodes in chart](images/swizzleNegate.png)
 
 
 Now *press* the <kbd>Compile</kbd> button and *play* the game. The character should now move in four directions. Now all we are doing in the game is moving this **Capsule** component around the screen. The player animation is just an animation blueprint that runs based on the vector of the motion of the player.
