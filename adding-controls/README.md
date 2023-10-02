@@ -153,10 +153,15 @@ Open up **IMC_Default** and on the **A** and **Left** actions press the <kbd>+</
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Press the <kbd>Play</kbd> button and press the **A** and **D** key to move right and left.  It should now work.  Make sure the **Left** and **Right** arrow keys work as well!
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 *Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
 
 ![add comment to nodes in chart](images/CoreMovementComment.png)
-
 
 Now go into the game and press the up and down or W and S key. We should be moving forward and backwards!
 
@@ -181,10 +186,6 @@ Connect the **Get Control Rotation | In Rot X (Roll)** and **Get Control Rotatio
 Take the output of the **Get Right Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **InputAxis MoveRight | Axis Value** pin to the **Scale Value** pin of the **Add Movement** Input node.
 
 ![connect pins for left right movement](images/add2ndMovement.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Compile</kbd> button and *play* the game. The character should now move in four directions. Now all we are doing in the game is moving this **Capsule** component around the screen. The player animation is just an animation blueprint that runs based on the vector of the motion of the player.
 
