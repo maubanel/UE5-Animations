@@ -127,7 +127,9 @@ Under all the nodes right click on the open graph and add a Add a **Axis Events 
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Pull off* of the **Return Value** pin and *select* the **Add Movement Input** node. *Connect* the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node. Take the output of the **Get Forward Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **InputAxis MoveForward | Axis Value** pin to the **Scale Value** pin of the **Add Movement** Input node.
+Right click on **IA Move | Input Axis** pin and separate the X and Y axis by selecting **Split Struct Pin** to create an **Action Value X** and **Action Value Y**. 
+
+*Pull off* of the **Return Value** pin of the **Get Right Vector** node and *select* the **Add Movement Input** node. *Connect* the output execution pin from the **IA_Move | Triggered** node to the input execution pin of the **Add Movement Input** node. Take the output of the **Get Right Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **IA_Move | Action Value X** pin to the **Scale Value** pin of the **Add Movement** Input node.
 
 ![add movement input node](images/AddMoveInput.png)
 
