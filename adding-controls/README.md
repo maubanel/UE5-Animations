@@ -137,6 +137,12 @@ Right click on **IA Move | Input Axis** pin and separate the X and Y axis by sel
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Press the <kbd>Play</kbd> button and press the **A** and **D** key to move right and left.  Now we are only moving right.  Which means that the **Action Value X** pin is always returning a positive one when being pressed.  The **A** key should be `-1.0`.  Lets fix that.
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
 *Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
 
 ![add comment to nodes in chart](images/CoreMovementComment.png)
@@ -156,10 +162,6 @@ Copy and paste the **Get Control Rotation** node. and place it next to **Move Ri
 Now *add* a **Get Right Vector** node.  Right click the **In Rot** input and select **Split Struct Pin**.
 
 ![add a right vector node and split pins](images/getRightVector.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Connect the **Get Control Rotation | In Rot X (Roll)** and **Get Control Rotation | In Rot Z (Yaw)** to the corresponding pins in **Get Right Vector**. *Pull* from the **InputAxis MoveRight** node and add another **Add Movement Input** node.
 
