@@ -55,9 +55,9 @@ Press the <kbd>+</kbd> button after **Mappings** to add an input action.  Select
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-*Press* the **+** button next to **Axis Mappings** and call the second mapping `MoveRight`. Press the **+** button next to it three times. *Assign* the following buttons: `D`, `Right`, `A`, `Left`. Set the **Scale** for **D** and **Right** at `1.0` and the Scale for **A** and **Left** to `-1.0`.
+*We will use **W** for forward and **D** for backwards movement.  
 
-![Add D, A, Left and Right keys](images/MoveRightSettingsAxis.png)
+![Add D, A, Left and Right keys](images/addBack.png)
 
 ![](../images/line2.png)
 
