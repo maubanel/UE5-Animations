@@ -87,11 +87,20 @@ First we need to initialize the new input system. Open **BP_AJ_Character** bluep
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now when loading a reference to a module or any object is always best to make sure that it exists and you get a pointer to balid memory (null pointer check).  Do this by pulling the pin from the **Enhnaded Input Local Player** node and select a **? Is Valid** node.  Make sure it is the one with a **?** question mark.  This will give us an execution pin.  Also pull of of the **Enhnaded Input Local Player** node and select a **Add Mapping Context** node. Select `IMC_Default` as the **Mapping Context** needed.  Connect the execution pins from **Begin Play** to **? Is Valid** to **Add Mappng Content** nodes.
+
 ![Add D, A, Left and Right keys](images/finishSettingUpInputs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
+
+![Add D, A, Left and Right keys](images/commentBeginPlay.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+
 
 Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
 
@@ -114,10 +123,6 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 *Pull off* of the **Return Value** pin and *select* the **Add Movement Input** node. *Connect* the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node. Take the output of the **Get Forward Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **InputAxis MoveForward | Axis Value** pin to the **Scale Value** pin of the **Add Movement** Input node.
 
 ![add movement input node](images/AddMoveInput.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
 *Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
 
