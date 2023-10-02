@@ -79,10 +79,9 @@ Repeat this for left and right movement with **A** and **D**.  Also, don't forge
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the existing nodes. Right click on the graph and select a **Get Player Controller** node.  Pull off of the blue pin on this node
+Open **BP_AJ_Character** blueprint and go to the **Event Graph**. *Delete* the existing nodes. *Right click* next to the **Begin Play** node on the empty graph and select a **Get Player Controller** node.  Pull off of the blue pin on this node and select a **Get Enhanced Input Local Player Subsystem**. Please note that you can only access this node **FROM** the player controller so you will only see this option come up if you pull off of the **Return Value** of the **Player Controller** node.
 
 ![Add D, A, Left and Right keys](images/getSubsystem.png)
-
 
 ![](../images/line2.png)
 
