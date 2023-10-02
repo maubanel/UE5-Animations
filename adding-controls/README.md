@@ -8,8 +8,6 @@
 
 Lets add the ability to move the character using a special actor component.
 
-<br>
-
 ---
 
 
