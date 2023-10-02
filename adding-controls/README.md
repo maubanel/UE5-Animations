@@ -95,15 +95,15 @@ Now when loading a reference to a module or any object is always best to make su
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+Mouse click all of the nodes next to **Begin Play** and press the <kbd>C</kbd> key to add a comment.  Give it a color and a title of `Set Up Player Input`.
+
 ![Add D, A, Left and Right keys](images/commentBeginPlay.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Mouse click all of the nodes next to **Begin Play** and press the <kbd>C</kbd> key to add a comment.  Give it a color and a title of `Set Up Player Input`.
-
-Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
+Under all the nodes right click on the open graph and add a Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
 
 ![Add Move Forward node](images/InputAxisMoveForwardNode.png)
 
