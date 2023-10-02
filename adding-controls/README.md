@@ -27,9 +27,9 @@ In this case we will create a folder called **Content | Input | Action** and rig
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Fill in the appropriate **Description** information. Fill in the **Copyright Notice** section.  I am using [MIT License](https://opensource.org/licenses/MIT) and publishing it as Open Source.
 
-![filled in description fields](images/FillInDescriptionInfo.png)
+
+![filled in description fields](images/TypeOfInput.png)
 
 ![](../images/line2.png)
 
