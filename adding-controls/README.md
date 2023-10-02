@@ -180,6 +180,8 @@ Connect the **Get Control Rotation | In Rot X (Roll)** and **Get Control Rotatio
 
 Press the <kbd>Play</kbd> button and press forward and backwards and you are only moving right!  Why is that?
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/49abb9ac-301c-4202-b406-5c9eecbac010
+
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
