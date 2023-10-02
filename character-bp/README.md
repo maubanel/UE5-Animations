@@ -62,7 +62,7 @@ Now take the **Camera** and drag it on top of the **Spring Arm** component to ma
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the player is not facing the direction of the white arrow (or forward).  We will select the **Mesh** component and rotate the **Z** axis by `90.0`°. 
+Now the player is not facing the direction of the white arrow (or forward).  We will select the **Mesh** component and rotate the **Z** axis by `-90.0`°. 
 
 ![make camera child of spring arm](images/rotatingPlayers.png)
 
