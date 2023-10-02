@@ -103,19 +103,21 @@ Mouse click all of the nodes next to **Begin Play** and press the <kbd>C</kbd> k
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Under all the nodes right click on the open graph and add a Add a **Axis Events | MoveForward** node so we can add physics when the up, down, W or S button are pressed on the keyboard.
+Under all the nodes right click on the open graph and add a Add a **Axis Events | EnhancedInputAction IA_Move** node so we can add physics when the movement or gamepad keys and joysticks are used. Lets *add* a **Get Control Rotation** node to get the controller rotation for the player controlled pawn. This returns a rotator which gives us a direction (angle).
 
 ![Add Move Forward node](images/InputAxisMoveForwardNode.png)
 
-Lets *add* a **Get Control Rotation** node to get the controller rotation for the player controlled pawn. This returns a rotator.
+![](../images/line2.png)
 
-![add get control rotation node vector](images/AddGetControlRotation.png)
+##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
-*Right click* on the **Return Value** pin and select **Split Struct Pin**. 
-
+*Right click* on the **Return Value** pin and select **Split Struct Pin**. We need to get separate access to the three rotation axis (X, Y & Z).
 
 ![spuit struct pin on return value](images/splitStruct.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Add* a **Get Forward Vector** pin to translate the rotator to a vector. Right click the **In Rot** input and select **Split Struct Pin**.  Then connect the **Return Value Z (Yaw)** to the **In Rot Z(Yaw)** of the **Get Forward Vector** pin.
 
@@ -129,17 +131,9 @@ Lets *add* a **Get Control Rotation** node to get the controller rotation for th
 
 ![add comment to nodes in chart](images/CoreMovementComment.png)
 
-![](../images/line2.png)
-
-##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
 Now go into the game and press the up and down or W and S key. We should be moving forward and backwards!
 
 https://user-images.githubusercontent.com/5504953/195997035-c84060cd-fd76-42c9-b672-fa3dca5c0e11.mp4
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Return to **BP_AJ** and *add* a **Axis Events | MoveRight** node.
 
