@@ -153,12 +153,6 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 ![reconcile offline work](images/reconcile.png)
 
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
 ![](../images/line1.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Adding Controls"> -->
