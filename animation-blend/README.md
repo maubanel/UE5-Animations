@@ -8,10 +8,7 @@
 
 To go between stand, creep walk, walk, run and fast run that can adopt to any speed will blend between our animations. We need to create an animation blend space to achieve this.
 
-<br>
-
 ---
-
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
