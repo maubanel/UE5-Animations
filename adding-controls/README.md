@@ -139,6 +139,8 @@ Right click on **IA Move | Input Axis** pin and separate the X and Y axis by sel
 
 Press the <kbd>Play</kbd> button and press the **A** and **D** key to move right and left.  Now we are only moving right.  Which means that the **Action Value X** pin is always returning a positive one when being pressed.  The **A** key should be `-1.0`.  Lets fix that.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/d23d6fa6-4801-41ba-a935-7c96a0bd5de3
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
