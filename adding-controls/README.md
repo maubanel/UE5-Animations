@@ -127,10 +127,13 @@ Under all the nodes right click on the open graph and add a Add a **Axis Events 
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
 *Pull off* of the **Return Value** pin and *select* the **Add Movement Input** node. *Connect* the output execution pin from the **InputAxis MoveForward** node to the input execution pin of the **Add Movement Input** node. Take the output of the **Get Forward Vector | Return Value** pin to the **Add Movement Input | World Direction** pin. *Connect* the **InputAxis MoveForward | Axis Value** pin to the **Scale Value** pin of the **Add Movement** Input node.
 
 ![add movement input node](images/AddMoveInput.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
 *Add* a comment to all these nodes called `Core Movement` and press the <kbd>Compile</kbd> button:
 
@@ -147,10 +150,6 @@ Return to **BP_AJ** and *add* a **Axis Events | MoveRight** node.
 Copy and paste the **Get Control Rotation** node. and place it next to **Move Right**.
 
 ![copy get control rotation node](images/copyGetControl.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
 Now *add* a **Get Right Vector** node.  Right click the **In Rot** input and select **Split Struct Pin**.
 
