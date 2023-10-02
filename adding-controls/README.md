@@ -39,11 +39,7 @@ Each state of the player (we have a single one) uses potentially many **Input Ac
 
 > Input Mapping Contexts are a collection of Input Actions that represents a certain context that the player can be in. They describe the rules for what triggers a given Input Action. Mapping Contexts can be dynamically added, removed, or prioritized for each user.
 
-
 ![filled in description fields](images/MappingContext.png)
-
-
-![add axis mapping](images/AddAxisMappings1.png)
 
 ![](../images/line2.png)
 
