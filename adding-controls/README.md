@@ -27,7 +27,7 @@ In this case we will create a folder called **Content | Input | Action** and rig
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-
+Now open up **IA_Move** and the only thing we need to adjust is the **Value Type**.  If it is a boolean button then boolean is best.  This is for a controller or for *AWSD* or *Left | Right | Up | Down* arrows on the keyboard.  This event can handle all these inputs. So set it to `Axis2D (Vector2D)`.  This represents the forward and rightward motion.
 
 ![filled in description fields](images/TypeOfInput.png)
 
