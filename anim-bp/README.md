@@ -45,7 +45,7 @@ Open the animation blueprint and go to the **AnimGraph** tab. If it is not there
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Name this node `BasicLocomotion`.
+Name this node `BasicLocomotion`. *Connect* the animation pins from the **Basic Locomotion** node to the **Final Animation Pose** node.
 
 ![name node basic locomotion](images/NameStateMachineBasicLocomotion.png)
 
@@ -53,7 +53,7 @@ Name this node `BasicLocomotion`.
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Connect* the animation pins from the **Basic Locomotion** node to the **Final Animation Pose** node. *Double click* on the **Basic Locomotion** node to enter its state machine.
+ *Double click* on the **Basic Locomotion** node to enter its state machine.
 
 ![connect pin from basic locomotion to final animatoin pose](images/ConnectGoToGraphForLoco.png)
 
