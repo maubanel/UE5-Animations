@@ -139,16 +139,19 @@ Pull off of the **Set Character** blue pin and select a **Get Movement Component
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now drag a **Get** for the **Character** variable next to the **EventBlueprint Update Animation** which will tick every frame like the tick node in a normal blueprint as long as this animation is active.  Now we need to make sure that the character still exists in the game (could have died for example and have been remoted) so we *right click* on the node and select **Convert to Validated Get** which will stop the game from crashing if we access a null reference.
-
-![Get owning actor cast to character and set character as promoted var](images/validatedGet.png)
-*Drag* off the **GET | Is Valid** execution pin and select a **Sequence** node. the *Drag off* of the **Character** from the **GET** node and select **Get Velocity** to get the velocity vector of the player pawn. 
-
-![add get velocity node](images/GetVelocityFromPawn.png)
+![connect execution pins](images/setMovementRef.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now drag a **Get** for the **Character** variable next to the **EventBlueprint Update Animation** which will tick every frame like the tick node in a normal blueprint as long as this animation is active.  Now we need to make sure that the character still exists in the game (could have died for example and have been remoted) so we *right click* on the node and select **Convert to Validated Get** which will stop the game from crashing if we access a null reference.
+
+![Get owning actor cast to character and set character as promoted var](images/validatedGet.png)
+
+*Drag* off the **GET | Is Valid** execution pin and select a **Sequence** node. the *Drag off* of the **Character** from the **GET** node and select **Get Velocity** to get the velocity vector of the player pawn. 
+
+![add get velocity node](images/GetVelocityFromPawn.png)
 
 We forgot to clean up above so go back to the **Intialize Animation** and place a comment box around the nodes saying `Get Reference`.
 
