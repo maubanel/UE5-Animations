@@ -68,7 +68,7 @@ Drag and drop the **CreepWalking** animation and put it close to `40.0` on the *
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* **Run** around `250.0` on **blend space**.
+*Drag and drop* **Running** around `250.0` on **blend space**.
 
 ![drag run animation to 250 on blend space](images/DragRunTo250.png)
 
@@ -76,7 +76,7 @@ Drag and drop the **CreepWalking** animation and put it close to `40.0` on the *
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Finally *place* the **Sprint** animation at the end of the *timeline* at `350`.
+Finally *place* the **Sprint** animation at the end of the *timeline* at `300`.
 
 ![add fast run to very end](images/FastRunToEnd.png)
 
