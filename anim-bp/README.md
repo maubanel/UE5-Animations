@@ -72,7 +72,9 @@ Name this node `BasicLocomotion`. *Connect* the animation pins from the **Basic 
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_BlendSpace** onto the graph.
 
+![drag blend space to graph](images/DragBlendSpaceToGraph.png)
 
 ![add state](images/AddStateToTree.png)
 
@@ -86,9 +88,7 @@ Name this node `BasicLocomotion`. *Connect* the animation pins from the **Basic 
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_BlendSpace** onto the graph.
 
-![drag blend space to graph](images/DragBlendSpaceToGraph.png)
 
 ![](../images/line2.png)
 
