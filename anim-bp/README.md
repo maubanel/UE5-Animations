@@ -105,7 +105,9 @@ Leave the name this variable `Speed` and **Type** as `Float`. set **Private** to
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Now there is no begin play in animation blueprints but there is a **Event Blueprint Initialize Animation** which runs once when adding an animation to the game.  Lets add this event type by right clicking on the graph and selecting **Event Blueprint Initialize Animation**.  Next we need access to the blueprint that holds our playable character **BP_AJ** so we will add a **Get Owning Actor** node which gets access to the current playable character.
 
+![add initialize animatoin and get owning actor nodes](images/getOwningActorInit.png)
 
 ![](../images/line2.png)
 
@@ -117,9 +119,7 @@ Leave the name this variable `Speed` and **Type** as `Float`. set **Private** to
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now there is no begin play in animation blueprints but there is a **Event Blueprint Initialize Animation** which runs once when adding an animation to the game.  Lets add this event type by right clicking on the graph and selecting **Event Blueprint Initialize Animation**.  Next we need access to the blueprint that holds our playable character **BP_AJ** so we will add a **Get Owning Actor** node which gets access to the current playable character.
 
-![add initialize animatoin and get owning actor nodes](images/getOwningActorInit.png)
 
 
 ![](../images/line2.png)
