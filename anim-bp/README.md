@@ -96,7 +96,7 @@ Now this blend space requires an input float to represent the speed of the playe
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Name this variable `Speed` and set **Private** to `true`. *Press* the <kbd>Compile</kbd> button.
+Leave the name this variable `Speed` and **Type** as `Float`. set **Private** to `true` and add a **Category** of `PlayerPhysics`. *Press* the <kbd>Compile</kbd> button.
 
 ![name variable speed and make private](images/VariableSpeedPrivate.png)
 
