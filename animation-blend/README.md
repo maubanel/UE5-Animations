@@ -36,7 +36,7 @@ Call it `BS_IdleWalkRun`.
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Double click* the blend space you just created. Open up the **Axis Settings** tab on the **Asset Details** and *change* the **Number of Grid Divisions** to `8`. *Change* the name of this **Horizontal Axis | Name** to `Speed`.
+*Double click* the blend space you just created. Open up the **Axis Settings** tab on the **Asset Details** and *change* the **Number of Grid Divisions** to `8`. *Change* the name of this **Horizontal Axis | Name** to `Speed` and **Maximum Axis Value** to `300`.
 
 ![set maximum axis value to 350 and grid division to 8](images/SetAxisValueAndGridDivisions.png)
 
