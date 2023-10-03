@@ -131,7 +131,7 @@ Connect the execution pin from **EventBlueprint Initialize Annimation** to **Cas
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Pull off of the **Set Character** blue pin and select a **Get Movement Component** node.
+Pull off of the **Set Character** blue pin and select a **Get Movement Component** node. Click the output pin of the node and select **Promote to Variable**.
 
 ![connect execution pins](images/movementComp.png)
 
