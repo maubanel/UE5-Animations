@@ -8,10 +8,7 @@
 
 There is a special kind of blueprint used as a state machine for animations. It is an animation blueprint. Lets create one for our character.
 
-<br>
-
 ---
-
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
