@@ -36,7 +36,7 @@ Open the animation blueprint and go to the **AnimGraph** tab. If it is not there
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on the anim graph and select a **Add New State Machine** node.
+*Right click* on the anim graph and *add* a **State Machine** node.
 
 ![add state machine node](images/RightClickAddNewStateMachine.png)
 
