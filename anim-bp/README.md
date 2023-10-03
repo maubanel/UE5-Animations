@@ -20,7 +20,7 @@ We are now going to start to set up a state machine for our character. Go to the
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Name it `AnimBP_AJ`.
+Name it `ABP_AJ`.
 
 ![namne file AJ_AnimBlueprint](images/CallItAJAnimBP.png)
 
