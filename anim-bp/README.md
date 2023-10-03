@@ -107,33 +107,19 @@ Leave the name this variable `Speed` and **Type** as `Float`. set **Private** to
 
 Now there is no begin play in animation blueprints but there is a **Event Blueprint Initialize Animation** which runs once when adding an animation to the game.  Lets add this event type by right clicking on the graph and selecting **Event Blueprint Initialize Animation**.  Next we need access to the blueprint that holds our playable character **BP_AJ** so we will add a **Get Owning Actor** node which gets access to the current playable character.
 
-![add initialize animatoin and get owning actor nodes](images/getOwningActorInit.png)
+![add initialize animation and get owning actor nodes](images/getOwningActorInit.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
-
 Pull off of the **Get Owning Actor** pin and select a **Cast to Character** node.  This will cast the class from **Pawn** to **Character**.  Right click on the **As Character** and select **Promote to Variable**.  Connect the execution pin from **Cast to Character** to **Set Character** node. Set **Private** to `true` and add a **Category** `References` to the animation blueprint.
 
 ![Get owning actor cast to character and set character as promoted var](images/getReference.png)
 
-
 ![](../images/line2.png)
 
-##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Connect the execution pin from **EventBlueprint Initialize Annimation** to **Cast to Character**.
 
@@ -141,15 +127,16 @@ Connect the execution pin from **EventBlueprint Initialize Annimation** to **Cas
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
 Now drag a **Get** for the **Character** variable next to the **EventBlueprint Update Animation** which will tick every frame like the tick node in a normal blueprint as long as this animation is active.  Now we need to make sure that the character still exists in the game (could have died for example and have been remoted) so we *right click* on the node and select **Convert to Validated Get** which will stop the game from crashing if we access a null reference.
 
 ![Get owning actor cast to character and set character as promoted var](images/validatedGet.png)
 
+
 ![](../images/line2.png)
 
-##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 *Drag* off the **GET | Is Valid** execution pin and select a **Sequence** node. the *Drag off* of the **Character** from the **GET** node and select **Get Velocity** to get the velocity vector of the player pawn. 
 
@@ -157,7 +144,7 @@ Now drag a **Get** for the **Character** variable next to the **EventBlueprint U
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We forgot to clean up above so go back to the **Intialize Animation** and place a comment box around the nodes saying `Get Reference`.
 
@@ -165,7 +152,7 @@ We forgot to clean up above so go back to the **Intialize Animation** and place 
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Drag* a **Set Speed** variable onto the chart. Now if you try and connect the output of velocity it will not connect to speed. Now a **Velocity** (or any vector for that matter) has a *direction* and a *magnitude*. 
 
@@ -173,11 +160,23 @@ We forgot to clean up above so go back to the **Intialize Animation** and place 
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 All we care about here is the *magnitude*. *Drag off* of the **Return Value** pin from the **Get Velocity** node and select **Vector Length** (I typed in Magnitude in the search window and it still points to this node!). This returns a float with the length of the vector (magnitude).
 
 ![get velocity magnitude](images/GetVelocityMagnitude.png)
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
+
+
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line1.png)
 
