@@ -84,7 +84,7 @@ Finally *place* the **Sprint** animation at the end of the *timeline* at `300`.
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Scrub along the timeline and watch animation states blend. In this case I am happy with the results and can leave the blend defaults as they stand. The animation will be selected based on the speed of the character.
+Scrub along the timeline and watch animation states blend. It is blending between animation based on a speed variable we will add. In this case I am happy with the results and can leave the blend defaults as they stand. The animation will be selected based on the speed of the character.
 
 https://github.com/maubanel/UE5-Animations/assets/5504953/26481d15-1aaf-4e71-92bf-a17ac3912e37
 
