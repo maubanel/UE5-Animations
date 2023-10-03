@@ -96,7 +96,9 @@ Now this blend space requires an input float to represent the speed of the playe
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
+Name this variable `Speed` and set **Private** to `true`. *Press* the <kbd>Compile</kbd> button.
 
+![name variable speed and make private](images/VariableSpeedPrivate.png)
 
 ![](../images/line2.png)
 
@@ -109,9 +111,7 @@ Now this blend space requires an input float to represent the speed of the playe
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Name this variable `Speed` and set **Private** to `true`. *Press* the <kbd>Compile</kbd> button.
 
-![name variable speed and make private](images/VariableSpeedPrivate.png)
 
 ![](../images/line2.png)
 
