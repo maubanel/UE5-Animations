@@ -52,7 +52,7 @@ Make sure on the right hand side you are on the **Asset Browser** tab and *drag 
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Drag and drop the **CreepWalk** animation and put it close to `40.0` on the **1D blend space**.
+Drag and drop the **CreepWalking** animation and put it close to `40.0` on the **1D blend space**. You can click on the node for this animation and change the value to a precise number.
 
 ![creep walk to 40](images/SlowWalkTo50.png)
 
