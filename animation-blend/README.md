@@ -86,7 +86,7 @@ Finally *place* the **Sprint** animation at the end of the *timeline* at `300`.
 
 Scrub along the timeline and watch animation states blend. In this case I am happy with the results and can leave the blend defaults as they stand. The animation will be selected based on the speed of the character.
 
-https://user-images.githubusercontent.com/5504953/196059260-aa3292ba-848e-41b7-bf9f-5d991eac75f6.mp4
+https://github.com/maubanel/UE5-Animations/assets/5504953/26481d15-1aaf-4e71-92bf-a17ac3912e37
 
 ![](../images/line2.png)
 
