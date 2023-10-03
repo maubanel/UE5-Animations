@@ -60,7 +60,7 @@ Drag and drop the **CreepWalking** animation and put it close to `40.0` on the *
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* the **Walk** animation to around `80` on the **blend space**.
+*Drag and drop* the **Walking** animation to around `80` on the **blend space**.
 
 ![drag walk animation to 80 on blend space](images/WalkTo87BlendSpace.png)
 
