@@ -76,8 +76,6 @@ Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_
 
 ![drag blend space to graph](images/DragBlendSpaceToGraph.png)
 
-![add state](images/AddStateToTree.png)
-
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -90,7 +88,9 @@ Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+Now this blend space requires an input float to represent the speed of the player. *Right click* on **None** and select **Promote to Variable**.
 
+![promote none to variable](images/PromoteToVariableSpeed.png)
 
 ![](../images/line2.png)
 
@@ -103,9 +103,7 @@ Now we need to play the blend space we created. Drag and drop the **IdleWalkRun_
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now this blend space requires an input float to represent the speed of the player. *Right click* on **None** and select **Promote to Variable**.
 
-![promote none to variable](images/PromoteToVariableSpeed.png)
 
 ![](../images/line2.png)
 
