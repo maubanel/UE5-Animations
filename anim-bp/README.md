@@ -53,7 +53,7 @@ Name this node `BasicLocomotion`. *Connect* the animation pins from the **Basic 
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
- *Double click* on the **Basic Locomotion** node to enter its state machine. This gets us to the entrance of the Basic Locomotion animation tree. It has an **Entry** node that is what it plays when it enters this state (the only state we are calling for the moment)
+ *Double click* on the **Basic Locomotion** node to enter its state machine. This gets us to the entrance of the Basic Locomotion animation tree. It has an **Entry** node that is what it plays when it enters this state (the only state we are calling for the moment). *Right click* on the anim graph and select **Add State.**
 
 ![entry node](images/EntranceToBasicLocomotion.png)
 
@@ -63,14 +63,16 @@ Name this node `BasicLocomotion`. *Connect* the animation pins from the **Basic 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
+*Name* this state **IdleWalkRun** and *attach* the node from **Entry** to this new **State**. *Double click* on **IdleWalkRun** to enter this state.
 
+![name state IdleWalkRun and attach to Entry state](images/NameIdleWalkRunDC.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on the anim graph and select **Add State.**
+
 
 ![add state](images/AddStateToTree.png)
 
@@ -78,9 +80,7 @@ Name this node `BasicLocomotion`. *Connect* the animation pins from the **Basic 
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Name* this state **IdleWalkRun** and *attach* the node from **Entry** to this new **State**. *Double click* on **IdleWalkRun** to enter this state.
 
-![name state IdleWalkRun and attach to Entry state](images/NameIdleWalkRunDC.png)
 
 ![](../images/line2.png)
 
