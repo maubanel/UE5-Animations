@@ -139,6 +139,8 @@ Pull off of the **Set Character** blue pin and select a **Get Movement Component
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Name the variable `MovementComponentRef` and set **Private** to `true` Change the **Category** to `References` and connect the execution pin from **Set Character** to **Set | MovementComponentRef**.
+
 ![connect execution pins](images/setMovementRef.png)
 
 ![](../images/line2.png)
