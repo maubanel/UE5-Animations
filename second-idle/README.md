@@ -8,8 +8,6 @@
 
 Now we are going to add a state change when the idle animation times out. How will we do this? We will keep track of when the Velocity Length is 0 and add a timer. After 5 seconds we will switch to the alternate idle animation. Lets begin.
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
