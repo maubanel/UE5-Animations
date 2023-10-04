@@ -157,11 +157,6 @@ Now drag a **Get** for the **Character** variable next to the **EventBlueprint U
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We forgot to clean up above so go back to the **Intialize Animation** and place a comment box around the nodes saying `Get Reference`.
-
-![add get reference comment](images/getReferencesComment.png)
-
-
 *Drag* a **Set Speed** variable onto the chart. Now if you try and connect the output of velocity it will not connect to speed. Now a **Velocity** (or any vector for that matter) has a *direction* and a *magnitude*. 
 
 ![add a set speed variable](images/addSetSpeed.png)
