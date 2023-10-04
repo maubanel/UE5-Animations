@@ -50,11 +50,13 @@ Now go back to the **BP_AJ** blueprint and *select* the **CharacterMovement** co
 
 ![set orient rotation to movement to true](images/OrientRotationToMovement.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+Now press the <kbd>Compile</kbd> button and go back into the game. Now the player should animate and turn correctly. 
+
+https://user-images.githubusercontent.com/5504953/196080902-9a2d4181-6eb7-4eeb-bb5a-4fb3415a47a4.mp4
 
 ![alt_text](images/.png)
 
@@ -62,9 +64,7 @@ Now go back to the **BP_AJ** blueprint and *select* the **CharacterMovement** co
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now press the <kbd>Compile</kbd> button and go back into the game. Now the player should animate and turn correctly. 
 
-https://user-images.githubusercontent.com/5504953/196080902-9a2d4181-6eb7-4eeb-bb5a-4fb3415a47a4.mp4
 
 ![](../images/line2.png)
 
