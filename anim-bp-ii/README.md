@@ -58,8 +58,6 @@ Now press the <kbd>Compile</kbd> button and go back into the game. Now the playe
 
 https://user-images.githubusercontent.com/5504953/196080902-9a2d4181-6eb7-4eeb-bb5a-4fb3415a47a4.mp4
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
