@@ -46,15 +46,15 @@ https://user-images.githubusercontent.com/5504953/196080751-359be9c8-710d-440e-9
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+Now go back to the **BP_AJ** blueprint and *select* the **CharacterMovement** component. *Scroll* in the **Details** panel down to **Character Movement (Rotation Settings)** tab. Open it up and look for **Orient Rotation to Movement**. Set this to *true*.
+
+![set orient rotation to movement to true](images/OrientRotationToMovement.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Now go back to the **BP_AJ_Character** blueprint and *select* the **CharacterMovement** component. *Scroll* in the **Details** panel down to *Character Movement (Rotation Settings)** tab. Open it up and look for **Orient Rotation to Movement**. Set this to *true*.
-
-![set orient rotation to movement to true](images/OrientRotationToMovement.png)
 
 ![alt_text](images/.png)
 
