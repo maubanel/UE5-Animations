@@ -14,21 +14,13 @@ Lets finish up the first part of the animation blueprint.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Connect the execution pin from the **Sequence | Then 0** node to the **Set Speed** node. Connect the **Vector Length | Return** pin to the **Set Speed | Speed** pin.  Add a comment called `Get Velocity of Character / Pawn` to these nodes:
-
-![connect pins add code comment](images/connectSetSpeed.png)
-
-![](../images/line2.png)
-
-##### `Step 2.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: 
-
 Now we need to assign this animation blueprint to our skeletal mesh. *Open* the **BP_AJ_Character** blueprint. *Go* to the **Viewport** tab. We notice our character is in a *T-Pose*. *Select* the **Animation Class** on the Details panel and pick the animation blueprint we just made **AJ_AnimBlueprint**. You will notice that the player should enter the idle state. *Press* the <kbd>Compile</kbd> button.
 
 ![add anim blueprint to player blueprint](images/SelectAnimBPOnCharacterMesh.png)
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 2.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: 
 
 We want the player to face the direction we are moving in as opposed to always looking forward. Go to the top level component on the blueprint and under **Pawn** *set* the **Use Controller Rotation Yaw** to `false`.
 
@@ -36,7 +28,7 @@ We want the player to face the direction we are moving in as opposed to always l
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *select* the **Spring Arm** component and in **Camera Settings** *set* **Use Pawn Control Rotation** to `true`.
 
@@ -44,11 +36,17 @@ Now *select* the **Spring Arm** component and in **Camera Settings** *set* **Use
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`ITA`| :small_orange_diamond:
+##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now press the <kbd>Compile</kbd> button and go into the game and press *play*. You will notice that the player does animate but doesn't change directions.
+Press the <kbd>Play</kbd> button and you will notice that the player does animate but doesn't change directions.
 
 https://user-images.githubusercontent.com/5504953/196080751-359be9c8-710d-440e-91e1-3b82f0b7e5df.mp4
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`ITA`| :small_orange_diamond:
+
+
 
 ![](../images/line2.png)
 
