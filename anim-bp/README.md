@@ -157,7 +157,7 @@ Now drag a **Get** for the **Character** variable next to the **EventBlueprint U
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag* a **Set Speed** variable onto the chart. Now if you try and connect the output of velocity it will not connect to speed. Now a **Velocity** (or any vector for that matter) has a *direction* and a *magnitude*. 
+*Pull off of* the **Velocity** pin and select a **Vector Length XY** node.  This will give us the ground speed and ignore the jumpring speed (Z axis is up and down). *Add* a **Set Speed** node onto the chart. Connect the output of the **Vector Length XY | Return Value** pint to the **Set | Speed** pin.
 
 ![add a set speed variable](images/addSetSpeed.png)
 
@@ -165,21 +165,9 @@ Now drag a **Get** for the **Character** variable next to the **EventBlueprint U
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-All we care about here is the *magnitude*. *Drag off* of the **Return Value** pin from the **Get Velocity** node and select **Vector Length** (I typed in Magnitude in the search window and it still points to this node!). This returns a float with the length of the vector (magnitude).
+Add a comment box to the speed setting node.
 
-![get velocity magnitude](images/GetVelocityMagnitude.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-
+![get velocity magnitude](images/addCommentSpeed.png)
 
 ![](../images/line1.png)
 
