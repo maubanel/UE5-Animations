@@ -165,7 +165,7 @@ Now drag a **Get** for the **Character** variable next to the **EventBlueprint U
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a comment box to the speed setting node.
+Add a comment box to the speed setting node that says `Gets ground speed, Z axis is ignore (Jumping / Falling)`.
 
 ![get velocity magnitude](images/addCommentSpeed.png)
 
