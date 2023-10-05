@@ -166,7 +166,7 @@ Go back to the **Basic Locomotion** state tab. Now we have dealt with the transi
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-
+Now go into the game. After 5 seconds the player should go to the alternate idle. But he/she never leaves this state. We now want to reset the Does Idle Time Out? variable back to false. 
 
 ![](../images/line2.png)
 
