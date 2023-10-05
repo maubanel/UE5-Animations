@@ -40,8 +40,6 @@ We will leave the default values alone. We want it to be close to `0.0` and the 
 
 ![connect set speed to branch and return value to nearly equal](images/ExecutionPinsAndBranchCondition.png)
 
-![add nearly equal node](images/NearlyEqualVectorLength.png)
-
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
