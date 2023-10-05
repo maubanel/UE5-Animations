@@ -14,57 +14,45 @@ Second idle continued...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Now we are looking for the opposite so we want the **Does Idle Time Out?** to be false. So we pull off the pin and select a **NOT** (Math | NOT Boolean) node which looks to see if it is the opposite of **True** (false).
+We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **SpecialIdle** animation.
 
-![add NOT node](images/BooleanNotNode.png)
+![enter idle never leaves the state](images/IdleFidgetPre.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the output of the **NOT** node to the **Can Enter Transition** pin in the **Result** node.
 
-![conect not to can enter transition node](images/OutputOfNotToTransition.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Basic Locomotion** state tab. Now we have dealt with the transitions but not the actual animation in this new state. *Double click* the **Alternate Idle** node.
-
-![enter alternate idle graph](images/CoreLocomotionToAlternateIdle.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag a reference to **SpecialIdle** to the open graph.
 
-![add idle_fidget to graph](images/PlayIdleFidget.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-**Connect** the animation pins and then *press* the <kbd>Compile</kbd> button. That should do it for the animation blueprint. Press the <kbd>Compile</kbd> button.
 
-![connect animation pins and compile](images/ConnectAnimationPinsAlternateIdle.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Now go into the game. After 5 seconds the player should go to the alternate idle. But he/she never leaves this state. We now want to reset the Does Idle Time Out? variable back to false. 
 
-https://user-images.githubusercontent.com/5504953/197163799-a4aaf480-2701-4d54-ab6d-6fd9d0187dd8.mp4
+
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **SpecialIdle** animation.
 
-![enter idle never leaves the state](images/IdleFidgetPre.png)
 
 
 ![](../images/line2.png)
