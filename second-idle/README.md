@@ -52,7 +52,7 @@ We will leave the default values alone. We want it to be close to `0.0` and the 
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Add two **Set Idle Timer** nodes. *Connect* nexts to each to the **True** and **False** execution pins of the **Branch** node.
+Add two **Set Idle Timer** nodes.
 
 ![add two set idel timer nodes and attach both to branch](images/AddTwoSetIdleTimerNodes.png)
 
@@ -68,15 +68,15 @@ Add two **Set Idle Timer** nodes. *Connect* nexts to each to the **True** and **
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Connect the execution pin of **Set Speed** node to the input of the **Branch Node**.
 
+![connect idle timer and get world delat to addition node](images/attachExecPins.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the execution pin of **Set Speed** node to the input of the **Branch Node**.
 
-![connect idle timer and get world delat to addition node](images/attachExecPins.png)
 
 ![](../images/line2.png)
 
