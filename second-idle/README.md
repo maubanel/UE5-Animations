@@ -36,7 +36,7 @@ Now we are going to see if this vector is close enough to zero. *Pull* from the 
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We will leave the default values alone. We want it to be close to `0.0` and the error tolerance seems fine. *Connect* the execution pin from the **Set Speed** node to the **Branch** node. *Connect* the **Return Value** pin from the **Nearly Equal** node to the **Branch** node. *Connect* **Nearly Equal | Return Value** to the **Branch | Condition** pin. *Drag* a **Get Idle Timer** variable to the graph.
+We will leave the default values alone. We want it to be close to `0.0` and the error tolerance seems fine. *Connect* the execution pin from the **Set Speed** node to the **Branch** node. *Connect* the **Return Value** pin from the **Nearly Equal** node to the **Branch** node.  *Drag* a **Get Idle Timer** variable to the graph.
 
 ![connect set speed to branch and return value to nearly equal](images/ExecutionPinsAndBranchCondition.png)
 
