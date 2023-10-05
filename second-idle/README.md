@@ -157,7 +157,9 @@ Go back to the **Basic Locomotion** state tab. Now we have dealt with the transi
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+**Connect** the animation pins and then *press* the <kbd>Compile</kbd> button. That should do it for the animation blueprint. Press the <kbd>Compile</kbd> button.
 
+![connect animation pins and compile](images/ConnectAnimationPinsAlternateIdle.png)
 
 
 ![](../images/line2.png)
