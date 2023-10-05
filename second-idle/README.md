@@ -109,15 +109,15 @@ Go back to the **ABP_AJ | Anim Graph** tab and *double click* on the **BasicLoco
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now you should see our only **IdleWalkRun** state. *Right click* above this on the open graph and select **Add State**.
+Now you should see our only **IdleWalkRun** state. *Right click* above this on the open graph and select **Add State**. Now we will be switching to the alternate animation state based on the player not controlling the game character for at least 5 seconds.  If the player hits any valid button or key we will switch back to the regular motion tree. *Call* this new state `AlternateIdle`. 
 
-![add state](images/AddNewAlternateIdleState.png)
+![add state](images/CallItAlternateIdle.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+*Connect* the state from **IdleWalkRun** to **AlternateIdle** states **and** back again. There should be arrows coming to and from **both** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations!
 
 ![](../images/line2.png)
 
@@ -129,17 +129,14 @@ Now you should see our only **IdleWalkRun** state. *Right click* above this on t
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now we will be switching to the alternate animation state based on the player not controlling the game character for at least 5 seconds.  If the player hits any valid button or key we will switch back to the regular motion tree. *Call* this new state `AlternateIdle`. 
 
-![call new state alternate idle and connect to idle walk run](images/CallItAlternateIdle.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the state from **IdleWalkRun** to **AlternateIdle** states **and** back again. There should be arrows coming to and from **both** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations!
 
-https://user-images.githubusercontent.com/5504953/196081355-e37d2317-638d-4be0-9595-ca93a1dfc3ac.mp4
+
 
 ![](../images/line2.png)
 
