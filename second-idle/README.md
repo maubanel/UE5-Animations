@@ -125,7 +125,9 @@ Now you should see our only **IdleWalkRun** state. *Right click* above this on t
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Double click on the left hand button next to the arrow going from **IdleWalkRun** to **AlternateIdle** to adjust the logic for this transition. The logic is simple. It will transition when the idle time out boolean switches to true. So add a **Get Does Idle Time Out** node and attach it to the **Result** node so it can enter the transition.
 
+![add get does idle time out node](images/AddDoesIdleTimeOutTrue.png)
 
 ![](../images/line2.png)
 
@@ -144,18 +146,13 @@ Now you should see our only **IdleWalkRun** state. *Right click* above this on t
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click on the left hand button next to the arrow going from **IdleWalkRun** to **AlternateIdle** to adjust the logic for this transition.
-
-![enter idlewalkrun to alternate idle state by double clicking arrow](images/DoubleClickLeftHandLogic.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The logic is simple. It will transition when the idle time out boolean switches to true. So add a **Get Does Idle Time Out** node and attach it to the **Result** node so it can enter the transition.
 
-![add get does idle time out node](images/AddDoesIdleTimeOutTrue.png)
 
 
 ![](../images/line2.png)
