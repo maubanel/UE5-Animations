@@ -101,7 +101,7 @@ Now we want to check to see if we have been idling for more than 5 seconds. Add 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go back to the **AJ_AnimBlueprint | Anim Graph** tab and *double click* on the **BasicLocomotion** node.
+Go back to the **ABP_AJ | Anim Graph** tab and *double click* on the **BasicLocomotion** node.
 
 ![go to core locomotion in animblueprint anim graph](images/DoubleClickCoreLocoStateMach.png)
 
