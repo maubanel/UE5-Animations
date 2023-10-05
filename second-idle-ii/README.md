@@ -14,15 +14,17 @@ Second idle continued...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **SpecialIdle** animation.
+We need to do this at the end of the alternate animation. We can this using **Notifies**. Open **SpecialIdle** animation. Right click on the **Notifies** timeline near the end (on the 1 row) and select **Add Notify | New Notify**.
 
-![enter idle never leaves the state](images/IdleFidgetPre.png)
+![add notify](images/AddNotifyToIdleTimeline.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and press the <kbd>Enter</kbd> key. Adjust the position after the core movement ends but with room to blend it back to the core idle. I set it at the 50<sup>th</sup> frame.
 
+![call notify endanim](images/NameNotifyEndAnim.png)
 
 ![](../images/line2.png)
 
@@ -59,26 +61,20 @@ We need to do this at the end of the alternate animation. We can this using **No
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the **Notifies** timeline near the end (on the 1 row) and select **Add Notify | New Notify**.
 
-![add notify](images/AddNotifyToIdleTimeline.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and press the <kbd>Enter</kbd> key.
 
-![call notify endanim](images/NameNotifyEndAnim.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Adjust the position after the core movement ends but with room to blend it back to the core idle. I set it at the 80<sup>th</sup> frame.
 
-![call from frame 80](images/GiveItRoomToBlend.png)
 
 ![](../images/line2.png)
 
