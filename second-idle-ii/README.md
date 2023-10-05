@@ -81,14 +81,15 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/550b8d84-c882-446d-aef
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel to the **Sample Smoothing | Weight Speed** setting and *adjust* it to `6.0` (you can play with values between 5 and 10 to see what you like). Now it should be a much smoother transition.  
 
-
+![add set does idle time out node to anim blueprint](images/AdjustBlend.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-
+*Press* the <kbd>Play</kbd> button and notice that the blend is much smoother when going out of idle.
 
 ![](../images/line2.png)
 
@@ -131,17 +132,13 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/550b8d84-c882-446d-aef
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel to the **Sample Smoothing | Weight Speed** setting and *adjust* it to `6.0` (you can play with values between 5 and 10 to see what you like). Now it should be a much smoother transition.  
 
-![add set does idle time out node to anim blueprint](images/AdjustBlend.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button and notice that the blend is much smoother when going out of idle.
 
-https://user-images.githubusercontent.com/5504953/197172305-31f2c383-a5eb-432d-87e2-8fd198def883.mp4
 
 ![](../images/line2.png)
 
