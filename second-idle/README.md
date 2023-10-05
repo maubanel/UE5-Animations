@@ -141,7 +141,9 @@ Go back to the **Core Locomotion** state screen. Now *double click* on the right
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Connect* the output of the **NOT** node to the **Can Enter Transition** pin in the **Result** node.
 
+![conect not to can enter transition node](images/OutputOfNotToTransition.png)
 
 
 ![](../images/line2.png)
