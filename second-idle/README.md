@@ -172,8 +172,7 @@ Now go into the game. After 5 seconds the player should go to the alternate idle
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-
-
+https://github.com/maubanel/UE5-Animations/assets/5504953/e1f128db-1ffd-42bf-9257-144349f97410
 
 ![](../images/line1.png)
 
