@@ -44,23 +44,23 @@ We will leave the default values alone. We want it to be close to `0.0` and the 
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
-
- and add a **Get Delta Seconds** node.
+*Add* a **Get Delta Seconds** node.
 
 ![add get idle time node and world delta seconds node](images/GetIdleTimerDeltaSeconds.png)
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
 Add two **Set Idle Timer** nodes. *Connect* nexts to each to the **True** and **False** execution pins of the **Branch** node.
 
 ![add two set idel timer nodes and attach both to branch](images/AddTwoSetIdleTimerNodes.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
