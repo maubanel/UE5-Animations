@@ -75,6 +75,7 @@ Now go back to the **ABP_AJ** to its **Event Graph** tab. Look to see the **Bran
 
 *Play* the game and transition from the alternate idle. It now snaps back to the regular IdleWalkRun blend sequence. This works great. I don't like the snap back to the idle though and it is rough and jerky. We need to add a bit of a blend here.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/550b8d84-c882-446d-aef0-17aaf275dd65
 
 ![](../images/line2.png)
 
