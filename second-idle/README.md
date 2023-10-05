@@ -145,11 +145,13 @@ Go back to the **Core Locomotion** state screen. Now *double click* on the right
 
 ![conect not to can enter transition node](images/OutputOfNotToTransition.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go back to the **Basic Locomotion** state tab. Now we have dealt with the transitions but not the actual animation in this new state. *Double click* the **Alternate Idle** node.
+
+![enter alternate idle graph](images/CoreLocomotionToAlternateIdle.png)
 
 
 ![](../images/line2.png)
