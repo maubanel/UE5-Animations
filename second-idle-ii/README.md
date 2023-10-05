@@ -73,6 +73,7 @@ Now go back to the **ABP_AJ** to its **Event Graph** tab. Look to see the **Bran
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Play* the game and transition from the alternate idle. It now snaps back to the regular IdleWalkRun blend sequence. This works great. I don't like the snap back to the idle though and it is rough and jerky. We need to add a bit of a blend here.
 
 
 ![](../images/line2.png)
@@ -123,9 +124,7 @@ Now go back to the **ABP_AJ** to its **Event Graph** tab. Look to see the **Bran
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Play* the game and transition from the alternate idle. It now snaps back to the regular IdleWalkRun blend sequence. This works great. I don't like the snap back to the idle though and it is rough and jerky. We need to add a bit of a blend here.
 
-https://user-images.githubusercontent.com/5504953/197170784-b8114c22-6c03-4707-b749-4379f1fd3404.mp4
 
 ![](../images/line2.png)
 
