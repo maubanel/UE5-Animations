@@ -36,7 +36,9 @@ Now we are going to see if this vector is close enough to zero. *Pull* from the 
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+We will leave the default values alone. We want it to be close to `0.0` and the error tolerance seems fine. *Connect* the execution pin from the **Set Speed** node to the **Branch** node. *Connect* the **Return Value** pin from the **Nearly Equal** node to the **Branch** node. *Connect* **Nearly Equal | Return Value** to the **Branch | Condition** pin. *Drag* a **Get Idle Timer** variable to the graph.
 
+![connect set speed to branch and return value to nearly equal](images/ExecutionPinsAndBranchCondition.png)
 
 ![add nearly equal node](images/NearlyEqualVectorLength.png)
 
@@ -44,15 +46,13 @@ Now we are going to see if this vector is close enough to zero. *Pull* from the 
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-We will leave the default values alone. We want it to be close to `0.0` and the error tolerance seems fine. *Connect* the execution pin form the **Set Speed** node to the **Branch** node. *Connect* the **Return Value** pin from the **Nearly Equal** node to the **Branch** node. *Connect* **Nearly Equal | Return Value** to the **Branch | Condition** pin.
 
-![connect set speed to branch and return value to nearly equal](images/ExecutionPinsAndBranchCondition.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Drag* a **Get Idle Timer** variable to the graph and add a **Get Delta Seconds** node.
+ and add a **Get Delta Seconds** node.
 
 ![add get idle time node and world delta seconds node](images/GetIdleTimerDeltaSeconds.png)
 
