@@ -84,30 +84,30 @@ Now we want to check to see if we have been idling for more than 5 seconds. Add 
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
 *Pull off* of the execution pin of the **Branch** node and select a **Set Does Idle Time Out** node. Set this **boolean** to `true`.
 
 ![add set does idle time out node](images/PullOffExecutionPin.png)
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
 *Add* a **comment** around these new nodes and call it `Idle Timer`.
 
 ![add set idle timer node set to 0](images/SetIdleTimeToZeroAddComment.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
