@@ -109,7 +109,9 @@ Go back to the **ABP_AJ | Anim Graph** tab and *double click* on the **BasicLoco
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now you should see our only **IdleWalkRun** state. *Right click* above this on the open graph and select **Add State**.
 
+![add state](images/AddNewAlternateIdleState.png)
 
 ![](../images/line2.png)
 
@@ -121,9 +123,7 @@ Go back to the **ABP_AJ | Anim Graph** tab and *double click* on the **BasicLoco
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Now you should see our only **IdleWalkRun** state. *Right click* above this on the open graph and select **Add State**.
 
-![add state](images/AddNewAlternateIdleState.png)
 
 ![](../images/line2.png)
 
