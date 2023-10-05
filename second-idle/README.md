@@ -133,7 +133,9 @@ Double click on the left hand button next to the arrow going from **IdleWalkRun*
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Go back to the **Core Locomotion** state screen. Now *double click* on the right hand transition from **Alternate Idle** back to **IdleWalkRun**. Drag a **Get Does Idle Time Out?** variable onto the graph. Now we are looking for the opposite so we want the **Does Idle Time Out?** to be false. So we pull off the pin and select a **NOT** (Math | NOT Boolean) node which looks to see if it is the opposite of **True** (false).
 
+![add NOT node](images/BooleanNotNode.png)
 
 ![](../images/line2.png)
 
@@ -159,17 +161,13 @@ Double click on the left hand button next to the arrow going from **IdleWalkRun*
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Go back to the **Core Locomotion** state screen. Now *double click* on the right hand transition from **Alternate Idle** back to **IdleWalkRun**.
 
-![go to alternate idle to idlewalk run transition](images/DoubleClickRightHandLogic.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Drag a **Get Does Idle Time Out?** variable onto the graph.
 
-![add a get does idle time out node to graph](images/AddDoesIdleTimeOutVari.png)
 
 
 ![](../images/line1.png)
