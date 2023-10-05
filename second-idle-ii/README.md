@@ -91,6 +91,8 @@ Open the **IdleWalkRun_BlendSpace** file and go to the **Asset Details** panel t
 
 *Press* the <kbd>Play</kbd> button and notice that the blend is much smoother when going out of idle.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/e0cb8c80-4c87-445c-9254-c5d2a4f1fcd4
+
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
