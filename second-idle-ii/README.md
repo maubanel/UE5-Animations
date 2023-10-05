@@ -46,7 +46,9 @@ Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for wh
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+Connect the execution pins from **EndAnim** to **DoesIdleTimeOut** and then connect to **Idle Timer**. Now add a **comment** around these nodes that says `Ends Alternate Timer`. *Press* the <kbe>Compile</kbd> button.
 
+![add comment and compile](images/AddCommentCompile.png)
 
 ![](../images/line2.png)
 
@@ -98,9 +100,7 @@ Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for wh
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Connect the execution pins from **EndAnim** to **DoesIdleTimeOut** and then connect to **Idle Timer**. Now add a **comment** around these nodes that says `Ends Alternate Timer`. *Press* the <kbe>Compile</kbd> button.
 
-![add comment and compile](images/AddCommentCompile.png)
 
 ![](../images/line2.png)
 
