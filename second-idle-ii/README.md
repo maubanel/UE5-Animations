@@ -64,7 +64,9 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/09175c7a-e7af-4cc6-a8f
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go back to the **ABP_AJ** to its **Event Graph** tab. Look to see the **Branch** node where we check to see if the **Vector Length** is close to `0.0.` We do not set the **Does Idle Time Out** node back to false. So if the player is moving we need to pop out of idle mode by setting **Does Idle Time out** to `false`. **Add** a **Set Does Idle Time Out** node to the right of the **Set Idle Timer** node. *Connect* the execution pin from **Set Idle Timer** to **Set Does Idle Time Out** node.
 
+![add set does idle time out node to anim blueprint](images/DoesIdleTimeWaitFalse.png)
 
 
 ![](../images/line2.png)
@@ -115,9 +117,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/09175c7a-e7af-4cc6-a8f
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Now go back to the **AnimBP_AJ** to its **Event Graph** tab. Look to see the **Branch** node where we check to see if the **Vector Length** is close to `0.0.` We do not set the **Does Idle Time Out** node back to false. So if the player is moving we need to pop out of idle mode by setting **Does Idle Time out** to `false`. **Add** a **Set Does Idle Time Out** node to the right of the **Set Idle Timer** node. *Connect* the execution pin from **Set Idle Timer** to **Set Does Idle Time Out** node.
 
-![add set does idle time out node to anim blueprint](images/DoesIdleTimeWaitFalse.png)
 
 ![](../images/line2.png)
 
