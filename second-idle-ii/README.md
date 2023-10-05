@@ -30,7 +30,7 @@ A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for when this notify event triggers. *Right clic*k on the open graph and select a **Event AnimNotify_EndAnim** node. It should be red with an execution pin.
+Go back to the **ABP_AJ | Event Graph** and lets add some logic for when this notify event triggers. *Right clic*k on the open graph and select a **Event AnimNotify_EndAnim** node. It should be red with an execution pin.
 
 ![add event AnimNotify_EndAnim node to anim blueprint](images/EndAnimAnimEvent.png)
 
