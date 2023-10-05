@@ -60,15 +60,15 @@ Add two **Set Idle Timer** nodes. *Connect* nexts to each to the **True** and **
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Add* a **float + float** node and put it between the **Idle Timer** and **Set Idle Timer** nodes. *Connect* the outut of **Idle Timer** and **Get Delta Seconds** nodes to the input pins of the **Addition** node. *Send* the output to the **Set Idle** Timer pin.  Connected to the **Branch | True** execution pin. Connect the **False** execution pin to the second **Set Timer** leaving the **Idle Timer** value set to the default of `0`.  Essentially if the player is moving then reset the timer to zero.  If true add the time since last frame.
 
+![Add a float plus float node](images/AddFloatPlusFloatNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a **float + float** node and put it between the **Idle Timer** and **Set Idle Timer** nodes. *Connect* the outut of **Idle Timer** and **Get Delta Seconds** nodes to the input pins of the **Addition** node. *Send* the output to the **Set Idle** Timer pin.  Connected to the **Branch | True** execution pin. Connect the **False** execution pin to the second **Set Timer** leaving the **Idle Timer** value set to the default of `0`.  Essentially if the player is moving then reset the timer to zero.  If true add the time since last frame.
 
-![Add a float plus float node](images/AddFloatPlusFloatNode.png)
 
 ![](../images/line2.png)
 
