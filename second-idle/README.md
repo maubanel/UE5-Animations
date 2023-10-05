@@ -149,10 +149,9 @@ Go back to the **Core Locomotion** state screen. Now *double click* on the right
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Basic Locomotion** state tab. Now we have dealt with the transitions but not the actual animation in this new state. *Double click* the **Alternate Idle** node.
+Go back to the **Basic Locomotion** state tab. Now we have dealt with the transitions but not the actual animation in this new state. *Double click* the **Alternate Idle** node. Drag a reference to **SpecialIdle** to the open graph.
 
-![enter alternate idle graph](images/CoreLocomotionToAlternateIdle.png)
-
+![add idle_fidget to graph](images/PlayIdleFidget.png)
 
 ![](../images/line2.png)
 
