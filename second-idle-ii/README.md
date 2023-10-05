@@ -30,12 +30,17 @@ A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for when this notify event triggers. *Right clic*k on the open graph and select a **Event AnimNotify_EndAnim** node. It should be red with an execution pin.
+
+![add event AnimNotify_EndAnim node to anim blueprint](images/EndAnimAnimEvent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Add* a **Set Idle Time Out** node and set it to `false`. *Add* a **Set Idle Timer** and set it to `0.0`.
 
+![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.png)
 
 ![](../images/line2.png)
 
@@ -80,18 +85,14 @@ A box will pop up asking you to enter the **Notify** Name. *Enter* `EndAnim` and
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Go back to the **AJ_AnimBlueprint | Event Graph** and lets add some logic for when this notify event triggers. *Right clic*k on the open graph and select a **Event AnimNotify_EndAnim** node. It should be red with an execution pin.
 
-![add event AnimNotify_EndAnim node to anim blueprint](images/EndAnimAnimEvent.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Add* a **Set Idle Time Out** node and set it to `false`. *Add* a **Set Idle Timer** and set it to `0.0`.
 
-![add set idle time out and set to false and add set idle timer node set at 0](images/ResetVariables.png)
 
 ![](../images/line2.png)
 
