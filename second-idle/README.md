@@ -117,7 +117,9 @@ Now you should see our only **IdleWalkRun** state. *Right click* above this on t
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Connect* the state from **IdleWalkRun** to **AlternateIdle** states **and** back again. There should be arrows coming to and from **both** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations!
+*Connect* the state from **IdleWalkRun** to **AlternateIdle** states **and** back again. There should be two arrows coming to and from **both** states. Look at the two icons next to the arrows. This handles the logic of when we switch to and from these animations! This dicates when the animation moves from **IdleWalkRun** to **Alternate Idle** and back.
+
+![add state](images/twoArrows.png)
 
 ![](../images/line2.png)
 
