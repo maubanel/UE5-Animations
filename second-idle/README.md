@@ -28,7 +28,7 @@ Open the **ABP_AJ** and go to the **Event Graph**. *Add* a new **Variable** call
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we are going to see if this vector is close enough to zero. *Pull* from the **Return Value** pin on the **Vector Length** node and look for **Nearly Equal (float)** node. Now we need to check if the Vector Length is 0. Add a **Branch** node to the right of the **Set Speed** node.
+Now we are going to see if this vector is close enough to zero. *Pull* from the **Return Value** pin on the **Set Speed** node and look for **Nearly Equal (float)** node. Now we need to check if the Vector Length is 0. Add a **Branch** node to the right of the **Set Speed** node.
 
 ![add branch node](images/AddBranchNodeToAnimBP.png)
 
