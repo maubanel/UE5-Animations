@@ -76,7 +76,9 @@ Now we want to check to see if we have been idling for more than 5 seconds. Add 
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Connect* the execution pin from **Set Idle Timer** node to the new **Branch** node. *Connect* the output pin of the **Set Idle Timer** to the **>=** node. *Send* the output of the **>=** node to the **Condition** pin of the **Branch** node.
 
+![connect set idle timer to branch](images/ConnectIdletimerToBranch.png)
 
 ![](../images/line2.png)
 
@@ -88,9 +90,7 @@ Now we want to check to see if we have been idling for more than 5 seconds. Add 
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-*Connect* the execution pin from **Set Idle Timer** node to the new **Branch** node. *Connect* the output pin of the **Set Idle Timer** to the **>=** node. *Send* the output of the **>=** node to the **Condition** pin of the **Branch** node.
 
-![connect set idle timer to branch](images/ConnectIdletimerToBranch.png)
 
 ![](../images/line2.png)
 
