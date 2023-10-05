@@ -12,7 +12,7 @@ Now we are going to add a state change when the idle animation times out. How wi
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Open the **AnimBP_AJ** and go to the **Event Graph**. *Add* a new **Variable** called `DoesIdleTimeOut` and make it **Variable Type** `Boolean`. *Set* **Private** to `true` and **Description** to `timeout boolean for alternate idle` and add a **Cateogry** of `Player Physics`.
+Open the **ABP_AJ** and go to the **Event Graph**. *Add* a new **Variable** called `bDoesIdleTimeOut` and make it **Variable Type** `Boolean`. *Set* **Private** to `true` and **Description** to `timeout boolean for alternate idle` and add a **Cateogry** of `Player Physics`.
 
 ![add boolean bDoesIdleTimeOut to anim blueprint](images/AddDoesIdleTimeOutBooleanVar.png)
 
