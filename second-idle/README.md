@@ -68,9 +68,9 @@ Add two **Set Idle Timer** nodes.
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the execution pin of **Set Speed** node to the input of the **Branch Node**.
+Now we want to check to see if we have been idling for more than 5 seconds. Add a **Branch** node and a **float >= float** node and set the bottom pin value to `5.0`.
 
-![connect idle timer and get world delat to addition node](images/attachExecPins.png)
+![check to see if idle is longer than 5 seconds](images/LongerThan5SecondsInIdle.png)
 
 ![](../images/line2.png)
 
@@ -82,9 +82,7 @@ Connect the execution pin of **Set Speed** node to the input of the **Branch Nod
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Now we want to check to see if we have been idling for more than 5 seconds. Add a **Branch** node and a **float >= float** node and set the bottom pin value to `5.0`.
 
-![check to see if idle is longer than 5 seconds](images/LongerThan5SecondsInIdle.png)
 
 ![](../images/line2.png)
 
