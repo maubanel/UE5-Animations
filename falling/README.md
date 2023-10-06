@@ -176,7 +176,9 @@ Lets assign the falling end animation. Go back to the **Anim Graph | CBasicore L
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+*Pull off* of the **Return Value** pin from the **Time Remaining** node and select a **<** node. Set the bottom value for the **<=** node to `0.2`. Then *connect* the output to the input of the **Result** node. Why do we start the transition with 20% left?  Because we need room to blend out of this animation into the next (overlap).
 
+![add a less or equal node](images/LessEqualTimeRemaining.png)
 
 ___
 
