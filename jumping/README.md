@@ -55,6 +55,8 @@ Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and
 
 *Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button <kbd>space bar</kbd>. Now you should be jumping around the level.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/d5942529-dfbe-4d86-bfce-fa0d2c402013
+
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
