@@ -54,7 +54,7 @@ Now we need to set our regular run speed to 450. *Click* on the second to last r
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays.  So you should see the bottom animation and no longer the top one.
+*Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays.  So you should see the bottom animation and no longer the top one. Notice the player is not as hunched over and leaning when running.
 
 https://github.com/maubanel/UE5-Animations/assets/5504953/fa061515-15f1-4dad-bf2b-014b4ad8a2aa
 
@@ -62,15 +62,15 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/fa061515-15f1-4dad-bf2
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Lets add sprinting to get the speed back up to 600. We will do this when pressing the <kbd>Shift</kbd> key. Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it **Sprint**. Press the **+** next to the **Sprint** action. *Assign* the `Left Shift` and `Right Shift` keys. So when we shift run we will sprint!
 
+![add sprint to project settings input action mapping](images/SprintProjectSettings.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets add sprinting to get the speed back up to 600. We will do this when pressing the <kbd>Shift</kbd> key. Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it **Sprint**. Press the **+** next to the **Sprint** action. *Assign* the `Left Shift` and `Right Shift` keys. So when we shift run we will sprint!
 
-![add sprint to project settings input action mapping](images/SprintProjectSettings.png)
 
 ![](../images/line2.png)
 
