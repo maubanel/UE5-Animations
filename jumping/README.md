@@ -39,9 +39,6 @@ Open up **IMC_Default** to assign a key press.  Press the <kbd>+</kbd> button ne
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-
 Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Input Action | Jump** to the graph.
 
 ![open BP_AJ_Character bp and add a Jump event](images/RightClickForJumpAction.png)
