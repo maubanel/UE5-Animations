@@ -59,7 +59,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 Press the <kbd>Play</kbd> button and jump and now we should have a jump animation in the flow.
 
-
+https://github.com/maubanel/UE5-Animations/assets/5504953/77521d39-1132-4721-b40f-163a0bf1cdb5
 
 ![](../images/line2.png)
 
