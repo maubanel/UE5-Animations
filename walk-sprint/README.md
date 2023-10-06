@@ -94,7 +94,7 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
- *Copy and paste* the the **Set Max Walk Speed** node to have a duplicate. *Connect* the execution pin **Pressed** from the **Sprint** node to the **Set Max Walk Speed** node.  *Change* the **Speed** to `600.0` so that the speed increases when pressing the shift key. *Connect* the **Released** execution pin from the **Sprint** node to the second **Set Max Walk Speed** node.  *Change* it back to your regular run speed setting **Speed** to `450.0`. Add a comment with `Sprint` around these nodes.
+ *Copy and paste* the the **Set Max Walk Speed** node to have a duplicate. *Connect* the execution pin **Triggered** from the **IA_Sprint** node to the **Set Max Walk Speed** node.  *Change* the **Speed** to `600.0` so that the speed increases when pressing the shift key to go to `600` triggering the sprint animation in the blend space. *Connect* the **Completed** (released) execution pin from the **IA_Sprint** node to the second **Set Max Walk Speed** node.  *Change* it back to your regular run speed setting **Speed** to `450.0`. Add a comment with `Sprinting` around these nodes.
 
 ![chnage speed to 600 and add another set max walk speed node](images/PressedSetSpeedSprint.png)
 
