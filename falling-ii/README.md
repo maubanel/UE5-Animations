@@ -41,7 +41,7 @@ It takes too long to blend from landing back to running again.  Look at **Fallin
 
 *Run* the game and the player should fall on the floor and the blend works perfectly once you find the right part of the animation to blend out of!
 
-
+https://github.com/maubanel/UE5-Animations/assets/5504953/3bda78ba-478b-4fc3-b174-7a8a9e2cc4b1
 
 ![](../images/line2.png)
 
