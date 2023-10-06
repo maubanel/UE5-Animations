@@ -96,7 +96,9 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
+*Drag* the **Set Are We In Air** variable onto the graph.
 
+![add set are we in air node](images/SetAreWeInAir.png)
 
 ![](../images/line2.png)
 
@@ -119,9 +121,7 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-*Drag* the **Set Are We In Air** variable onto the graph.
 
-![add set are we in air node](images/SetAreWeInAir.png)
 
 ![](../images/line2.png)
 
