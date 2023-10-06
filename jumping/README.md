@@ -130,6 +130,7 @@ Go back to **ABP_AJ**.  Now it needs to access the `bIsJumping` variable in the 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
 
+![add boolean bIsJumping](images/castToBPAJ.png) 
 
 ![](../images/line2.png)
 
