@@ -38,6 +38,8 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/38816ae9-1532-4ed6-862
 
 Since 450 we are runnning the sprint anim but we are not displacing fast enought lets make a change to our **BlendSpace_IdleWalkRun**. Now lets make some adjustments in our blend space. We want our top sprinting speed to be 600 and our normal run at 450 . Open the **IdleWalkRun_BlendSpace** blend in our **Animations** folder. *Click on* **Axis Settings** and change the **Horizontal Axis | Maximum Axis** Value to `600` to match the top speed in game. Now this opens up a greater range at the end to blend from running to sprtinting.
 
+That rescales our graph. So I want to know the speed of our normal run animation. *Click* on the last animation and change its value to `600.0`, what will be our sprinting speed.
+
 ![in blend space change maximum axis value to 600](images/MaxAxisValue.png)
 
 ![](../images/line2.png)
