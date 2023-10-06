@@ -46,7 +46,7 @@ Go back to the game and go to the **AJ | Animations** folder and *press* the <kb
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-*Preview* the animations in the editor. *Name* them accordingly. I named them `FallingLoop` and `FallingToLanding`.
+*Preview* the animations in the editor. *Name* them accordingly. I named them `Falling_Loop` and `Landing`.
 
 ![rename animations](images/RenameAndPreviewAnims.png)
 
