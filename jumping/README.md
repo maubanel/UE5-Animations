@@ -39,7 +39,7 @@ Open up **IMC_Default** to assign a key press.  Press the <kbd>+</kbd> button ne
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Input Action | Jump** to the graph.
+Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Enhanced Actoin Events | IA_Jump** to the graph. Add a **Action Events | Jump** node. 
 
 ![open BP_AJ_Character bp and add a Jump event](images/RightClickForJumpAction.png)
 
@@ -47,17 +47,15 @@ Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Pull off of the **Jump** node's **Pressed** execution pin and select the **Action Events | Jump** node. Add a **comment** around these two nodes called `Jump`.
+*Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button <kbd>space bar</kbd>. Now you should be jumping around the level.
 
-![select Jump node](images/PressedToJump.png)
+https://user-images.githubusercontent.com/5504953/197189065-bafc020b-5773-4957-98c6-2901a6fa7518.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Press** the <kbd>Compile</kbd> button and *run* the game and press the jump button <kbd>space bar</kbd>. Now you should be jumping around the level.
 
-https://user-images.githubusercontent.com/5504953/197189065-bafc020b-5773-4957-98c6-2901a6fa7518.mp4
 
 ![](../images/line2.png)
 
