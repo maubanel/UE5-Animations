@@ -54,8 +54,9 @@ Now we need to set our regular run speed to 450. *Click* on the second to last r
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays:
+*Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays.  So you should see the bottom animation and no longer the top one.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/fa061515-15f1-4dad-bf2b-014b4ad8a2aa
 
 ![](../images/line2.png)
 
