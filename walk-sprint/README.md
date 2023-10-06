@@ -151,7 +151,7 @@ Go back to the **BP_AJ** blueprint and at the bottom *right click* and add a **E
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *run* the game and press the <kbd>Alt</kbd> key. You will notice that the character skates across the screen. This is no good we need to slow the player speed down for when this animation is triggered.
+Now *run* the game and press the <kbd>Alt</kbd> key. I got *very* luck and my character does not kate across the screen. 
 
 ![](../images/line2.png)
 
