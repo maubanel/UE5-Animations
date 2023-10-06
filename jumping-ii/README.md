@@ -49,9 +49,9 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+*Double click* on the **Jumping** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen.
 
-
-![go to idlewalkrun to jump transition in core locomotion](images/TransitionWalkToJump.png)
+![enter the jump to falling transition](images/DoubleClickJumpFallingTransition.png)
 
 ![](../images/line2.png)
 
@@ -89,10 +89,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-*Double click* on the **Jumping** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen.
 
-![enter the jump to falling transition](images/DoubleClickJumpFallingTransition.png
-)
 
 ![](../images/line2.png)
 
