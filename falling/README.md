@@ -144,7 +144,7 @@ Lets put the animation inside the falling state. *Double click* the **Falling** 
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Anim Graph | Core Locomotion** screen and *double click* the transition button between **Falling** and **Landing** state nodes:
+Go back to the **Anim Graph | Core Locomotion** screen and *double click* the transition button between **Falling** and **Landing** state nodes. We switch to this animation when we hit the ground. *Drag* a **Get Are We in Air** node to the graph. *Pull off* of the **Are We in Air?** node and select a **NOT Boolean** node as we want to find out if the player is not in the air.
 
 ![enter falling to falling end state](images/FallingToFallingEndTransition.png)
 
@@ -152,6 +152,9 @@ Go back to the **Anim Graph | Core Locomotion** screen and *double click* the tr
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Connect the output of the **NOT** node to the **Result** node.
+
+![connect NOT to Result node](images/ConnectNotToEnterTransition.png)
 
 
 ![](../images/line2.png)
