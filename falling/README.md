@@ -120,7 +120,7 @@ Double click the transition from **IdleWalkRun** to **Falling**.
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Drag and drop* the **Get Are We In Air** variable onto the graph.
+*Drag and drop* the **Get Are We In Air** variable onto the graph. Attach the two only pins in this graph.
 
 ![add get are we in air node](images/AreWeInAirGetTransition.png)
 
@@ -128,7 +128,9 @@ Double click the transition from **IdleWalkRun** to **Falling**.
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Lets put the animation inside the falling state. *Double click* the **Falling** state node.
 
+![double click falling state](images/DoubleClickFallingState.png)
 
 ![](../images/line2.png)
 
