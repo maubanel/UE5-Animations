@@ -113,7 +113,7 @@ Now the animation blueprint needs to know when the jump button is pressed. Go to
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-We need to tell the animation blueprint that we have pressed the button. Open up the **BP_AJ** blueprint and add a **Boolean** variable called `bIsJumping`. Keep it **Public** (**Private** set to `false`) because we need to access it in the animation blueprint. Set the **Category** to `Player State`.
+We need to tell the animation blueprint that we have pressed the button. Open up the **BP_AJ** blueprint and add a **Boolean** variable called `bIsJumping`. Keep it **Public** (**Private** set to `false`) because we need to access it in the animation blueprint. Set the **Category** to `Player State`. *Enlarge* the comment section for jumping. *Drag and drop* a **Set IsJumping** variable next to the **Jump** node.
 
 ![add boolean bIsJumping](images/JumpInBPAJ.png)
 
@@ -132,7 +132,7 @@ We need to tell the animation blueprint that we have pressed the button. Open up
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Enlarge* the comment section for jumping. *Drag and drop* a **Set IsJumping** variable next to the **Jump** node.
+
 
 ![add set is jumping node](images/SetIsJumpingForJump.png)
 
