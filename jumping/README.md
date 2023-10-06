@@ -161,7 +161,9 @@ Now drag a **Set bIsJumping** node to the **ABP_AJ** blueprint event graph.  Con
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+When the player has landed we want to reset the jump variable back to false.  
 
+![add boolean bIsJumping](images/notJumping.png)
 
 ![add branch node](images/getIsJumping.png)
 
