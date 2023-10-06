@@ -128,13 +128,17 @@ Double click the transition from **IdleWalkRun** to **Falling**.
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Lets put the animation inside the falling state. *Double click* the **Falling** state node.
+Lets put the animation inside the falling state. *Double click* the **Falling** state node. *Drag and drop* the **Falling_Loop** animation onto the graph. 
 
 ![double click falling state](images/DoubleClickFallingState.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+*Connect* the animation pins together.
+
+![add falling loop and connect animation pins](images/PlayFallingLoopAnim.png)
 
 
 ![](../images/line2.png)
