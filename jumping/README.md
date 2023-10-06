@@ -63,10 +63,9 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/d5942529-dfbe-4d86-bfc
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we could leave it like this as it looks ok. We will add a jump start just to show how it is done. Go back to the [Mixamo](https://www.mixamo.com/#/) site and look for the start of a jump animation. Make sure you speed it up as we want it to be very fast. Also clip just the very begining of the jump. Pick one that will work from jump from stand and from run.
+Now we could leave it like this as it looks ok. We will add a jump start just to show how it is done. Go back to the [Mixamo](https://www.mixamo.com/#/) site and look for the start of a jump start animation. This is for when the player starts to jump from either a stand or run. Make sure you speed it up as we want it to be very fast. Also clip just the very begining of the jump. Pick one that will work from jump from stand and from run.
 
-
-
+https://github.com/maubanel/UE5-Animations/assets/5504953/f7742dae-c500-4b90-8fa6-8c1ce105bb39
 
 ![](../images/line2.png)
 
