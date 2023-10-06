@@ -169,7 +169,7 @@ When the player has landed we want to reset the jump variable back to false. Dra
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-
+Add a **Set Is Jumping** node and leave it as `false`.  Connect it to the **Branch | False** pin (as they are NOT falling when on the ground).  Add a comment stating `If On Ground No Longer Jumping`.
 
 ![add set is jumping and connect to false of branch node and leave false](images/turnOffJumping.png)
 
