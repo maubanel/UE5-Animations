@@ -54,15 +54,15 @@ Go back to the game and go to the **AJ | Animations** folder and *press* the <kb
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Locomotion** tab. *Right click* on the area and add an **Add State** button. Call this new state `Falling`. 
 
+![press add state button in ainmation blueprint](images/AddFallingState.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Locomotion** tab. *Right click* on the area and add an **Add State** button. Call this new state `Falling`. 
 
-![press add state button in ainmation blueprint](images/AddFallingState.png)
 
 ![](../images/line2.png)
 
