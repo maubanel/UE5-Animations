@@ -64,7 +64,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/fa061515-15f1-4dad-bf2
 
 Lets add sprinting to get the speed back up to 600. We will do this when pressing the <kbd>Shift</kbd> key. Now go to **Inputs | Actions** and right click to add a new **Input | Input Action**.  Call it `IA_Sprint`.  Now open it and we will leave it as a type boolean.  Just like the jump you are either holding the shift for sprinting or not.
 
-![add sprint to project settings input action mapping](images/SprintProjectSettings.png)
+![add sprint to project settings input action mapping](images/SprintInputAction.png)
 
 ![](../images/line2.png)
 
