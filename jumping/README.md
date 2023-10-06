@@ -29,11 +29,17 @@ Open up **IA_Jump**.  Leave it as a **Digital Bool** as we want to use the space
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Call this new action `Jump`. Press the **+** button next to the **Jump** setting and add a **Keyboard | Space Bar** to the controls.
 
 ![add jump action and assign space bar](images/JumpSpaceBar.png)
+
+![](../images/line2.png)
+
+##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 
 Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Input Action | Jump** to the graph.
