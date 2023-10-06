@@ -126,9 +126,9 @@ Lets add oru slow creep walk to use when the speed goes down to 40. We will do t
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Open up **IMC_Default** and press the <kbd>+</kbd> button next to **Mappings** to add another mapping.  Select `IA_Creep` and assign both the `Left Alt` and `Right Alt` buttons.
 
-
-![add slowwalk action mapping to engin input with left and right alt keys](images/creepInputAction.png)
+![add sprint to project settings input action mapping](images/AddCreepToDef.png)
 
 ![](../images/line2.png)
 
