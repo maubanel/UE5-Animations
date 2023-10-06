@@ -143,15 +143,15 @@ Go back to the **BP_AJ** blueprint and at the bottom *right click* and add a **A
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Copy and paste* the **Character Movement** and two **Set** nodes from sprinting and paste them next to the **Slow Walk** node. *Connect* the execution pins. *Change* the **Max Walk Speed** for the **Pressed** node path to `40.0`. *Leave* the **Released** back to `450.0`. Add a comment `Slow Walk` around these new nodes.
 
+![hook up slow walk](images/HookUpSlowWalk.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Copy and paste* the **Character Movement** and two **Set** nodes from sprinting and paste them next to the **Slow Walk** node. *Connect* the execution pins. *Change* the **Max Walk Speed** for the **Pressed** node path to `40.0`. *Leave* the **Released** back to `450.0`. Add a comment `Slow Walk` around these new nodes.
 
-![hook up slow walk](images/HookUpSlowWalk.png)
 
 ![](../images/line2.png)
 
