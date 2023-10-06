@@ -20,7 +20,6 @@ Go back to the **Anim Graph | Basic Locomotion** section of the animation bluepr
 
 ![add a bPressedJump node and connect it to can enter transition](images/PressedJumpToResult.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
