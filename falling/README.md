@@ -96,7 +96,7 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-*Drag* the **Set Are We In Air** variable onto the graph. Connect the **Return Value** pin from the **Is Falling** node to the **Set Are We In Air** node. *Hijack* the execution pin from **Sequence | Then 0** node and *send it* to the **Set Are We In Air** node.  Take the output execution pin from **Set Are We in Air** node to the **Set Speed** node.
+*Drag* the **Set Are We In Air** variable onto the graph. Connect the **Return Value** pin from the **Is Falling** node to the **Set Are We In Air** node. *Hijack* the execution pin from **Sequence | Then 0** node and *send it* to the **Set Are We In Air** node.  Take the output execution pin from **Set Are We in Air** node to the **Set Speed** node. Select the new nodes and make a **comment** `Set In Air`.
 
 ![add set are we in air node](images/SetAreWeInAir.png)
 
@@ -104,7 +104,9 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Go back to the **Anim Graph | BasicLocomotion** screen. *Connect* the **IdleWalkRun** state to the **Falling** state to the **Landing** state *back* to the **IdleWalkRun**. This only goes in the single direction.
 
+![connect idlewalkrun to falling to falling end back to idlewalkrun in core locomotion in anim graph](images/ConnectFallingStates.png)
 
 ![](../images/line2.png)
 
@@ -137,17 +139,13 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the new nodes and make a **comment** `Set In Air`.
 
-![add code comments](images/AddCommnentIsPlayerInAir.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **Anim Graph | BasicLocomotion** screen. *Connect* the **IdleWalkRun** state to the **Falling** state to the **Landing** state *back* to the **IdleWalkRun**. This only goes in the single direction.
 
-![connect idlewalkrun to falling to falling end back to idlewalkrun in core locomotion in anim graph](images/ConnectFallingStates.png)
 
 ![](../images/line2.png)
 
