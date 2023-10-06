@@ -70,7 +70,7 @@ Lets add sprinting to get the speed back up to 600. We will do this when pressin
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Open up **IMC_Default** and press the <kbd>+</kbd> button next to **Mappings** to add another mapping.  Select `IA_SPrint` and assign both the `Left Shift1` and `Right Shift` buttons.
 
 ![add sprint to project settings input action mapping](images/AddSprintToDef.png)
 
