@@ -121,6 +121,8 @@ We need to tell the animation blueprint that we have pressed the button. Open up
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Go back to **ABP_AJ**.  Now it needs to access the `bIsJumping` variable in the player blueprint.  But it is using the **Character** reference (the parent to BP_AJ).  So we need to change this reference to the derived class.  Click on the **Character** variable and change the **Variable Type** to `BP_AN | Object Reference`.
+
 ![add boolean bIsJumping](images/changeCharRef.png) 
 
 ![](../images/line2.png)
