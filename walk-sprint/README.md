@@ -78,7 +78,7 @@ Open up **IMC_Default** and press the <kbd>+</kbd> button next to **Mappings** t
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **Enhanced Action Events | IA_Sprint** node.
+Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **Enhanced Action Events | IA_Sprint** node. *Drag and drop* a reference to the **Character Movement** component.
 
 ![add sprint to ajCharacter blueprint](images/SprintActionMappingAdd.png)
 
@@ -86,7 +86,7 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Drag and drop* a reference to the **Character Movement** component. *Pull off* of its pin and add a **Set Max Walk Speed** node.
+ *Pull off* of the **Character Movement** pin and add a **Set Max Walk Speed** node.
 
 ![add set max walk speed node](images/SetMaxWalkSpeedForSprint.png)
 
