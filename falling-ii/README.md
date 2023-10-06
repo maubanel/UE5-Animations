@@ -19,8 +19,6 @@ Falling animation continued...
 
 
 
-![attach pins for falling](images/attachPins.png)
-
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
