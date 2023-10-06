@@ -73,7 +73,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/8e420fa9-515d-4f46-9ef
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **BP_AJ**. Then go to the **Capsule** component and increase the **Capsule Radius**. For my character `70.0` seems to work fine. I also adjusted the height as it was a bit short to a **Capsule Half Height** of `95.0`.
+Open up **BP_AJ**. Then go to the **Capsule** component and increase the **Capsule Radius**. For my character `70.0` seems to work fine. I also adjusted the height as it was a bit short to a **Capsule Half Height** of `95.0`. Readjust the height of the mesh so it is at the bottom of the collision volume.
 
 ![increase radius of capsule to 60](images/CapsuleRadiusGreater.png)
 
