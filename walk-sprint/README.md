@@ -102,6 +102,7 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+*Play* the game. You will noticed that in the player runs at 450 until the sprint button is pressed. Then the player runs at a full 600 with the faster animation.
 
 
 ![set the released pin to set max walk speed to 450](images/MaxWalkSpeedBackToRun.png)
@@ -110,7 +111,9 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+OK, lets work on the slow walk. Open the **BlendSpace_IdleWalkRun** editor. It is the second option on the left. We can see that it is at ~ `40`.
 
+![go to idle walk run blend space](images/SlowWalkSpeedBlendSpace.png)
 
 ![add code comment](images/AddSprintComment.png)
 
@@ -118,17 +121,13 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Play* the game. You will noticed that in the player runs at 450 until the sprint button is pressed. Then the player runs at a full 600 with the faster animation.
 
-https://user-images.githubusercontent.com/5504953/197333143-ef65aaf6-563f-4218-aad3-5ef144acc5f1.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-OK, lets work on the slow walk. Open the **BlendSpace_IdleWalkRun** editor. It is the second option on the left. We can see that it is at ~ `40`.
 
-![go to idle walk run blend space](images/SlowWalkSpeedBlendSpace.png)
 
 ![](../images/line2.png)
 
