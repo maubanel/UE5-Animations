@@ -41,7 +41,9 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Drag off* of the **Pressed Jump** pin and select **NOT Boolean**. *Add* an **AND Boolean** to the node chart. *Connect* it to the input of the **AND** pin. *Connect* the output of the **AND** node to **Result** node. Connect the **Are Wer in Air** pin to the top of the **AND** node.
 
+![connect pressed jump to NOT Boolean to AND to Result](images/ConnectOuputOfAndToResult.png)
 
 ![](../images/line2.png)
 
@@ -76,15 +78,11 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 
 
-![add get are we in air and get pressed jump nodes](images/CheckIfInAirJumpNotPressed.png)
-
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-*Drag off* of the **Pressed Jump** pin and select **NOT Boolean**. *Add* an **AND Boolean** to the node chart. *Connect* it to the input of the **AND** pin. *Connect* the output of the **AND** node to **Result** node. Connect the **Are Wer in Air** pin to the top of the **AND** node.
 
-![connect pressed jump to NOT Boolean to AND to Result](images/ConnectOuputOfAndToResult.png)
 
 
 ![](../images/line2.png)
