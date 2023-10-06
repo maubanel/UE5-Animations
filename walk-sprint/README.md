@@ -8,8 +8,6 @@
 
 Lets add some speed changes so we can adjust our speed based on a button state change. Lets add a Alt button for slow walk and an Shift button for sprint. Then lets create some platforms to jump around in.
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
