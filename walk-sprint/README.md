@@ -104,6 +104,7 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 
 *Play* the game. You will noticed that in the player runs at 450 until the sprint button is pressed. Then the player runs at a full 600 with the faster animation.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/b7289530-9efa-491d-a846-cd1c757f84e7
 
 ![](../images/line2.png)
 
