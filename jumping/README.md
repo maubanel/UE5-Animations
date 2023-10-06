@@ -147,6 +147,8 @@ Reconnect execution pins from **Cast To BP_AJ** to **Set BP_AJ** to **Set Moveme
 
 Now that we have access to the variables in side of BP_AJ add a **BP_AJ** node to the event graph in the **ABP_AJ**.  Pull off of the pin and select a **Get | ** node.
 
+![add boolean bIsJumping](images/getIsJumping.png) 
+
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
