@@ -173,17 +173,6 @@ Add a **Set Is Jumping** node and leave it as `false`.  Connect it to the **Bran
 
 ![add set is jumping and connect to false of branch node and leave false](images/turnOffJumping.png)
 
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Add an **Event Tick** node and connect it to the input execution pin of the **Branch** node.  *Surround* these nodes with a **comment** saying `Reset IsJumping When Falling`. Now notice there are no execution pins that run every frame (Tick Event).
-
-![add cnode comments](images/ResentIsJumpingCommnet.png)
-
-___
-
-
 ![](../images/line1.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Jumping Animation II"> -->
