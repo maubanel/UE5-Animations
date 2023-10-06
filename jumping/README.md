@@ -129,6 +129,7 @@ Go back to **ABP_AJ**.  Now it needs to access the `bIsJumping` variable in the 
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Rename the variable from **Character** to `BP_AJ`.  Pull off of the **Get Owning Actor** pin and select the **Cast To BP_AJ** node.
 
 ![add boolean bIsJumping](images/castToBPAJ.png) 
 
@@ -136,7 +137,9 @@ Go back to **ABP_AJ**.  Now it needs to access the `bIsJumping` variable in the 
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Reconnect execution pins
 
+![add boolean bIsJumping](images/reconnectPins.png) 
 
 ![add set is jumping node](images/SetIsJumpingForJump.png)
 
