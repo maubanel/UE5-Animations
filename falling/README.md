@@ -156,12 +156,13 @@ Connect the output of the **NOT** node to the **Result** node.
 
 ![connect NOT to Result node](images/ConnectNotToEnterTransition.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Lets assign the falling end animation. Go back to the **Anim Graph | CBasicore Locomotiion** screen and *double left-click* on **Landing**. *Drag and drop* the **Landing** animation onto the graph. *Connect* the animation pin to the **Output Animation Pose**.
 
+![go to falling end animation in core locomotion](images/DoubleClickFallingEnd.png)
 
 ![](../images/line2.png)
 
