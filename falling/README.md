@@ -38,7 +38,7 @@ I also found an animation from falling to hitting the ground. I sped up the anim
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the game and go to the **AJ | Animations** folder and *press* the <kbd>Add/Import</kbd> button and *select* these two animations you just downloaded.
+Go back to the game and go to the **AJ | Animations** folder and *press* the <kbd>Add/Import</kbd> button and *select* these two animations you just downloaded. In the **FBX Import Options** overlay, make sure you select the skeleton you have been using. Then press the <kbd>Import All</kbd> button.
 
 ![import animations into unreal](images/ImportFallingAnimation.png)
 
@@ -46,17 +46,15 @@ Go back to the game and go to the **AJ | Animations** folder and *press* the <kb
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-In the **FBX Import Options** overlay, make sure you select the skeleton you have been using. Then press the <kbd>Import All</kbd> button.
+*Preview* the animations in the editor. *Name* them accordingly. I named them `FallingLoop` and `FallingToLanding`.
 
-![select skeleton then import all](images/SelectSkeletonFallingAnims.png)
+![rename animations](images/RenameAndPreviewAnims.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-*Preview* the animations in the editor. *Name* them accordingly. I named them `FallingLoop` and `FallingToLanding`.
 
-![rename animations](images/RenameAndPreviewAnims.png)
 
 ![](../images/line2.png)
 
