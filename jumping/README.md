@@ -165,15 +165,13 @@ When the player has landed we want to reset the jump variable back to false. Dra
 
 ![add boolean bIsJumping](images/notJumping.png)
 
-![add branch node](images/getIsJumping.png)
-
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-*Pull off* of the **False** execution pin from this **Branch** node and select a **Set IsJumping** node and leave it as `false`:
 
-![add set is jumping and connect to false of branch node and leave false](images/BranchFalseIsJumpingFalse.png)
+
+![add set is jumping and connect to false of branch node and leave false](images/turnOffJumping.png)
 
 ![](../images/line2.png)
 
