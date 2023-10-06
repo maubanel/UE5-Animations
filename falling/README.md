@@ -168,7 +168,9 @@ Lets assign the falling end animation. Go back to the **Anim Graph | CBasicore L
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
+*Double click* on the transition button from **Landing** to **IdleWalkRun**.
 
+![go to falling end to idlewalkrun transition](images/DoubleClickTransitionToEnd.png)
 
 ![](../images/line2.png)
 
