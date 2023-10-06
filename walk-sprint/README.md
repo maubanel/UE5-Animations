@@ -114,12 +114,13 @@ OK, lets work on the slow walk. Open the **BlendSpace_IdleWalkRun** editor. It i
 
 ![go to idle walk run blend space](images/SlowWalkSpeedBlendSpace.png)
 
-![add code comment](images/AddSprintComment.png)
-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it `SlowWalk`. Press the **+** next to the **Slow Walk** action. *Assign* the `Left Alt` and `Right` Alt keys.
+
+![add slowwalk action mapping to engin input with left and right alt keys](images/SlowWalkControllerSettings.png)
 
 
 ![](../images/line2.png)
@@ -132,9 +133,6 @@ OK, lets work on the slow walk. Open the **BlendSpace_IdleWalkRun** editor. It i
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it `SlowWalk`. Press the **+** next to the **Slow Walk** action. *Assign* the `Left Alt` and `Right` Alt keys.
-
-![add slowwalk action mapping to engin input with left and right alt keys](images/SlowWalkControllerSettings.png)
 
 ![](../images/line2.png)
 
