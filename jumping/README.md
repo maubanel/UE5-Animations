@@ -47,6 +47,8 @@ Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+Connect **IA_Jump | Started** to the **Jump** node execution pin.  Add a **Stop Jumping** node and connect it to the **Completed** pin (when you let go of the jump button).
+ 
 ![open BP_AJ_Character bp and add a Jump event](images/jumpStopJump.png)
 
 ![](../images/line2.png)
