@@ -120,6 +120,9 @@ Double click the transition from **IdleWalkRun** to **Falling**.
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Drag and drop* the **Get Are We In Air** variable onto the graph.
+
+![add get are we in air node](images/AreWeInAirGetTransition.png)
 
 ![](../images/line2.png)
 
@@ -159,9 +162,7 @@ Double click the transition from **IdleWalkRun** to **Falling**.
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* the **Get Are We In Air** variable onto the graph.
 
-![add get are we in air node](images/AreWeInAirGetTransition.png)
 
 ___
 
