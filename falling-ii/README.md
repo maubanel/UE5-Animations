@@ -23,7 +23,9 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/a27f0a2c-44c0-4b66-b47
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+It takes too long to blend from landing back to running again.  Look at **FallingToLanding** and scrub in the timeline to pick a better blend point.  I think about half way through might be best.
 
+![add a less or equal node](images/lookAtBlend.png)
 
 ![](../images/line2.png)
 
@@ -93,9 +95,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/a27f0a2c-44c0-4b66-b47
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-It takes too long to blend from landing back to running again.  Look at **FallingToLanding** and scrub in the timeline to pick a better blend point.  I think about half way through might be best.
 
-![add a less or equal node](images/lookAtBlend.png)
 
 ![](../images/line2.png)
 
