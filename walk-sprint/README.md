@@ -70,7 +70,7 @@ Lets add sprinting to get the speed back up to 600. We will do this when pressin
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **IMC_Default** and press the <kbd>+</kbd> button next to **Mappings** to add another mapping.  Select `IA_SPrint` and assign both the `Left Shift1` and `Right Shift` buttons.
+Open up **IMC_Default** and press the <kbd>+</kbd> button next to **Mappings** to add another mapping.  Select `IA_SPrint` and assign both the `Left Shift` and `Right Shift` buttons.
 
 ![add sprint to project settings input action mapping](images/AddSprintToDef.png)
 
@@ -78,7 +78,7 @@ Open up **IMC_Default** and press the <kbd>+</kbd> button next to **Mappings** t
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **Action Events | Sprint** node.
+Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **Enhanced Action Events | IA_Sprint** node.
 
 ![add sprint to ajCharacter blueprint](images/SprintActionMappingAdd.png)
 
