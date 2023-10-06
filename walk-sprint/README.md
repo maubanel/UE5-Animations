@@ -72,6 +72,8 @@ Lets add sprinting to get the speed back up to 600. We will do this when pressin
 
 
 
+![add sprint to project settings input action mapping](images/AddSprintToDef.png)
+
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
