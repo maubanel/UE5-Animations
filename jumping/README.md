@@ -121,6 +121,7 @@ We need to tell the animation blueprint that we have pressed the button. Open up
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+![add boolean bIsJumping](images/changeCharRef.png) 
 
 ![](../images/line2.png)
 
