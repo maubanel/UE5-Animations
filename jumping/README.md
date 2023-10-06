@@ -79,7 +79,7 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* the **Jumping Up** animation into the **Animations** folder.
+*Drag and drop* the **Jumping Up** animation into the **Animations** folder. In the **FBX Import Options** select the *skeleton* for the character. *Press* the <kbd>Import</kbd> button. *Rename* the animation `JumpingUp` and *run* it to confirm you are happy with the animation.
 
 ![import jump start to animation](images/ImportJumpStartAnimFolder.png)
 
@@ -87,7 +87,7 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-In the **FBX Import Options** select the *skeleton* for the character. *Press* the <kbd>Import</kbd> button.
+
 
 ![select skeleton and import](images/JumpStartFBXSettings.png)
 
@@ -95,7 +95,7 @@ In the **FBX Import Options** select the *skeleton* for the character. *Press* t
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-*Rename* the animation `JumpingUp` and *run* it to confirm you are happy with the animation.
+
 
 ![rename jump start animation](images/RenameJumpStart.png)
 
