@@ -31,7 +31,7 @@ Open up **IA_Jump**.  Leave it as a **Digital Bool** as we want to use the space
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Call this new action `Jump`. Press the **+** button next to the **Jump** setting and add a **Keyboard | Space Bar** to the controls.
+Open up **IMC_Default** to assign a key press.  Press the <kbd>+</kbd> button next to **Mappings** and select `IA_Jump`.  Assign the `Space Bar` to this action.
 
 ![add jump action and assign space bar](images/JumpSpaceBar.png)
 
