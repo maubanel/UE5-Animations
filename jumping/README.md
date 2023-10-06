@@ -105,7 +105,9 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Now the animation blueprint needs to know when the jump button is pressed. Go to **BP_AJ_Character** blueprint and add a **Boolean** variable called `IsJumping`. Keep it **Public** (**Private** set to `false`) because we need to access it in the animation blueprint. Set the **Category** to `Player Physics`.
 
+![add boolean bIsJumping](images/IsJumpingPlayerBPVar.png)
 
 ![](../images/line2.png)
 
@@ -122,9 +124,7 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Now the animation blueprint needs to know when the jump button is pressed. Go to **BP_AJ_Character** blueprint and add a **Boolean** variable called `IsJumping`. Keep it **Public** (**Private** set to `false`) because we need to access it in the animation blueprint. Set the **Category** to `Player Physics`.
 
-![add boolean bIsJumping](images/IsJumpingPlayerBPVar.png)
 
 ![](../images/line2.png)
 
