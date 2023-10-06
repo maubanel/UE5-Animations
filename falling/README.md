@@ -112,7 +112,9 @@ Go back to the **Anim Graph | BasicLocomotion** screen. *Connect* the **IdleWalk
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Double click the transition from **IdleWalkRun** to **Falling**.
 
+![go to idlewalkrun to falling transition](images/ConditionToFalling.png)
 
 ![](../images/line2.png)
 
@@ -151,9 +153,7 @@ Go back to the **Anim Graph | BasicLocomotion** screen. *Connect* the **IdleWalk
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Double click the transition from **IdleWalkRun** to **Falling**.
 
-![go to idlewalkrun to falling transition](images/ConditionToFalling.png)
 
 ![](../images/line2.png)
 
