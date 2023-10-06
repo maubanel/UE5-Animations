@@ -105,8 +105,6 @@ Reopen **BP_AJ** blueprint and go to the **Event Graph**. At the bottom add a **
 *Play* the game. You will noticed that in the player runs at 450 until the sprint button is pressed. Then the player runs at a full 600 with the faster animation.
 
 
-![set the released pin to set max walk speed to 450](images/MaxWalkSpeedBackToRun.png)
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
