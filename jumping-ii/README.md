@@ -16,7 +16,7 @@ Continue implementing jump animation...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Go back to the **Anim Graph | Basic Locomotion** section of the animation blueprint and *click on* the transition button from **IdleWalkRun** to **Jumping** transition. Add a **Get PressedJump** node and *connect* the pin to the **Result | Can Enter Transition** pin.
+Go back to the **Anim Graph | Basic Locomotion** section of the animation blueprint and *click on* the transition button from **IdleWalkRun** to **Jumping** transition. Add a **Is Jumping** node and *connect* the pin to the **Result | Can Enter Transition** pin.
 
 ![add a bPressedJump node and connect it to can enter transition](images/PressedJumpToResult.png)
 
