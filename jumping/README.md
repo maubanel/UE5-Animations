@@ -23,7 +23,7 @@ First we need to assign and action and a button to jumping.  Go to **Input | Act
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Open up **IA_Jump**.  Leave it as a **bool** as we want to use the space bar which is either pressed or not pressed (boolean).
+Open up **IA_Jump**.  Leave it as a **Digital Bool** as we want to use the space bar which is either pressed or not pressed (boolean).
 
 ![go to input in project settings and add a action mapping](images/digitalBool.png)
 
