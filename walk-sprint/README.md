@@ -118,16 +118,17 @@ OK, lets work on the slow walk. Open the **BlendSpace_IdleWalkRun** editor. It i
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now open **Edit | Project Settings** and go to **Engine | Input**. Press the **+** button next to **Action Mappings** and add a new action and call it `SlowWalk`. Press the **+** next to the **Slow Walk** action. *Assign* the `Left Alt` and `Right` Alt keys.
+Lets add oru slow creep walk to use when the speed goes down to 40. We will do this when pressing the <kbd>Alt</kbd> key. Now go to **Inputs | Actions** and right click to add a new **Input | Input Action**.  Call it `IA_Creep`.  Now open it and we will leave it as a **Value Type** `Digital Bool`.  Just like the jump you are either holding the alt key for slow walking or not.
 
-![add slowwalk action mapping to engin input with left and right alt keys](images/SlowWalkControllerSettings.png)
-
+![go to idle walk run blend space](images/creepInputAction.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
 
+
+![add slowwalk action mapping to engin input with left and right alt keys](images/creepInputAction.png)
 
 ![](../images/line2.png)
 
