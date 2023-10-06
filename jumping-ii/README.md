@@ -83,6 +83,7 @@ Open up **BP_AJ**. Then go to the **Capsule** component and increase the **Capsu
 
 Press the <kbd>Play</kbd> button and jump agains the side wall, I like the collision much better. The player small amount of penetration does not bother me and the collisions feel better. 
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/6e78d537-9a2c-4a13-a6d2-1bc95d4082f4
 
 ![](../images/line2.png)
 
