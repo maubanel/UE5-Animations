@@ -153,7 +153,7 @@ Now that we have access to the variables in side of BP_AJ add a **BP_AJ** node t
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now 
+Now drag a **Set bIsJumping** node to the **ABP_AJ** blueprint event graph.  Connect the output of **Is Jumping** from AJ to the **Set Is Jumping** node.  Connect the execution pin of the setter to **Sequence | Then 1**.
 
 ![add boolean bIsJumping](images/isJumping2.png) 
 
