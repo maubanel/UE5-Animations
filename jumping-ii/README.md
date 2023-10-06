@@ -16,35 +16,26 @@ Continue implementing jump animation...
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-*Open* the **AnimmBP_AJ | Event Graph**. We need to access the character's **IsJumping** variable. We are not in the right class with the Pawn Owner. *Drag* a **Get Character** node from the **Variables** section.  Then *pull* off of it's output pin and select a **Cast To BP AJ** node.
+Go back to the **Anim Graph | Basic Locomotion** section of the animation blueprint and *click on* the transition button from **IdleWalkRun** to **Jumping** transition. Add a **Get PressedJump** node and *connect* the pin to the **Result | Can Enter Transition** pin.
 
-![cast pawn owner to aj_character](images/CastToCharacterBP.png)
+![add a bPressedJump node and connect it to can enter transition](images/PressedJumpToResult.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the **Sequence | Then 1** pin to the **Cast to BP_AJ** execution pin. 
-
-We need a variable in the animation blueprint to run our transitions with. Add a new **Boolean** Variable named `PressedJump` and make it **Private** and set the tooltip to `Jump button was pressed`. *Put* it in **Catogory** `Player Physics`.
-
-![add new boolean bPressedJump](images/AddPressedJump.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get IsJumping**.
-
-![ad get isjumping node](images/GetIsJumpingAJCharacter.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-*Drag and drop* the Set **PressedJump** node. Connect the **IsJumping** pin to the **PressedJump** pin. *Connect* the execution pins from **Cast to BP_AJ** to Set **bPressedJump**. Add a comment around the text sayin `Set Is Jumping`.
 
 ![connect pins](images/SetIsJumpingNode.png)
 
@@ -53,7 +44,7 @@ Pull off the As **BP_AJ_Character** pin on the **Cast** node and select **Get Is
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Go back to the **Anim Graph | Basic Locomotion** section of the animation blueprint and *click on* the transition button from **IdleWalkRun** to **Jumping** transition.
+
 
 ![go to idlewalkrun to jump transition in core locomotion](images/TransitionWalkToJump.png)
 
@@ -61,9 +52,7 @@ Go back to the **Anim Graph | Basic Locomotion** section of the animation bluepr
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Add a **Get PressedJump** node and *connect* the pin to the **Result | Can Enter Transition** pin.
 
-![add a bPressedJump node and connect it to can enter transition](images/PressedJumpToResult.png)
 
 ![](../images/line2.png)
 
