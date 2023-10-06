@@ -140,11 +140,13 @@ Lets put the animation inside the falling state. *Double click* the **Falling** 
 
 ![add falling loop and connect animation pins](images/PlayFallingLoopAnim.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go back to the **Anim Graph | Core Locomotion** screen and *double click* the transition button between **Falling** and **Landing** state nodes:
+
+![enter falling to falling end state](images/FallingToFallingEndTransition.png)
 
 ![](../images/line2.png)
 
