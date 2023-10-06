@@ -67,6 +67,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/77521d39-1132-4721-b40
 
 If you run up to the ramp and jump next to the wall, the character's head penetrates it too much for my liking. The head when jumping up the wall gets buried inside the wall geometry. Lets fix this.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/8e420fa9-515d-4f46-9efb-d649245d173b
 
 ![](../images/line2.png)
 
