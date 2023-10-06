@@ -28,9 +28,9 @@ Remember we placed this velocity magnitude in the animation blueprint. Open the 
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Play* the game. You will notice that the running speed is set at 450. So our assumption is correct, this matches the max walking value in the blueprint. Also, it is picking the sprint animation but it doesn't feel like our player is sprinting.  Remember it is the 1D Blend that we have set which animation to run so this is what we would need to adjust to pick a more appropriate animation speed to match the displacement velocity vector we are printing.
+*Play* the game. You will notice that the running speed is set at 450. So our assumption is correct, this matches the max walking value in the blueprint. Also, it is picking the sprint animation but it doesn't feel like our player is sprinting.  Remember it is the 1D Blend that we have set which animation to run so this is what we would need to adjust to pick a more appropriate animation speed to match the displacement velocity vector we are printing. So we want to sprint at 600 and run at 450, so we will have to adjust our blend.
 
-https://github.com/maubanel/UE5-Animations/assets/5504953/38816ae9-1532-4ed6-8621-7bba9fa18a8e
+https://github.com/maubanel/UE5-Animations/assets/5504953/cf1d1663-5e3e-4f35-8f65-547c7aedfcb0
 
 ![](../images/line2.png)
 
