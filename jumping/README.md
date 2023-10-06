@@ -23,13 +23,18 @@ First we need to assign and action and a button to jumping.  Go to **Input | Act
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Call this new action `Jump`. Press the **+** button next to the **Jump** setting and add a **Keyboard | Space Bar** to the controls.
+Open up **IA_Jump**.  Leave it as a **bool** as we want to use the space bar which is either pressed or not pressed (boolean).
 
-![add jump action and assign space bar](images/JumpSpaceBar.png)
+![go to input in project settings and add a action mapping](images/digitalBool.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Call this new action `Jump`. Press the **+** button next to the **Jump** setting and add a **Keyboard | Space Bar** to the controls.
+
+![add jump action and assign space bar](images/JumpSpaceBar.png)
+
 
 Open up the **BP_AJ** blueprint and go to the **Event Graph**. *Right click* and add a **Input Action | Jump** to the graph.
 
