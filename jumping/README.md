@@ -87,9 +87,9 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+*Open* the **ABP_AJ** and go to the **Anim Graph | Basic Locomotion** page. Right click and select **Add State**. Call this state `Jumping`.
 
-
-![select skeleton and import](images/JumpStartFBXSettings.png)
+![add state to animation blueprint core locomotion](images/AddStateToTree.png)
 
 ![](../images/line2.png)
 
@@ -97,24 +97,18 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 
 
-![rename jump start animation](images/RenameJumpStart.png)
-
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open up the **JumpingUp** animation and make sure it is very short. On its own it should look like this:
 
-https://user-images.githubusercontent.com/5504953/197190409-b9021428-7b22-4fe3-ac72-fb8fa5abb3ec.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Open* the **aj_AnimBlueprint** and go to the **Anim Graph | Basic Locomotion** page. Right click and select **Add State**. Call this state `Jumping`.
 
-![add state to animation blueprint core locomotion](images/AddStateToTree.png)
 
 ![](../images/line2.png)
 
