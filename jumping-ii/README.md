@@ -49,7 +49,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-*Double click* on the **Jumping** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen.
+*Double click* on the **Jumping** to **Falling** transition button on the **Anim Graph | Core Locomotion** screen. *Right click* on the graph and select a **Time Remaining (ratio) (JumpingUp)** node. *Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.5`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints and the warning will disapear.
 
 ![enter the jump to falling transition](images/DoubleClickJumpFallingTransition.png)
 
@@ -95,7 +95,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on the graph and select a **Time Remaining (ratio) (JumpingUp)** node.
+
 
 ![add a Time Remaining (ratio) node](images/TimeRemainingJumpToFall.png)
 
@@ -103,7 +103,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Pull off* of the **Return Value** pin and select a **float <= float** node. *Set* the bottom to `0.5`. *Connect* the output to the **Result** pin. *Press* <kbd>Compile</kbd> on all open blueprints and the warning will disapear.
+
 
 ![add a float <= with bottom value set to .5](images/LessThanPointSevenFive2.png)
 
