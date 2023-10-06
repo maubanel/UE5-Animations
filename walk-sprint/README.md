@@ -134,14 +134,16 @@ Open up **IMC_Default** and press the <kbd>+</kbd> button next to **Mappings** t
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Go back to the **BP_AJ** blueprint and at the bottom *right click* and add a **Action Event | IA_Creep** node.
+
+![add slow walk action to ajcharacter bp](images/AddSlowWalkActionNode.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **BP_AJ** blueprint and at the bottom *right click* and add a **Action Event | Slow Walk** node.
 
-![add slow walk action to ajcharacter bp](images/AddSlowWalkActionNode.png)
 
 ![](../images/line2.png)
 
