@@ -87,6 +87,10 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+*Drag* a get **Character Movement** variable to the graph. *Pull off* of the **Return Value** pin from the **Movement Component** and select the **IsFalling** node.
+
+![add isfalling node](images/IsFallingVariableGet.png)
+
 
 ![](../images/line2.png)
 
@@ -110,9 +114,6 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Drag* a get **Character Movement** variable to the graph. *Pull off* of the **Return Value** pin from the **Movement Component** and select the **IsFalling** node.
-
-![add isfalling node](images/IsFallingVariableGet.png)
 
 ![](../images/line2.png)
 
