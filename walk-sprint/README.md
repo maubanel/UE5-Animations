@@ -151,15 +151,12 @@ Go back to the **BP_AJ** blueprint and at the bottom *right click* and add a **E
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Now *run* the game and press the <kbd>Alt</kbd> key. You will notice that the character skates across the screen. This is no good we need to slow the player speed down for when this animation is triggered.
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *run* the game and press the <kbd>Alt</kbd> key. You will notice that the character skates across the screen. This is no good we need to slow the player speed down for when this animation is triggered.
-
-https://user-images.githubusercontent.com/5504953/197333478-c1d276ae-e159-4c65-b30c-bdd0bbdf34a0.mp4
 
 ![](../images/line2.png)
 
