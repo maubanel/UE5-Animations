@@ -73,8 +73,9 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/8e420fa9-515d-4f46-9ef
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **BP_AJ**. Then go to the **Capsule** component and increase the **Capsule Radius**. For my character `70.0` seems to work fine. I also adjusted the height as it was a bit short to a **Capsule Half Height** of `95.0`.
 
-
+![increase radius of capsule to 60](images/CapsuleRadiusGreater.png)
 
 ![](../images/line2.png)
 
@@ -108,9 +109,6 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/8e420fa9-515d-4f46-9ef
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 
-
-![add a float <= with bottom value set to .5](images/LessThanPointSevenFive2.png)
-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
@@ -121,9 +119,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/8e420fa9-515d-4f46-9ef
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up **BP_AJ**. Then go to the **Capsule** component and increase the **Capsule Radius**. For my character `70.0` seems to work fine. I also adjusted the height as it was a bit short to a **Capsule Half Height** of `95.0`.
 
-![increase radius of capsule to 60](images/CapsuleRadiusGreater.png)
 
 ![](../images/line2.png)
 
