@@ -31,6 +31,9 @@ It takes too long to blend from landing back to running again.  Look at **Fallin
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Double click*  on the transition from **Landing** to **IdleWalkRun** on the transition and change the value in the **<** node to `0.6` to start blend at 50% complete (roughly a quarter second left in anim at this point).
+
+![adjust falling to landing blends](images/AdjustBlend.png)
 
 ![](../images/line2.png)
 
@@ -102,9 +105,7 @@ It takes too long to blend from landing back to running again.  Look at **Fallin
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
 
-*Double click*  on the transition from **Landing** to **IdleWalkRun** on the transition and change the value in the **<** node to `0.5` to start blend at 50% complete (roughly a quarter second left in anim at this point).
 
-![adjust falling to landing blends](images/AdjustBlend.png)
 
 ![](../images/line2.png)
 
