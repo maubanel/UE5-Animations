@@ -57,13 +57,17 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+Press the <kbd>Play</kbd> button and jump and now we should have a jump animation in the flow.
+
 
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Press *play* and run around and fall off edge and jump. Make sure both transitions of running off edge and jumping are working correctly? I run up to the cube and the character penetrates it too much for my liking. The head when jumping up the wall gets buried inside the wall geometry. Lets fix this.
 
+https://user-images.githubusercontent.com/5504953/197299827-39bb2a30-3b99-4936-ba5e-0d2f0d90f5df.mp4
 
 ![](../images/line2.png)
 
@@ -111,9 +115,7 @@ Go back to the **Anim Graph | Core Locomotion** screen. *Double click* on the tr
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Press *play* and run around and fall off edge and jump. Make sure both transitions of running off edge and jumping are working correctly? I run up to the cube and the character penetrates it too much for my liking. The head when jumping up the wall gets buried inside the wall geometry. Lets fix this.
 
-https://user-images.githubusercontent.com/5504953/197299827-39bb2a30-3b99-4936-ba5e-0d2f0d90f5df.mp4
 
 ![](../images/line2.png)
 
