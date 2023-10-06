@@ -15,7 +15,7 @@ Lets add the ability for the player to jump around the level and tune this to ou
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Now we need to add a controller event for jumping. Go to the **Engine | Input** section and press the **+** button next to the **Action Mappings** heading.
+First we need to assign and action and a button to jumping.  Go to **Input | Actions** and add a **Input | Input Action** and call it `IA_Jump`.
 
 ![go to input in project settings and add a action mapping](images/ActionMap.png)
 
