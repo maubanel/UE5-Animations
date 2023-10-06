@@ -46,25 +46,22 @@ That rescales our graph. So I want to know the speed of our normal run animation
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-That rescales our graph. So I want to know the speed of our normal run animation. *Click* on the last animation and change its value to `600.0`, what will be our sprinting speed.
-
-![sprint speed should be at 600](images/RunSpeedFourFifty.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
-
 Now we need to set our regular run speed to 450. *Click* on the second to last run animation and it *change* this value to `450.0`.
 
 ![run speed should be at 450](images/RunSpeedFourFifty2.png)
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
 *Play* the game. You will noticed that in the player only runs at 450 and the slower run animation plays:
 
-https://user-images.githubusercontent.com/5504953/197332475-37d6ae45-a7ce-44d5-872f-5566a81714a8.mp4
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
