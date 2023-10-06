@@ -153,6 +153,8 @@ Go back to the **BP_AJ** blueprint and at the bottom *right click* and add a **E
 
 Now *run* the game and press the <kbd>Alt</kbd> key. I got *very* luck and my character does not kate across the screen. 
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/b9584046-3f94-4e51-ab65-9c1d69c249c9
+
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
