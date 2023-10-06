@@ -96,7 +96,7 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-*Drag* the **Set Are We In Air** variable onto the graph.
+*Drag* the **Set Are We In Air** variable onto the graph. Connect the **Return Value** pin from the **Is Falling** node to the **Set Are We In Air** node. *Hijack* the execution pin from **Sequence | Then 0** node and *send it* to the **Set Are We In Air** node.  Take the output execution pin from **Set Are We in Air** node to the **Set Speed** node.
 
 ![add set are we in air node](images/SetAreWeInAir.png)
 
@@ -127,17 +127,11 @@ Go to the **Event Graph** tab and make some space between the **Sequence** node 
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Connect the **Return Value** pin from the **Is Falling** node to the **Set Are We In Air** node. *Hijack* the execution pin from **Sequence | Then 0** node and *send it* to the **Set Are We In Air** node.
-
-![connect is falling to are we in air nodes](images/ConnectAreWeInAirPins.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Take the output execution pin from **Set Are We in Air** node to the **Set Speed** node.
-
-![connect are we in air to set speed](images/ReconnectSetSpeedPin.png)
 
 ![](../images/line2.png)
 
