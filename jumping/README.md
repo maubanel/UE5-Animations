@@ -137,7 +137,7 @@ Rename the variable from **Character** to `BP_AJ`.  Pull off of the **Get Owning
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Reconnect execution pins
+Reconnect execution pins from **Cast To BP_AJ** to **Set BP_AJ** to **Set Movement Component Ref**.
 
 ![add boolean bIsJumping](images/reconnectPins.png) 
 
