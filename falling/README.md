@@ -79,7 +79,7 @@ Now we need a boolean to track when we are on the ground or in the air. Add a ne
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Event Graph** tab and make some space between the **Is Valid** node and the **Get Velocity** node to check to see if we are in air.
+Go to the **Event Graph** tab and make some space between the **Sequence** node and the **Get Ground Speed** nodes to check to see if we are in air.
 
 ![add space to nodes](images/MakeSpaceEventGraphAnimBP.png)
 
