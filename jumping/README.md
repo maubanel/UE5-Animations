@@ -153,6 +153,10 @@ Now that we have access to the variables in side of BP_AJ add a **BP_AJ** node t
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now 
+
+![add boolean bIsJumping](images/isJumping2.png) 
+
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
