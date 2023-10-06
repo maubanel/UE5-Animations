@@ -62,36 +62,14 @@ Open the **AnimBP_AJ** animation blueprint and go to the **Anim Graph | Basic Lo
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Right click* again and select another **Add State** node. *Call* this new state `Landing`.
+
+![call state falling and add new state](images/CallItFallingAddAnotherState.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-*Right click* again and select another **Add State** node. *Call* this new state `Landing`.
-
-![call state falling and add new state](images/CallItFallingAddAnotherState.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-We need a reference to the character component of the player blueprint.  Go to the **Event Graph** of the **AnimBP_AJ**.  Go to the right of setting the **Character Reference** and pull off the **Set Character** output pin and select **Character Movemement** to add this node.  Right click on the output and select **Promote to Variable**.
-
-![add character movement and promote to var](images/charComponentRef.png)
-
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITA`| :large_blue_diamond:
-
-Connect thte execution pin from **Set Character** to **Set Character Movement**.  On the **Character Movement** variable set **Private** to `true` and **Category** to `Reference`.
-
-![make it private and cateogry reference](images/setRefVar.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
 Increase the size of the **References** comment group to include these new nodes.
 
@@ -99,11 +77,28 @@ Increase the size of the **References** comment group to include these new nodes
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we need a boolean to track when we are on the ground or in the air. Add a new **Boolean** Variable and call it `AreWeInAir`. *Make* it **Private** and set the **Tooltip** to `True when player is not on the ground`. Set the **Category** to `Player Physics`.
 
 ![add are we in air boolean variable](images/AreWeInAirBooleanDef.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`ITA`| :large_blue_diamond:
+
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+
+
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
