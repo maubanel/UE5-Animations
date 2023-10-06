@@ -95,6 +95,9 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
+*Connect* a transition from **IdleWalkRun** to **Jumping** and **Jumping** to **Falling**.  There will be a different path to just running off a platform and jumping.
+
+![call state jump and connect from idlewalkrun](images/StateJumpConnect.png)
 
 
 ![](../images/line2.png)
@@ -114,9 +117,6 @@ Remember to set **Skin** to `Without Skin` when *downloading*:
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Connect* a transition from **IdleWalkRun** to **Jumping** and **Jumping** to **Falling**.  There will be a different path to just running off a platform and jumping.
-
-![call state jump and connect from idlewalkrun](images/StateJumpConnect.png)
 
 ![](../images/line2.png)
 
