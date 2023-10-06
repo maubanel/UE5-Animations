@@ -25,7 +25,7 @@ Go back to the **Anim Graph | Basic Locomotion** section of the animation bluepr
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
 
-Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jumping** state to assign the **JumpingUp** animation. Drag and drop the **JumpingUp** animation to the graph. *Connect* the animation nodes with the **Output Animation Pose**.
+Go back to the **Anim Graph | Core Locomotion** page. *Double click* the **Jumping** state to assign the **JumpingUp** animation. Drag and drop the **Jumping_Up** animation to the graph. *Connect* the animation nodes with the **Output Animation Pose**.
 
 ![open jump state](images/DoubleClickJump.png)
 
