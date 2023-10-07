@@ -41,6 +41,8 @@ Open **BP_AJ** blueprint and go to the **Jump** section. Click on the top compon
 
 *Press* the <kbd>Play</kbd> button and double jump.  Notice that you double jump but there are no animations.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/4bb88dc0-c30a-499b-800c-e4d9552576d3
+
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
