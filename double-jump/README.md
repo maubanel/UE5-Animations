@@ -55,7 +55,9 @@ Open up **AnimBP_AJ** and *delete* the **Print** nodes as we no lnoger need them
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+Add a new **Boolean** vairable called `PressedDoubleJump`.  Create a tooltip **Description** with `Has Player pressed double jump`. Then *set* **Private** to `true` and **Category** to `Player Physics`.
 
+![add double jump var](images/doubleJump.png)
 
 ![](../images/line2.png)
 
@@ -73,17 +75,11 @@ Open up **AnimBP_AJ** and *delete* the **Print** nodes as we no lnoger need them
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now next to the **Update Animation** event press the **Add Pin +** in the **Sequence** node to add a `Then 2` execution pin.
 
-![add execution pin to sequence node](images/addToSequence.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
-
-Move the **Print** nodes to the bottom. Connect the output of the **Sequence | Then 2** node to the input **Print** node.
-
-![add execution pin to sequence node](images/connectToPin.png)
 
 ![](../images/line2.png)
 
@@ -98,9 +94,7 @@ Add **Comments** to the print node to clean up the chart.
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add a new **Boolean** vairable called `PressedDoubleJump`.  Create a tooltip **Description** with `Has Player pressed double jump`. Then *set* **Private** to `true` and **Category** to `Player Physics`.
 
-![add double jump var](images/doubleJump.png)
 
 ![](../images/line2.png)
 
