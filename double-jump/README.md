@@ -23,7 +23,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/b6c5a654-92d5-4ac2-908
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Download the animation without a skin.
+Download the animation without a skin. *Drag and drop* the animation to the **Animations** folder. In the **FBX Import Options** assign the **Skeleton** that you are using. *Press* the <kbd>Import All</kbd> button. *Call* this animation `Double_Jump`. 
 
 ![download double jump animation](images/ImportDoubleJumpAnim3.png)
 
@@ -31,7 +31,7 @@ Download the animation without a skin.
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* the animation to the **Animations** folder. In the **FBX Import Options** assign the **Skeleton** that you are using. *Press* the <kbd>Import All</kbd> button.
+Open **BP_AJ** blueprint and go to the **Jump** section. Click on the top component and select **Jump max Count** to `2`.
 
 ![import double jump animation](images/ImportDoubleJumpAnim.png)
 
@@ -39,7 +39,7 @@ Download the animation without a skin.
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Call* this animation `Double_Jump`. *Double click* it to open it in the editor.
+
 
 ![call animmation Double_Jump and open](images/CallItDoubleJump.png)
 
@@ -47,17 +47,13 @@ Download the animation without a skin.
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Confim that the animation is correct.
 
-https://user-images.githubusercontent.com/5504953/197363276-33f0dfb0-a71d-4acb-851b-29c795c19dba.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Open **BP_AJ** blueprint and go to the **Jump** section. Click on the top component and select **Jump max Count** to `2`.
 
-![open up ajcharacter blueprint and go to jump section](images/maxJumpCount.png)
 
 ![](../images/line2.png)
 
