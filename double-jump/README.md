@@ -55,7 +55,7 @@ Open up **ABP_AJ** and *delete* the **Print** nodes as we no lnoger need them.
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-In **ABP_AJ** *add* a new **Boolean** vairable called `PressedDoubleJump`.  Create a tooltip **Description** with `Has Player pressed double jump`. Then *set* **Private** to `true` and **Category** to `Player Physics`.
+In **ABP_AJ** *add* a new **Boolean** vairable called `isDoubleJumping`.  Create a tooltip **Description** with `Has Player pressed double jump in the air (Double Jumping)`. Then *set* **Private** to `true` and **Category** to `Player Physics`.
 
 ![add double jump var](images/doubleJump.png)
 
