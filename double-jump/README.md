@@ -39,9 +39,7 @@ Open **BP_AJ** blueprint and go to the **Jump** section. Click on the top compon
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![call animmation Double_Jump and open](images/CallItDoubleJump.png)
+*Press* the <kbd>Play</kbd> button and double jump.  Notice that you double jump but there are no animations.
 
 ![](../images/line2.png)
 
@@ -59,9 +57,7 @@ Open **BP_AJ** blueprint and go to the **Jump** section. Click on the top compon
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button and double jump.  Notice that you double jump but there are no animations.
 
-https://user-images.githubusercontent.com/5504953/197363429-3ea55e48-6045-456a-8ec4-aea582efa827.mp4
 
 ![](../images/line2.png)
 
