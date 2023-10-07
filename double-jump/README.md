@@ -31,7 +31,7 @@ Download the animation without a skin. *Drag and drop* the animation to the **An
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open **BP_AJ** blueprint and go to the **Jump** section. Click on the top component and select **Jump max Count** to `2`.
+Open **BP_AJ** blueprint and go to the **Jump** section. Click on the top component and select **Character | Jump max Count** to `2`.
 
 ![import double jump animation](images/ImportDoubleJumpAnim.png)
 
