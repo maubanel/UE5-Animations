@@ -47,7 +47,9 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/4bb88dc0-c30a-499b-800
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
+Open up **AnimBP_AJ** and *disconnect* the **Print** node as we will be moving it as we will be adding logic to the double jumping.  
 
+![add switch on int node and set n to 2](images/disconnectPrint.png)
 
 ![](../images/line2.png)
 
@@ -65,9 +67,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/4bb88dc0-c30a-499b-800
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **AnimBP_AJ** and *disconnect* the **Print** node as we will be moving it as we will be adding logic to the double jumping.  
 
-![add switch on int node and set n to 2](images/disconnectPrint.png)
 
 ![](../images/line2.png)
 
