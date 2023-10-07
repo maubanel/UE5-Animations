@@ -17,7 +17,7 @@ Since I have downloaded this cartoon character, I would like to implement double
 
 Go back to [Mixamo](https://www.mixamo.com/#/) and look for a good animation for a double jump. I am going with a foreward roll. Make sure it is set to **In Place** if there is translation and trim it to just the spin. We don't don't want any foot on ground bits in our final exported animation. **Export** the file without the skin. Just snip only the roll portion so don't include the legs extending or contracting.
 
-![trim double jump animation](images/ImportDoubleJumpAnim2.png)
+https://github.com/maubanel/UE5-Animations/assets/5504953/b6c5a654-92d5-4ac2-9084-c80c95989705
 
 ![](../images/line2.png)
 
