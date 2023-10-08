@@ -97,7 +97,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/14dcc80b-11c6-402d-a63
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Add the **Mesh** component to the right of the **Line Trace by Channel** and pull off the pin to add a **Get World Rotation**, **Get Right Vector** and **Get Forward Vector** node.
+Add the **Mesh** component to the right of the **Line Trace by Channel** and pull off the pin to add a **Get World Rotation**, **Get Right Vector** and **Get Forward Vector** node. Split the output pins by right clicking and splitting the struct on the **Get World Rotation**
 
 ![add world rotation, right and forward](images/getCoords.png)
 
@@ -106,7 +106,7 @@ Add the **Mesh** component to the right of the **Line Trace by Channel** and pul
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Split the output pins by right clicking and splitting the struct on the **Get World Rotation**.  Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z(Yaw)** to the **Make Rotator | Z** node.
+Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z(Yaw)** to the **Make Rotator | Z** node.
 
 ![connect world z to make rotator](images/getWorldZ.png)
 
