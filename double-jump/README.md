@@ -113,7 +113,7 @@ Go to the **Anim Graph | Core Locomotion** screen. To the right of the **Fall** 
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Falling works for the jumping up and down, so we are most likely in falling state when we press the double jump button. *Connect* the **Double Jump** node to and from the **Falling** node. We are double jumping while in the **Falling** state. *Double click* on the **Double Jump** node to assign the animation to this state.
+Falling works for the jumping up and down, so we are most likely in falling state when we press the double jump button. *Connect* the **Double Jump** node to and from the **Falling** node. We are double jumping while in the **Falling** state. *Double click* on the **Double Jump** node to assign the animation to this state. Drag and drop the **Double Jump** animation onto the animation graph. *Connect* the **Play Double Jump** node to the **Final Animation Pose**.
 
 ![connect double jump to falling](images/AddLinkToAndFromDoubleJump.png)
 
@@ -121,16 +121,23 @@ Falling works for the jumping up and down, so we are most likely in falling stat
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Double click* the transition from the **Falling** node to the **Double Jump** node. *Drag and drop* a **Get Pressed Double Jump** node onto the graph. Connect the **Pressed Double Jump** node to the **Can Enter Transition** node. This will be triggered when in air and the **Pressed Double Jump** node is true.
 
+![open falling to double jump state](images/DoubleClickFallingToDoubleJump.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Go back to the **Core Locomotion** screen. *Double click* on the **Double Jump to Falling** transition button.  *Right click* on the graph and select a **Time Remaining (ratio) (Double Jump)** node. *Pull off* of the **Return Value** from this node and select a **float <= float** node. Set the value in the **<=** node to `0.1` and *connect* the output to the **Result** node.
+
+![go to double jump to falling transition and add a Time Remaining (ratio) node](images/DoubleJumpToFallingTrans.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+*Run* the game and a double jump animation should now run during the second jump.
 
 
 ![](../images/line2.png)
