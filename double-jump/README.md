@@ -105,7 +105,9 @@ Go back to **AnimBP_AJ** and a **Get | BP_AJ**.  Pull off of the blue pint and s
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Go to the **Anim Graph | Core Locomotion** screen. To the right of the **Fall** node right click and select **Add State**. *Call* this new state `Double Jump`.
 
+![add state to anim graph](images/addState.png)
 
 ![](../images/line2.png)
 
@@ -155,9 +157,6 @@ Go back to **AnimBP_AJ** and a **Get | BP_AJ**.  Pull off of the blue pint and s
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Drag* off of the **Cast To BP_AJ | As BP_AJ** pin and select **Get Jump Count**. Pull off the **Jump Count** pin and select **==** node and set the check to `1`. This is the first time it is pressed.  *Pull off* the boolean from the **==** node and select a **Branch** node.  Connect the execution pin to the **Cast to BP_AJ** node.
-
-![add a check for one press](images/jumpCountBranch.png)
 
 ![](../images/line1.png)
 
