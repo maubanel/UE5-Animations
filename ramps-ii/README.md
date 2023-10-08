@@ -119,31 +119,26 @@ Attach **IA_Sprint | Triggered** to **Set | Gravity Multiplier** of `1.33`.  Con
 
 For slow walk we had a value of `20`.  So if we divide 40/450 we get `.088`.  So this will be our scalar for slow walk.  Go to **IA_Creep** and replace the hard coded values for **Triggered** with a **Set Sprint Multiplier** with a value of `0.088` when the key is pressed and a value of `1.0` when the event is **Completed**.
 
+Now these scalars will multiply the value that is in the curve float. 
+
 ![add vector + vector nodez](images/slowWalkMulti.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-Connect the execution pin from **Set World Rotation** to **Set Walk Speed**.
-
-![break it result pins in both line grace by channels node](images/connectExecPins.png)
+*Press* the <kbd>Play</kbd> button.  Run, sprint and slow walk up and down all ramps and see that the speed changes!  You can adjust the curve float values for your liking increasing or decreasing the effects of gravity.
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Send the output of the **Multiply** pin to the **Max Walk Speed** pin which will add the multiplier for slowing down or speeding up.
-
-![find look at rotation node](images/setSpeedScalar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button.  Run, sprint and slow walk up and down all ramps and see that the speed changes! 
 
-https://user-images.githubusercontent.com/5504953/197391355-ead384c6-6f93-4499-9dd3-272f3e96fae2.mp4
 
 ![](../images/line2.png)
 
