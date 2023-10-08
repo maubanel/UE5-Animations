@@ -97,11 +97,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/14dcc80b-11c6-402d-a63
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Add a comment on the line trace about rotating the players to match the pitch of the ground.
-
-![add comment](images/addComment.png)
-
-Add the **Capsule Component** to the right of the **Line Trace by Channel** and pull off the pin to add a **Get World Rotation**, **Get Right Vector** and **Get Forward Vector** node.
+Add the **Mesh** component to the right of the **Line Trace by Channel** and pull off the pin to add a **Get World Rotation**, **Get Right Vector** and **Get Forward Vector** node.
 
 ![add world rotation, right and forward](images/getCoords.png)
 
