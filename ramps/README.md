@@ -8,8 +8,6 @@
 
 Lets make the player run slower when moving up a ramp and faster when moving down.  Lets also have the player lean into the motion so they are perpendicular to the ground.
 
-<br>
-
 ---
 
 
