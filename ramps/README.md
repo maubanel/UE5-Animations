@@ -91,7 +91,7 @@ Now -105 from the up vector will go down 105 cm so we need to add it to the exis
 
 **Compile** the blueprint and *press* the <kbd>Play</kbd> button.  Now you should see a square target at the buttom of the ray, which means it is reaching and touching the ground.  Make sure you run up and down the slope and make sure it is working on all surfaces. Notice that when the raycast hits the ground there is a square taget on the ground.  We want it to not hit when jumping.  I am pretty happy with it as it is.
 
-Uploading LineTraceDebug.mp4…
+https://github.com/maubanel/UE5-Animations/assets/5504953/14dcc80b-11c6-402d-a634-8581155d3e14
 
 ![](../images/line2.png)
 
