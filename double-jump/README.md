@@ -71,7 +71,7 @@ Open up **BP_AJ** and lets add a double jump variable to the character blueprint
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-First thing we want to check if the player is on the ground, if they are they can't double jump.  Drag a ****
+First thing we want to check if the player is on the ground, if they are they can't double jump.  Drag a reference to the **Character Movement** component.  Drag off of the pin and get the **Is Moving On Ground** node which outputs a yes or no boolean.  Add a **Branch** node and connect the execution pin from the **Jump** to the **Branch** node.  Pull off the execution pin on the **Branch Node** and select a **Sequence** node.  Take the return value of **Is Moving On Ground** and plae it in the **Branch | Condition** input pin.
 
 ![duplicate bIsJumping](images/CheckIfOnGround.png)
 
