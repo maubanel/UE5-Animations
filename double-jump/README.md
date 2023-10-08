@@ -88,7 +88,7 @@ Now here comes the tricky part.  We can't use a flip flop node as we don't want 
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Now on the first time through it is a jump so we set the **bIsJumping** to `true`.
+Now on the first time through it is a jump so we set the **Set | bIsJumping** to `true`. On the second time through we need to get **Set | bIsDoubleJumping** to `true`. Now we need to reset this before the animation ends as it is short otherwise the aniamtion tree will keep triggering double jumps.  So add a **Delay** ndoe and set it for `0.1` milliseconds.  Then **Set | bIsDoubleJumping** to `false`
 
 ![duplicate bIsJumping](images/MultiGateOutput.png)
 
