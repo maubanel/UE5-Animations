@@ -52,7 +52,7 @@ Now we need to read from the slope graph we just created.  So we need to add a *
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Now before we can add a **Default Value** we need press the <kbd>Compile</kbd> button. Now you can set the **Default Value** to `C_Gravity` the curve you just created.
+Now before we can add a **Default Value** we need press the <kbd>Compile</kbd> button. Now you can set the **Default Value** to `C_Gravity` the curve you just created. Add a **Gravity Speed** node to the graph.
 
 ![Add second line trace by channel and get actor location nodes](images/defaultGravity.png)
 
@@ -66,7 +66,7 @@ Now before we can add a **Default Value** we need press the <kbd>Compile</kbd> b
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Gravity Speed** node and *pull off* of the pin and select a **Get Float Value** node.  Connect the **Get Slope Pitch Degree in Angle** to the **In Time** pin of the float value.  This will get us the angle in degrees and output the value from the curve.
+ and *pull off* of the pin and select a **Get Float Value** node.  Connect the **Get Slope Pitch Degree in Angle** to the **In Time** pin of the float value.  This will get us the angle in degrees and output the value from the curve.
 
 ![add return value and get actor location vectors together and send to line trace by channel](images/getValueFromCurve.png)
 
