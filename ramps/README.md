@@ -127,8 +127,6 @@ This will give us the angle that the player should be standing at.  We will not 
 
 ![make xz](images/rInterp.png)
 
-![make xz](images/getXZ.png)
-
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
