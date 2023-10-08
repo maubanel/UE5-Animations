@@ -84,7 +84,7 @@ Add the **Sprint Multiplier** variable to the graph.
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Now add a **Multiplier** node and add the **Get Float Value** in the top and **Sprint Multiplier** in the bottom input node.
+Now add a **Multiplier** node and add the **Get Float Value** in the top and **Sprint Multiplier** in the bottom input node. 
 
 ![add vector + vector nodez](images/sprintMultimulti.png)
 
@@ -100,6 +100,7 @@ Now add a **Multiplier** node and add the **Get Float Value** in the top and **S
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now we need to go back to the sprinting code where we hard coded the speed.  So for sprinting we set the speed to `600` instead of `450`.  So if we divide 600/450 we get 1.3. So we need to multiply our speed by this amount.  So replace **Set Max Walk Speed** next to the **InputAction Sprint** button to a **Set Sprint Multiplier** with a value of `1.3`.  Then replace the second hard coded **Max Walk Speed** with a **Set Sprint Multiplier** with a value of `1.0` (which is regular run).
+
 
 ![connect multiply to addition pin then go to end of line trace by channel](images/switchToMultiplier.png)
 
