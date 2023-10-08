@@ -96,9 +96,9 @@ Now on the first time through it is a jump so we set the **Set | bIsJumping** to
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Go back to **AnimBP_AJ** and delete all the nodes after **Cast to BP_AJ** node. 
+Go back to **AnimBP_AJ** and 
 
-![connect on landed to reset](images/deleteJumpingNodes.png)
+![connect on landed to reset](images/setDoubleJumpABP.png)
 
 ![](../images/line2.png)
 
