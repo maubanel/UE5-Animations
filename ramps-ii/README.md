@@ -117,7 +117,7 @@ Attach **IA_Sprint | Triggered** to **Set | Gravity Multiplier** of `1.33`.  Con
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-For slow walk we had a value of `20`.  So if we divide 20/450 we get `.044`.  So this will be our scalar for slow walk.  Go to **IA_Creep** and replace the hard coded values for **Triggered** with a **Set Sprint Multiplier** with a value of `0.044` when the key is pressed and a value of `1.0` when the event is **Completed**.
+For slow walk we had a value of `20`.  So if we divide 40/450 we get `.088`.  So this will be our scalar for slow walk.  Go to **IA_Creep** and replace the hard coded values for **Triggered** with a **Set Sprint Multiplier** with a value of `0.088` when the key is pressed and a value of `1.0` when the event is **Completed**.
 
 ![add vector + vector nodez](images/slowWalkMulti.png)
 
