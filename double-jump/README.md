@@ -96,7 +96,7 @@ Now on the first time through it is a jump so we set the **Set | bIsJumping** to
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Go back to **AnimBP_AJ** and 
+Go back to **AnimBP_AJ** and a **Get | BP_AJ**.  Pull off of the blue pint and select **IsDoubleJumping**.  Then add a **Set | bIsDoubleJumping** node.  Now we keep the two double jump variables in sync.  Connect the **Set | Is Double Jump**'s execution pin to **Sequence | Then 2**.  You might need to press the **Add pin +** button.
 
 ![connect on landed to reset](images/setDoubleJumpABP.png)
 
