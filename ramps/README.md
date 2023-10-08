@@ -44,7 +44,7 @@ Open up **ABP_AJ** and go to where we set **bIsJumping** to false when the playe
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-*Press* the <kbd>Play</kbd> button and try running up to the wall and jumping by it.  Now we get the larger collision volume to fit the animation when the player is in air but the regular size one when on ground.
+*Press* the <kbd>Play</kbd> button and try running up to the wall and jumping by it.  Now we get the larger collision volume to fit the animation when the player is in air but the regular size one when on ground. You can run into the wall close buy you get pushed out when you jump matching the animation.  I am happy with it as is.
 
 https://github.com/maubanel/UE5-Animations/assets/5504953/f6d6d729-a2b6-40de-ae3b-3202d7ed0dfb
 
