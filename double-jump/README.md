@@ -88,6 +88,8 @@ Now here comes the tricky part.  We can't use a flip flop node as we don't want 
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+Now on the first time through it is a jump so we set the **bIsJumping** to `true`.
+
 ![duplicate bIsJumping](images/MultiGateOutput.png)
 
 ![](../images/line2.png)
