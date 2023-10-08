@@ -131,6 +131,8 @@ This will give us the angle that the player should be standing at.  We will not 
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
+Now back at the **Line Trace by Channel** node we pull off of the execution pin and add a **Branch** node.  We connect the **Initial Overlap** node to the **Branch | Condition** pin.  We then send the execution pin from the **Branch** to the **Set World Rotation** node.
+
 ![make xz](images/executeCheckColl.png)
 
 ![](../images/line2.png)
