@@ -46,7 +46,11 @@ Open up **ABP_AJ** and go to where we set **bIsJumping** to false when the playe
 
 *Press* the <kbd>Play</kbd> button and try running up to the wall and jumping by it.  Now we get the larger collision volume to fit the animation when the player is in air but the regular size one when on ground.
 
-https://user-images.githubusercontent.com/5504953/197369481-2831deb9-184b-481b-9d52-8a21910d873a.mp4
+https://github.com/maubanel/UE5-Animations/assets/5504953/f6d6d729-a2b6-40de-ae3b-3202d7ed0dfb
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
 So first we need to find out the slope of the ground under us. How are we going to do this? We need to cast a line from the player straight downwards to the ground. When it collides we will use that to determine the slope (pitch of the surface normal). 
 
@@ -54,10 +58,6 @@ So first we need to find out the slope of the ground under us. How are we going 
 
 ![add line trace by channel node](images/LineByTraceChannel.png)
 
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
 Connect the second **Set Capsure Radius** (the one that is set to 30 when we are on the ground) to the **Line Trace by Channel**.  Add a **Get Actor Location** node an dconnect the **Return Value** pin to the **Start** of the line trace.
 
