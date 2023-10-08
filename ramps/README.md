@@ -36,6 +36,7 @@ We check for ground in the animation blueprint so we don't need to add that chec
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **ABP_AJ** and go to where we set **bIsJumping** to false when the player is not on the ground.  Add a **bIsDoubleJumping** node just in case the prior delay did not take place yet.  Drag a reference to **Get | BP_AJ** and pull off the pin to call the **Reset Radius** custom event we just created every time we hit the ground.
 
 ![put player start in front of box](images/resetWidth.png)
 
