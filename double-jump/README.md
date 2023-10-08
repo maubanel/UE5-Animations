@@ -139,6 +139,7 @@ Go back to the **Core Locomotion** screen. *Double click* on the **Double Jump t
 
 *Run* the game and a double jump animation should now run during the second jump.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/3127a2d2-480d-44a1-b04a-7bf5ac89bc1d
 
 ![](../images/line2.png)
 
