@@ -8,10 +8,7 @@
 
 Running up & down ramps continued...
 
-<br>
-
 ---
-
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
