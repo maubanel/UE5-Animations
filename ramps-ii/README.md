@@ -92,6 +92,8 @@ Now add a **Multiplier** node and add the **Get Float Value** in the top and **G
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
+Connect the output pin from the **X** multiply pin to the **Set | Max Walk Speed** pin. Connect the execution pin to **Set World Rotation**.
+
 ![add vector + vector nodez](images/newMaxWalkSpd.png)
 
 ![](../images/line2.png)
