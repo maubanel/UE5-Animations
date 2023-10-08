@@ -123,7 +123,7 @@ Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-This will give us the angle that the player should be standing at.  We will not just jump to it but instead LERP to it so we will take the **Return Value** and create a **RInterp To** node.  Plug the reutrn value in to the **Target** pin.
+This will give us the angle that the player should be standing at.  We will not just jump to it but instead LERP to it so we will take the **Return Value** and create a **RInterp To** node.  Plug the **Make Rotator | Return Value** in to the **RInterp To | Target** pin. Set the **Interp Speed** to `5.0`.  Add a **Get World Delta Seconds** pin and fee it into **Delta Time**.
 
 ![make xz](images/rInterp.png)
 
@@ -131,7 +131,7 @@ This will give us the angle that the player should be standing at.  We will not 
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-
+![make xz](images/executeCheckColl.png)
 
 ![](../images/line2.png)
 
