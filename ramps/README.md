@@ -28,7 +28,7 @@ Now after playing the last level the wider collision volume allows you to run on
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat the process and bring the **Set Capsule Radius** back to `30` when on ground.
+We check for ground in the animation blueprint so we don't need to add that check here.  We can right click at the bottom and select a **Custom Event** node and call it ``.
 
 ![put player start in front of box](images/setBackto30.png)
 
