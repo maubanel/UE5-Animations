@@ -106,7 +106,7 @@ Add the **Mesh** component to the right of the **Line Trace by Channel** and pul
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z(Yaw)** to the **Make Rotator | Z** node.
+*Right click* on **Line Trace by Channel | Out Hit** and select **Split Struct**. *Pull off* of the **Get Right Vector | Return Value** pin and *add* a **Make Rot From YZ** node.  Connect the output of the **Get Right Vector** node to the **Make Rot From YZ | Y** pin. Send the **Out Hit Impact Normal** to the **Make Rot From YZ | Z** pin. *Add* a **Make Rot From XZ** node.  Connect the output of the **Get Forward Vector** node to the **Make Rot From XZ | X** pin and the **Out Hit Impact Normal** to the **Make Rot From XZ | Z** pin. 
 
 ![connect world z to make rotator](images/getWorldZ.png)
 
@@ -115,7 +115,7 @@ Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Add* a **Make Rot From YZ** node.  Connect the output of the **Get Right Vector** node to the **Make Rot From YZ | Y** pin and the **Out Hit Impact Normal** to the **Make Rot From YZ | Z** pin. Send the output to the the **Make Rotator | Y (Pitch)** pin.
+Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z(Yaw)** to the **Make Rotator | Z** node.
 
 ![make zy](images/makeZY.png)
 
@@ -123,7 +123,7 @@ Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Add* a **Make Rot From XZ** node.  Connect the output of the **Get Forward Vector** node to the **Make Rot From XZ | X** pin and the **Out Hit Impact Normal** to the **Make Rot From XZ | Z** pin. Send the output to the the **Make Rotator | X (Roll)** pin.
+
 
 ![make xz](images/getXZ.png)
 
