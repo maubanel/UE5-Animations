@@ -148,7 +148,7 @@ Now back at the **Line Trace by Channel** node we pull off of the execution pin 
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Get World Delta Seconds** node and plug it into the **RInterp To | Delta Time** pin.  Set the **Interp Speed** to `3.0`.
+Add a comment around all the nodes that titles ``.
 
 ![add sequence node](images/finishInterp.png)
 
