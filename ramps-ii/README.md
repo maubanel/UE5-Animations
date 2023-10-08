@@ -84,15 +84,15 @@ Add the **Sprint Multiplier** variable to the graph.
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+Now add a **Multiplier** node and add the **Get Float Value** in the top and **Sprint Multiplier** in the bottom input node.
 
+![add vector + vector nodez](images/sprintMultimulti.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Now add a **Multiplier** node and add the **Get Float Value** in the top and **Sprint Multiplier** in the bottom input node.
 
-![add vector + vector nodez](images/sprintMultimulti.png)
 
 ![](../images/line2.png)
 
