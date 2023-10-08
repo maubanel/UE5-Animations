@@ -156,17 +156,15 @@ Add a comment around all the nodes that titles ``.
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-OK, now lets actually set the angle of the player.  Pull from the **Capsule Component** and add a **Set World Rotation** node.  Connect the **Execution Pin** to the **Line Trace By Channel** node.
+*Press* the <kbd>Play</kbd> button.  Now the player is orthoganal to the pitch of the curve and it looks a litle more natural (and pretty cool, if I might say so myself).  Now the player runs at the exact same speed when going up and down the slope.  Lets fix that and have him speed up going down and slow down going up.
 
-![attach execution pins from print string to sequence nodes](images/setWorldRotation.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button.  Now the player is orthoganal to the pitch of the curve and it looks a litle more natural.  Now the player runs at the exact same speed when going up and down the slope.  Lets fix that.
 
-https://user-images.githubusercontent.com/5504953/197370872-07ef41f8-63cc-4da3-b664-7f790dd78e20.mp4
 
 
 
