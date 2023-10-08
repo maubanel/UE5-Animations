@@ -176,7 +176,6 @@ Select the **AJ** folder and right click and select a **Miscellatneous | Curve**
 
 ![add branch and connect to Then 1 of sequence node](images/4Keys.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
