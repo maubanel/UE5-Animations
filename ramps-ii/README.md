@@ -84,7 +84,7 @@ Add the **Gravity Multiplier** variable to the graph.
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Now add a **Multiplier** node and add the **Get Float Value** in the top and **Sprint Multiplier** in the bottom input node. 
+Now add a **Multiplier** node and add the **Get Float Value** in the top and **Gravity Multiplier** in the bottom input node. Drag a **Character Movement** component onto the graph and pull off of the blue pin and select **Set Max Walk Speed**.
 
 ![add vector + vector nodez](images/sprintMultimulti.png)
 
@@ -92,7 +92,7 @@ Now add a **Multiplier** node and add the **Get Float Value** in the top and **S
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-
+![add vector + vector nodez](images/newMaxWalkSpd.png)
 
 ![](../images/line2.png)
 
