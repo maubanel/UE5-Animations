@@ -164,7 +164,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/226e7329-8ec4-429f-a62
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **AJ** folder and right click and select a **Miscellatneous | Curve** data object.  Click on **Curve Float**. 
+Select the **AJ** folder and right click and select a **Miscellatneous | Curve** data object.  Click on **Curve Float**.  Call it `C_Gravity`. This is where we will store a curve that has different speeds based on the angle of the ground.
 
 ![add float > float node](images/curveFloat.png)
 
@@ -172,18 +172,16 @@ Select the **AJ** folder and right click and select a **Miscellatneous | Curve**
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
- Call it `C_Gravity`. This is where we will store a curve that has different speeds based on the angle of the ground.
+*Right click* and add 4 keys to the graph.
 
-
+![add branch and connect to Then 1 of sequence node](images/4Keys.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Right click* and add 4 keys to the graph.
 
-![add branch and connect to Then 1 of sequence node](images/4Keys.png)
 
 ![](../images/line2.png)
 
