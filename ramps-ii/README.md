@@ -44,7 +44,7 @@ Go back to **BP_AJ** and add a **Capsule Component** and then pull off the pin a
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now we need to read from the slope graph we just created.  So we need to add a **Variable** athat is called `Gravity Speed` and set the type to **Object Type | Curve FLoat** and make it an `Object Reference`.
+Now we need to read from the slope graph we just created.  So we need to add a **Variable** athat is called `Gravity Speed` and set the type to **Object Type | Curve FLoat** and make it an `Object Reference`. Set the variable to **Private** as `true` and the **Category** to `Player Physics`.
 
 ![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/gravitySpeedOR.png)
 
@@ -52,15 +52,15 @@ Now we need to read from the slope graph we just created.  So we need to add a *
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
+Now before we can add a **Default Value** we need press the <kbd>Compile</kbd> button. Now you can set the **Default Value** to `C_Gravity` the curve you just created.
 
+![Add second line trace by channel and get actor location nodes](images/defaultGravity.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Set the variable to **Private** as `true` and the **Category** to `Player Physics`.  Now before we can add a **Default Value** we need press the <kbd>Compile</kbd> button. Now you can set the **Default Value** to `C_Gravity` the curve you just created.
 
-![Add second line trace by channel and get actor location nodes](images/defaultGravity.png)
 
 ![](../images/line2.png)
 
