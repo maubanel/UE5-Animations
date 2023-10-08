@@ -10,11 +10,9 @@ Lets make the player run slower when moving up a ramp and faster when moving dow
 
 ---
 
-
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Now the larger capsule we selected doesn't make much sense for running up and down ramps.  The player hangs way off the side.  So open **BP_AJ** and select the **Capsule Component** and change the **Capsule Radius** to `30`.
-
+Now after playing the last level the wider collision volume allows you to run on air beside the ramp. The larger capsule we selected doesn't make much sense for running up and down ramps.  The player hangs way off the side.  So open **BP_AJ** and select the **Capsule Component** and change the **Capsule Radius** to `30`. We will adjust it when we jump to accomodate the leaning animatoin.
 
 ![drag box onto level](images/changeCapsuleRadius.png)
 
