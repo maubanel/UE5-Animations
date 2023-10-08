@@ -64,13 +64,17 @@ In **ABP_AJ** *add* a new **Boolean** vairable called `isDoubleJumping`.  Create
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **BP_AJ** and lets add a double jump variable to the character blueprint. *Add* a new **Boolean** vairable called `isDoubleJumping`.  Create a tooltip **Description** with `Has Player pressed double jump in the air (Double Jumping)`. Then *set* **Private** to `true` and **Category** to `Player States`.
+
 ![duplicate bIsJumping](images/playerCount.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-CheckIfOnGround
+First thing we want to check if the player is on the ground, if they are they can't double jump.  Drag a ****
+
+![duplicate bIsJumping](images/CheckIfOnGround.png)
+
 
 ![](../images/line2.png)
 
