@@ -70,7 +70,9 @@ Add a **Get Actor Location** node an dconnect the **Return Value** pin to the **
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag the **Get Up Vector | Return Value** and multiply it by `-105`.  When you add the multiply node you need to right click the bottom pin and select **Convert Pin | Float(single precision)** to change it to a float.  Set it to `-105` so that is goes 105 cm under the player's center of their collision volume. In **Draw Debug Type** select `For One Frame`.
+The starting point is the middle of the capsule collider.  We need to end at the middle of the feet just at the ground. Drag the **Get Up Vector | Return Value** and multiply it by `-105` (15 cm longer than the half height of my character). This is just enough to reach the ground at odd angles but miss when I am jumping.
+
+When you add the multiply node you need to right click the bottom pin and select **Convert Pin | Float(single precision)** to change it to a float.  Set it to `-105` so that is goes 105 cm under the player's center of their collision volume. In **Draw Debug Type** select `For One Frame`.
 
 ![get up vector](images/drawDebugLine.png)
 
@@ -78,13 +80,19 @@ Drag the **Get Up Vector | Return Value** and multiply it by `-105`.  When you a
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-**Compile** the blueprint and *press* the <kbd>Play</kbd> button.  Now you should see a square target at the buttom of the ray, which means it is reaching and touching the ground.  Make sure you run up and down the slopd and make sure it is working on all surfaces.
+![get up vector](images/castDown.png)
 
-https://user-images.githubusercontent.com/5504953/197370228-76cb2a44-03f4-4b15-88a1-bdb8b2140e18.mp4
+
+
+
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
+
+**Compile** the blueprint and *press* the <kbd>Play</kbd> button.  Now you should see a square target at the buttom of the ray, which means it is reaching and touching the ground.  Make sure you run up and down the slopd and make sure it is working on all surfaces.
+
+https://user-images.githubusercontent.com/5504953/197370228-76cb2a44-03f4-4b15-88a1-bdb8b2140e18.mp4
 
 Add a comment on the line trace about rotating the players to match the pitch of the ground.
 
