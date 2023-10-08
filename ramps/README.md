@@ -1,3 +1,5 @@
+
+https://github.com/maubanel/UE5-Animations/assets/5504953/b794cae6-0ede-4457-9cd1-06bd132718e4
 ![](../images/line3.png)
 
 ### Speed Up & Down Ramps
@@ -87,17 +89,17 @@ Now -105 from the up vector will go down 105 cm so we need to add it to the exis
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-**Compile** the blueprint and *press* the <kbd>Play</kbd> button.  Now you should see a square target at the buttom of the ray, which means it is reaching and touching the ground.  Make sure you run up and down the slopd and make sure it is working on all surfaces.
+**Compile** the blueprint and *press* the <kbd>Play</kbd> button.  Now you should see a square target at the buttom of the ray, which means it is reaching and touching the ground.  Make sure you run up and down the slope and make sure it is working on all surfaces. Notice that when the raycast hits the ground there is a square taget on the ground.  We want it to not hit when jumping.  I am pretty happy with it as it is.
 
-https://user-images.githubusercontent.com/5504953/197370228-76cb2a44-03f4-4b15-88a1-bdb8b2140e18.mp4
-
-Add a comment on the line trace about rotating the players to match the pitch of the ground.
-
-![add comment](images/addComment.png)
+Uploading LineTraceDebug.mp4…
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
+
+Add a comment on the line trace about rotating the players to match the pitch of the ground.
+
+![add comment](images/addComment.png)
 
 Add the **Capsule Component** to the right of the **Line Trace by Channel** and pull off the pin to add a **Get World Rotation**, **Get Right Vector** and **Get Forward Vector** node.
 
