@@ -36,8 +36,7 @@ Go back to **BP_AJ** and add a **Capsule Component** and then pull off the pin a
 
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a **Get Up Vector** node and set **Z** to `1.0` and leave **X** and **Y** at `0.0`.
-
+*Add* a **Get Up Vector** node and set **Z** to `1.0` and leave **X** and **Y** at `0.0`. Add a **Get Slope Degress Angles** node.  Connect the **Get Right Vector | Return Value** to the **My Right YAxis** node.  Connect the **Out Hit Impace Normal** pin to the **Floor Normal** pin.  Select the output of the **Get Up Vector | Return Value** pin to the **Up Vector** pin in **Get Slope Degree Angles**.
 
 ![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/upVector.png)
 
@@ -45,18 +44,15 @@ Go back to **BP_AJ** and add a **Capsule Component** and then pull off the pin a
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Add a **Get Slope Degress Angles** node.  Connect the **Get Right Vector | Return Value** to the **My Right YAxis** node.  Connect the **Out Hit Impace Normal** pin to the **Floor Normal** pin.  Select the output of the **Get Up Vector | Return Value** pin to the **Up Vector** pin in **Get Slope Degree Angles**.
+Now we need to read from the slope graph we just created.  So we need to add a **Variable** athat is called `Gravity Speed` and set the type to **Object Type | Curve FLoat** and make it an `Object Reference`.
 
-![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/slopeInAngles.png)
-
+![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/gravitySpeedOR.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITA`| :small_orange_diamond: :small_blue_diamond:
 
-Now we need to read from the slope graph we just created.  So we need to add a **Variable** athat is called `Gravity Speed` and set the type to **Object Type | Curve FLoat** and make it an `Object Reference`.
 
-![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/gravitySpeedOR.png)
 
 ![](../images/line2.png)
 
