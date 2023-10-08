@@ -88,6 +88,8 @@ Now here comes the tricky part.  We can't use a flip flop node as we don't want 
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
+![duplicate bIsJumping](images/MultiGateOutput.png)
+
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
