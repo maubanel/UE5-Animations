@@ -135,6 +135,9 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/d9c67fba-50b2-4a40-a4a
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+The only thing left to do once you tune the curve is to turn the debug line draw off.
+
+![add vector + vector nodez](images/turnDebugOff.png)
 
 ![](../images/line2.png)
 
