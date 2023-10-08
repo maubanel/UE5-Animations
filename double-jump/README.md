@@ -63,13 +63,14 @@ In **ABP_AJ** *add* a new **Boolean** vairable called `isDoubleJumping`.  Create
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Open up **BP_AJ** and lets add a double jump variable to the character blueprint. *Add* a new **Boolean** vairable called `isDoubleJumping`.  Create a tooltip **Description** with `Has Player pressed double jump in the air (Double Jumping)`. Then *set* **Private** to `true` and **Category** to `Player States`.
+![duplicate bIsJumping](images/playerCount.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+CheckIfOnGround
 
 ![](../images/line2.png)
 
@@ -100,9 +101,7 @@ Add **Comments** to the print node to clean up the chart.
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **BP_AJ** and we need a new **Variable**.  Create a new **Variable Type** `Integer` and call it `JumpCount`.  Change the **Category** to `Player Physics` and the **Description** to `Counts Player Jumps`.
 
-![duplicate bIsJumping](images/playerCount.png)
 
 ![](../images/line2.png)
 
