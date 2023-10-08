@@ -84,7 +84,6 @@ Connect the **Get Slope Pitch Degree in Angle** to the **In Time** pin of the fl
 
 Add the **Sprint Multiplier** variable to the graph.
 
-
 ![multiply veocity by 10](images/sprintMulti.png)
 
 ![](../images/line2.png)
