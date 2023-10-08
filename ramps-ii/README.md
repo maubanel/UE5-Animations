@@ -76,15 +76,15 @@ Connect the **Get Slope Pitch Degree in Angle** to the **In Time** pin of the fl
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add the **Sprint Multiplier** variable to the graph.
 
+![multiply veocity by 10](images/sprintMulti.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITA`| :large_blue_diamond:
 
-Add the **Sprint Multiplier** variable to the graph.
 
-![multiply veocity by 10](images/sprintMulti.png)
 
 ![](../images/line2.png)
 
