@@ -115,7 +115,7 @@ Add the **Mesh** component to the right of the **Line Trace by Channel** and pul
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z(Yaw)** to the **Make Rotator | Z** node.
+Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z(Yaw)** to the **Make Rotator | Z** node. Split the pins on **Make Rot from YZ** and send the **Y** to the **Make Rotator | Y** input.  Split the pins on the **Make Rot from XZ** and send the **X** to the **Make Rotator | X** pin.
 
 ![make zy](images/makeZY.png)
 
