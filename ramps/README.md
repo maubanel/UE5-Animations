@@ -70,9 +70,7 @@ Add a **Get Actor Location** node an dconnect the **Return Value** pin to the **
 
 ##### `Step 8.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The starting point is the middle of the capsule collider.  We need to end at the middle of the feet just at the ground. Drag the **Get Up Vector | Return Value** and multiply it by `-105` (15 cm longer than the half height of my character). This is just enough to reach the ground at odd angles but miss when I am jumping.
-
-When you add the multiply node you need to right click the bottom pin and select **Convert Pin | Float(single precision)** to change it to a float.  Set it to `-105` so that is goes 105 cm under the player's center of their collision volume. In **Draw Debug Type** select `For One Frame`.
+The starting point is the middle of the capsule collider.  We need to end at the middle of the feet just at the ground. Drag the **Get Up Vector | Return Value** and multiply it by `-105` (15 cm longer than the half height of my character). This is just enough to reach the ground at odd angles but miss when I am jumping. In **Draw Debug Type** select `For One Frame` as we want to visualize the ray cast to ensure our math is correct. 
 
 ![get up vector](images/drawDebugLine.png)
 
@@ -80,10 +78,9 @@ When you add the multiply node you need to right click the bottom pin and select
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now -105 from the up vector will go down 105 cm so we need to add it to the existing position.  *Right click* and put an **Add** node to the chart.  Plug the output of the **X** multiply node and the output of the **Get Actor Location**. Send teh sum to the **Line Trace By Channel | End** node.  Add a **Event Tick** to the chart and feed the execution pin into the **Line Trace by Channel**.
+
 ![get up vector](images/castDown.png)
-
-
-
 
 
 ![](../images/line2.png)
