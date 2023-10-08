@@ -135,7 +135,7 @@ https://github.com/maubanel/UE5-Animations/assets/5504953/d9c67fba-50b2-4a40-a4a
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-The only thing left to do once you tune the curve is to turn the debug line draw off.
+The only thing left to do once you tune the curve is to turn the debug line draw off. Open up **BP_AJ** and find the **Line Trace by Channel** node.  Turn **Draw Debug Type** back to `none`.
 
 ![add vector + vector nodez](images/turnDebugOff.png)
 
@@ -143,32 +143,27 @@ The only thing left to do once you tune the curve is to turn the debug line draw
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+*Press* the <kbd>Play</kbd> button and look at how you have recreated the 3rd person template but with your own character!
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Finally, lets remove the debug line as we no longer need it.  Go to **Line Trace By Channel** and set the **Draw Debug Type** to `none`. \
+Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number. Quit Unreal and make sure your **Pending** tab in **P4V** is empty. **Submit** any work that is still in the editor.
 
-![add append string and add Pitch to A](images/turnOffDebug.png)
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button. Now you have a final version of a basic third person player. This will do it for this walk through! You have recreated a slightly different version of the third person template.
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
-https://user-images.githubusercontent.com/5504953/197391363-a29b911d-6e5d-4c35-841d-87761b317051.mp4
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
 
-![](../images/line2.png)
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
 
-##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
-
-Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
-
-![save all and submit to perforce in P4V](images/submitP4.png)
-
+![reconcile offline work](images/reconcile.png)
 
 | `animation.character`\|`THE END`| 
 | :--- |
