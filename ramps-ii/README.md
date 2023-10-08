@@ -101,7 +101,7 @@ Connect the output pin from the **X** multiply pin to the **Set | Max Walk Speed
 
 ##### `Step 12.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we need to go back to the sprinting code where we hard coded the speed.  So for sprinting we set the speed to `600` instead of `450`.  So if we divide 600/450 we get 1.3. So we need to multiply our speed by this amount.  So replace **Set Max Walk Speed** next to the **InputAction Sprint** button to a **Set Sprint Multiplier** with a value of `1.3`.  Then replace the second hard coded **Max Walk Speed** with a **Set Sprint Multiplier** with a value of `1.0` (which is regular run).
+Now we need to go back to the sprinting code where we hard coded the speed.  So for sprinting we set the speed to `600` instead of `450`.  So if we divide 600/450 we get 1.3. So we need to multiply our speed by this amount.  So replace **Set Max Walk Speed** next to the **InputAction Sprint** button to a **Set Sprint Multiplier** with a value of `1.333`.  Then replace the second hard coded **Max Walk Speed** with a **Set Sprint Multiplier** with a value of `1.0` (which is regular run).
 
 
 ![connect multiply to addition pin then go to end of line trace by channel](images/switchToMultiplier.png)
@@ -110,14 +110,18 @@ Now we need to go back to the sprinting code where we hard coded the speed.  So 
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Flor slow walk we had a value of `20`.  So if we divide 20/450 we get `.044`.  So this will be our scalar for slow walk.  Go to **InputAction Slow Walk** and replace the hard coded values with a **Set Sprint Multiplier** with a value of `0.044` when the key is pressed and a value of `1.0` when it is released.
+![add vector + vector nodez](images/wireNewPins1.png)
 
-![add vector + vector nodez](images/slowWalkMulti.png)
+
 
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Flor slow walk we had a value of `20`.  So if we divide 20/450 we get `.044`.  So this will be our scalar for slow walk.  Go to **InputAction Slow Walk** and replace the hard coded values with a **Set Sprint Multiplier** with a value of `0.044` when the key is pressed and a value of `1.0` when it is released.
+
+![add vector + vector nodez](images/slowWalkMulti.png)
 
 Now go back to where we were working before and instead add the **Set Max Walk Speed** node to this position.  Remember it needs to come from the **Character Movement** component.
 
