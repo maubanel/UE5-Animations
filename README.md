@@ -29,7 +29,6 @@ We will be creating character skeletal animations and rigid body animations in U
 <kbd></kbd> &nbsp;&nbsp; [Jumping Animation II](jumping-ii/README.md#user-content-jumping-animation-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Slow Walk & Sprint](walk-sprint/README.md#user-content-slow-walk--sprint) <br>
 <kbd></kbd> &nbsp;&nbsp; [Double Jump](double-jump/README.md#user-content-double-jump) <br>
-<kbd></kbd> &nbsp;&nbsp; [Double Jump II](double-jump-ii/README.md#user-content-double-jump-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Speed Up & Down Ramps](ramps/README.md#user-content-speed-up--down-ramps) <br>
 <kbd></kbd> &nbsp;&nbsp; [Speed Up & Down Ramps II](ramps-ii/README.md#user-content-speed-up--down-ramps-ii) <br>
 
