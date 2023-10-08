@@ -145,6 +145,8 @@ The only thing left to do once you tune the curve is to turn the debug line draw
 
 *Press* the <kbd>Play</kbd> button and look at how you have recreated the 3rd person template but with your own character!
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/7dd80ff9-bade-4c79-a8b9-df86d475a52b
+
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
