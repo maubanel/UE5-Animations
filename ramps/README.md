@@ -158,23 +158,23 @@ Add a comment around all the nodes that titles ``.
 
 *Press* the <kbd>Play</kbd> button.  Now the player is orthoganal to the pitch of the curve and it looks a litle more natural (and pretty cool, if I might say so myself).  Now the player runs at the exact same speed when going up and down the slope.  Lets fix that and have him speed up going down and slow down going up.
 
-
+https://github.com/maubanel/UE5-Animations/assets/5504953/226e7329-8ec4-429f-a626-a6b40a6f10dc
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Select the **AJ** folder and right click and select a **Miscellatneous | Curve** data object.  Click on **Curve Float**. 
 
-
-
+![add float > float node](images/curveFloat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Select the **AJ** folder and right click and select a **Miscellatneous | Curve** data object.  Click on **Curve Float**.  Call it `C_Gravity`. This is where we will store a curve that has different speeds based on the angle of the ground.
+ Call it `C_Gravity`. This is where we will store a curve that has different speeds based on the angle of the ground.
 
-![add float > float node](images/curveFloat.png)
+
 
 
 ![](../images/line2.png)
