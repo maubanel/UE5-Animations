@@ -44,7 +44,7 @@ Go back to **BP_AJ** and add a **Capsule Component** and then pull off the pin a
 
 ##### `Step 5.`\|`ITA`| :small_orange_diamond:
 
-Now we need to read from the slope graph we just created.  So we need to add a **Variable** athat is called `Gravity Speed` and set the type to **Object Type | Curve FLoat** and make it an `Object Reference`. Set the variable to **Private** as `true` and the **Category** to `Player Physics`.
+Now we need to read from the slope graph we just created.  So we need to add a **Variable** athat is called `Gravity Speed` and set the type to **Object Type | Curve Float | Ojbect Reference** and make certain it is an `Object Reference`. Set the variable to **Private** as `true` and the **Category** to `Player Physics`. Add a description.
 
 ![add9t90jm node summing Return value to Get Actgor Location going to the Line Trace node](images/gravitySpeedOR.png)
 
