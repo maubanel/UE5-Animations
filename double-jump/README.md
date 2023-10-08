@@ -80,7 +80,7 @@ First thing we want to check if the player is on the ground, if they are they ca
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now here comes the tricky part.  We can't use a flip flop node as we don't want more than two jumps. 
+Now here comes the tricky part.  We can't use a flip flop node as we don't want more than two jumps. This is where a **MultiGate** node comes in handy.  It will keep counting up until it resets it.  So the first time it is called it will be a jump. (index 0)  The second time a double jump (index 1).  Then it will keep increasing the index but we will do nothing with it.  When the player hits the ground we will reset the node so they can jump again.  Add a **Sequence** node to the graph. So the **Branch | True** pin (which is the player on ground)  will go to a **Seequence** node input.  Add a **MultiGate** node. Then we feed the **Sequence | Then 0** to the **Multi Game | Reset** pin (so the player can jump again).  The **Then 1** goes to the input of the **MultiGate**.  The **Branch | False** pin is when the player is not on the ground and that will get fed into the **MultiGate** as well.
 
 ![duplicate bIsJumping](images/multiGate.png)
 
