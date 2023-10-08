@@ -139,7 +139,7 @@ Now back at the **Line Trace by Channel** node we pull off of the execution pin 
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Add* a **Mesh** component node and pull off of the pin and select a **Get World Rotation**. Plug this into the **Current** pin of the **RInterp To** node.
+*Add* a **Mesh** component node and pull off of the pin and select a **Get World Rotation**. Plug this into the **Current** pin of the **RInterp To** node. Also, send the **Mesh** pin to the **set World Rotation | Target** node.
 
 ![make xz](images/worldRInterp.png)
 
