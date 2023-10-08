@@ -28,7 +28,7 @@ Now after playing the last level the wider collision volume allows you to run on
 
 ##### `Step 3.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We check for ground in the animation blueprint so we don't need to add that check here.  We can right click at the bottom and select a **Custom Event** node and call it `ResetRadius`. Add a reference to the **Capsule Component**. Pull the pin from the **Capsure Component** and select a `Set Capsule Radius` and take it back to `30`.  We will call this when the player is on the ground. 
+We check for ground in the animation blueprint so we don't need to add that check here.  We can right click at the bottom and select a **Custom Event** node and call it `ResetRadius`. Add a reference to the **Capsule Component**. Pull the pin from the **Capsure Component** and select a `Set Capsule Radius` and take it back to `30`.  We will call this when the player is on the ground.  Add a comment box with a title of `Reset Capsule Radius`.
 
 ![put player start in front of box](images/setBackto30.png)
 
@@ -37,7 +37,7 @@ We check for ground in the animation blueprint so we don't need to add that chec
 ##### `Step 4.`\|`ITA`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-resetWidth
+![put player start in front of box](images/resetWidth.png)
 
 ![](../images/line2.png)
 
