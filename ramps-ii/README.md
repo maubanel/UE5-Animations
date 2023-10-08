@@ -20,7 +20,7 @@ Select each key and right click and make it **Auto**.  This will change the key 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Adjust all angles so they are flat curves so there are no bumps in the speed.
+Adjust the two angles between 10° and -10° so that part is flat without any bumps or lumps.
 
 ![multiply by -300](images/flattenHumps.png)
 
