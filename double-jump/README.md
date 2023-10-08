@@ -96,9 +96,9 @@ Now on the first time through it is a jump so we set the **Set | bIsJumping** to
 
 ##### `Step 11.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: 
 
-Add **Comments** to the print node to clean up the chart.
+Go back to **AnimBP_AJ** and delete all the nodes after **Cast to BP_AJ** node. 
 
-![disconnect pin from jump node](images/addComments.png)
+![connect on landed to reset](images/deleteJumpingNodes.png)
 
 ![](../images/line2.png)
 
@@ -117,57 +117,39 @@ Add **Comments** to the print node to clean up the chart.
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Drag* a get **Jump Count** to the **Jumping** area.  Make room to add some nodes before the jump function.
 
-![name variable bIsDoubleJumping](images/jumpCountMakeRoom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-*Drag* off of the **Jump Count** pin and select a **Increment Int** node.  This will add `1` to the interger value.
-
-![connect switch on int to jump node](images/incrementByOne.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Highjack* the execution pins from **InputAction Jump** to **++** to **Jump** node.
-
-![highjack execution node](images/highjackExecutionPins.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we do not want to trigger an animation if the jump is pressed three or more times. *Drag* a get **Jump Count**. Select the pin and select a **<=** node.  Set the bottom value to `2`.
-
-![set up set is double jumping](images/lessThan2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Pull off* the **<=** pin and select a **Branch** node.  *Highjack* the execution pin from **Jump** to **Branch** and **Branch | True** to **Set | Is Jupming**.  This will only set is jumping tif the count is 2 or less (so the first or second jump).
-
-![set is double jumping to true](images/jumpIfLess2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Below the jumping on the falling node.  Switch setting **Is Jumping** to `false` on the **False** node.  This way when we hit the ground we set **Is Jumping** to `false`.  Also add a **Set Jump Count** variable to the chart and set it to `0`.  Connect it from the **Set | Is Jumping** execution pin.
 
-![set jump count to 0](images/resetJumpCount.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITA`| :large_blue_diamond: :large_blue_diamond:
 
-Go back to **AnimBP_AJ** and delete all the nodes after **Cast to BP_AJ** node. 
 
-![connect on landed to reset](images/deleteJumpingNodes.png)
 
 ![](../images/line2.png)
 
