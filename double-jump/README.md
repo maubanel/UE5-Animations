@@ -80,7 +80,9 @@ First thing we want to check if the player is on the ground, if they are they ca
 
 ##### `Step 9.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now here comes the tricky part.  We can't use a flip flop node as we don't want more than two jumps. 
 
+![duplicate bIsJumping](images/multiGate.png)
 
 ![](../images/line2.png)
 
