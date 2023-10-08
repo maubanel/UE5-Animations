@@ -123,7 +123,9 @@ Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z
 
 ##### `Step 14.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+This will give us the angle that the player should be standing at.  We will not just jump to it but instead LERP to it so we will take the **Return Value** and create a **RInterp To** node.  Plug the reutrn value in to the **Target** pin.
 
+![make xz](images/rInterp.png)
 
 ![make xz](images/getXZ.png)
 
@@ -131,9 +133,7 @@ Add a **Make Rotator** node.  Pull off the **Get World Rotation | Return Value Z
 
 ##### `Step 15.`\|`ITA`| :large_blue_diamond: :small_orange_diamond: 
 
-This will give us the angle that the player should be standing at.  We will not just jump to it but instead LERP to it so we will take the **Return Value** and create a **RInterp To** node.  Plug the reutrn value in to the **Target** pin.
 
-![make xz](images/rInterp.png)
 
 ![](../images/line2.png)
 
