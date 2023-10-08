@@ -110,10 +110,9 @@ Now we need to go back to the sprinting code where we hard coded the speed.  So 
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Attach **IA_Sprint | Triggered** to **Set | Gravity Multiplier** of `1.33`.  Connect **IA_Sprint | Completed** to **Set | Gravity Multiplier** of `1.0`.
+
 ![add vector + vector nodez](images/wireNewPins1.png)
-
-
-
 
 ![](../images/line2.png)
 
