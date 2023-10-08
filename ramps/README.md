@@ -58,17 +58,11 @@ So first we need to find out the slope of the ground under us. How are we going 
 
 ![add line trace by channel node](images/LineByTraceChannel.png)
 
-
-Connect the second **Set Capsure Radius** (the one that is set to 30 when we are on the ground) to the **Line Trace by Channel**.  Add a **Get Actor Location** node an dconnect the **Return Value** pin to the **Start** of the line trace.
-
-![get actor location](images/getActorLocation2.png)
-
-
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITA`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag a **Capsule Component** onto the graph.  Then *pull off* the pin and select a **Get Up Vector** node.
+Connect the second **Set Capsure Radius** (the one that is set to 30 when we are on the ground) to the **Line Trace by Channel**.  Add a **Get Actor Location** node an dconnect the **Return Value** pin to the **Start** of the line trace. Drag a **Capsule Component** onto the graph.  Then *pull off* the pin and select a **Get Up Vector** node.
 
 ![get up vector](images/getUpVector.png)
 
