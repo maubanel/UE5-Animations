@@ -129,6 +129,8 @@ Now these scalars will multiply the value that is in the curve float.
 
 *Press* the <kbd>Play</kbd> button.  Run, sprint and slow walk up and down all ramps and see that the speed changes!  You can adjust the curve float values for your liking increasing or decreasing the effects of gravity.
 
+https://github.com/maubanel/UE5-Animations/assets/5504953/d9c67fba-50b2-4a40-a4a3-45510b331d4f
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITA`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
