@@ -181,18 +181,9 @@ Select the **AJ** folder and right click and select a **Miscellatneous | Curve**
 
 ##### `Step 21.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`ITA`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now the player can only run up a floor angle that is 45° or less.  A `-45°` is going down a slope and positive `45°` is going up a slope.  So we need a higher max run speed for the going up and a sloer one for going down. So set the first key to **Time** to `-45` (representing degrees) to a **Value** OF `900.0`.  This means when running downhill the player will go at a speed of `900` (a lot faster than the current run speed).  We will not change speeds on small angle differences.  So we will set both a **Time** of `-10` and `10` to `450`. This is the regular run speed so the angle will have to be greater than 10 degrees to make a difference.  Then the final value will be a steep hill so a **Time** set to `45` will have a **Value** of `100` a very slow run speed. To see the entire graph press the **Curve** button and select **Normalized View Mode**.
 
 ![start line trace from center of character](images/adjustFourKeys.png)
-
-___
-
 
 ![](../images/line1.png)
 
