@@ -113,7 +113,7 @@ Go to the **Anim Graph | Core Locomotion** screen. To the right of the **Fall** 
 
 ##### `Step 13.`\|`ITA`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Fallingn works for the jumping up and down, so we are most likely in falling state when we press the double jump button. *Connect* the **Double Jump** node to and from the **Falling** node. We are double jumping while in the **Falling** state. *Double click* on the **Double Jump** node to assign the animation to this state.
+Falling works for the jumping up and down, so we are most likely in falling state when we press the double jump button. *Connect* the **Double Jump** node to and from the **Falling** node. We are double jumping while in the **Falling** state. *Double click* on the **Double Jump** node to assign the animation to this state.
 
 ![connect double jump to falling](images/AddLinkToAndFromDoubleJump.png)
 
