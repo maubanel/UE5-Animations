@@ -14,7 +14,7 @@ Lets finish up the first part of the animation blueprint.
 
 ##### `Step 1.`\|`ITA`|:small_blue_diamond:
 
-Now we need to assign this animation blueprint to our skeletal mesh. *Open* the **BP_AJ_Character** blueprint. *Go* to the **Viewport** tab. We notice our character is in a *T-Pose*. *Select* the **Animation Class** on the Details panel and pick the animation blueprint we just made **AJ_AnimBlueprint**. You will notice that the player should enter the idle state. *Press* the <kbd>Compile</kbd> button.
+Now we need to assign this animation blueprint to our skeletal mesh. *Open* the **BP_AJ_Character** blueprint. *Go* to the **Viewport** tab. We notice our character is in a *T-Pose*. *Select* the **Animation Class** on the Details panel and pick the animation blueprint we just made **AJ_AnimBlueprint**. You will notice that the player should enter the idle state. *Press* the <kbd>Compile</kbd> button. If no blueprint appers in the menu, then deselect and reselect **Use Animation Blueprint** and it shoudl appear in the menu.
 
 ![add anim blueprint to player blueprint](images/SelectAnimBPOnCharacterMesh.png)
 
